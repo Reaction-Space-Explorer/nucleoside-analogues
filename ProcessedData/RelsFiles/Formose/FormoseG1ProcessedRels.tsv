@@ -1,0 +1,9 @@
+4_0	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Aldol Condensation
+4_1	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Knoevenagel H
+6_0	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Aldol Condensation
+6_1	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Knoevenagel H
+7_0	['C(CO)=O']	['C(CO)=O']	Keto-enol migration twice
+10_0	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)
+10_1	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (reduction)
+12_0	['C=O', 'C(CO)=O', 'O']	['C(O)=O', 'C(CO)O']	Cannizarro 2, HCHO (oxidation)
+14_0	['C=O', 'C(CO)=O', 'O']	['CO', 'C(CO)(O)=O']	Cannizarro 2, HCHO (reduction)
