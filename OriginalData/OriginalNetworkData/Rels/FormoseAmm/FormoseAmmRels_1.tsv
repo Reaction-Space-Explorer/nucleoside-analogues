@@ -1,0 +1,39 @@
+Index	Reagent	Formed/Produced	Rule
+5_0	C=O	-1	Aldol Condensation
+5_0	C(CO)=O	-1	Aldol Condensation
+5_0	C(C(CO)O)=O	1	Aldol Condensation
+5_1	C=O	-1	Knoevenagel H
+5_1	C(CO)=O	-1	Knoevenagel H
+5_1	C(C(CO)O)=O	1	Knoevenagel H
+7_0	C(CO)=O	-1	Aldol Condensation
+7_0	C(CO)=O	-1	Aldol Condensation
+7_0	C(C(C(CO)O)O)=O	1	Aldol Condensation
+7_1	C(CO)=O	-1	Knoevenagel H
+7_1	C(CO)=O	-1	Knoevenagel H
+7_1	C(C(C(CO)O)O)=O	1	Knoevenagel H
+8_0	C(CO)=O	-1	Keto-enol migration twice
+8_0	C(CO)=O	1	Keto-enol migration twice
+10_0	N	-1	Amadori/Heyns Rearrangement
+10_0	C(CO)=O	-1	Amadori/Heyns Rearrangement
+10_0	O	1	Amadori/Heyns Rearrangement
+10_0	C(CN)=O	1	Amadori/Heyns Rearrangement
+13_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	CO	1	Cannizarro 2, HCHO (oxidation)
+13_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+13_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+13_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+13_1	O	-1	Cannizarro 2, HCHO (reduction)
+13_1	CO	1	Cannizarro 2, HCHO (reduction)
+13_1	C(O)=O	1	Cannizarro 2, HCHO (reduction)
+15_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	C(CO)=O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+15_0	C(CO)O	1	Cannizarro 2, HCHO (oxidation)
+17_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+17_0	C(CO)=O	-1	Cannizarro 2, HCHO (reduction)
+17_0	O	-1	Cannizarro 2, HCHO (reduction)
+17_0	CO	1	Cannizarro 2, HCHO (reduction)
+17_0	C(CO)(O)=O	1	Cannizarro 2, HCHO (reduction)

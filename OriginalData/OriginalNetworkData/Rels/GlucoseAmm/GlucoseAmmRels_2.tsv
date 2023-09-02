@@ -1,0 +1,886 @@
+Index	Reagent	Formed/Produced	Rule
+5_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Retro Aldol
+5_0	C(CO)=O	1	Retro Aldol
+5_0	C(C(C(CO)O)O)=O	1	Retro Aldol
+5_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Knoevenagel H (inv)
+5_1	C(CO)=O	1	Knoevenagel H (inv)
+5_1	C(C(C(CO)O)O)=O	1	Knoevenagel H (inv)
+7_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Keto-enol migration twice
+7_0	C(CO)(C(C(C(CO)O)O)O)=O	1	Keto-enol migration twice
+9_0	N	-1	Amadori/Heyns Rearrangement
+9_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+9_0	O	1	Amadori/Heyns Rearrangement
+9_0	C(CN)(C(C(C(CO)O)O)O)=O	1	Amadori/Heyns Rearrangement
+12_0	O	-1	Cannizarro 2, glucose (oxidation)
+12_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+12_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+12_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+12_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (oxidation)
+12_1	O	-1	Cannizarro 2, glucose (reduction)
+12_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+12_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+12_1	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+12_1	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+14_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+14_0	O	1	Elimination + enol to keto
+14_0	C(C(CC(C(CO)O)O)=O)=O	1	Elimination + enol to keto
+16_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+16_0	O	1	Elimination + enol to keto
+16_0	C(CC(C(C(CO)O)O)=O)=O	1	Elimination + enol to keto
+18_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+18_0	O	1	Elimination + enol to keto
+18_0	C(C(C(CC(CO)O)=O)O)=O	1	Elimination + enol to keto
+20_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+20_0	O	1	Elimination + enol to keto
+20_0	C(CC(C=O)O)(C(CO)O)=O	1	Elimination + enol to keto
+22_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+22_0	O	1	Elimination + enol to keto
+22_0	C(C(C(C=O)O)O)(CCO)=O	1	Elimination + enol to keto
+24_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+24_0	O	1	Elimination + enol to keto
+24_0	C(C(C(CC(CO)=O)O)O)=O	1	Elimination + enol to keto
+26_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+26_0	O	1	Elimination + enol to keto
+26_0	C(C(C(C(C(C)=O)O)O)O)=O	1	Elimination + enol to keto
+28_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+28_0	O	1	Elimination + enol to keto
+28_0	C(CC(C(C(C=O)O)O)O)=O	1	Elimination + enol to keto
+30_0	N	-1	Mannich Addition
+30_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Mannich Addition
+30_0	O	1	Mannich Addition
+30_0	C(C(C(C(C(CO)O)O)N)O)=O	1	Mannich Addition
+32_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+32_0	C(C(C1C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 5 membered rings
+34_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+34_0	C(C1C(C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 6 membered rings
+36_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 7 membered rings
+36_0	C1C(C(C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 7 membered rings
+38_0	C(C(C(C=O)O)O)(CCO)=O	-1	Aldol Condensation
+38_0	C1(C(C(C(C1CO)O)O)O)=O	1	Aldol Condensation
+38_1	C(C(C(C=O)O)O)(CCO)=O	-1	Knoevenagel C
+38_1	C1(C(C(C(C1CO)O)O)O)=O	1	Knoevenagel C
+40_0	C(C(C(CC(CO)=O)O)O)=O	-1	Aldol Condensation
+40_0	C1(C(C(C(C(C1)O)O)O)O)=O	1	Aldol Condensation
+40_1	C(C(C(CC(CO)=O)O)O)=O	-1	Knoevenagel H
+40_1	C1(C(C(C(C(C1)O)O)O)O)=O	1	Knoevenagel H
+41_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Aldol Condensation
+41_0	C1(C(C(C(C(C1)O)O)O)O)=O	1	Aldol Condensation
+43_0	C(CC(C(C(C=O)O)O)O)=O	-1	Aldol Condensation
+43_0	C(C1C(C(C(C1O)O)O)O)=O	1	Aldol Condensation
+43_1	C(CC(C(C(C=O)O)O)O)=O	-1	Knoevenagel C
+43_1	C(C1C(C(C(C1O)O)O)O)=O	1	Knoevenagel C
+44_0	C(CO)=O	-1	Aldol Condensation
+44_0	C(CO)=O	-1	Aldol Condensation
+44_0	C(C(C(CO)O)O)=O	1	Aldol Condensation
+44_1	C(CO)=O	-1	Knoevenagel H
+44_1	C(CO)=O	-1	Knoevenagel H
+44_1	C(C(C(CO)O)O)=O	1	Knoevenagel H
+45_0	C(CO)=O	-1	Aldol Condensation
+45_0	C(C(C(CO)O)O)=O	-1	Aldol Condensation
+45_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Aldol Condensation
+45_1	C(CO)=O	-1	Knoevenagel H
+45_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+45_1	C(C(C(C(C(CO)O)O)O)O)=O	1	Knoevenagel H
+47_0	O	-1	Benzilic Acid Rearrangement
+47_0	C(C(CC(C(CO)O)O)=O)=O	-1	Benzilic Acid Rearrangement
+47_0	C(C(CC(C(CO)O)O)O)(O)=O	1	Benzilic Acid Rearrangement
+47_1	O	-1	Cannizarro 1
+47_1	C(C(CC(C(CO)O)O)=O)=O	-1	Cannizarro 1
+47_1	C(C(CC(C(CO)O)O)O)(O)=O	1	Cannizarro 1
+49_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+49_0	O	1	Benzilic Acid Rearrangement (inverse)
+49_0	C(C(C(C(C(CO)O)O)O)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+50_0	C(C(C(CO)O)O)=O	-1	Retro Aldol
+50_0	C(CO)=O	1	Retro Aldol
+50_0	C(CO)=O	1	Retro Aldol
+50_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H (inv)
+50_1	C(CO)=O	1	Knoevenagel H (inv)
+50_1	C(CO)=O	1	Knoevenagel H (inv)
+53_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Retro Aldol
+53_0	C(CO)(CO)=O	1	Retro Aldol
+53_0	C(C(CO)O)=O	1	Retro Aldol
+53_1	C(CO)(C(C(C(CO)O)O)O)=O	-1	Knoevenagel H (inv)
+53_1	C(CO)(CO)=O	1	Knoevenagel H (inv)
+53_1	C(C(CO)O)=O	1	Knoevenagel H (inv)
+55_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Retro Aldol
+55_0	C(C(CO)O)=O	1	Retro Aldol
+55_0	C(CO)(CN)=O	1	Retro Aldol
+55_1	C(CN)(C(C(C(CO)O)O)O)=O	-1	Knoevenagel H (inv)
+55_1	C(C(CO)O)=O	1	Knoevenagel H (inv)
+55_1	C(CO)(CN)=O	1	Knoevenagel H (inv)
+57_0	C(C(CC(C(CO)O)O)=O)=O	-1	Retro Aldol
+57_0	C(C(CO)O)=O	1	Retro Aldol
+57_0	C(C(C)=O)=O	1	Retro Aldol
+59_0	C(CC(C(C(CO)O)O)=O)=O	-1	Retro Aldol
+59_0	C(CO)=O	1	Retro Aldol
+59_0	C(CC(CO)=O)=O	1	Retro Aldol
+59_1	C(CC(C(C(CO)O)O)=O)=O	-1	Knoevenagel H (inv)
+59_1	C(CO)=O	1	Knoevenagel H (inv)
+59_1	C(CC(CO)=O)=O	1	Knoevenagel H (inv)
+61_0	C(C(C(CC(CO)O)=O)O)=O	-1	Retro Aldol
+61_0	C(CO)=O	1	Retro Aldol
+61_0	C(C(C(C)=O)O)=O	1	Retro Aldol
+64_0	C(CC(C=O)O)(C(CO)O)=O	-1	Retro Aldol
+64_0	C(C=O)=O	1	Retro Aldol
+64_0	C(C)(C(CO)O)=O	1	Retro Aldol
+67_0	C(CC(C=O)O)(C(CO)O)=O	-1	Retro Aldol
+67_0	C(C(CC(CO)=O)O)=O	1	Retro Aldol
+67_0	C=O	1	Retro Aldol
+67_1	C(CC(C=O)O)(C(CO)O)=O	-1	Knoevenagel H (inv)
+67_1	C(C(CC(CO)=O)O)=O	1	Knoevenagel H (inv)
+67_1	C=O	1	Knoevenagel H (inv)
+69_0	C(C(C(C=O)O)O)(CCO)=O	-1	Retro Aldol
+69_0	C(CO)=O	1	Retro Aldol
+69_0	C(C(CCO)=O)=O	1	Retro Aldol
+69_1	C(C(C(C=O)O)O)(CCO)=O	-1	Knoevenagel H (inv)
+69_1	C(CO)=O	1	Knoevenagel H (inv)
+69_1	C(C(CCO)=O)=O	1	Knoevenagel H (inv)
+71_0	C(C(C(C=O)O)O)(CCO)=O	-1	Retro Aldol
+71_0	C(C=O)=O	1	Retro Aldol
+71_0	C(CO)(CCO)=O	1	Retro Aldol
+71_1	C(C(C(C=O)O)O)(CCO)=O	-1	Knoevenagel H (inv)
+71_1	C(C=O)=O	1	Knoevenagel H (inv)
+71_1	C(CO)(CCO)=O	1	Knoevenagel H (inv)
+73_0	C(C(C(C=O)O)O)(CCO)=O	-1	Retro Aldol
+73_0	C=O	1	Retro Aldol
+73_0	C(C(C(C(C)=O)O)O)=O	1	Retro Aldol
+74_0	C(C(C(CC(CO)=O)O)O)=O	-1	Retro Aldol
+74_0	C(CO)=O	1	Retro Aldol
+74_0	C(CC(CO)=O)=O	1	Retro Aldol
+74_1	C(C(C(CC(CO)=O)O)O)=O	-1	Knoevenagel H (inv)
+74_1	C(CO)=O	1	Knoevenagel H (inv)
+74_1	C(CC(CO)=O)=O	1	Knoevenagel H (inv)
+77_0	C(C(C(CC(CO)=O)O)O)=O	-1	Retro Aldol
+77_0	C(C(C=O)O)=O	1	Retro Aldol
+77_0	C(C)(CO)=O	1	Retro Aldol
+78_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Retro Aldol
+78_0	C(CO)=O	1	Retro Aldol
+78_0	C(C(C(C)=O)O)=O	1	Retro Aldol
+78_1	C(C(C(C(C(C)=O)O)O)O)=O	-1	Knoevenagel H (inv)
+78_1	C(CO)=O	1	Knoevenagel H (inv)
+78_1	C(C(C(C)=O)O)=O	1	Knoevenagel H (inv)
+79_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Retro Aldol
+79_0	C(C(C=O)O)=O	1	Retro Aldol
+79_0	C(C)(CO)=O	1	Retro Aldol
+79_1	C(C(C(C(C(C)=O)O)O)O)=O	-1	Knoevenagel H (inv)
+79_1	C(C(C=O)O)=O	1	Knoevenagel H (inv)
+79_1	C(C)(CO)=O	1	Knoevenagel H (inv)
+81_0	C(CC(C(C(C=O)O)O)O)=O	-1	Retro Aldol
+81_0	C(CO)=O	1	Retro Aldol
+81_0	C(CC(C=O)O)=O	1	Retro Aldol
+81_1	C(CC(C(C(C=O)O)O)O)=O	-1	Knoevenagel H (inv)
+81_1	C(CO)=O	1	Knoevenagel H (inv)
+81_1	C(CC(C=O)O)=O	1	Knoevenagel H (inv)
+84_0	C(CC(C(C(C=O)O)O)O)=O	-1	Retro Aldol
+84_0	C(C(C(C=O)O)O)=O	1	Retro Aldol
+84_0	C(C)=O	1	Retro Aldol
+85_0	C(CO)=O	-1	Keto-enol migration twice
+85_0	C(CO)=O	1	Keto-enol migration twice
+87_0	C(C(C(CO)O)O)=O	-1	Keto-enol migration twice
+87_0	C(CO)(C(CO)O)=O	1	Keto-enol migration twice
+88_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Keto-enol migration twice
+88_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Keto-enol migration twice
+90_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Keto-enol migration twice
+90_0	C(C(C(CO)O)O)(C(CO)O)=O	1	Keto-enol migration twice
+92_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Keto-enol migration twice
+92_0	C(C(C(CO)O)O)(C(CN)O)=O	1	Keto-enol migration twice
+94_0	C(CC(C(C(CO)O)O)=O)=O	-1	Keto-enol migration twice
+94_0	C(CC(C(C(CO)O)=O)O)=O	1	Keto-enol migration twice
+96_0	C(C(C(CC(CO)O)=O)O)=O	-1	Keto-enol migration twice
+96_0	C(C(CO)=O)(CC(CO)O)=O	1	Keto-enol migration twice
+98_0	C(C(C(CC(CO)O)=O)O)=O	-1	Keto-enol migration twice
+98_0	C(C(C(CC(CO)O)O)=O)=O	1	Keto-enol migration twice
+100_0	C(CC(C=O)O)(C(CO)O)=O	-1	Keto-enol migration twice
+100_0	C(C(CO)O)(CC(CO)=O)=O	1	Keto-enol migration twice
+102_0	C(CC(C=O)O)(C(CO)O)=O	-1	Keto-enol migration twice
+102_0	C(C(CC(C(CO)=O)O)O)=O	1	Keto-enol migration twice
+104_0	C(C(C(C=O)O)O)(CCO)=O	-1	Keto-enol migration twice
+104_0	C(CCO)(C(C(CO)=O)O)=O	1	Keto-enol migration twice
+106_0	C(C(C(C=O)O)O)(CCO)=O	-1	Keto-enol migration twice
+106_0	C(C(C(C(CCO)O)=O)O)=O	1	Keto-enol migration twice
+108_0	C(C(C(CC(CO)=O)O)O)=O	-1	Keto-enol migration twice
+108_0	C(CO)(C(CC(CO)=O)O)=O	1	Keto-enol migration twice
+110_0	C(C(C(CC(CO)=O)O)O)=O	-1	Keto-enol migration twice
+110_0	C(C(C(CC(C=O)O)O)O)=O	1	Keto-enol migration twice
+112_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Keto-enol migration twice
+112_0	C(C)(C(C(C(CO)=O)O)O)=O	1	Keto-enol migration twice
+114_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Keto-enol migration twice
+114_0	C(C(C(C=O)O)O)(C(C)O)=O	1	Keto-enol migration twice
+116_0	C(CC(C(C(C=O)O)O)O)=O	-1	Keto-enol migration twice
+116_0	C(CC(C(C(CO)=O)O)O)=O	1	Keto-enol migration twice
+118_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Keto-enol migration twice
+118_0	C(CO)(C(C(C(CO)O)O)N)=O	1	Keto-enol migration twice
+120_0	N	-1	Amadori/Heyns Rearrangement
+120_0	C(CO)=O	-1	Amadori/Heyns Rearrangement
+120_0	O	1	Amadori/Heyns Rearrangement
+120_0	C(CN)=O	1	Amadori/Heyns Rearrangement
+122_0	N	-1	Amadori/Heyns Rearrangement
+122_0	C(C(C(CO)O)O)=O	-1	Amadori/Heyns Rearrangement
+122_0	O	1	Amadori/Heyns Rearrangement
+122_0	C(CN)(C(CO)O)=O	1	Amadori/Heyns Rearrangement
+124_0	N	-1	Amadori/Heyns Rearrangement
+124_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+124_0	O	1	Amadori/Heyns Rearrangement
+124_0	C(C(C(C(C(CO)O)O)O)N)=O	1	Amadori/Heyns Rearrangement
+126_0	N	-1	Amadori/Heyns Rearrangement
+126_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+126_0	O	1	Amadori/Heyns Rearrangement
+126_0	C(C(C(CO)O)O)(C(CO)N)=O	1	Amadori/Heyns Rearrangement
+128_0	N	-1	Amadori/Heyns Rearrangement
+128_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+128_0	O	1	Amadori/Heyns Rearrangement
+128_0	C(C(C(CO)O)O)(C(CN)N)=O	1	Amadori/Heyns Rearrangement
+130_0	N	-1	Amadori/Heyns Rearrangement
+130_0	C(CC(C(C(CO)O)O)=O)=O	-1	Amadori/Heyns Rearrangement
+130_0	O	1	Amadori/Heyns Rearrangement
+130_0	C(CC(C(C(CO)O)=O)N)=O	1	Amadori/Heyns Rearrangement
+132_0	N	-1	Amadori/Heyns Rearrangement
+132_0	C(C(C(CC(CO)O)=O)O)=O	-1	Amadori/Heyns Rearrangement
+132_0	O	1	Amadori/Heyns Rearrangement
+132_0	C(C(CN)=O)(CC(CO)O)=O	1	Amadori/Heyns Rearrangement
+134_0	N	-1	Amadori/Heyns Rearrangement
+134_0	C(C(C(CC(CO)O)=O)O)=O	-1	Amadori/Heyns Rearrangement
+134_0	O	1	Amadori/Heyns Rearrangement
+134_0	C(C(C(CC(CO)O)N)=O)=O	1	Amadori/Heyns Rearrangement
+136_0	N	-1	Amadori/Heyns Rearrangement
+136_0	C(CC(C=O)O)(C(CO)O)=O	-1	Amadori/Heyns Rearrangement
+136_0	O	1	Amadori/Heyns Rearrangement
+136_0	C(C(CO)O)(CC(CN)=O)=O	1	Amadori/Heyns Rearrangement
+138_0	N	-1	Amadori/Heyns Rearrangement
+138_0	C(CC(C=O)O)(C(CO)O)=O	-1	Amadori/Heyns Rearrangement
+138_0	O	1	Amadori/Heyns Rearrangement
+138_0	C(C(CC(C(CO)=O)N)O)=O	1	Amadori/Heyns Rearrangement
+140_0	N	-1	Amadori/Heyns Rearrangement
+140_0	C(C(C(C=O)O)O)(CCO)=O	-1	Amadori/Heyns Rearrangement
+140_0	O	1	Amadori/Heyns Rearrangement
+140_0	C(CCO)(C(C(CN)=O)O)=O	1	Amadori/Heyns Rearrangement
+142_0	N	-1	Amadori/Heyns Rearrangement
+142_0	C(C(C(C=O)O)O)(CCO)=O	-1	Amadori/Heyns Rearrangement
+142_0	O	1	Amadori/Heyns Rearrangement
+142_0	C(C(C(C(CCO)N)=O)O)=O	1	Amadori/Heyns Rearrangement
+144_0	N	-1	Amadori/Heyns Rearrangement
+144_0	C(C(C(CC(CO)=O)O)O)=O	-1	Amadori/Heyns Rearrangement
+144_0	O	1	Amadori/Heyns Rearrangement
+144_0	C(CN)(C(CC(CO)=O)O)=O	1	Amadori/Heyns Rearrangement
+146_0	N	-1	Amadori/Heyns Rearrangement
+146_0	C(C(C(CC(CO)=O)O)O)=O	-1	Amadori/Heyns Rearrangement
+146_0	O	1	Amadori/Heyns Rearrangement
+146_0	C(C(CC(C(C=O)O)O)N)=O	1	Amadori/Heyns Rearrangement
+148_0	N	-1	Amadori/Heyns Rearrangement
+148_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+148_0	O	1	Amadori/Heyns Rearrangement
+148_0	C(C)(C(C(C(CN)=O)O)O)=O	1	Amadori/Heyns Rearrangement
+150_0	N	-1	Amadori/Heyns Rearrangement
+150_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+150_0	O	1	Amadori/Heyns Rearrangement
+150_0	C(C(C(C=O)O)O)(C(C)N)=O	1	Amadori/Heyns Rearrangement
+152_0	N	-1	Amadori/Heyns Rearrangement
+152_0	C(CC(C(C(C=O)O)O)O)=O	-1	Amadori/Heyns Rearrangement
+152_0	O	1	Amadori/Heyns Rearrangement
+152_0	C(CC(C(C(CN)=O)O)O)=O	1	Amadori/Heyns Rearrangement
+154_0	N	-1	Amadori/Heyns Rearrangement
+154_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Amadori/Heyns Rearrangement
+154_0	O	1	Amadori/Heyns Rearrangement
+154_0	C(CN)(C(C(C(CO)O)O)N)=O	1	Amadori/Heyns Rearrangement
+156_0	O	-1	Cannizarro 2, glucose (oxidation)
+156_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+156_0	C(CO)=O	-1	Cannizarro 2, glucose (oxidation)
+156_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+156_0	C(CO)O	1	Cannizarro 2, glucose (oxidation)
+158_0	O	-1	Cannizarro 2, glucose (oxidation)
+158_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+158_0	C(C(C(CO)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+158_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+158_0	C(C(C(CO)O)O)O	1	Cannizarro 2, glucose (oxidation)
+160_0	O	-1	Cannizarro 2, glucose (oxidation)
+160_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+160_0	C(C(CC(C(CO)O)O)=O)=O	-1	Cannizarro 2, glucose (oxidation)
+160_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+160_0	C(CO)(CC(C(CO)O)O)=O	1	Cannizarro 2, glucose (oxidation)
+162_0	O	-1	Cannizarro 2, glucose (oxidation)
+162_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+162_0	C(CC(C(C(CO)O)O)=O)=O	-1	Cannizarro 2, glucose (oxidation)
+162_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+162_0	C(C(C(CO)O)O)(CCO)=O	1	Cannizarro 2, glucose (oxidation)
+164_0	O	-1	Cannizarro 2, glucose (oxidation)
+164_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+164_0	C(C(C(CC(CO)O)=O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+164_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+164_0	C(C(CO)O)(CC(CO)O)=O	1	Cannizarro 2, glucose (oxidation)
+165_0	O	-1	Cannizarro 2, glucose (oxidation)
+165_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+165_0	C(CC(C=O)O)(C(CO)O)=O	-1	Cannizarro 2, glucose (oxidation)
+165_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+165_0	C(C(CO)O)(CC(CO)O)=O	1	Cannizarro 2, glucose (oxidation)
+166_0	O	-1	Cannizarro 2, glucose (oxidation)
+166_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+166_0	C(C(C(C=O)O)O)(CCO)=O	-1	Cannizarro 2, glucose (oxidation)
+166_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+166_0	C(C(C(CO)O)O)(CCO)=O	1	Cannizarro 2, glucose (oxidation)
+167_0	O	-1	Cannizarro 2, glucose (oxidation)
+167_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+167_0	C(C(C(CC(CO)=O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+167_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+167_0	C(CO)(CC(C(CO)O)O)=O	1	Cannizarro 2, glucose (oxidation)
+169_0	O	-1	Cannizarro 2, glucose (oxidation)
+169_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+169_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+169_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+169_0	C(C)(C(C(C(CO)O)O)O)=O	1	Cannizarro 2, glucose (oxidation)
+171_0	O	-1	Cannizarro 2, glucose (oxidation)
+171_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+171_0	C(CC(C(C(C=O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+171_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+171_0	C(CC(C(C(CO)O)O)O)=O	1	Cannizarro 2, glucose (oxidation)
+173_0	O	-1	Cannizarro 2, glucose (oxidation)
+173_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+173_0	C(CC(C(C(C=O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+173_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+173_0	C(C(C(C(CCO)O)O)O)=O	1	Cannizarro 2, glucose (oxidation)
+175_0	O	-1	Cannizarro 2, glucose (oxidation)
+175_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+175_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Cannizarro 2, glucose (oxidation)
+175_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+175_0	C(C(C(C(C(CO)O)N)O)O)O	1	Cannizarro 2, glucose (oxidation)
+177_0	O	-1	Cannizarro 2, glucose (reduction)
+177_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+177_0	C(CO)=O	-1	Cannizarro 2, glucose (reduction)
+177_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+177_0	C(CO)(O)=O	1	Cannizarro 2, glucose (reduction)
+179_0	O	-1	Cannizarro 2, glucose (reduction)
+179_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+179_0	C(C(C(CO)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+179_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+179_0	C(C(C(CO)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+181_0	O	-1	Cannizarro 2, glucose (reduction)
+181_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+181_0	C(C(CC(C(CO)O)O)=O)=O	-1	Cannizarro 2, glucose (reduction)
+181_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+181_0	C(C(CC(C(CO)O)O)=O)(O)=O	1	Cannizarro 2, glucose (reduction)
+183_0	O	-1	Cannizarro 2, glucose (reduction)
+183_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+183_0	C(CC(C(C(CO)O)O)=O)=O	-1	Cannizarro 2, glucose (reduction)
+183_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+183_0	C(CC(C(C(CO)O)O)=O)(O)=O	1	Cannizarro 2, glucose (reduction)
+185_0	O	-1	Cannizarro 2, glucose (reduction)
+185_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+185_0	C(C(C(CC(CO)O)=O)O)=O	-1	Cannizarro 2, glucose (reduction)
+185_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+185_0	C(C(C(CC(CO)O)=O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+187_0	O	-1	Cannizarro 2, glucose (reduction)
+187_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+187_0	C(CC(C=O)O)(C(CO)O)=O	-1	Cannizarro 2, glucose (reduction)
+187_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+187_0	C(CC(C(O)=O)O)(C(CO)O)=O	1	Cannizarro 2, glucose (reduction)
+189_0	O	-1	Cannizarro 2, glucose (reduction)
+189_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+189_0	C(C(C(C=O)O)O)(CCO)=O	-1	Cannizarro 2, glucose (reduction)
+189_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+189_0	C(C(C(C(O)=O)O)O)(CCO)=O	1	Cannizarro 2, glucose (reduction)
+191_0	O	-1	Cannizarro 2, glucose (reduction)
+191_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+191_0	C(C(C(CC(CO)=O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+191_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+191_0	C(C(C(CC(CO)=O)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+193_0	O	-1	Cannizarro 2, glucose (reduction)
+193_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+193_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+193_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+193_0	C(C(C(C(C(C)=O)O)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+195_0	O	-1	Cannizarro 2, glucose (reduction)
+195_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+195_0	C(CC(C(C(C=O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+195_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+195_0	C(CC(C(C(C(O)=O)O)O)O)=O	1	Cannizarro 2, glucose (reduction)
+197_0	O	-1	Cannizarro 2, glucose (reduction)
+197_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+197_0	C(CC(C(C(C=O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+197_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+197_0	C(CC(C(C(C=O)O)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+199_0	O	-1	Cannizarro 2, glucose (reduction)
+199_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+199_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Cannizarro 2, glucose (reduction)
+199_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+199_0	C(C(C(C(C(CO)O)O)N)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+201_0	C(CC(C=O)O)(C(CO)O)=O	-1	Knoevenagel C
+201_0	C1(CC(C(C1(CO)O)O)O)=O	1	Knoevenagel C
+201_1	C(CC(C=O)O)(C(CO)O)=O	-1	Knoevenagel H
+201_1	C1(CC(C(C1(CO)O)O)O)=O	1	Knoevenagel H
+203_0	C(CC(C(C(C=O)O)O)O)=O	-1	Knoevenagel C
+203_0	C(C1(C(C(CC1O)O)O)O)=O	1	Knoevenagel C
+203_1	C(CC(C(C(C=O)O)O)O)=O	-1	Knoevenagel H
+203_1	C(C1(C(C(CC1O)O)O)O)=O	1	Knoevenagel H
+205_0	C(CO)=O	-1	Knoevenagel C
+205_0	C(C(C(CO)O)O)=O	-1	Knoevenagel C
+205_0	C(C(C(CO)O)(C(CO)O)O)=O	1	Knoevenagel C
+205_1	C(CO)=O	-1	Knoevenagel H
+205_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+205_1	C(C(C(CO)O)(C(CO)O)O)=O	1	Knoevenagel H
+206_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Knoevenagel H (inv)
+206_0	C(C(C(CO)O)O)=O	1	Knoevenagel H (inv)
+206_0	C(CO)(O)=O	1	Knoevenagel H (inv)
+207_0	N	-1	Amadori Rearrangement
+207_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Amadori Rearrangement
+207_0	O	1	Amadori Rearrangement
+207_0	C(CO)(C(C(C(CO)O)O)N)=O	1	Amadori Rearrangement
+208_0	N	-1	Amadori Rearrangement
+208_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Amadori Rearrangement
+208_0	O	1	Amadori Rearrangement
+208_0	C(CN)(C(C(C(CO)O)O)N)=O	1	Amadori Rearrangement
+210_0	N	-1	Amadori Rearrangement
+210_0	C(CC(C(C(CO)O)O)=O)=O	-1	Amadori Rearrangement
+210_0	O	1	Amadori Rearrangement
+210_0	C(CC(C(C(CO)O)N)=O)=O	1	Amadori Rearrangement
+212_0	N	-1	Amadori Rearrangement
+212_0	C(C(C(CC(CO)O)=O)O)=O	-1	Amadori Rearrangement
+212_0	O	1	Amadori Rearrangement
+212_0	C(C(C(CC(CO)O)=O)N)=O	1	Amadori Rearrangement
+214_0	N	-1	Amadori Rearrangement
+214_0	C(CC(C=O)O)(C(CO)O)=O	-1	Amadori Rearrangement
+214_0	O	1	Amadori Rearrangement
+214_0	C(CC(C=O)O)(C(CO)N)=O	1	Amadori Rearrangement
+216_0	N	-1	Amadori Rearrangement
+216_0	C(C(C(C=O)O)O)(CCO)=O	-1	Amadori Rearrangement
+216_0	O	1	Amadori Rearrangement
+216_0	C(C(C(C=O)O)N)(CCO)=O	1	Amadori Rearrangement
+216_1	N	-1	Mannich Addition
+216_1	C(C(C(C=O)O)O)(CCO)=O	-1	Mannich Addition
+216_1	O	1	Mannich Addition
+216_1	C(C(C(C=O)O)N)(CCO)=O	1	Mannich Addition
+218_0	N	-1	Amadori Rearrangement
+218_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Amadori Rearrangement
+218_0	O	1	Amadori Rearrangement
+218_0	C(C(C(C(C(C)=O)N)O)O)=O	1	Amadori Rearrangement
+219_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+219_0	O	1	Elimination + enol to keto
+219_0	C(C(CCO)=O)=O	1	Elimination + enol to keto
+220_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+220_0	O	1	Elimination + enol to keto
+220_0	C(CC(CO)=O)=O	1	Elimination + enol to keto
+221_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+221_0	O	1	Elimination + enol to keto
+221_0	C(C(C(C)=O)O)=O	1	Elimination + enol to keto
+222_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+222_0	O	1	Elimination + enol to keto
+222_0	C(CC(C=O)O)=O	1	Elimination + enol to keto
+223_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+223_0	O	1	Elimination + enol to keto
+223_0	C(C(CO)=O)(CC(CO)O)=O	1	Elimination + enol to keto
+224_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+224_0	O	1	Elimination + enol to keto
+224_0	C(C(CO)O)(CC(CO)=O)=O	1	Elimination + enol to keto
+225_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+225_0	O	1	Elimination + enol to keto
+225_0	C(CCO)(C(C(CO)=O)O)=O	1	Elimination + enol to keto
+226_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+226_0	O	1	Elimination + enol to keto
+226_0	C(CO)(C(CC(CO)=O)O)=O	1	Elimination + enol to keto
+227_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+227_0	O	1	Elimination + enol to keto
+227_0	C(C)(C(C(C(CO)=O)O)O)=O	1	Elimination + enol to keto
+228_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+228_0	O	1	Elimination + enol to keto
+228_0	C(CC(C(C(CO)=O)O)O)=O	1	Elimination + enol to keto
+229_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+229_0	O	1	Elimination + enol to keto
+229_0	C(C(CN)=O)(CC(CO)O)=O	1	Elimination + enol to keto
+230_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+230_0	O	1	Elimination + enol to keto
+230_0	C(C(CO)O)(CC(CN)=O)=O	1	Elimination + enol to keto
+231_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+231_0	O	1	Elimination + enol to keto
+231_0	C(CCO)(C(C(CN)=O)O)=O	1	Elimination + enol to keto
+232_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+232_0	O	1	Elimination + enol to keto
+232_0	C(CN)(C(CC(CO)=O)O)=O	1	Elimination + enol to keto
+233_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+233_0	O	1	Elimination + enol to keto
+233_0	C(C)(C(C(C(CN)=O)O)O)=O	1	Elimination + enol to keto
+234_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Elimination + enol to keto
+234_0	O	1	Elimination + enol to keto
+234_0	C(CC(C(C(CN)=O)O)O)=O	1	Elimination + enol to keto
+235_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+235_0	O	1	Elimination + enol to keto
+235_0	C(C(CC(C(CO)O)O)=O)(O)=O	1	Elimination + enol to keto
+236_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+236_0	O	1	Elimination + enol to keto
+236_0	C(CC(C(C(CO)O)O)=O)(O)=O	1	Elimination + enol to keto
+237_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+237_0	O	1	Elimination + enol to keto
+237_0	C(C(C(CC(CO)O)=O)O)(O)=O	1	Elimination + enol to keto
+238_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+238_0	O	1	Elimination + enol to keto
+238_0	C(CC(C(O)=O)O)(C(CO)O)=O	1	Elimination + enol to keto
+239_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+239_0	O	1	Elimination + enol to keto
+239_0	C(C(C(C(O)=O)O)O)(CCO)=O	1	Elimination + enol to keto
+240_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+240_0	O	1	Elimination + enol to keto
+240_0	C(C(C(CC(CO)=O)O)O)(O)=O	1	Elimination + enol to keto
+241_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+241_0	O	1	Elimination + enol to keto
+241_0	C(C(C(C(C(C)=O)O)O)O)(O)=O	1	Elimination + enol to keto
+242_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Elimination + enol to keto
+242_0	O	1	Elimination + enol to keto
+242_0	C(CC(C(C(C(O)=O)O)O)O)=O	1	Elimination + enol to keto
+243_0	C(C(C(C(C(CO)O)O)O)O)O	-1	Elimination + enol to keto
+243_0	O	1	Elimination + enol to keto
+243_0	C(CC(C(C(CO)O)O)O)=O	1	Elimination + enol to keto
+244_0	C(C(C(C(C(CO)O)O)O)O)O	-1	Elimination + enol to keto
+244_0	O	1	Elimination + enol to keto
+244_0	C(C)(C(C(C(CO)O)O)O)=O	1	Elimination + enol to keto
+245_0	C(C(C(C(C(CO)O)O)O)O)O	-1	Elimination + enol to keto
+245_0	O	1	Elimination + enol to keto
+245_0	C(CO)(CC(C(CO)O)O)=O	1	Elimination + enol to keto
+246_0	C(C(C(C(C(CO)O)O)O)O)O	-1	Elimination + enol to keto
+246_0	O	1	Elimination + enol to keto
+246_0	C(C(C(CO)O)O)(CCO)=O	1	Elimination + enol to keto
+247_0	C(C(C(C(C(CO)O)O)O)O)O	-1	Elimination + enol to keto
+247_0	O	1	Elimination + enol to keto
+247_0	C(C(CO)O)(CC(CO)O)=O	1	Elimination + enol to keto
+249_0	C(C(CC(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+249_0	O	1	Elimination + enol to keto
+249_0	C(CCO)(CC(C=O)=O)=O	1	Elimination + enol to keto
+251_0	C(C(CC(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+251_0	O	1	Elimination + enol to keto
+251_0	C(CO)(CCC(C=O)=O)=O	1	Elimination + enol to keto
+253_0	C(C(CC(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+253_0	O	1	Elimination + enol to keto
+253_0	C(C)(C(CC(C=O)=O)O)=O	1	Elimination + enol to keto
+255_0	C(C(CC(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+255_0	O	1	Elimination + enol to keto
+255_0	C(CC(CC(C=O)=O)O)=O	1	Elimination + enol to keto
+257_0	C(CC(C(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+257_0	O	1	Elimination + enol to keto
+257_0	C(CC(C(CCO)=O)=O)=O	1	Elimination + enol to keto
+259_0	C(CC(C(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+259_0	O	1	Elimination + enol to keto
+259_0	C(CC(CC(CO)=O)=O)=O	1	Elimination + enol to keto
+261_0	C(CC(C(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+261_0	O	1	Elimination + enol to keto
+261_0	C(CC(C(C(C)=O)O)=O)=O	1	Elimination + enol to keto
+263_0	C(CC(C(C(CO)O)O)=O)=O	-1	Elimination + enol to keto
+263_0	O	1	Elimination + enol to keto
+263_0	C(CC(C(CC=O)O)=O)=O	1	Elimination + enol to keto
+265_0	C(C(C(CC(CO)O)=O)O)=O	-1	Elimination + enol to keto
+265_0	O	1	Elimination + enol to keto
+265_0	C(C(C=O)O)(CC(C)=O)=O	1	Elimination + enol to keto
+267_0	C(C(C(CC(CO)O)=O)O)=O	-1	Elimination + enol to keto
+267_0	O	1	Elimination + enol to keto
+267_0	C(C(C(CCC=O)=O)O)=O	1	Elimination + enol to keto
+269_0	C(CC(C=O)O)(C(CO)O)=O	-1	Elimination + enol to keto
+269_0	O	1	Elimination + enol to keto
+269_0	C(C(CC(C(C)=O)=O)O)=O	1	Elimination + enol to keto
+271_0	C(CC(C=O)O)(C(CO)O)=O	-1	Elimination + enol to keto
+271_0	O	1	Elimination + enol to keto
+271_0	C(CC(CC(C=O)O)=O)=O	1	Elimination + enol to keto
+272_0	C(C(C(C=O)O)O)(CCO)=O	-1	Elimination + enol to keto
+272_0	O	1	Elimination + enol to keto
+272_0	C(CCO)(CC(C=O)=O)=O	1	Elimination + enol to keto
+273_0	C(C(C(C=O)O)O)(CCO)=O	-1	Elimination + enol to keto
+273_0	O	1	Elimination + enol to keto
+273_0	C(CC(C(CCO)=O)=O)=O	1	Elimination + enol to keto
+274_0	C(C(C(CC(CO)=O)O)O)=O	-1	Elimination + enol to keto
+274_0	O	1	Elimination + enol to keto
+274_0	C(CO)(CCC(C=O)=O)=O	1	Elimination + enol to keto
+275_0	C(C(C(CC(CO)=O)O)O)=O	-1	Elimination + enol to keto
+275_0	O	1	Elimination + enol to keto
+275_0	C(CC(CC(CO)=O)=O)=O	1	Elimination + enol to keto
+276_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Elimination + enol to keto
+276_0	O	1	Elimination + enol to keto
+276_0	C(C)(C(CC(C=O)=O)O)=O	1	Elimination + enol to keto
+277_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Elimination + enol to keto
+277_0	O	1	Elimination + enol to keto
+277_0	C(CC(C(C(C)=O)O)=O)=O	1	Elimination + enol to keto
+278_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Elimination + enol to keto
+278_0	O	1	Elimination + enol to keto
+278_0	C(C(C=O)O)(CC(C)=O)=O	1	Elimination + enol to keto
+279_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Elimination + enol to keto
+279_0	O	1	Elimination + enol to keto
+279_0	C(C(CC(C(C)=O)=O)O)=O	1	Elimination + enol to keto
+280_0	C(CC(C(C(C=O)O)O)O)=O	-1	Elimination + enol to keto
+280_0	O	1	Elimination + enol to keto
+280_0	C(CC(CC(C=O)=O)O)=O	1	Elimination + enol to keto
+281_0	C(CC(C(C(C=O)O)O)O)=O	-1	Elimination + enol to keto
+281_0	O	1	Elimination + enol to keto
+281_0	C(CC(C(CC=O)O)=O)=O	1	Elimination + enol to keto
+282_0	C(CC(C(C(C=O)O)O)O)=O	-1	Elimination + enol to keto
+282_0	O	1	Elimination + enol to keto
+282_0	C(C(C(CCC=O)=O)O)=O	1	Elimination + enol to keto
+283_0	C(CC(C(C(C=O)O)O)O)=O	-1	Elimination + enol to keto
+283_0	O	1	Elimination + enol to keto
+283_0	C(CC(CC(C=O)O)=O)=O	1	Elimination + enol to keto
+284_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination + enol to keto
+284_0	O	1	Elimination + enol to keto
+284_0	C(C(C(C=O)O)N)(CCO)=O	1	Elimination + enol to keto
+286_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination + enol to keto
+286_0	O	1	Elimination + enol to keto
+286_0	C(C(C(CC(CO)=O)N)O)=O	1	Elimination + enol to keto
+288_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination + enol to keto
+288_0	O	1	Elimination + enol to keto
+288_0	C(C(C(C(C(C)=O)O)N)O)=O	1	Elimination + enol to keto
+290_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination + enol to keto
+290_0	O	1	Elimination + enol to keto
+290_0	C(CC(C(C(C=O)O)N)O)=O	1	Elimination + enol to keto
+292_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+292_0	O	1	Elimination + enol to keto
+292_0	C1(CC(C(C(CO)O)O1)O)=O	1	Elimination + enol to keto
+294_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+294_0	O	1	Elimination + enol to keto
+294_0	C1(COC(C(CO)O)C1O)=O	1	Elimination + enol to keto
+296_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+296_0	O	1	Elimination + enol to keto
+296_0	C1(C(O)OC(C(CO)O)C1)=O	1	Elimination + enol to keto
+298_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+298_0	O	1	Elimination + enol to keto
+298_0	C1(C(C(CO)O)OC(C1)O)=O	1	Elimination + enol to keto
+300_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+300_0	O	1	Elimination + enol to keto
+300_0	C(C)(C1C(C(C(O1)O)O)O)=O	1	Elimination + enol to keto
+302_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+302_0	O	1	Elimination + enol to keto
+302_0	C(CC1C(C(C(O)O1)O)O)=O	1	Elimination + enol to keto
+304_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+304_0	O	1	Elimination + enol to keto
+304_0	C1(CC(C(C(CO)O1)O)O)=O	1	Elimination + enol to keto
+306_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+306_0	O	1	Elimination + enol to keto
+306_0	C1(COC(CO)C(C1O)O)=O	1	Elimination + enol to keto
+308_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+308_0	O	1	Elimination + enol to keto
+308_0	C1(C(O)OC(CO)C(C1)O)=O	1	Elimination + enol to keto
+310_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+310_0	O	1	Elimination + enol to keto
+310_0	C1(C(C(CO)OC(C1)O)O)=O	1	Elimination + enol to keto
+312_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+312_0	O	1	Elimination + enol to keto
+312_0	C1(C(C(O)OC(CO)C1)O)=O	1	Elimination + enol to keto
+314_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+314_0	O	1	Elimination + enol to keto
+314_0	C1(C(CO)OC(C(C1)O)O)=O	1	Elimination + enol to keto
+316_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+316_0	O	1	Elimination + enol to keto
+316_0	C1(CC(C(C(CO1)O)O)O)=O	1	Elimination + enol to keto
+318_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+318_0	O	1	Elimination + enol to keto
+318_0	C1(COCC(C(C1O)O)O)=O	1	Elimination + enol to keto
+320_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+320_0	O	1	Elimination + enol to keto
+320_0	C1(C(O)OCC(C(C1)O)O)=O	1	Elimination + enol to keto
+322_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+322_0	O	1	Elimination + enol to keto
+322_0	C1(C(C(COC(C1)O)O)O)=O	1	Elimination + enol to keto
+324_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+324_0	O	1	Elimination + enol to keto
+324_0	C1(C(C(O)OCC(C1)O)O)=O	1	Elimination + enol to keto
+326_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+326_0	O	1	Elimination + enol to keto
+326_0	C1(C(COC(C(C1)O)O)O)=O	1	Elimination + enol to keto
+328_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+328_0	O	1	Elimination + enol to keto
+328_0	C1(C(C(C(O)OCC1)O)O)=O	1	Elimination + enol to keto
+330_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Elimination + enol to keto
+330_0	O	1	Elimination + enol to keto
+330_0	C1(COC(C(C(C1)O)O)O)=O	1	Elimination + enol to keto
+332_0	C(C(CC(C(CO)O)O)=O)=O	-1	Elimination2
+332_0	O	1	Elimination2
+332_0	C(C(CO)O)=CC(C=O)=O	1	Elimination2
+334_0	C(C(C(CC(CO)O)=O)O)=O	-1	Elimination2
+334_0	O	1	Elimination2
+334_0	C(C(C(C=CCO)=O)O)=O	1	Elimination2
+336_0	C(CC(C=O)O)(C(CO)O)=O	-1	Elimination2
+336_0	O	1	Elimination2
+336_0	C(C=CC(C(CO)O)=O)=O	1	Elimination2
+338_0	C(C(C(C=O)O)O)(CCO)=O	-1	Elimination2
+338_0	O	1	Elimination2
+338_0	C(C(C(C(C=C)=O)O)O)=O	1	Elimination2
+340_0	C(C(C(CC(CO)=O)O)O)=O	-1	Elimination2
+340_0	O	1	Elimination2
+340_0	C(C(C=CC(CO)=O)O)=O	1	Elimination2
+342_0	C(CC(C(C(C=O)O)O)O)=O	-1	Elimination2
+342_0	O	1	Elimination2
+342_0	C(C(C(C=CC=O)O)O)=O	1	Elimination2
+344_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination2
+344_0	O	1	Elimination2
+344_0	C(C(C(CO)O)O)(N)=CC=O	1	Elimination2
+344_1	C(C(C(C(C(CO)O)O)N)O)=O	-1	Dehydration of Amines
+344_1	O	1	Dehydration of Amines
+344_1	C(C(C(CO)O)O)(N)=CC=O	1	Dehydration of Amines
+346_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Elimination2
+346_0	O	1	Elimination2
+346_0	C(C(C(N)=CC(CO)O)O)=O	1	Elimination2
+346_1	C(C(C(C(C(CO)O)O)N)O)=O	-1	Dehydration of Amines
+346_1	O	1	Dehydration of Amines
+346_1	C(C(C(N)=CC(CO)O)O)=O	1	Dehydration of Amines
+347_0	O	-1	Hydration of C(=O)C
+347_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hydration of C(=O)C
+347_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+348_0	O	-1	Hydration of C(=O)C
+348_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hydration of C(=O)C
+348_0	C(C(C(CO)O)O)(C(CO)O)=O	1	Hydration of C(=O)C
+349_0	O	-1	Hydration of C(=O)C
+349_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hydration of C(=O)C
+349_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+350_0	O	-1	Hydration of C(=O)C
+350_0	C(C(C(CC(CO)O)=O)O)=O	-1	Hydration of C(=O)C
+350_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+351_0	O	-1	Hydration of C(=O)C
+351_0	C(CC(C=O)O)(C(CO)O)=O	-1	Hydration of C(=O)C
+351_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+352_0	O	-1	Hydration of C(=O)C
+352_0	C(C(C(C=O)O)O)(CCO)=O	-1	Hydration of C(=O)C
+352_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+353_0	O	-1	Hydration of C(=O)C
+353_0	C(C(C(CC(CO)=O)O)O)=O	-1	Hydration of C(=O)C
+353_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+354_0	O	-1	Hydration of C(=O)C
+354_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Hydration of C(=O)C
+354_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+355_0	O	-1	Hydration of C(=O)C
+355_0	C(CC(C(C(C=O)O)O)O)=O	-1	Hydration of C(=O)C
+355_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hydration of C(=O)C
+356_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Deamination 2
+356_0	N	1	Deamination 2
+356_0	C(C(CC(C(CO)O)O)=O)=O	1	Deamination 2
+357_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Deamination 2
+357_0	N	1	Deamination 2
+357_0	C(CC(C=O)O)(C(CO)O)=O	1	Deamination 2
+359_0	N	-1	Mannich Addition
+359_0	C(C(C(CO)O)O)=O	-1	Mannich Addition
+359_0	O	1	Mannich Addition
+359_0	C(C(C(CO)N)O)=O	1	Mannich Addition
+361_0	N	-1	Mannich Addition
+361_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Mannich Addition
+361_0	O	1	Mannich Addition
+361_0	C(CO)(C(C(C(CO)O)N)O)=O	1	Mannich Addition
+363_0	N	-1	Mannich Addition
+363_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Mannich Addition
+363_0	O	1	Mannich Addition
+363_0	C(CN)(C(C(C(CO)O)N)O)=O	1	Mannich Addition
+364_0	N	-1	Mannich Addition
+364_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Mannich Addition
+364_0	O	1	Mannich Addition
+364_0	C(C(C(C(C(CO)O)O)N)O)(O)=O	1	Mannich Addition
+366_0	N	-1	Mannich Addition
+366_0	C(C(CC(C(CO)O)O)=O)=O	-1	Mannich Addition
+366_0	O	1	Mannich Addition
+366_0	C(C(CC(C(CO)O)N)=O)=O	1	Mannich Addition
+368_0	N	-1	Mannich Addition
+368_0	C(CC(C(C(CO)O)O)=O)=O	-1	Mannich Addition
+368_0	O	1	Mannich Addition
+368_0	C(CC(C(C(CO)N)O)=O)=O	1	Mannich Addition
+370_0	N	-1	Mannich Addition
+370_0	C(C(C(CC(CO)O)=O)O)=O	-1	Mannich Addition
+370_0	O	1	Mannich Addition
+370_0	C(C(C(CC(CO)N)=O)O)=O	1	Mannich Addition
+372_0	N	-1	Mannich Addition
+372_0	C(CC(C=O)O)(C(CO)O)=O	-1	Mannich Addition
+372_0	O	1	Mannich Addition
+372_0	C(CC(C=O)N)(C(CO)O)=O	1	Mannich Addition
+374_0	N	-1	Mannich Addition
+374_0	C(CC(C=O)O)(C(CO)O)=O	-1	Mannich Addition
+374_0	O	1	Mannich Addition
+374_0	C(CC(C=O)O)(C(CN)O)=O	1	Mannich Addition
+376_0	N	-1	Mannich Addition
+376_0	C(C(C(C=O)O)O)(CCO)=O	-1	Mannich Addition
+376_0	O	1	Mannich Addition
+376_0	C(C(C(C(CCO)=O)O)N)=O	1	Mannich Addition
+378_0	N	-1	Mannich Addition
+378_0	C(C(C(C=O)O)O)(CCO)=O	-1	Mannich Addition
+378_0	O	1	Mannich Addition
+378_0	C(C(C(C=O)O)O)(CCN)=O	1	Mannich Addition
+379_0	N	-1	Mannich Addition
+379_0	C(C(C(CC(CO)=O)O)O)=O	-1	Mannich Addition
+379_0	O	1	Mannich Addition
+379_0	C(C(C(CC(CO)=O)N)O)=O	1	Mannich Addition
+380_0	N	-1	Mannich Addition
+380_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Mannich Addition
+380_0	O	1	Mannich Addition
+380_0	C(C(C(C(C(C)=O)O)N)O)=O	1	Mannich Addition
+381_0	N	-1	Mannich Addition
+381_0	C(CC(C(C(C=O)O)O)O)=O	-1	Mannich Addition
+381_0	O	1	Mannich Addition
+381_0	C(CC(C(C(C=O)O)N)O)=O	1	Mannich Addition
+383_0	N	-1	Mannich Addition
+383_0	C(CC(C(C(C=O)O)O)O)=O	-1	Mannich Addition
+383_0	O	1	Mannich Addition
+383_0	C(CC(C(C(C=O)O)O)N)=O	1	Mannich Addition
+384_0	O	-1	Mannich Addition (reverse)
+384_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Mannich Addition (reverse)
+384_0	N	1	Mannich Addition (reverse)
+384_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Mannich Addition (reverse)
+386_0	C(C(C(CO)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+386_0	C1C(C(C(O)O1)O)O	1	Hemiacetal Formation for 5 membered rings
+388_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+388_0	C(C1(C(C(C(CO)O1)O)O)O)O	1	Hemiacetal Formation for 5 membered rings
+390_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+390_0	C(C1C(C(C(CN)(O)O1)O)O)O	1	Hemiacetal Formation for 5 membered rings
+391_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+391_0	C1(C(O)OC(C(CO)O)C1)=O	1	Hemiacetal Formation for 5 membered rings
+393_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+393_0	C(C1(CC(C(CO)O1)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+394_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+394_0	C1(C(C(CO)O)OC(C1)O)=O	1	Hemiacetal Formation for 5 membered rings
+396_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+396_0	C(CC1(C(C(CO1)O)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+398_0	C(C(C(CC(CO)O)=O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+398_0	C(C(C1(CC(CO1)O)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+400_0	C(C(C(CC(CO)=O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+400_0	C(C1C(CC(CO)(O1)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+402_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+402_0	C(C1C(C(C(C)(O1)O)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+403_0	C(C(C(C(C(C)=O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+403_0	C(C)(C1C(C(C(O1)O)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+405_0	C(CC(C(C(C=O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+405_0	C(C(C1C(CC(O)O1)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+406_0	C(CC(C(C(C=O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+406_0	C(CC1C(C(C(O)O1)O)O)=O	1	Hemiacetal Formation for 5 membered rings
+408_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Hemiacetal Formation for 5 membered rings
+408_0	C(C(C1C(C(C(O)O1)O)N)O)O	1	Hemiacetal Formation for 5 membered rings
+410_0	C(CO)(C(C(C(CO)O)O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+410_0	C1C(C(C(C(CO)(O)O1)O)O)O	1	Hemiacetal Formation for 6 membered rings
+412_0	C(CN)(C(C(C(CO)O)O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+412_0	C1C(C(C(C(CN)(O)O1)O)O)O	1	Hemiacetal Formation for 6 membered rings
+413_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 6 membered rings
+413_0	C1(C(O)OC(CO)C(C1)O)=O	1	Hemiacetal Formation for 6 membered rings
+415_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 6 membered rings
+415_0	C(C1(CC(C(CO1)O)O)O)=O	1	Hemiacetal Formation for 6 membered rings
+416_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 6 membered rings
+416_0	C1(C(C(CO)OC(C1)O)O)=O	1	Hemiacetal Formation for 6 membered rings
+417_0	C(C(C(CC(CO)O)=O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+417_0	C1(C(C(O)OC(CO)C1)O)=O	1	Hemiacetal Formation for 6 membered rings
+418_0	C(CC(C=O)O)(C(CO)O)=O	-1	Hemiacetal Formation for 6 membered rings
+418_0	C1(C(CO)OC(C(C1)O)O)=O	1	Hemiacetal Formation for 6 membered rings
+420_0	C(CC(C(C(C=O)O)O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+420_0	C(C1C(C(CC(O1)O)O)O)=O	1	Hemiacetal Formation for 6 membered rings
+422_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Hemiacetal Formation for 6 membered rings
+422_0	C(C1C(C(C(C(O)O1)O)N)O)O	1	Hemiacetal Formation for 6 membered rings
+423_0	C(C(CC(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 7 membered rings
+423_0	C1(C(O)OCC(C(C1)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+424_0	C(CC(C(C(CO)O)O)=O)=O	-1	Hemiacetal Formation for 7 membered rings
+424_0	C1(C(C(COC(C1)O)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+425_0	C(C(C(CC(CO)O)=O)O)=O	-1	Hemiacetal Formation for 7 membered rings
+425_0	C1(C(C(O)OCC(C1)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+426_0	C(CC(C=O)O)(C(CO)O)=O	-1	Hemiacetal Formation for 7 membered rings
+426_0	C1(C(COC(C(C1)O)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+427_0	C(C(C(C=O)O)O)(CCO)=O	-1	Hemiacetal Formation for 7 membered rings
+427_0	C1(C(C(C(O)OCC1)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+428_0	C(C(C(CC(CO)=O)O)O)=O	-1	Hemiacetal Formation for 7 membered rings
+428_0	C1(COC(C(C(C1)O)O)O)=O	1	Hemiacetal Formation for 7 membered rings
+430_0	C(C(C(C(C(CO)O)O)N)O)=O	-1	Hemiacetal Formation for 7 membered rings
+430_0	C1C(C(C(C(C(O)O1)O)N)O)O	1	Hemiacetal Formation for 7 membered rings
+431_0	C(C(C1C(C(C(O)O1)O)O)O)O	-1	Hemiacetal Formation for 5 membered rings, inverse
+431_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hemiacetal Formation for 5 membered rings, inverse
+432_0	C(C1C(C(C(C(O)O1)O)O)O)O	-1	Hemiacetal Formation for 6 membered rings, inverse
+432_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hemiacetal Formation for 6 membered rings, inverse
+433_0	C1C(C(C(C(C(O)O1)O)O)O)O	-1	Hemiacetal Formation for 7 membered rings, inverse
+433_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Hemiacetal Formation for 7 membered rings, inverse
+435_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Ring Closure 5 membered O, O
+435_0	O	1	Ring Closure 5 membered O, O
+435_0	C1(C(C(C(C(CO)O)O1)O)O)=O	1	Ring Closure 5 membered O, O
+437_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Ring Closure 6 membered O, O
+437_0	O	1	Ring Closure 6 membered O, O
+437_0	C1(C(C(C(C(CO)O1)O)O)O)=O	1	Ring Closure 6 membered O, O
+439_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	-1	Ring Closure 7 membered O, O
+439_0	O	1	Ring Closure 7 membered O, O
+439_0	C1(C(C(C(C(CO1)O)O)O)O)=O	1	Ring Closure 7 membered O, O

@@ -1,0 +1,261 @@
+Index	Reagent	Formed/Produced	Rule
+4_0	C#N	-1	Nitrile Amination
+4_0	N	-1	Nitrile Amination
+4_0	C(N)=N	1	Nitrile Amination
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C(C=N)#N	1	HCN Addition to Nitriles
+8_0	C#N	-1	Nitrile Hydrolysis
+8_0	O	-1	Nitrile Hydrolysis
+8_0	C(N)=O	1	Nitrile Hydrolysis
+10_0	C(N)=N	-1	Nitrile Amination
+10_0	C(C=N)#N	-1	Nitrile Amination
+10_0	C(NC(C=N)=N)=N	1	Nitrile Amination
+12_0	C(C=N)#N	-1	Nitrile Amination
+12_0	C(N)=O	-1	Nitrile Amination
+12_0	C(NC(C=N)=N)=O	1	Nitrile Amination
+14_0	N	-1	Nitrile Amination
+14_0	C(C=N)#N	-1	Nitrile Amination
+14_0	C(C(N)=N)=N	1	Nitrile Amination
+16_0	C#N	-1	Nitrile Amination
+16_0	C(N)=N	-1	Nitrile Amination
+16_0	C(NC=N)=N	1	Nitrile Amination
+18_0	C#N	-1	Nitrile Amination
+18_0	C(N)=O	-1	Nitrile Amination
+18_0	C(NC=N)=O	1	Nitrile Amination
+20_0	C#N	-1	HCN Addition to Nitriles
+20_0	C(C=N)#N	-1	HCN Addition to Nitriles
+20_0	C(C(C=N)=N)#N	1	HCN Addition to Nitriles
+22_0	O	-1	Amide Hydrolysis
+22_0	C(N)=O	-1	Amide Hydrolysis
+22_0	N	1	Amide Hydrolysis
+22_0	C(O)=O	1	Amide Hydrolysis
+23_0	O	-1	Imine to Carbonyl
+23_0	C(N)=N	-1	Imine to Carbonyl
+23_0	N	1	Imine to Carbonyl
+23_0	C(N)=O	1	Imine to Carbonyl
+23_1	O	-1	Amidine to Amide Hydrolysis
+23_1	C(N)=N	-1	Amidine to Amide Hydrolysis
+23_1	N	1	Amidine to Amide Hydrolysis
+23_1	C(N)=O	1	Amidine to Amide Hydrolysis
+25_0	O	-1	Imine to Carbonyl
+25_0	C(C=N)#N	-1	Imine to Carbonyl
+25_0	N	1	Imine to Carbonyl
+25_0	C(C=O)#N	1	Imine to Carbonyl
+27_0	O	-1	Nitrile Hydrolysis
+27_0	C(C=N)#N	-1	Nitrile Hydrolysis
+27_0	C(C=N)(N)=O	1	Nitrile Hydrolysis
+29_0	C(NC(C=N)=N)=N	-1	Nitrile Amination
+29_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+29_0	C(N(C(C=N)=N)C(C(C=N)=N)=N)=N	1	Nitrile Amination
+31_0	C(NC(C=N)=N)=N	-1	Nitrile Amination
+31_0	C(C=O)#N	-1	Nitrile Amination
+31_0	C(N(C(C=N)=N)C(C=O)=N)=N	1	Nitrile Amination
+33_0	C(NC(C=N)=N)=O	-1	Nitrile Amination
+33_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+33_0	C(N(C(C=N)=N)C(C(C=N)=N)=N)=O	1	Nitrile Amination
+35_0	C(NC(C=N)=N)=O	-1	Nitrile Amination
+35_0	C(C=O)#N	-1	Nitrile Amination
+35_0	C(N(C(C=N)=N)C(C=O)=N)=O	1	Nitrile Amination
+37_0	C(C(N)=N)=N	-1	Nitrile Amination
+37_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+37_0	C(C(NC(C(C=N)=N)=N)=N)=N	1	Nitrile Amination
+39_0	C(C(N)=N)=N	-1	Nitrile Amination
+39_0	C(C=O)#N	-1	Nitrile Amination
+39_0	C(C(NC(C=N)=N)=N)=O	1	Nitrile Amination
+41_0	C(NC=N)=N	-1	Nitrile Amination
+41_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+41_0	C(N(C=N)C(C(C=N)=N)=N)=N	1	Nitrile Amination
+43_0	C(NC=N)=N	-1	Nitrile Amination
+43_0	C(C=O)#N	-1	Nitrile Amination
+43_0	C(N(C=N)C(C=O)=N)=N	1	Nitrile Amination
+45_0	C(NC=N)=O	-1	Nitrile Amination
+45_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+45_0	C(N(C=N)C(C(C=N)=N)=N)=O	1	Nitrile Amination
+47_0	C(NC=N)=O	-1	Nitrile Amination
+47_0	C(C=O)#N	-1	Nitrile Amination
+47_0	C(N(C=N)C(C=O)=N)=O	1	Nitrile Amination
+49_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+49_0	C(C=N)(N)=O	-1	Nitrile Amination
+49_0	C(C=N)(NC(C(C=N)=N)=N)=O	1	Nitrile Amination
+51_0	C(C=O)#N	-1	Nitrile Amination
+51_0	C(C=N)(N)=O	-1	Nitrile Amination
+51_0	C(C(NC(C=N)=O)=N)=O	1	Nitrile Amination
+53_0	N	-1	Nitrile Amination
+53_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+53_0	C(C(C(N)=N)=N)=N	1	Nitrile Amination
+55_0	N	-1	Nitrile Amination
+55_0	C(C=O)#N	-1	Nitrile Amination
+55_0	C(C(N)=N)=O	1	Nitrile Amination
+57_0	C(N)=N	-1	Nitrile Amination
+57_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+57_0	C(NC(C(C=N)=N)=N)=N	1	Nitrile Amination
+59_0	C(N)=N	-1	Nitrile Amination
+59_0	C(C=O)#N	-1	Nitrile Amination
+59_0	C(NC(C=O)=N)=N	1	Nitrile Amination
+61_0	C(C=N)#N	-1	Nitrile Amination
+61_0	C(NC(C=N)=N)=N	-1	Nitrile Amination
+61_0	C(N(C(C=N)=N)C(C=N)=N)=N	1	Nitrile Amination
+63_0	C(C=N)#N	-1	Nitrile Amination
+63_0	C(NC(C=N)=N)=O	-1	Nitrile Amination
+63_0	C(N(C(C=N)=N)C(C=N)=N)=O	1	Nitrile Amination
+65_0	C(C=N)#N	-1	Nitrile Amination
+65_0	C(C(N)=N)=N	-1	Nitrile Amination
+65_0	C(C(NC(C=N)=N)=N)=N	1	Nitrile Amination
+67_0	C(C=N)#N	-1	Nitrile Amination
+67_0	C(NC=N)=N	-1	Nitrile Amination
+67_0	C(N(C=N)C(C=N)=N)=N	1	Nitrile Amination
+69_0	C(C=N)#N	-1	Nitrile Amination
+69_0	C(NC=N)=O	-1	Nitrile Amination
+69_0	C(N(C=N)C(C=N)=N)=O	1	Nitrile Amination
+71_0	C(C=N)#N	-1	Nitrile Amination
+71_0	C(C=N)(N)=O	-1	Nitrile Amination
+71_0	C(C=N)(NC(C=N)=N)=O	1	Nitrile Amination
+73_0	C(N)=O	-1	Nitrile Amination
+73_0	C(C(C=N)=N)#N	-1	Nitrile Amination
+73_0	C(NC(C(C=N)=N)=N)=O	1	Nitrile Amination
+75_0	C(N)=O	-1	Nitrile Amination
+75_0	C(C=O)#N	-1	Nitrile Amination
+75_0	C(NC(C=O)=N)=O	1	Nitrile Amination
+76_0	C#N	-1	Nitrile Amination
+76_0	C(NC(C=N)=N)=N	-1	Nitrile Amination
+76_0	C(N(C=N)C(C=N)=N)=N	1	Nitrile Amination
+77_0	C#N	-1	Nitrile Amination
+77_0	C(NC(C=N)=N)=O	-1	Nitrile Amination
+77_0	C(N(C=N)C(C=N)=N)=O	1	Nitrile Amination
+78_0	C#N	-1	Nitrile Amination
+78_0	C(C(N)=N)=N	-1	Nitrile Amination
+78_0	C(NC(C=N)=N)=N	1	Nitrile Amination
+80_0	C#N	-1	Nitrile Amination
+80_0	C(NC=N)=N	-1	Nitrile Amination
+80_0	C(N(C=N)C=N)=N	1	Nitrile Amination
+82_0	C#N	-1	Nitrile Amination
+82_0	C(NC=N)=O	-1	Nitrile Amination
+82_0	C(N(C=N)C=N)=O	1	Nitrile Amination
+84_0	C#N	-1	Nitrile Amination
+84_0	C(C=N)(N)=O	-1	Nitrile Amination
+84_0	C(NC(C=N)=O)=N	1	Nitrile Amination
+86_0	C#N	-1	HCN Addition to Nitriles
+86_0	C(C(C=N)=N)#N	-1	HCN Addition to Nitriles
+86_0	C(C(C(C=N)=N)=N)#N	1	HCN Addition to Nitriles
+88_0	C#N	-1	HCN Addition to Nitriles
+88_0	C(C=O)#N	-1	HCN Addition to Nitriles
+88_0	C(C(C=O)=N)#N	1	HCN Addition to Nitriles
+89_0	O	-1	Amide Hydrolysis
+89_0	C(NC(C=N)=N)=O	-1	Amide Hydrolysis
+89_0	C(C(N)=N)=N	1	Amide Hydrolysis
+89_0	C(O)=O	1	Amide Hydrolysis
+90_0	O	-1	Amide Hydrolysis
+90_0	C(NC=N)=O	-1	Amide Hydrolysis
+90_0	C(N)=N	1	Amide Hydrolysis
+90_0	C(O)=O	1	Amide Hydrolysis
+92_0	O	-1	Amide Hydrolysis
+92_0	C(C=N)(N)=O	-1	Amide Hydrolysis
+92_0	N	1	Amide Hydrolysis
+92_0	C(C=N)(O)=O	1	Amide Hydrolysis
+94_0	C#N	-1	Cyanohydrin Formation
+94_0	C(C=O)#N	-1	Cyanohydrin Formation
+94_0	C(C(C#N)O)#N	1	Cyanohydrin Formation
+96_0	C#N	-1	Strecker Synthesis
+96_0	C(NC(C=N)=N)=N	-1	Strecker Synthesis
+96_0	C(C=O)#N	-1	Strecker Synthesis
+96_0	O	1	Strecker Synthesis
+96_0	C(C(C#N)N(C=N)C(C=N)=N)#N	1	Strecker Synthesis
+98_0	C#N	-1	Strecker Synthesis
+98_0	C(C(N)=N)=N	-1	Strecker Synthesis
+98_0	C(C=O)#N	-1	Strecker Synthesis
+98_0	O	1	Strecker Synthesis
+98_0	C(C(C#N)NC(C=N)=N)#N	1	Strecker Synthesis
+100_0	C#N	-1	Strecker Synthesis
+100_0	C(NC=N)=N	-1	Strecker Synthesis
+100_0	C(C=O)#N	-1	Strecker Synthesis
+100_0	O	1	Strecker Synthesis
+100_0	C(C(C#N)N(C=N)C=N)#N	1	Strecker Synthesis
+102_0	C#N	-1	Strecker Synthesis
+102_0	N	-1	Strecker Synthesis
+102_0	C(C=O)#N	-1	Strecker Synthesis
+102_0	O	1	Strecker Synthesis
+102_0	C(C(C#N)N)#N	1	Strecker Synthesis
+104_0	C#N	-1	Strecker Synthesis
+104_0	C(N)=N	-1	Strecker Synthesis
+104_0	C(C=O)#N	-1	Strecker Synthesis
+104_0	O	1	Strecker Synthesis
+104_0	C(C(C#N)NC=N)#N	1	Strecker Synthesis
+105_0	O	-1	Imine to Carbonyl
+105_0	C(NC(C=N)=N)=N	-1	Imine to Carbonyl
+105_0	N	1	Imine to Carbonyl
+105_0	C(NC(C=N)=N)=O	1	Imine to Carbonyl
+106_0	O	-1	Imine to Carbonyl
+106_0	C(NC(C=N)=N)=N	-1	Imine to Carbonyl
+106_0	N	1	Imine to Carbonyl
+106_0	C(NC(C=O)=N)=N	1	Imine to Carbonyl
+107_0	O	-1	Imine to Carbonyl
+107_0	C(NC(C=N)=N)=N	-1	Imine to Carbonyl
+107_0	N	1	Imine to Carbonyl
+107_0	C(NC(C=N)=O)=N	1	Imine to Carbonyl
+108_0	O	-1	Imine to Carbonyl
+108_0	C(NC(C=N)=N)=O	-1	Imine to Carbonyl
+108_0	N	1	Imine to Carbonyl
+108_0	C(NC(C=O)=N)=O	1	Imine to Carbonyl
+110_0	O	-1	Imine to Carbonyl
+110_0	C(NC(C=N)=N)=O	-1	Imine to Carbonyl
+110_0	N	1	Imine to Carbonyl
+110_0	C(NC(C=N)=O)=O	1	Imine to Carbonyl
+111_0	O	-1	Imine to Carbonyl
+111_0	C(C(N)=N)=N	-1	Imine to Carbonyl
+111_0	N	1	Imine to Carbonyl
+111_0	C(C(N)=N)=O	1	Imine to Carbonyl
+112_0	O	-1	Imine to Carbonyl
+112_0	C(C(N)=N)=N	-1	Imine to Carbonyl
+112_0	N	1	Imine to Carbonyl
+112_0	C(C=N)(N)=O	1	Imine to Carbonyl
+112_1	O	-1	Amidine to Amide Hydrolysis
+112_1	C(C(N)=N)=N	-1	Amidine to Amide Hydrolysis
+112_1	N	1	Amidine to Amide Hydrolysis
+112_1	C(C=N)(N)=O	1	Amidine to Amide Hydrolysis
+113_0	O	-1	Imine to Carbonyl
+113_0	C(NC=N)=N	-1	Imine to Carbonyl
+113_0	N	1	Imine to Carbonyl
+113_0	C(NC=N)=O	1	Imine to Carbonyl
+115_0	O	-1	Imine to Carbonyl
+115_0	C(NC=N)=O	-1	Imine to Carbonyl
+115_0	N	1	Imine to Carbonyl
+115_0	C(NC=O)=O	1	Imine to Carbonyl
+116_0	O	-1	Imine to Carbonyl
+116_0	C(C(C=N)=N)#N	-1	Imine to Carbonyl
+116_0	N	1	Imine to Carbonyl
+116_0	C(C(C=O)=N)#N	1	Imine to Carbonyl
+118_0	O	-1	Imine to Carbonyl
+118_0	C(C(C=N)=N)#N	-1	Imine to Carbonyl
+118_0	N	1	Imine to Carbonyl
+118_0	C(C(C=N)=O)#N	1	Imine to Carbonyl
+120_0	O	-1	Imine to Carbonyl
+120_0	C(C=N)(N)=O	-1	Imine to Carbonyl
+120_0	N	1	Imine to Carbonyl
+120_0	C(C(N)=O)=O	1	Imine to Carbonyl
+121_0	O	-1	Amidine to Amide Hydrolysis
+121_0	C(NC(C=N)=N)=N	-1	Amidine to Amide Hydrolysis
+121_0	C(N)=O	1	Amidine to Amide Hydrolysis
+121_0	C(C(N)=N)=N	1	Amidine to Amide Hydrolysis
+122_0	O	-1	Amidine to Amide Hydrolysis
+122_0	C(NC(C=N)=N)=N	-1	Amidine to Amide Hydrolysis
+122_0	C(N)=N	1	Amidine to Amide Hydrolysis
+122_0	C(C=N)(N)=O	1	Amidine to Amide Hydrolysis
+123_0	O	-1	Amidine to Amide Hydrolysis
+123_0	C(NC(C=N)=N)=O	-1	Amidine to Amide Hydrolysis
+123_0	C(N)=O	1	Amidine to Amide Hydrolysis
+123_0	C(C=N)(N)=O	1	Amidine to Amide Hydrolysis
+124_0	O	-1	Amidine to Amide Hydrolysis
+124_0	C(NC=N)=N	-1	Amidine to Amide Hydrolysis
+124_0	C(N)=N	1	Amidine to Amide Hydrolysis
+124_0	C(N)=O	1	Amidine to Amide Hydrolysis
+125_0	O	-1	Amidine to Amide Hydrolysis
+125_0	C(NC=N)=O	-1	Amidine to Amide Hydrolysis
+125_0	C(N)=O	1	Amidine to Amide Hydrolysis
+125_0	C(N)=O	1	Amidine to Amide Hydrolysis
+127_0	O	-1	Nitrile Hydrolysis
+127_0	C(C(C=N)=N)#N	-1	Nitrile Hydrolysis
+127_0	C(C(C=N)=N)(N)=O	1	Nitrile Hydrolysis
+128_0	O	-1	Nitrile Hydrolysis
+128_0	C(C=O)#N	-1	Nitrile Hydrolysis
+128_0	C(C(N)=O)=O	1	Nitrile Hydrolysis

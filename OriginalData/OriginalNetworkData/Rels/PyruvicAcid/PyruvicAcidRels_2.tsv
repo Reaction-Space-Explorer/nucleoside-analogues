@@ -1,0 +1,84 @@
+Index	Reagent	Formed/Produced	Rule
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Aldol Condensation
+5_0	C(C(C)=O)(O)=O	-1	Hydration of C(=O)C
+5_0	O	-1	Hydration of C(=O)C
+5_0	C(C(CO)O)(O)=O	1	Hydration of C(=O)C
+8_0	C(C(C)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+8_0	C(C)=O	1	Alpha-Keto Acid Decarboxylation
+8_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+10_0	C(C)=O	-1	Aldol Condensation
+10_0	C(C)=O	-1	Aldol Condensation
+10_0	C(CC(C)O)=O	1	Aldol Condensation
+12_0	C(C)=O	-1	Aldol Condensation
+12_0	C(=O)=O	-1	Aldol Condensation
+12_0	C(CC(O)=O)=O	1	Aldol Condensation
+14_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+14_0	C(C)=O	-1	Aldol Condensation
+14_0	C(C(CC(C)O)=O)(O)=O	1	Aldol Condensation
+16_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+16_0	C(C)=O	-1	Aldol Condensation
+16_0	C(C(C)(CC=O)O)(O)=O	1	Aldol Condensation
+18_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+18_0	C(=O)=O	-1	Aldol Condensation
+18_0	C(CC(C(O)=O)=O)(O)=O	1	Aldol Condensation
+20_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+20_0	O	1	Benzilic Acid Rearrangement (inverse)
+20_0	C(C(O)=O)(CC(C(C)=O)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+22_0	C(C(CO)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+22_0	O	1	Benzilic Acid Rearrangement (inverse)
+22_0	C(C(CO)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+23_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Retro Aldol
+23_0	C(C(C)=O)(O)=O	1	Retro Aldol
+23_0	C(C(C)=O)(O)=O	1	Retro Aldol
+25_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+25_0	C(C)=O	-1	Knoevenagel C
+25_0	C(C(CO)(C(C)O)O)(O)=O	1	Knoevenagel C
+25_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+25_1	C(C)=O	-1	Knoevenagel H
+25_1	C(C(CO)(C(C)O)O)(O)=O	1	Knoevenagel H
+27_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+27_0	C(=O)=O	-1	Knoevenagel C
+27_0	C(C(C(O)=O)(CO)O)(O)=O	1	Knoevenagel C
+27_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+27_1	C(=O)=O	-1	Knoevenagel H
+27_1	C(C(C(O)=O)(CO)O)(O)=O	1	Knoevenagel H
+29_0	C(C(C)=O)(O)=O	-1	Knoevenagel C
+29_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+29_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	1	Knoevenagel C
+29_1	C(C(C)=O)(O)=O	-1	Knoevenagel H
+29_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+29_1	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	1	Knoevenagel H
+32_0	C(C(CO)O)(O)=O	-1	Knoevenagel H (inv)
+32_0	C=O	1	Knoevenagel H (inv)
+32_0	C(CO)(O)=O	1	Knoevenagel H (inv)
+33_0	C(C(CO)O)(O)=O	-1	Elimination + enol to keto
+33_0	O	1	Elimination + enol to keto
+33_0	C(CC(O)=O)=O	1	Elimination + enol to keto
+34_0	C(C(CO)O)(O)=O	-1	Elimination + enol to keto
+34_0	C(C(C)=O)(O)=O	1	Elimination + enol to keto
+34_0	O	1	Elimination + enol to keto
+36_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Elimination2
+36_0	O	1	Elimination2
+36_0	C(C(C)=CC(C(O)=O)=O)(O)=O	1	Elimination2
+38_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Elimination2
+38_0	O	1	Elimination2
+38_0	C=C(C(O)=O)CC(C(O)=O)=O	1	Elimination2
+40_0	O	-1	Hydration of C(=O)C
+40_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Hydration of C(=O)C
+40_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	1	Hydration of C(=O)C
+42_0	O	-1	Hydration of C(=O)C
+42_0	C(C)=O	-1	Hydration of C(=O)C
+42_0	C(CO)O	1	Hydration of C(=O)C
+44_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Hemiacetal Formation for 5 membered rings
+44_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	1	Hemiacetal Formation for 5 membered rings
+45_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+45_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+45_0	C(C(C)(CC=O)O)(O)=O	1	Alpha-Keto Acid Decarboxylation
+47_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Ring Closure 5 membered O, O
+47_0	O	1	Ring Closure 5 membered O, O
+47_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	1	Ring Closure 5 membered O, O
+49_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Ring Closure 6 membered O, O
+49_0	O	1	Ring Closure 6 membered O, O
+49_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	1	Ring Closure 6 membered O, O

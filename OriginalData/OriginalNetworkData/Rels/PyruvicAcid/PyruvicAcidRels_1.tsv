@@ -1,0 +1,10 @@
+Index	Reagent	Formed/Produced	Rule
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Aldol Condensation
+5_0	C(C(C)=O)(O)=O	-1	Hydration of C(=O)C
+5_0	O	-1	Hydration of C(=O)C
+5_0	C(C(CO)O)(O)=O	1	Hydration of C(=O)C
+8_0	C(C(C)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+8_0	C(C)=O	1	Alpha-Keto Acid Decarboxylation
+8_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation

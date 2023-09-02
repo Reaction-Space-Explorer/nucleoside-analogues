@@ -1,0 +1,252 @@
+Index	Reagent	Formed/Produced	Rule
+5_0	C=O	-1	Aldol Condensation
+5_0	C(CO)=O	-1	Aldol Condensation
+5_0	C(C(CO)O)=O	1	Aldol Condensation
+5_1	C=O	-1	Knoevenagel H
+5_1	C(CO)=O	-1	Knoevenagel H
+5_1	C(C(CO)O)=O	1	Knoevenagel H
+7_0	C(CO)=O	-1	Aldol Condensation
+7_0	C(CO)=O	-1	Aldol Condensation
+7_0	C(C(C(CO)O)O)=O	1	Aldol Condensation
+7_1	C(CO)=O	-1	Knoevenagel H
+7_1	C(CO)=O	-1	Knoevenagel H
+7_1	C(C(C(CO)O)O)=O	1	Knoevenagel H
+8_0	C(CO)=O	-1	Keto-enol migration twice
+8_0	C(CO)=O	1	Keto-enol migration twice
+10_0	N	-1	Amadori/Heyns Rearrangement
+10_0	C(CO)=O	-1	Amadori/Heyns Rearrangement
+10_0	O	1	Amadori/Heyns Rearrangement
+10_0	C(CN)=O	1	Amadori/Heyns Rearrangement
+13_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	O	-1	Cannizarro 2, HCHO (oxidation)
+13_0	CO	1	Cannizarro 2, HCHO (oxidation)
+13_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+13_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+13_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+13_1	O	-1	Cannizarro 2, HCHO (reduction)
+13_1	CO	1	Cannizarro 2, HCHO (reduction)
+13_1	C(O)=O	1	Cannizarro 2, HCHO (reduction)
+15_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	C(CO)=O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	O	-1	Cannizarro 2, HCHO (oxidation)
+15_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+15_0	C(CO)O	1	Cannizarro 2, HCHO (oxidation)
+17_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+17_0	C(CO)=O	-1	Cannizarro 2, HCHO (reduction)
+17_0	O	-1	Cannizarro 2, HCHO (reduction)
+17_0	CO	1	Cannizarro 2, HCHO (reduction)
+17_0	C(CO)(O)=O	1	Cannizarro 2, HCHO (reduction)
+19_0	C(C(CO)O)=O	-1	Aldol Condensation
+19_0	C(CN)=O	-1	Aldol Condensation
+19_0	C(C(C(C(CO)O)O)N)=O	1	Aldol Condensation
+19_1	C(C(CO)O)=O	-1	Knoevenagel H
+19_1	C(CN)=O	-1	Knoevenagel H
+19_1	C(C(C(C(CO)O)O)N)=O	1	Knoevenagel H
+21_0	C(C(C(CO)O)O)=O	-1	Aldol Condensation
+21_0	C(CN)=O	-1	Aldol Condensation
+21_0	C(C(C(C(C(CO)O)O)O)N)=O	1	Aldol Condensation
+21_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+21_1	C(CN)=O	-1	Knoevenagel H
+21_1	C(C(C(C(C(CO)O)O)O)N)=O	1	Knoevenagel H
+23_0	C(CN)=O	-1	Aldol Condensation
+23_0	C(CN)=O	-1	Aldol Condensation
+23_0	C(C(C(CN)O)N)=O	1	Aldol Condensation
+23_1	C(CN)=O	-1	Knoevenagel H
+23_1	C(CN)=O	-1	Knoevenagel H
+23_1	C(C(C(CN)O)N)=O	1	Knoevenagel H
+25_0	C=O	-1	Aldol Condensation
+25_0	C(CN)=O	-1	Aldol Condensation
+25_0	C(C(CO)N)=O	1	Aldol Condensation
+25_1	C=O	-1	Knoevenagel H
+25_1	C(CN)=O	-1	Knoevenagel H
+25_1	C(C(CO)N)=O	1	Knoevenagel H
+27_0	C(CO)=O	-1	Aldol Condensation
+27_0	C(C(CO)O)=O	-1	Aldol Condensation
+27_0	C(C(C(C(CO)O)O)O)=O	1	Aldol Condensation
+27_1	C(CO)=O	-1	Knoevenagel H
+27_1	C(C(CO)O)=O	-1	Knoevenagel H
+27_1	C(C(C(C(CO)O)O)O)=O	1	Knoevenagel H
+29_0	C(CO)=O	-1	Aldol Condensation
+29_0	C(C(C(CO)O)O)=O	-1	Aldol Condensation
+29_0	C(C(C(C(C(CO)O)O)O)O)=O	1	Aldol Condensation
+29_1	C(CO)=O	-1	Knoevenagel H
+29_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+29_1	C(C(C(C(C(CO)O)O)O)O)=O	1	Knoevenagel H
+31_0	C(CO)=O	-1	Aldol Condensation
+31_0	C(CN)=O	-1	Aldol Condensation
+31_0	C(C(C(CN)O)O)=O	1	Aldol Condensation
+31_1	C(CO)=O	-1	Knoevenagel H
+31_1	C(CN)=O	-1	Knoevenagel H
+31_1	C(C(C(CN)O)O)=O	1	Knoevenagel H
+33_0	C(CO)=O	-1	Aldol Condensation
+33_0	C(CN)=O	-1	Aldol Condensation
+33_0	C(C(C(CO)O)N)=O	1	Aldol Condensation
+33_1	C(CO)=O	-1	Knoevenagel H
+33_1	C(CN)=O	-1	Knoevenagel H
+33_1	C(C(C(CO)O)N)=O	1	Knoevenagel H
+35_0	C(CO)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+35_0	O	1	Benzilic Acid Rearrangement (inverse)
+35_0	C(C=O)=O	1	Benzilic Acid Rearrangement (inverse)
+36_0	C(C(CO)O)=O	-1	Retro Aldol
+36_0	C=O	1	Retro Aldol
+36_0	C(CO)=O	1	Retro Aldol
+36_1	C(C(CO)O)=O	-1	Knoevenagel H (inv)
+36_1	C=O	1	Knoevenagel H (inv)
+36_1	C(CO)=O	1	Knoevenagel H (inv)
+37_0	C(C(C(CO)O)O)=O	-1	Retro Aldol
+37_0	C(CO)=O	1	Retro Aldol
+37_0	C(CO)=O	1	Retro Aldol
+37_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H (inv)
+37_1	C(CO)=O	1	Knoevenagel H (inv)
+37_1	C(CO)=O	1	Knoevenagel H (inv)
+39_0	C(C(CO)O)=O	-1	Keto-enol migration twice
+39_0	C(CO)(CO)=O	1	Keto-enol migration twice
+41_0	C(C(C(CO)O)O)=O	-1	Keto-enol migration twice
+41_0	C(CO)(C(CO)O)=O	1	Keto-enol migration twice
+43_0	C(C(CO)O)=O	-1	Amadori/Heyns Rearrangement
+43_0	C(CN)=O	-1	Amadori/Heyns Rearrangement
+43_0	O	1	Amadori/Heyns Rearrangement
+43_0	C(CNCC(CO)=O)=O	1	Amadori/Heyns Rearrangement
+45_0	C(C(C(CO)O)O)=O	-1	Amadori/Heyns Rearrangement
+45_0	C(CN)=O	-1	Amadori/Heyns Rearrangement
+45_0	O	1	Amadori/Heyns Rearrangement
+45_0	C(CNCC=O)(C(CO)O)=O	1	Amadori/Heyns Rearrangement
+47_0	N	-1	Amadori/Heyns Rearrangement
+47_0	C(C(CO)O)=O	-1	Amadori/Heyns Rearrangement
+47_0	O	1	Amadori/Heyns Rearrangement
+47_0	C(CO)(CN)=O	1	Amadori/Heyns Rearrangement
+49_0	N	-1	Amadori/Heyns Rearrangement
+49_0	C(C(C(CO)O)O)=O	-1	Amadori/Heyns Rearrangement
+49_0	O	1	Amadori/Heyns Rearrangement
+49_0	C(CN)(C(CO)O)=O	1	Amadori/Heyns Rearrangement
+51_0	C(CO)=O	-1	Amadori/Heyns Rearrangement
+51_0	C(CN)=O	-1	Amadori/Heyns Rearrangement
+51_0	O	1	Amadori/Heyns Rearrangement
+51_0	C(CNCC=O)=O	1	Amadori/Heyns Rearrangement
+53_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+53_0	O	-1	Cannizarro 2, HCHO (oxidation)
+53_0	C(C(CO)O)=O	-1	Cannizarro 2, HCHO (oxidation)
+53_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+53_0	C(C(CO)O)O	1	Cannizarro 2, HCHO (oxidation)
+55_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+55_0	O	-1	Cannizarro 2, HCHO (oxidation)
+55_0	C(C(C(CO)O)O)=O	-1	Cannizarro 2, HCHO (oxidation)
+55_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+55_0	C(C(C(CO)O)O)O	1	Cannizarro 2, HCHO (oxidation)
+57_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+57_0	O	-1	Cannizarro 2, HCHO (oxidation)
+57_0	C(CN)=O	-1	Cannizarro 2, HCHO (oxidation)
+57_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+57_0	C(CN)O	1	Cannizarro 2, HCHO (oxidation)
+59_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+59_0	O	-1	Cannizarro 2, HCHO (reduction)
+59_0	C(C(CO)O)=O	-1	Cannizarro 2, HCHO (reduction)
+59_0	CO	1	Cannizarro 2, HCHO (reduction)
+59_0	C(C(CO)O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+61_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+61_0	O	-1	Cannizarro 2, HCHO (reduction)
+61_0	C(C(C(CO)O)O)=O	-1	Cannizarro 2, HCHO (reduction)
+61_0	CO	1	Cannizarro 2, HCHO (reduction)
+61_0	C(C(C(CO)O)O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+63_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+63_0	O	-1	Cannizarro 2, HCHO (reduction)
+63_0	C(CN)=O	-1	Cannizarro 2, HCHO (reduction)
+63_0	CO	1	Cannizarro 2, HCHO (reduction)
+63_0	C(CN)(O)=O	1	Cannizarro 2, HCHO (reduction)
+65_0	C(C(CO)O)=O	-1	Knoevenagel C
+65_0	C(C(CO)O)=O	-1	Knoevenagel C
+65_0	C(C(CO)(C(C(CO)O)O)O)=O	1	Knoevenagel C
+65_1	C(C(CO)O)=O	-1	Knoevenagel H
+65_1	C(C(CO)O)=O	-1	Knoevenagel H
+65_1	C(C(CO)(C(C(CO)O)O)O)=O	1	Knoevenagel H
+67_0	C(C(CO)O)=O	-1	Knoevenagel C
+67_0	C(CN)=O	-1	Knoevenagel C
+67_0	C(C(CO)(C(CN)O)O)=O	1	Knoevenagel C
+67_1	C(C(CO)O)=O	-1	Knoevenagel H
+67_1	C(CN)=O	-1	Knoevenagel H
+67_1	C(C(CO)(C(CN)O)O)=O	1	Knoevenagel H
+69_0	C(C(C(CO)O)O)=O	-1	Knoevenagel C
+69_0	C(CN)=O	-1	Knoevenagel C
+69_0	C(C(C(CO)O)(C(CN)O)O)=O	1	Knoevenagel C
+69_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+69_1	C(CN)=O	-1	Knoevenagel H
+69_1	C(C(C(CO)O)(C(CN)O)O)=O	1	Knoevenagel H
+71_0	C=O	-1	Knoevenagel C
+71_0	C(C(CO)O)=O	-1	Knoevenagel C
+71_0	C(C(CO)(CO)O)=O	1	Knoevenagel C
+71_1	C=O	-1	Knoevenagel H
+71_1	C(C(CO)O)=O	-1	Knoevenagel H
+71_1	C(C(CO)(CO)O)=O	1	Knoevenagel H
+73_0	C=O	-1	Knoevenagel C
+73_0	C(C(C(CO)O)O)=O	-1	Knoevenagel C
+73_0	C(C(CO)(C(CO)O)O)=O	1	Knoevenagel C
+73_1	C=O	-1	Knoevenagel H
+73_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+73_1	C(C(CO)(C(CO)O)O)=O	1	Knoevenagel H
+74_0	C(CO)=O	-1	Knoevenagel C
+74_0	C(C(CO)O)=O	-1	Knoevenagel C
+74_0	C(C(CO)(C(CO)O)O)=O	1	Knoevenagel C
+74_1	C(CO)=O	-1	Knoevenagel H
+74_1	C(C(CO)O)=O	-1	Knoevenagel H
+74_1	C(C(CO)(C(CO)O)O)=O	1	Knoevenagel H
+76_0	C(CO)=O	-1	Knoevenagel C
+76_0	C(C(C(CO)O)O)=O	-1	Knoevenagel C
+76_0	C(C(C(CO)O)(C(CO)O)O)=O	1	Knoevenagel C
+76_1	C(CO)=O	-1	Knoevenagel H
+76_1	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+76_1	C(C(C(CO)O)(C(CO)O)O)=O	1	Knoevenagel H
+78_0	C(C(CO)O)=O	-1	Knoevenagel H
+78_0	C(CO)(O)=O	-1	Knoevenagel H
+78_0	C(C(C(C(CO)O)O)O)(O)=O	1	Knoevenagel H
+80_0	C(C(C(CO)O)O)=O	-1	Knoevenagel H
+80_0	C(CO)(O)=O	-1	Knoevenagel H
+80_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Knoevenagel H
+82_0	C(CN)=O	-1	Knoevenagel H
+82_0	C(CO)(O)=O	-1	Knoevenagel H
+82_0	C(C(C(CN)O)O)(O)=O	1	Knoevenagel H
+83_0	C=O	-1	Knoevenagel H
+83_0	C(CO)(O)=O	-1	Knoevenagel H
+83_0	C(C(CO)O)(O)=O	1	Knoevenagel H
+84_0	C(CO)=O	-1	Knoevenagel H
+84_0	C(CO)(O)=O	-1	Knoevenagel H
+84_0	C(C(C(CO)O)O)(O)=O	1	Knoevenagel H
+86_0	C(C(CO)O)=O	-1	Elimination + enol to keto
+86_0	O	1	Elimination + enol to keto
+86_0	C(CC=O)=O	1	Elimination + enol to keto
+88_0	C(C(CO)O)=O	-1	Elimination + enol to keto
+88_0	O	1	Elimination + enol to keto
+88_0	C(C(C)=O)=O	1	Elimination + enol to keto
+90_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+90_0	O	1	Elimination + enol to keto
+90_0	C(C(CCO)=O)=O	1	Elimination + enol to keto
+92_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+92_0	O	1	Elimination + enol to keto
+92_0	C(CC(C=O)O)=O	1	Elimination + enol to keto
+94_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+94_0	O	1	Elimination + enol to keto
+94_0	C(CC(CO)=O)=O	1	Elimination + enol to keto
+96_0	C(C(C(CO)O)O)=O	-1	Elimination + enol to keto
+96_0	O	1	Elimination + enol to keto
+96_0	C(C(C(C)=O)O)=O	1	Elimination + enol to keto
+98_0	C(CO)O	-1	Elimination + enol to keto
+98_0	O	1	Elimination + enol to keto
+98_0	C(C)=O	1	Elimination + enol to keto
+100_0	C(C(CO)O)=O	-1	Mannich Addition
+100_0	C(CN)=O	-1	Mannich Addition
+100_0	O	1	Mannich Addition
+100_0	C(C(CNCC=O)O)=O	1	Mannich Addition
+102_0	C(C(C(CO)O)O)=O	-1	Mannich Addition
+102_0	C(CN)=O	-1	Mannich Addition
+102_0	O	1	Mannich Addition
+102_0	C(C(C(CO)NCC=O)O)=O	1	Mannich Addition
+104_0	N	-1	Mannich Addition
+104_0	C(C(CO)O)=O	-1	Mannich Addition
+104_0	O	1	Mannich Addition
+104_0	C(C(CN)O)=O	1	Mannich Addition
+106_0	N	-1	Mannich Addition
+106_0	C(C(C(CO)O)O)=O	-1	Mannich Addition
+106_0	O	1	Mannich Addition
+106_0	C(C(C(CO)N)O)=O	1	Mannich Addition
+108_0	C(C(C(CO)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+108_0	C1C(C(C(O)O1)O)O	1	Hemiacetal Formation for 5 membered rings

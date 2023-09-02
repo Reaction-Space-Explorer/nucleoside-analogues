@@ -1,0 +1,731 @@
+Index	Reagent	Formed/Produced	Rule
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+3_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Aldol Condensation
+5_0	C(C(C)=O)(O)=O	-1	Hydration of C(=O)C
+5_0	O	-1	Hydration of C(=O)C
+5_0	C(C(CO)O)(O)=O	1	Hydration of C(=O)C
+8_0	C(C(C)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+8_0	C(C)=O	1	Alpha-Keto Acid Decarboxylation
+8_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+10_0	C(C)=O	-1	Aldol Condensation
+10_0	C(C)=O	-1	Aldol Condensation
+10_0	C(CC(C)O)=O	1	Aldol Condensation
+12_0	C(C)=O	-1	Aldol Condensation
+12_0	C(=O)=O	-1	Aldol Condensation
+12_0	C(CC(O)=O)=O	1	Aldol Condensation
+14_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+14_0	C(C)=O	-1	Aldol Condensation
+14_0	C(C(CC(C)O)=O)(O)=O	1	Aldol Condensation
+16_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+16_0	C(C)=O	-1	Aldol Condensation
+16_0	C(C(C)(CC=O)O)(O)=O	1	Aldol Condensation
+18_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+18_0	C(=O)=O	-1	Aldol Condensation
+18_0	C(CC(C(O)=O)=O)(O)=O	1	Aldol Condensation
+20_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+20_0	O	1	Benzilic Acid Rearrangement (inverse)
+20_0	C(C(O)=O)(CC(C(C)=O)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+22_0	C(C(CO)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+22_0	O	1	Benzilic Acid Rearrangement (inverse)
+22_0	C(C(CO)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+23_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Retro Aldol
+23_0	C(C(C)=O)(O)=O	1	Retro Aldol
+23_0	C(C(C)=O)(O)=O	1	Retro Aldol
+25_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+25_0	C(C)=O	-1	Knoevenagel C
+25_0	C(C(CO)(C(C)O)O)(O)=O	1	Knoevenagel C
+25_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+25_1	C(C)=O	-1	Knoevenagel H
+25_1	C(C(CO)(C(C)O)O)(O)=O	1	Knoevenagel H
+27_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+27_0	C(=O)=O	-1	Knoevenagel C
+27_0	C(C(C(O)=O)(CO)O)(O)=O	1	Knoevenagel C
+27_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+27_1	C(=O)=O	-1	Knoevenagel H
+27_1	C(C(C(O)=O)(CO)O)(O)=O	1	Knoevenagel H
+29_0	C(C(C)=O)(O)=O	-1	Knoevenagel C
+29_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+29_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	1	Knoevenagel C
+29_1	C(C(C)=O)(O)=O	-1	Knoevenagel H
+29_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+29_1	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	1	Knoevenagel H
+32_0	C(C(CO)O)(O)=O	-1	Knoevenagel H (inv)
+32_0	C=O	1	Knoevenagel H (inv)
+32_0	C(CO)(O)=O	1	Knoevenagel H (inv)
+33_0	C(C(CO)O)(O)=O	-1	Elimination + enol to keto
+33_0	O	1	Elimination + enol to keto
+33_0	C(CC(O)=O)=O	1	Elimination + enol to keto
+34_0	C(C(CO)O)(O)=O	-1	Elimination + enol to keto
+34_0	C(C(C)=O)(O)=O	1	Elimination + enol to keto
+34_0	O	1	Elimination + enol to keto
+36_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Elimination2
+36_0	O	1	Elimination2
+36_0	C(C(C)=CC(C(O)=O)=O)(O)=O	1	Elimination2
+38_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Elimination2
+38_0	O	1	Elimination2
+38_0	C=C(C(O)=O)CC(C(O)=O)=O	1	Elimination2
+40_0	O	-1	Hydration of C(=O)C
+40_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Hydration of C(=O)C
+40_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	1	Hydration of C(=O)C
+42_0	O	-1	Hydration of C(=O)C
+42_0	C(C)=O	-1	Hydration of C(=O)C
+42_0	C(CO)O	1	Hydration of C(=O)C
+44_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Hemiacetal Formation for 5 membered rings
+44_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	1	Hemiacetal Formation for 5 membered rings
+45_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+45_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+45_0	C(C(C)(CC=O)O)(O)=O	1	Alpha-Keto Acid Decarboxylation
+47_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Ring Closure 5 membered O, O
+47_0	O	1	Ring Closure 5 membered O, O
+47_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	1	Ring Closure 5 membered O, O
+49_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	-1	Ring Closure 6 membered O, O
+49_0	O	1	Ring Closure 6 membered O, O
+49_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	1	Ring Closure 6 membered O, O
+51_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Aldol Condensation
+51_0	C(C1(CC(C(C1)=O)=O)O)(O)=O	1	Aldol Condensation
+53_0	C(CC(C)O)=O	-1	Aldol Condensation
+53_0	C(CC(C)O)=O	-1	Aldol Condensation
+53_0	C(C(C(C)O)C(CC(C)O)O)=O	1	Aldol Condensation
+53_1	C(CC(C)O)=O	-1	Knoevenagel C
+53_1	C(CC(C)O)=O	-1	Knoevenagel C
+53_1	C(C(C(C)O)C(CC(C)O)O)=O	1	Knoevenagel C
+55_0	C(CC(C)O)=O	-1	Aldol Condensation
+55_0	C(CC(O)=O)=O	-1	Aldol Condensation
+55_0	C(C(C(CC(O)=O)O)C(C)O)=O	1	Aldol Condensation
+55_1	C(CC(C)O)=O	-1	Knoevenagel C
+55_1	C(CC(O)=O)=O	-1	Knoevenagel C
+55_1	C(C(C(CC(O)=O)O)C(C)O)=O	1	Knoevenagel C
+57_0	C(CC(C)O)=O	-1	Aldol Condensation
+57_0	C(CC(O)=O)=O	-1	Aldol Condensation
+57_0	C(C(C=O)C(CC(C)O)O)(O)=O	1	Aldol Condensation
+57_1	C(CC(C)O)=O	-1	Knoevenagel C
+57_1	C(CC(O)=O)=O	-1	Knoevenagel C
+57_1	C(C(C=O)C(CC(C)O)O)(O)=O	1	Knoevenagel C
+59_0	C(CC(C)O)=O	-1	Aldol Condensation
+59_0	C(C(CO)=O)=O	-1	Aldol Condensation
+59_0	C(C(C(C)O)C(C(CO)=O)O)=O	1	Aldol Condensation
+59_1	C(CC(C)O)=O	-1	Knoevenagel C
+59_1	C(C(CO)=O)=O	-1	Knoevenagel C
+59_1	C(C(C(C)O)C(C(CO)=O)O)=O	1	Knoevenagel C
+61_0	C(CC(C)O)=O	-1	Aldol Condensation
+61_0	C(C(CO)=O)=O	-1	Aldol Condensation
+61_0	C(C(C(C)O)C(C=O)(CO)O)=O	1	Aldol Condensation
+61_1	C(CC(C)O)=O	-1	Knoevenagel C
+61_1	C(C(CO)=O)=O	-1	Knoevenagel C
+61_1	C(C(C(C)O)C(C=O)(CO)O)=O	1	Knoevenagel C
+63_0	C(CC(C)O)=O	-1	Aldol Condensation
+63_0	C(C(CO)=O)=O	-1	Aldol Condensation
+63_0	C(C(C(C(CC(C)O)O)O)=O)=O	1	Aldol Condensation
+63_1	C(CC(C)O)=O	-1	Knoevenagel H
+63_1	C(C(CO)=O)=O	-1	Knoevenagel H
+63_1	C(C(C(C(CC(C)O)O)O)=O)=O	1	Knoevenagel H
+65_0	C(CC(C)O)=O	-1	Aldol Condensation
+65_0	C=O	-1	Aldol Condensation
+65_0	C(C(CO)C(C)O)=O	1	Aldol Condensation
+65_1	C(CC(C)O)=O	-1	Knoevenagel C
+65_1	C=O	-1	Knoevenagel C
+65_1	C(C(CO)C(C)O)=O	1	Knoevenagel C
+67_0	C(CC(O)=O)=O	-1	Aldol Condensation
+67_0	C(CC(O)=O)=O	-1	Aldol Condensation
+67_0	C(C(C=O)C(CC(O)=O)O)(O)=O	1	Aldol Condensation
+67_1	C(CC(O)=O)=O	-1	Knoevenagel C
+67_1	C(CC(O)=O)=O	-1	Knoevenagel C
+67_1	C(C(C=O)C(CC(O)=O)O)(O)=O	1	Knoevenagel C
+69_0	C(CC(O)=O)=O	-1	Aldol Condensation
+69_0	C(C(CO)=O)=O	-1	Aldol Condensation
+69_0	C(C(C=O)C(C(CO)=O)O)(O)=O	1	Aldol Condensation
+69_1	C(CC(O)=O)=O	-1	Knoevenagel C
+69_1	C(C(CO)=O)=O	-1	Knoevenagel C
+69_1	C(C(C=O)C(C(CO)=O)O)(O)=O	1	Knoevenagel C
+71_0	C(CC(O)=O)=O	-1	Aldol Condensation
+71_0	C(C(CO)=O)=O	-1	Aldol Condensation
+71_0	C(C(C=O)C(C=O)(CO)O)(O)=O	1	Aldol Condensation
+71_1	C(CC(O)=O)=O	-1	Knoevenagel C
+71_1	C(C(CO)=O)=O	-1	Knoevenagel C
+71_1	C(C(C=O)C(C=O)(CO)O)(O)=O	1	Knoevenagel C
+73_0	C(CC(O)=O)=O	-1	Aldol Condensation
+73_0	C(C(CO)=O)=O	-1	Aldol Condensation
+73_0	C(CC(C(C(C=O)=O)O)O)(O)=O	1	Aldol Condensation
+73_1	C(CC(O)=O)=O	-1	Knoevenagel H
+73_1	C(C(CO)=O)=O	-1	Knoevenagel H
+73_1	C(CC(C(C(C=O)=O)O)O)(O)=O	1	Knoevenagel H
+75_0	C(CC(O)=O)=O	-1	Aldol Condensation
+75_0	C=O	-1	Aldol Condensation
+75_0	C(C(C=O)CO)(O)=O	1	Aldol Condensation
+75_1	C(CC(O)=O)=O	-1	Knoevenagel C
+75_1	C=O	-1	Knoevenagel C
+75_1	C(C(C=O)CO)(O)=O	1	Knoevenagel C
+77_0	C(C(CC(C)O)=O)(O)=O	-1	Aldol Condensation
+77_0	C=O	-1	Aldol Condensation
+77_0	C(C(C(CO)C(C)O)=O)(O)=O	1	Aldol Condensation
+77_1	C(C(CC(C)O)=O)(O)=O	-1	Knoevenagel C
+77_1	C=O	-1	Knoevenagel C
+77_1	C(C(C(CO)C(C)O)=O)(O)=O	1	Knoevenagel C
+79_0	C(C(C)(CC=O)O)(O)=O	-1	Aldol Condensation
+79_0	C=O	-1	Aldol Condensation
+79_0	C(C(CO)C(C(O)=O)(C)O)=O	1	Aldol Condensation
+79_1	C(C(C)(CC=O)O)(O)=O	-1	Knoevenagel C
+79_1	C=O	-1	Knoevenagel C
+79_1	C(C(CO)C(C(O)=O)(C)O)=O	1	Knoevenagel C
+81_0	C(CC(C(O)=O)=O)(O)=O	-1	Aldol Condensation
+81_0	C=O	-1	Aldol Condensation
+81_0	C(C(C(C(O)=O)=O)CO)(O)=O	1	Aldol Condensation
+81_1	C(CC(C(O)=O)=O)(O)=O	-1	Knoevenagel C
+81_1	C=O	-1	Knoevenagel C
+81_1	C(C(C(C(O)=O)=O)CO)(O)=O	1	Knoevenagel C
+83_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Aldol Condensation
+83_0	C=O	-1	Aldol Condensation
+83_0	C(C(C(C(C(C)=O)=O)CO)=O)(O)=O	1	Aldol Condensation
+83_1	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Knoevenagel C
+83_1	C=O	-1	Knoevenagel C
+83_1	C(C(C(C(C(C)=O)=O)CO)=O)(O)=O	1	Knoevenagel C
+85_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Aldol Condensation
+85_0	C=O	-1	Aldol Condensation
+85_0	C(C(CC(C(CCO)=O)=O)=O)(O)=O	1	Aldol Condensation
+87_0	C(C(CO)=O)=O	-1	Aldol Condensation
+87_0	C(C(CO)=O)=O	-1	Aldol Condensation
+87_0	C(CO)(C(C(C(C=O)=O)O)O)=O	1	Aldol Condensation
+87_1	C(C(CO)=O)=O	-1	Knoevenagel H
+87_1	C(C(CO)=O)=O	-1	Knoevenagel H
+87_1	C(CO)(C(C(C(C=O)=O)O)O)=O	1	Knoevenagel H
+89_0	C(C(CO)=O)=O	-1	Aldol Condensation
+89_0	C(C(CO)=O)=O	-1	Aldol Condensation
+89_0	C(C(CO)(C(C(C=O)=O)O)O)=O	1	Aldol Condensation
+89_1	C(C(CO)=O)=O	-1	Knoevenagel H
+89_1	C(C(CO)=O)=O	-1	Knoevenagel H
+89_1	C(C(CO)(C(C(C=O)=O)O)O)=O	1	Knoevenagel H
+91_0	C(C(CO)=O)=O	-1	Aldol Condensation
+91_0	C=O	-1	Aldol Condensation
+91_0	C(C(C(CO)O)=O)=O	1	Aldol Condensation
+91_1	C(C(CO)=O)=O	-1	Knoevenagel H
+91_1	C=O	-1	Knoevenagel H
+91_1	C(C(C(CO)O)=O)=O	1	Knoevenagel H
+93_0	C=O	-1	Aldol Condensation
+93_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Aldol Condensation
+93_0	C=C(C(O)=O)C(C(C(O)=O)=O)CO	1	Aldol Condensation
+95_0	C=O	-1	Aldol Condensation
+95_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	-1	Aldol Condensation
+95_0	C(C1(C)C(C(C(O1)=O)=O)CO)(O)=O	1	Aldol Condensation
+95_1	C=O	-1	Knoevenagel C
+95_1	C(C1(C)CC(C(O1)=O)=O)(O)=O	-1	Knoevenagel C
+95_1	C(C1(C)C(C(C(O1)=O)=O)CO)(O)=O	1	Knoevenagel C
+97_0	C=O	-1	Aldol Condensation
+97_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Aldol Condensation
+97_0	C1(C(C)(C(C(C(O1)=O)=O)CO)O)=O	1	Aldol Condensation
+97_1	C=O	-1	Knoevenagel C
+97_1	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Knoevenagel C
+97_1	C1(C(C)(C(C(C(O1)=O)=O)CO)O)=O	1	Knoevenagel C
+99_0	C(C)=O	-1	Aldol Condensation
+99_0	C(CC(C)O)=O	-1	Aldol Condensation
+99_0	C(CC(CC(C)O)O)=O	1	Aldol Condensation
+101_0	C(C)=O	-1	Aldol Condensation
+101_0	C(CC(C)O)=O	-1	Aldol Condensation
+101_0	C(C(C(C)O)C(C)O)=O	1	Aldol Condensation
+101_1	C(C)=O	-1	Knoevenagel C
+101_1	C(CC(C)O)=O	-1	Knoevenagel C
+101_1	C(C(C(C)O)C(C)O)=O	1	Knoevenagel C
+103_0	C(C)=O	-1	Aldol Condensation
+103_0	C(CC(O)=O)=O	-1	Aldol Condensation
+103_0	C(CC(CC=O)O)(O)=O	1	Aldol Condensation
+105_0	C(C)=O	-1	Aldol Condensation
+105_0	C(CC(O)=O)=O	-1	Aldol Condensation
+105_0	C(C(C=O)C(C)O)(O)=O	1	Aldol Condensation
+105_1	C(C)=O	-1	Knoevenagel C
+105_1	C(CC(O)=O)=O	-1	Knoevenagel C
+105_1	C(C(C=O)C(C)O)(O)=O	1	Knoevenagel C
+107_0	C(C)=O	-1	Aldol Condensation
+107_0	C(C(CC(C)O)=O)(O)=O	-1	Aldol Condensation
+107_0	C(C(CC(C)O)(CC=O)O)(O)=O	1	Aldol Condensation
+109_0	C(C)=O	-1	Aldol Condensation
+109_0	C(C(CC(C)O)=O)(O)=O	-1	Aldol Condensation
+109_0	C(C(C(C(C)O)C(C)O)=O)(O)=O	1	Aldol Condensation
+109_1	C(C)=O	-1	Knoevenagel C
+109_1	C(C(CC(C)O)=O)(O)=O	-1	Knoevenagel C
+109_1	C(C(C(C(C)O)C(C)O)=O)(O)=O	1	Knoevenagel C
+111_0	C(C)=O	-1	Aldol Condensation
+111_0	C(C(C)(CC=O)O)(O)=O	-1	Aldol Condensation
+111_0	C(C(C)(CC(CC=O)O)O)(O)=O	1	Aldol Condensation
+113_0	C(C)=O	-1	Aldol Condensation
+113_0	C(C(C)(CC=O)O)(O)=O	-1	Aldol Condensation
+113_0	C(C(C(C)O)C(C(O)=O)(C)O)=O	1	Aldol Condensation
+113_1	C(C)=O	-1	Knoevenagel C
+113_1	C(C(C)(CC=O)O)(O)=O	-1	Knoevenagel C
+113_1	C(C(C(C)O)C(C(O)=O)(C)O)=O	1	Knoevenagel C
+115_0	C(C)=O	-1	Aldol Condensation
+115_0	C(CC(C(O)=O)=O)(O)=O	-1	Aldol Condensation
+115_0	C(CC(C(O)=O)(CC=O)O)(O)=O	1	Aldol Condensation
+117_0	C(C)=O	-1	Aldol Condensation
+117_0	C(CC(C(O)=O)=O)(O)=O	-1	Aldol Condensation
+117_0	C(C(C(C(O)=O)=O)C(C)O)(O)=O	1	Aldol Condensation
+117_1	C(C)=O	-1	Knoevenagel C
+117_1	C(CC(C(O)=O)=O)(O)=O	-1	Knoevenagel C
+117_1	C(C(C(C(O)=O)=O)C(C)O)(O)=O	1	Knoevenagel C
+119_0	C(C)=O	-1	Aldol Condensation
+119_0	C(C(CO)=O)=O	-1	Aldol Condensation
+119_0	C(CC(C(CO)=O)O)=O	1	Aldol Condensation
+121_0	C(C)=O	-1	Aldol Condensation
+121_0	C(C(CO)=O)=O	-1	Aldol Condensation
+121_0	C(C(CO)(CC=O)O)=O	1	Aldol Condensation
+123_0	C(C)=O	-1	Aldol Condensation
+123_0	C(C(CO)=O)=O	-1	Aldol Condensation
+123_0	C(C(C(C(C)O)O)=O)=O	1	Aldol Condensation
+123_1	C(C)=O	-1	Knoevenagel H
+123_1	C(C(CO)=O)=O	-1	Knoevenagel H
+123_1	C(C(C(C(C)O)O)=O)=O	1	Knoevenagel H
+125_0	C(C)=O	-1	Aldol Condensation
+125_0	C=O	-1	Aldol Condensation
+125_0	C(CCO)=O	1	Aldol Condensation
+126_0	C(=O)=O	-1	Aldol Condensation
+126_0	C(CC(C)O)=O	-1	Aldol Condensation
+126_0	C(C(C=O)C(C)O)(O)=O	1	Aldol Condensation
+126_1	C(=O)=O	-1	Knoevenagel C
+126_1	C(CC(C)O)=O	-1	Knoevenagel C
+126_1	C(C(C=O)C(C)O)(O)=O	1	Knoevenagel C
+128_0	C(=O)=O	-1	Aldol Condensation
+128_0	C(CC(O)=O)=O	-1	Aldol Condensation
+128_0	C(C(C(O)=O)C(O)=O)=O	1	Aldol Condensation
+128_1	C(=O)=O	-1	Knoevenagel C
+128_1	C(CC(O)=O)=O	-1	Knoevenagel C
+128_1	C(C(C(O)=O)C(O)=O)=O	1	Knoevenagel C
+129_0	C(=O)=O	-1	Aldol Condensation
+129_0	C(C(CC(C)O)=O)(O)=O	-1	Aldol Condensation
+129_0	C(C(C(C(O)=O)=O)C(C)O)(O)=O	1	Aldol Condensation
+129_1	C(=O)=O	-1	Knoevenagel C
+129_1	C(C(CC(C)O)=O)(O)=O	-1	Knoevenagel C
+129_1	C(C(C(C(O)=O)=O)C(C)O)(O)=O	1	Knoevenagel C
+131_0	C(=O)=O	-1	Aldol Condensation
+131_0	C(C(C)(CC=O)O)(O)=O	-1	Aldol Condensation
+131_0	C(C(C=O)C(C(O)=O)(C)O)(O)=O	1	Aldol Condensation
+131_1	C(=O)=O	-1	Knoevenagel C
+131_1	C(C(C)(CC=O)O)(O)=O	-1	Knoevenagel C
+131_1	C(C(C=O)C(C(O)=O)(C)O)(O)=O	1	Knoevenagel C
+133_0	C(=O)=O	-1	Aldol Condensation
+133_0	C(CC(C(O)=O)=O)(O)=O	-1	Aldol Condensation
+133_0	C(C(C(O)=O)C(C(O)=O)=O)(O)=O	1	Aldol Condensation
+133_1	C(=O)=O	-1	Knoevenagel C
+133_1	C(CC(C(O)=O)=O)(O)=O	-1	Knoevenagel C
+133_1	C(C(C(O)=O)C(C(O)=O)=O)(O)=O	1	Knoevenagel C
+135_0	C(=O)=O	-1	Aldol Condensation
+135_0	C(C(CO)=O)=O	-1	Aldol Condensation
+135_0	C(C(C(C=O)=O)O)(O)=O	1	Aldol Condensation
+135_1	C(=O)=O	-1	Knoevenagel H
+135_1	C(C(CO)=O)=O	-1	Knoevenagel H
+135_1	C(C(C(C=O)=O)O)(O)=O	1	Knoevenagel H
+137_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+137_0	C(CC(C)O)=O	-1	Aldol Condensation
+137_0	C(C(CC(CC(C)O)O)=O)(O)=O	1	Aldol Condensation
+138_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+138_0	C(CC(C)O)=O	-1	Aldol Condensation
+138_0	C(C(C(C)O)C(C(O)=O)(C)O)=O	1	Aldol Condensation
+138_1	C(C(C)=O)(O)=O	-1	Knoevenagel C
+138_1	C(CC(C)O)=O	-1	Knoevenagel C
+138_1	C(C(C(C)O)C(C(O)=O)(C)O)=O	1	Knoevenagel C
+140_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+140_0	C(CC(O)=O)=O	-1	Aldol Condensation
+140_0	C(CC(CC(C(O)=O)=O)O)(O)=O	1	Aldol Condensation
+141_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+141_0	C(CC(O)=O)=O	-1	Aldol Condensation
+141_0	C(C(C=O)C(C(O)=O)(C)O)(O)=O	1	Aldol Condensation
+141_1	C(C(C)=O)(O)=O	-1	Knoevenagel C
+141_1	C(CC(O)=O)=O	-1	Knoevenagel C
+141_1	C(C(C=O)C(C(O)=O)(C)O)(O)=O	1	Knoevenagel C
+143_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+143_0	C(C(CO)=O)=O	-1	Aldol Condensation
+143_0	C(CO)(C(CC(C(O)=O)=O)O)=O	1	Aldol Condensation
+145_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+145_0	C(C(CO)=O)=O	-1	Aldol Condensation
+145_0	C(C(CO)(CC(C(O)=O)=O)O)=O	1	Aldol Condensation
+147_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+147_0	C(C(CO)=O)=O	-1	Aldol Condensation
+147_0	C(C(C)(C(C(C=O)=O)O)O)(O)=O	1	Aldol Condensation
+147_1	C(C(C)=O)(O)=O	-1	Knoevenagel H
+147_1	C(C(CO)=O)=O	-1	Knoevenagel H
+147_1	C(C(C)(C(C(C=O)=O)O)O)(O)=O	1	Knoevenagel H
+149_0	C(C(C)=O)(O)=O	-1	Aldol Condensation
+149_0	C=O	-1	Aldol Condensation
+149_0	C(C(CCO)=O)(O)=O	1	Aldol Condensation
+150_0	O	-1	Benzilic Acid Rearrangement
+150_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Benzilic Acid Rearrangement
+150_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Benzilic Acid Rearrangement
+151_0	O	-1	Benzilic Acid Rearrangement
+151_0	C(C(CO)=O)=O	-1	Benzilic Acid Rearrangement
+151_0	C(C(CO)O)(O)=O	1	Benzilic Acid Rearrangement
+151_1	O	-1	Cannizarro 1
+151_1	C(C(CO)=O)=O	-1	Cannizarro 1
+151_1	C(C(CO)O)(O)=O	1	Cannizarro 1
+153_0	C(C(C)(CC=O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+153_0	O	1	Benzilic Acid Rearrangement (inverse)
+153_0	C(CC(C(C)=O)=O)=O	1	Benzilic Acid Rearrangement (inverse)
+155_0	C(C(CO)(C(C)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+155_0	O	1	Benzilic Acid Rearrangement (inverse)
+155_0	C(C(CO)=O)(C(C)O)=O	1	Benzilic Acid Rearrangement (inverse)
+157_0	C(C(C(O)=O)(CO)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+157_0	O	1	Benzilic Acid Rearrangement (inverse)
+157_0	C(C(C(CO)=O)=O)(O)=O	1	Benzilic Acid Rearrangement (inverse)
+159_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+159_0	O	1	Benzilic Acid Rearrangement (inverse)
+159_0	C(C(C(C(C)=O)=O)(CO)O)(O)=O	1	Benzilic Acid Rearrangement (inverse)
+161_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+161_0	O	1	Benzilic Acid Rearrangement (inverse)
+161_0	C(C(C(C(CO)=O)=O)(C)O)(O)=O	1	Benzilic Acid Rearrangement (inverse)
+163_0	C(CO)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+163_0	O	1	Benzilic Acid Rearrangement (inverse)
+163_0	C(C=O)=O	1	Benzilic Acid Rearrangement (inverse)
+164_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+164_0	O	1	Benzilic Acid Rearrangement (inverse)
+164_0	C(C(C)(C(C(C=O)=O)O)O)(O)=O	1	Benzilic Acid Rearrangement (inverse)
+166_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Benzilic Acid Rearrangement (inverse)
+166_0	O	1	Benzilic Acid Rearrangement (inverse)
+166_0	C(C(C(C(C(C)=O)=O)O)O)(O)=O	1	Benzilic Acid Rearrangement (inverse)
+167_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Benzilic Acid Rearrangement (inverse)
+167_0	O	1	Benzilic Acid Rearrangement (inverse)
+167_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	1	Benzilic Acid Rearrangement (inverse)
+168_0	C(CC(C)O)=O	-1	Retro Aldol
+168_0	C(C)=O	1	Retro Aldol
+168_0	C(C)=O	1	Retro Aldol
+169_0	C(CC(O)=O)=O	-1	Retro Aldol
+169_0	C(C)=O	1	Retro Aldol
+169_0	C(=O)=O	1	Retro Aldol
+169_1	C(CC(O)=O)=O	-1	Beta Decarboxylation
+169_1	C(C)=O	1	Beta Decarboxylation
+169_1	C(=O)=O	1	Beta Decarboxylation
+170_0	C(C(CC(C)O)=O)(O)=O	-1	Retro Aldol
+170_0	C(C(C)=O)(O)=O	1	Retro Aldol
+170_0	C(C)=O	1	Retro Aldol
+171_0	C(C(C)(CC=O)O)(O)=O	-1	Retro Aldol
+171_0	C(C(C)=O)(O)=O	1	Retro Aldol
+171_0	C(C)=O	1	Retro Aldol
+172_0	C(CC(C(O)=O)=O)(O)=O	-1	Retro Aldol
+172_0	C(C(C)=O)(O)=O	1	Retro Aldol
+172_0	C(=O)=O	1	Retro Aldol
+172_1	C(CC(C(O)=O)=O)(O)=O	-1	Beta Decarboxylation
+172_1	C(C(C)=O)(O)=O	1	Beta Decarboxylation
+172_1	C(=O)=O	1	Beta Decarboxylation
+173_0	C(C(CO)=O)=O	-1	Retro Aldol
+173_0	C=O	1	Retro Aldol
+173_0	C(C=O)=O	1	Retro Aldol
+175_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Retro Aldol
+175_0	C(C(C)=O)(OC(C(C)=O)=O)=O	1	Retro Aldol
+177_0	C(C(CO)=O)=O	-1	Keto-enol migration twice
+177_0	C(C(C=O)O)=O	1	Keto-enol migration twice
+180_0	O	-1	Cannizarro 2, HCHO (oxidation)
+180_0	C(CC(C)O)=O	-1	Cannizarro 2, HCHO (oxidation)
+180_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+180_0	CC(CCO)O	1	Cannizarro 2, HCHO (oxidation)
+180_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+182_0	O	-1	Cannizarro 2, HCHO (oxidation)
+182_0	C(CC(O)=O)=O	-1	Cannizarro 2, HCHO (oxidation)
+182_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+182_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+182_0	C(CCO)(O)=O	1	Cannizarro 2, HCHO (oxidation)
+184_0	O	-1	Cannizarro 2, HCHO (oxidation)
+184_0	C(C(C)(CC=O)O)(O)=O	-1	Cannizarro 2, HCHO (oxidation)
+184_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+184_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+184_0	C(C(C)(CCO)O)(O)=O	1	Cannizarro 2, HCHO (oxidation)
+186_0	O	-1	Cannizarro 2, HCHO (oxidation)
+186_0	C(C(CO)=O)=O	-1	Cannizarro 2, HCHO (oxidation)
+186_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+186_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+186_0	C(CO)(CO)=O	1	Cannizarro 2, HCHO (oxidation)
+188_0	O	-1	Cannizarro 2, HCHO (oxidation)
+188_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+188_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+188_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+188_0	CO	1	Cannizarro 2, HCHO (oxidation)
+188_1	O	-1	Cannizarro 2, HCHO (reduction)
+188_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+188_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+188_1	C(O)=O	1	Cannizarro 2, HCHO (reduction)
+188_1	CO	1	Cannizarro 2, HCHO (reduction)
+190_0	O	-1	Cannizarro 2, HCHO (oxidation)
+190_0	C(C)=O	-1	Cannizarro 2, HCHO (oxidation)
+190_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+190_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+190_0	CCO	1	Cannizarro 2, HCHO (oxidation)
+192_0	O	-1	Cannizarro 2, HCHO (reduction)
+192_0	C(CC(C)O)=O	-1	Cannizarro 2, HCHO (reduction)
+192_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+192_0	CO	1	Cannizarro 2, HCHO (reduction)
+192_0	C(CC(C)O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+194_0	O	-1	Cannizarro 2, HCHO (reduction)
+194_0	C(CC(O)=O)=O	-1	Cannizarro 2, HCHO (reduction)
+194_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+194_0	CO	1	Cannizarro 2, HCHO (reduction)
+194_0	C(CC(O)=O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+196_0	O	-1	Cannizarro 2, HCHO (reduction)
+196_0	C(C(C)(CC=O)O)(O)=O	-1	Cannizarro 2, HCHO (reduction)
+196_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+196_0	CO	1	Cannizarro 2, HCHO (reduction)
+196_0	C(C(C)(CC(O)=O)O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+198_0	O	-1	Cannizarro 2, HCHO (reduction)
+198_0	C(C(CO)=O)=O	-1	Cannizarro 2, HCHO (reduction)
+198_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+198_0	CO	1	Cannizarro 2, HCHO (reduction)
+198_0	C(C(CO)=O)(O)=O	1	Cannizarro 2, HCHO (reduction)
+200_0	O	-1	Cannizarro 2, HCHO (reduction)
+200_0	C(C)=O	-1	Cannizarro 2, HCHO (reduction)
+200_0	C=O	-1	Cannizarro 2, HCHO (reduction)
+200_0	CO	1	Cannizarro 2, HCHO (reduction)
+200_0	C(C)(O)=O	1	Cannizarro 2, HCHO (reduction)
+202_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+202_0	C(CC(C)O)=O	-1	Knoevenagel C
+202_0	C(C(CO)(C(CC(C)O)O)O)(O)=O	1	Knoevenagel C
+202_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+202_1	C(CC(C)O)=O	-1	Knoevenagel H
+202_1	C(C(CO)(C(CC(C)O)O)O)(O)=O	1	Knoevenagel H
+204_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+204_0	C(CC(O)=O)=O	-1	Knoevenagel C
+204_0	C(C(CO)(C(CC(O)=O)O)O)(O)=O	1	Knoevenagel C
+204_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+204_1	C(CC(O)=O)=O	-1	Knoevenagel H
+204_1	C(C(CO)(C(CC(O)=O)O)O)(O)=O	1	Knoevenagel H
+206_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+206_0	C(C(CO)=O)=O	-1	Knoevenagel C
+206_0	C(C(CO)(C(C(CO)=O)O)O)(O)=O	1	Knoevenagel C
+206_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+206_1	C(C(CO)=O)=O	-1	Knoevenagel H
+206_1	C(C(CO)(C(C(CO)=O)O)O)(O)=O	1	Knoevenagel H
+208_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+208_0	C(C(CO)=O)=O	-1	Knoevenagel C
+208_0	C(C(CO)(C(C=O)(CO)O)O)(O)=O	1	Knoevenagel C
+208_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+208_1	C(C(CO)=O)=O	-1	Knoevenagel H
+208_1	C(C(CO)(C(C=O)(CO)O)O)(O)=O	1	Knoevenagel H
+210_0	C(C(CO)O)(O)=O	-1	Knoevenagel C
+210_0	C=O	-1	Knoevenagel C
+210_0	C(C(CO)(CO)O)(O)=O	1	Knoevenagel C
+210_1	C(C(CO)O)(O)=O	-1	Knoevenagel H
+210_1	C=O	-1	Knoevenagel H
+210_1	C(C(CO)(CO)O)(O)=O	1	Knoevenagel H
+212_0	C(CC(C)O)=O	-1	Knoevenagel H
+212_0	C(CO)(O)=O	-1	Knoevenagel H
+212_0	C(C(C(CC(C)O)O)O)(O)=O	1	Knoevenagel H
+214_0	C(CC(O)=O)=O	-1	Knoevenagel H
+214_0	C(CO)(O)=O	-1	Knoevenagel H
+214_0	C(CC(C(C(O)=O)O)O)(O)=O	1	Knoevenagel H
+216_0	C(C(CO)=O)=O	-1	Knoevenagel H
+216_0	C(CO)(O)=O	-1	Knoevenagel H
+216_0	C(C(C(C(CO)=O)O)O)(O)=O	1	Knoevenagel H
+218_0	C(C(CO)=O)=O	-1	Knoevenagel H
+218_0	C(CO)(O)=O	-1	Knoevenagel H
+218_0	C(C(CO)(C(C(O)=O)O)O)=O	1	Knoevenagel H
+219_0	C=O	-1	Knoevenagel H
+219_0	C(CO)(O)=O	-1	Knoevenagel H
+219_0	C(C(CO)O)(O)=O	1	Knoevenagel H
+221_0	C(C)=O	-1	Knoevenagel H
+221_0	C(CO)(O)=O	-1	Knoevenagel H
+221_0	C(C(C(C)O)O)(O)=O	1	Knoevenagel H
+223_0	C(=O)=O	-1	Knoevenagel H
+223_0	C(CO)(O)=O	-1	Knoevenagel H
+223_0	C(C(C(O)=O)O)(O)=O	1	Knoevenagel H
+225_0	C(C(C)=O)(O)=O	-1	Knoevenagel H
+225_0	C(CO)(O)=O	-1	Knoevenagel H
+225_0	C(C(C)(C(C(O)=O)O)O)(O)=O	1	Knoevenagel H
+226_0	C(C(CO)(C(C)O)O)(O)=O	-1	Knoevenagel C (inverse)
+226_0	C=O	1	Knoevenagel C (inverse)
+226_0	C(C(C(C)O)O)(O)=O	1	Knoevenagel C (inverse)
+226_1	C(C(CO)(C(C)O)O)(O)=O	-1	Knoevenagel H (inv)
+226_1	C=O	1	Knoevenagel H (inv)
+226_1	C(C(C(C)O)O)(O)=O	1	Knoevenagel H (inv)
+227_0	C(C(CO)(C(C)O)O)(O)=O	-1	Knoevenagel C (inverse)
+227_0	C(C(CO)O)(O)=O	1	Knoevenagel C (inverse)
+227_0	C(C)=O	1	Knoevenagel C (inverse)
+227_1	C(C(CO)(C(C)O)O)(O)=O	-1	Knoevenagel H (inv)
+227_1	C(C(CO)O)(O)=O	1	Knoevenagel H (inv)
+227_1	C(C)=O	1	Knoevenagel H (inv)
+228_0	C(C(C(O)=O)(CO)O)(O)=O	-1	Knoevenagel C (inverse)
+228_0	C=O	1	Knoevenagel C (inverse)
+228_0	C(C(C(O)=O)O)(O)=O	1	Knoevenagel C (inverse)
+228_1	C(C(C(O)=O)(CO)O)(O)=O	-1	Knoevenagel H (inv)
+228_1	C=O	1	Knoevenagel H (inv)
+228_1	C(C(C(O)=O)O)(O)=O	1	Knoevenagel H (inv)
+229_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Knoevenagel C (inverse)
+229_0	C(C(C)=O)(O)=O	1	Knoevenagel C (inverse)
+229_0	C(C(CO)O)(O)=O	1	Knoevenagel C (inverse)
+229_1	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Knoevenagel H (inv)
+229_1	C(C(C)=O)(O)=O	1	Knoevenagel H (inv)
+229_1	C(C(CO)O)(O)=O	1	Knoevenagel H (inv)
+230_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Knoevenagel C (inverse)
+230_0	C=O	1	Knoevenagel C (inverse)
+230_0	C(C(C)(C(C(O)=O)O)O)(O)=O	1	Knoevenagel C (inverse)
+230_1	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Knoevenagel H (inv)
+230_1	C=O	1	Knoevenagel H (inv)
+230_1	C(C(C)(C(C(O)=O)O)O)(O)=O	1	Knoevenagel H (inv)
+232_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Knoevenagel H (inv)
+232_0	C(C(CO)=O)(O)=O	1	Knoevenagel H (inv)
+232_0	C(C(C)O)(O)=O	1	Knoevenagel H (inv)
+234_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Knoevenagel H (inv)
+234_0	C(CO)(O)=O	1	Knoevenagel H (inv)
+234_0	C(C(C=O)(C)O)(O)=O	1	Knoevenagel H (inv)
+236_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Knoevenagel H (inv)
+236_0	C(C(C)O)(O)=O	1	Knoevenagel H (inv)
+236_0	C(C(C=O)O)(O)=O	1	Knoevenagel H (inv)
+237_0	C(C(CO)(C(C)O)O)(O)=O	-1	Elimination + enol to keto
+237_0	O	1	Elimination + enol to keto
+237_0	C(C(C=O)C(C)O)(O)=O	1	Elimination + enol to keto
+239_0	C(C(CO)(C(C)O)O)(O)=O	-1	Elimination + enol to keto
+239_0	O	1	Elimination + enol to keto
+239_0	C(C(C(C)=O)CO)(O)=O	1	Elimination + enol to keto
+240_0	C(C(C(O)=O)(CO)O)(O)=O	-1	Elimination + enol to keto
+240_0	O	1	Elimination + enol to keto
+240_0	C(C(C(O)=O)C(O)=O)=O	1	Elimination + enol to keto
+241_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Elimination + enol to keto
+241_0	O	1	Elimination + enol to keto
+241_0	C(C(C=O)C(C(O)=O)(C)O)(O)=O	1	Elimination + enol to keto
+243_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Elimination + enol to keto
+243_0	O	1	Elimination + enol to keto
+243_0	C(C(C(CC(O)=O)=O)(C)O)(O)=O	1	Elimination + enol to keto
+245_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Elimination + enol to keto
+245_0	O	1	Elimination + enol to keto
+245_0	C(C(C(C(C(O)=O)O)=O)C)(O)=O	1	Elimination + enol to keto
+246_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Elimination + enol to keto
+246_0	O	1	Elimination + enol to keto
+246_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Elimination + enol to keto
+247_0	C(CO)O	-1	Elimination + enol to keto
+247_0	O	1	Elimination + enol to keto
+247_0	C(C)=O	1	Elimination + enol to keto
+249_0	C(CC(C)O)=O	-1	Elimination2
+249_0	O	1	Elimination2
+249_0	C(C)=CC=O	1	Elimination2
+251_0	C(CC(C)O)=O	-1	Elimination2
+251_0	O	1	Elimination2
+251_0	C(CC=C)=O	1	Elimination2
+253_0	C(C(CC(C)O)=O)(O)=O	-1	Elimination2
+253_0	O	1	Elimination2
+253_0	C(C)=CC(C(O)=O)=O	1	Elimination2
+255_0	C(C(CC(C)O)=O)(O)=O	-1	Elimination2
+255_0	O	1	Elimination2
+255_0	C=CCC(C(O)=O)=O	1	Elimination2
+257_0	C(C(C)(CC=O)O)(O)=O	-1	Elimination2
+257_0	O	1	Elimination2
+257_0	C(CC(C(O)=O)=C)=O	1	Elimination2
+259_0	C(C(C)(CC=O)O)(O)=O	-1	Elimination2
+259_0	O	1	Elimination2
+259_0	C(C=C(C(O)=O)C)=O	1	Elimination2
+261_0	C(C(CO)(C(C)O)O)(O)=O	-1	Elimination2
+261_0	O	1	Elimination2
+261_0	C(C(C=C)(CO)O)(O)=O	1	Elimination2
+263_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Elimination2
+263_0	O	1	Elimination2
+263_0	C(C(C(C(O)=O)=C)(CO)O)(O)=O	1	Elimination2
+265_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Elimination2
+265_0	O	1	Elimination2
+265_0	C(C(C(C(C(O)=O)=C)O)O)(O)=O	1	Elimination2
+267_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Elimination2
+267_0	O	1	Elimination2
+267_0	C1(C(C=C(C(O)=O)O1)(C)O)=O	1	Elimination2
+269_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Elimination2
+269_0	O	1	Elimination2
+269_0	C(C1(C=C(C(O1)=O)C)O)(O)=O	1	Elimination2
+271_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Elimination2
+271_0	O	1	Elimination2
+271_0	C(C1(CC(C(O1)=O)=C)O)(O)=O	1	Elimination2
+273_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Elimination2
+273_0	O	1	Elimination2
+273_0	C1(C(C)=CC(C(O1)=O)=O)=O	1	Elimination2
+275_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Elimination2
+275_0	O	1	Elimination2
+275_0	C=C1C(OC(C(C1)=O)=O)=O	1	Elimination2
+277_0	O	-1	Hydration of C(=O)C
+277_0	C(CC(C)O)=O	-1	Hydration of C(=O)C
+277_0	CC(C(CO)O)O	1	Hydration of C(=O)C
+278_0	O	-1	Hydration of C(=O)C
+278_0	C(CC(O)=O)=O	-1	Hydration of C(=O)C
+278_0	C(C(CO)O)(O)=O	1	Hydration of C(=O)C
+280_0	O	-1	Hydration of C(=O)C
+280_0	C(C(CC(C)O)=O)(O)=O	-1	Hydration of C(=O)C
+280_0	C(C(C(C(C)O)O)O)(O)=O	1	Hydration of C(=O)C
+282_0	O	-1	Hydration of C(=O)C
+282_0	C(C(C)(CC=O)O)(O)=O	-1	Hydration of C(=O)C
+282_0	C(C(C)(C(CO)O)O)(O)=O	1	Hydration of C(=O)C
+284_0	O	-1	Hydration of C(=O)C
+284_0	C(CC(C(O)=O)=O)(O)=O	-1	Hydration of C(=O)C
+284_0	C(C(C(C(O)=O)O)O)(O)=O	1	Hydration of C(=O)C
+285_0	O	-1	Hydration of C(=O)C
+285_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Hydration of C(=O)C
+285_0	C(C(C(C(C(C)=O)=O)O)O)(O)=O	1	Hydration of C(=O)C
+287_0	O	-1	Hydration of C(=O)C
+287_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Hydration of C(=O)C
+287_0	C(C(CO)O)(CC(C(O)=O)=O)=O	1	Hydration of C(=O)C
+289_0	O	-1	Hydration of C(=O)C
+289_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Hydration of C(=O)C
+289_0	C(C)(C(C(C(C(O)=O)=O)O)O)=O	1	Hydration of C(=O)C
+290_0	O	-1	Hydration of C(=O)C
+290_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Hydration of C(=O)C
+290_0	C(C(C(C(C(O)=O)=C)O)O)(O)=O	1	Hydration of C(=O)C
+292_0	O	-1	Hydration of C(=O)C
+292_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	-1	Hydration of C(=O)C
+292_0	C(C1(C)C(C(C(O1)=O)O)O)(O)=O	1	Hydration of C(=O)C
+294_0	O	-1	Hydration of C(=O)C
+294_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Hydration of C(=O)C
+294_0	C1(C(C)(C(C(C(O1)=O)O)O)O)=O	1	Hydration of C(=O)C
+295_0	O	-1	Hydration of C=C(O)
+295_0	C(C(C)=CC(C(O)=O)=O)(O)=O	-1	Hydration of C=C(O)
+295_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Hydration of C=C(O)
+297_0	O	-1	Hydration of C=C(O)
+297_0	C(C(C)=CC(C(O)=O)=O)(O)=O	-1	Hydration of C=C(O)
+297_0	C(C(C)C(C(C(O)=O)=O)O)(O)=O	1	Hydration of C=C(O)
+298_0	O	-1	Hydration of C=C(O)
+298_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Hydration of C=C(O)
+298_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Hydration of C=C(O)
+300_0	O	-1	Hydration of C=C(O)
+300_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Hydration of C=C(O)
+300_0	C(C(CO)CC(C(O)=O)=O)(O)=O	1	Hydration of C=C(O)
+302_0	C(C(C)(CC=O)O)(O)=O	-1	Hemiacetal Formation for 5 membered rings
+302_0	C1(C(C)(CC(O)O1)O)=O	1	Hemiacetal Formation for 5 membered rings
+304_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+304_0	C(C)(C1(CC(C(O1)=O)=O)O)=O	1	Hemiacetal Formation for 5 membered rings
+305_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Hemiacetal Formation for 5 membered rings
+305_0	C(C1(CC(C(O1)=O)=C)O)(O)=O	1	Hemiacetal Formation for 5 membered rings
+307_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	-1	Hemiacetal Formation for 5 membered rings
+307_0	C1(C2(C)CC(C(O2)=O)(O)O1)=O	1	Hemiacetal Formation for 5 membered rings
+309_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Hemiacetal Formation for 6 membered rings
+309_0	C1(C(C)(O)OC(C(C1)=O)=O)=O	1	Hemiacetal Formation for 6 membered rings
+310_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Hemiacetal Formation for 5 membered rings, inverse
+310_0	C(C(C)(CC(C(O)=O)=O)O)(O)=O	1	Hemiacetal Formation for 5 membered rings, inverse
+311_0	C(C(CC(C)O)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+311_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+311_0	C(CC(C)O)=O	1	Alpha-Keto Acid Decarboxylation
+312_0	C(CC(C(O)=O)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+312_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+312_0	C(CC(O)=O)=O	1	Alpha-Keto Acid Decarboxylation
+313_0	C(C(O)=O)(CC(C(C)=O)=O)=O	-1	Alpha-Keto Acid Decarboxylation
+313_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+313_0	C(CC(C(C)=O)=O)=O	1	Alpha-Keto Acid Decarboxylation
+314_0	C(C(C)=CC(C(O)=O)=O)(O)=O	-1	Alpha-Keto Acid Decarboxylation
+314_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+314_0	C(C=C(C(O)=O)C)=O	1	Alpha-Keto Acid Decarboxylation
+315_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Alpha-Keto Acid Decarboxylation
+315_0	C(=O)=O	1	Alpha-Keto Acid Decarboxylation
+315_0	C(CC(C(O)=O)=C)=O	1	Alpha-Keto Acid Decarboxylation
+317_0	C(C(CC(C)O)=O)(O)=O	-1	Ring Closure 5 membered O, O
+317_0	O	1	Ring Closure 5 membered O, O
+317_0	C1(C(OC(C)C1)=O)=O	1	Ring Closure 5 membered O, O
+319_0	C(CC(C(O)=O)=O)(O)=O	-1	Ring Closure 5 membered O, O
+319_0	O	1	Ring Closure 5 membered O, O
+319_0	C1(CC(C(O1)=O)=O)=O	1	Ring Closure 5 membered O, O
+321_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Ring Closure 5 membered O, O
+321_0	O	1	Ring Closure 5 membered O, O
+321_0	C1(C(C)(C(C(O)=O)(CO1)O)O)=O	1	Ring Closure 5 membered O, O
+323_0	C(C(CO)(C(C(O)=O)(C)O)O)(O)=O	-1	Ring Closure 5 membered O, O
+323_0	O	1	Ring Closure 5 membered O, O
+323_0	C1(C(CO)(C(C(O1)=O)(C)O)O)=O	1	Ring Closure 5 membered O, O
+324_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Ring Closure 5 membered O, O
+324_0	O	1	Ring Closure 5 membered O, O
+324_0	C(C1(C)C(C(C(O1)=O)O)O)(O)=O	1	Ring Closure 5 membered O, O
+326_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Ring Closure 5 membered O, O
+326_0	O	1	Ring Closure 5 membered O, O
+326_0	C1(C(C)(C(C(C(O)=O)O1)O)O)=O	1	Ring Closure 5 membered O, O
+327_0	C1(C(C)(CC(C(O)=O)(O)O1)O)=O	-1	Ring Closure 5 membered O, O
+327_0	O	1	Ring Closure 5 membered O, O
+327_0	C1(C2(C)CC(C(O2)=O)(O)O1)=O	1	Ring Closure 5 membered O, O
+328_0	C1(C(C)(CC(C(O1)=O)=O)O)=O	-1	Ring Closure 5 membered O, O
+328_0	C(C1(C)CC(C(O1)=O)=O)(O)=O	1	Ring Closure 5 membered O, O
+329_0	C=C(C(O)=O)CC(C(O)=O)=O	-1	Ring Closure 6 membered O, O
+329_0	O	1	Ring Closure 6 membered O, O
+329_0	C=C1C(OC(C(C1)=O)=O)=O	1	Ring Closure 6 membered O, O
+330_0	C(C(C)(C(C(C(O)=O)O)O)O)(O)=O	-1	Ring Closure 6 membered O, O
+330_0	O	1	Ring Closure 6 membered O, O
+330_0	C1(C(C)(C(C(C(O1)=O)O)O)O)=O	1	Ring Closure 6 membered O, O

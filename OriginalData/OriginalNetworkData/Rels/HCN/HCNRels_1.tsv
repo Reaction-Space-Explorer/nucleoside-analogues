@@ -1,0 +1,10 @@
+Index	Reagent	Formed/Produced	Rule
+4_0	C#N	-1	Nitrile Amination
+4_0	N	-1	Nitrile Amination
+4_0	C(N)=N	1	Nitrile Amination
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C(C=N)#N	1	HCN Addition to Nitriles
+8_0	C#N	-1	Nitrile Hydrolysis
+8_0	O	-1	Nitrile Hydrolysis
+8_0	C(N)=O	1	Nitrile Hydrolysis

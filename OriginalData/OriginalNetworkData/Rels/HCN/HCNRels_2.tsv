@@ -1,0 +1,47 @@
+Index	Reagent	Formed/Produced	Rule
+4_0	C#N	-1	Nitrile Amination
+4_0	N	-1	Nitrile Amination
+4_0	C(N)=N	1	Nitrile Amination
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C#N	-1	HCN Addition to Nitriles
+6_0	C(C=N)#N	1	HCN Addition to Nitriles
+8_0	C#N	-1	Nitrile Hydrolysis
+8_0	O	-1	Nitrile Hydrolysis
+8_0	C(N)=O	1	Nitrile Hydrolysis
+10_0	C(N)=N	-1	Nitrile Amination
+10_0	C(C=N)#N	-1	Nitrile Amination
+10_0	C(NC(C=N)=N)=N	1	Nitrile Amination
+12_0	C(C=N)#N	-1	Nitrile Amination
+12_0	C(N)=O	-1	Nitrile Amination
+12_0	C(NC(C=N)=N)=O	1	Nitrile Amination
+14_0	N	-1	Nitrile Amination
+14_0	C(C=N)#N	-1	Nitrile Amination
+14_0	C(C(N)=N)=N	1	Nitrile Amination
+16_0	C#N	-1	Nitrile Amination
+16_0	C(N)=N	-1	Nitrile Amination
+16_0	C(NC=N)=N	1	Nitrile Amination
+18_0	C#N	-1	Nitrile Amination
+18_0	C(N)=O	-1	Nitrile Amination
+18_0	C(NC=N)=O	1	Nitrile Amination
+20_0	C#N	-1	HCN Addition to Nitriles
+20_0	C(C=N)#N	-1	HCN Addition to Nitriles
+20_0	C(C(C=N)=N)#N	1	HCN Addition to Nitriles
+22_0	O	-1	Amide Hydrolysis
+22_0	C(N)=O	-1	Amide Hydrolysis
+22_0	N	1	Amide Hydrolysis
+22_0	C(O)=O	1	Amide Hydrolysis
+23_0	O	-1	Imine to Carbonyl
+23_0	C(N)=N	-1	Imine to Carbonyl
+23_0	N	1	Imine to Carbonyl
+23_0	C(N)=O	1	Imine to Carbonyl
+23_1	O	-1	Amidine to Amide Hydrolysis
+23_1	C(N)=N	-1	Amidine to Amide Hydrolysis
+23_1	N	1	Amidine to Amide Hydrolysis
+23_1	C(N)=O	1	Amidine to Amide Hydrolysis
+25_0	O	-1	Imine to Carbonyl
+25_0	C(C=N)#N	-1	Imine to Carbonyl
+25_0	N	1	Imine to Carbonyl
+25_0	C(C=O)#N	1	Imine to Carbonyl
+27_0	O	-1	Nitrile Hydrolysis
+27_0	C(C=N)#N	-1	Nitrile Hydrolysis
+27_0	C(C=N)(N)=O	1	Nitrile Hydrolysis
