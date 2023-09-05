@@ -1,0 +1,1798 @@
+Index	Reagents	Products	Rule	Energy Change
+5_0	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Aldol Condensation	-32.62
+5_1	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Knoevenagel H	-32.62
+7_0	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Aldol Condensation	-16.39
+7_1	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Knoevenagel H	-16.39
+8_0	['C(CO)=O']	['C(CO)=O']	Keto-enol migration twice	0.0
+10_0	['N', 'C(CO)=O']	['O', 'C(CN)=O']	Amadori/Heyns Rearrangement	-21.36
+13_0	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)	-37.85
+13_1	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (reduction)	-37.85
+15_0	['C=O', 'C(CO)=O', 'O']	['C(O)=O', 'C(CO)O']	Cannizarro 2, HCHO (oxidation)	-27.97
+17_0	['C=O', 'C(CO)=O', 'O']	['CO', 'C(CO)(O)=O']	Cannizarro 2, HCHO (reduction)	-52.92
+19_0	['C(C(CO)O)=O', 'C(CN)=O']	['C(C(C(C(CO)O)O)N)=O']	Aldol Condensation	23.95
+19_1	['C(C(CO)O)=O', 'C(CN)=O']	['C(C(C(C(CO)O)O)N)=O']	Knoevenagel H	23.95
+21_0	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['C(C(C(C(C(CO)O)O)O)N)=O']	Aldol Condensation	23.95
+21_1	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['C(C(C(C(C(CO)O)O)O)N)=O']	Knoevenagel H	23.95
+23_0	['C(CN)=O', 'C(CN)=O']	['C(C(C(CN)O)N)=O']	Aldol Condensation	23.95
+23_1	['C(CN)=O', 'C(CN)=O']	['C(C(C(CN)O)N)=O']	Knoevenagel H	23.95
+25_0	['C=O', 'C(CN)=O']	['C(C(CO)N)=O']	Aldol Condensation	-22.87
+25_1	['C=O', 'C(CN)=O']	['C(C(CO)N)=O']	Knoevenagel H	-22.87
+27_0	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(C(C(CO)O)O)O)=O']	Aldol Condensation	-13.37
+27_1	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(C(C(CO)O)O)O)=O']	Knoevenagel H	-13.37
+29_0	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(C(C(CO)O)O)O)O)=O']	Aldol Condensation	-13.37
+29_1	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(C(C(CO)O)O)O)O)=O']	Knoevenagel H	-13.37
+31_0	['C(CO)=O', 'C(CN)=O']	['C(C(C(CN)O)O)=O']	Aldol Condensation	-13.37
+31_1	['C(CO)=O', 'C(CN)=O']	['C(C(C(CN)O)O)=O']	Knoevenagel H	-13.37
+33_0	['C(CO)=O', 'C(CN)=O']	['C(C(C(CO)O)N)=O']	Aldol Condensation	-6.64
+33_1	['C(CO)=O', 'C(CN)=O']	['C(C(C(CO)O)N)=O']	Knoevenagel H	-6.64
+35_0	['C(CO)(O)=O']	['O', 'C(C=O)=O']	Benzilic Acid Rearrangement (inverse)	36.99
+36_0	['C(C(CO)O)=O']	['C=O', 'C(CO)=O']	Retro Aldol	32.62
+36_1	['C(C(CO)O)=O']	['C=O', 'C(CO)=O']	Knoevenagel H (inv)	32.62
+37_0	['C(C(C(CO)O)O)=O']	['C(CO)=O', 'C(CO)=O']	Retro Aldol	16.39
+37_1	['C(C(C(CO)O)O)=O']	['C(CO)=O', 'C(CO)=O']	Knoevenagel H (inv)	16.39
+39_0	['C(C(CO)O)=O']	['C(CO)(CO)=O']	Keto-enol migration twice	-2.18
+41_0	['C(C(C(CO)O)O)=O']	['C(CO)(C(CO)O)=O']	Keto-enol migration twice	-2.0
+43_0	['C(C(CO)O)=O', 'C(CN)=O']	['O', 'C(CNCC(CO)=O)=O']	Amadori/Heyns Rearrangement	7.08
+45_0	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['O', 'C(CNCC=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	7.08
+47_0	['N', 'C(C(CO)O)=O']	['O', 'C(CO)(CN)=O']	Amadori/Heyns Rearrangement	-20.34
+49_0	['N', 'C(C(C(CO)O)O)=O']	['O', 'C(CN)(C(CO)O)=O']	Amadori/Heyns Rearrangement	-20.34
+51_0	['C(CO)=O', 'C(CN)=O']	['O', 'C(CNCC=O)=O']	Amadori/Heyns Rearrangement	6.06
+53_0	['C=O', 'O', 'C(C(CO)O)=O']	['C(O)=O', 'C(C(CO)O)O']	Cannizarro 2, HCHO (oxidation)	-30.39
+55_0	['C=O', 'O', 'C(C(C(CO)O)O)=O']	['C(O)=O', 'C(C(C(CO)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+57_0	['C=O', 'O', 'C(CN)=O']	['C(O)=O', 'C(CN)O']	Cannizarro 2, HCHO (oxidation)	-13.99
+59_0	['C=O', 'O', 'C(C(CO)O)=O']	['CO', 'C(C(CO)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+61_0	['C=O', 'O', 'C(C(C(CO)O)O)=O']	['CO', 'C(C(C(CO)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+63_0	['C=O', 'O', 'C(CN)=O']	['CO', 'C(CN)(O)=O']	Cannizarro 2, HCHO (reduction)	-34.04
+65_0	['C(C(CO)O)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel C	-7.7
+65_1	['C(C(CO)O)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel H	-7.7
+67_0	['C(C(CO)O)=O', 'C(CN)=O']	['C(C(CO)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+67_1	['C(C(CO)O)=O', 'C(CN)=O']	['C(C(CO)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+69_0	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['C(C(C(CO)O)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+69_1	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['C(C(C(CO)O)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+71_0	['C=O', 'C(C(CO)O)=O']	['C(C(CO)(CO)O)=O']	Knoevenagel C	-26.95
+71_1	['C=O', 'C(C(CO)O)=O']	['C(C(CO)(CO)O)=O']	Knoevenagel H	-26.95
+73_0	['C=O', 'C(C(C(CO)O)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel C	-26.95
+73_1	['C=O', 'C(C(C(CO)O)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel H	-26.95
+74_0	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+74_1	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+76_0	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(CO)O)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+76_1	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(CO)O)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+78_0	['C(C(CO)O)=O', 'C(CO)(O)=O']	['C(C(C(C(CO)O)O)O)(O)=O']	Knoevenagel H	9.38
+80_0	['C(C(C(CO)O)O)=O', 'C(CO)(O)=O']	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	Knoevenagel H	9.38
+82_0	['C(CN)=O', 'C(CO)(O)=O']	['C(C(C(CN)O)O)(O)=O']	Knoevenagel H	9.38
+83_0	['C=O', 'C(CO)(O)=O']	['C(C(CO)O)(O)=O']	Knoevenagel H	-9.87
+84_0	['C(CO)=O', 'C(CO)(O)=O']	['C(C(C(CO)O)O)(O)=O']	Knoevenagel H	6.36
+86_0	['C(C(CO)O)=O']	['O', 'C(CC=O)=O']	Elimination + enol to keto	-51.84
+88_0	['C(C(CO)O)=O']	['O', 'C(C(C)=O)=O']	Elimination + enol to keto	-47.05
+90_0	['C(C(C(CO)O)O)=O']	['O', 'C(C(CCO)=O)=O']	Elimination + enol to keto	-41.01
+92_0	['C(C(C(CO)O)O)=O']	['O', 'C(CC(C=O)O)=O']	Elimination + enol to keto	-39.01
+94_0	['C(C(C(CO)O)O)=O']	['O', 'C(CC(CO)=O)=O']	Elimination + enol to keto	-49.2
+96_0	['C(C(C(CO)O)O)=O']	['O', 'C(C(C(C)=O)O)=O']	Elimination + enol to keto	-102.36
+98_0	['C(CO)O']	['O', 'C(C)=O']	Elimination + enol to keto	-43.23
+100_0	['C(C(CO)O)=O', 'C(CN)=O']	['O', 'C(C(CNCC=O)O)=O']	Mannich Addition	-21.56
+102_0	['C(C(C(CO)O)O)=O', 'C(CN)=O']	['O', 'C(C(C(CO)NCC=O)O)=O']	Mannich Addition	15.81
+104_0	['N', 'C(C(CO)O)=O']	['O', 'C(C(CN)O)=O']	Mannich Addition	-18.34
+106_0	['N', 'C(C(C(CO)O)O)=O']	['O', 'C(C(C(CO)N)O)=O']	Mannich Addition	-11.61
+108_0	['C(C(C(CO)O)O)=O']	['C1C(C(C(O)O1)O)O']	Hemiacetal Formation for 5 membered rings	-1.6
+110_0	['C(CNCC(CO)=O)=O']	['C1(CNCC(C1O)O)=O']	Aldol Condensation	-64.43
+110_1	['C(CNCC(CO)=O)=O']	['C1(CNCC(C1O)O)=O']	Knoevenagel H	-64.43
+112_0	['C(C(CNCC=O)O)=O']	['C(C1C(C(CN1)O)O)=O']	Aldol Condensation	-63.58
+112_1	['C(C(CNCC=O)O)=O']	['C(C1C(C(CN1)O)O)=O']	Knoevenagel H	-63.58
+114_0	['C(C(C(CO)NCC=O)O)=O']	['C(C1C(C(C(CO)N1)O)O)=O']	Aldol Condensation	-100.79
+114_1	['C(C(C(CO)NCC=O)O)=O']	['C(C1C(C(C(CO)N1)O)O)=O']	Knoevenagel H	-100.79
+116_0	['C(C(C(C(CO)O)O)N)=O', 'C(C)=O']	['C(CC(C(C(C(CO)O)O)N)O)=O']	Aldol Condensation	-33.7
+118_0	['C(C(C(CN)O)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CN)O)N)O)=O']	Aldol Condensation	9.21
+118_1	['C(C(C(CN)O)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CN)O)N)O)=O']	Knoevenagel C	9.21
+120_0	['C(C(C(CN)O)N)=O', 'C(C(C)=O)=O']	['C(C(CC(C(C(CN)O)N)O)=O)=O']	Aldol Condensation	-31.89
+122_0	['C(C(C(CN)O)N)=O', 'C(C)=O']	['C(CC(C(C(CN)O)N)O)=O']	Aldol Condensation	-33.7
+124_0	['C(C(CO)N)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(C(CO)N)O)O)=O']	Aldol Condensation	-10.17
+124_1	['C(C(CO)N)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(C(CO)N)O)O)=O']	Knoevenagel H	-10.17
+126_0	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(C(CO)N)O)O)=O']	Aldol Condensation	-10.35
+126_1	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(C(CO)N)O)O)=O']	Knoevenagel H	-10.35
+128_0	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(C(CO)N)O)N)=O']	Aldol Condensation	23.95
+128_1	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(C(CO)N)O)N)=O']	Knoevenagel H	23.95
+130_0	['C(C(CO)N)=O', 'C(CNCC=O)=O']	['C(C(C(C(CO)N)O)NCC=O)=O']	Aldol Condensation	-3.62
+130_1	['C(C(CO)N)=O', 'C(CNCC=O)=O']	['C(C(C(C(CO)N)O)NCC=O)=O']	Knoevenagel H	-3.62
+132_0	['C(C(CO)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)N)O)=O']	Aldol Condensation	9.21
+132_1	['C(C(CO)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)N)O)=O']	Knoevenagel C	9.21
+134_0	['C(C(CO)N)=O', 'C(C(C)=O)=O']	['C(C(CC(C(CO)N)O)=O)=O']	Aldol Condensation	-4.31
+136_0	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(C(CO)N)O)=O)=O']	Aldol Condensation	-3.62
+136_1	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(C(CO)N)O)=O)=O']	Knoevenagel C	-3.62
+138_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)N)O)C(C=O)O)=O']	Aldol Condensation	-3.62
+138_1	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)N)O)C(C=O)O)=O']	Knoevenagel C	-3.62
+140_0	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(CO)N)O)=O']	Aldol Condensation	4.57
+140_1	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(CO)N)O)=O']	Knoevenagel C	4.57
+142_0	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(CO)N)O)O)=O)=O']	Aldol Condensation	-14.99
+142_1	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(CO)N)O)O)=O)=O']	Knoevenagel H	-14.99
+144_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(C(CO)N)O)=O)O)=O']	Aldol Condensation	-5.96
+146_0	['C(C(CO)N)=O', 'C(C)=O']	['C(CC(C(CO)N)O)=O']	Aldol Condensation	-6.12
+148_0	['C(C(C(C(CO)O)O)O)=O', 'C(C)=O']	['C(CC(C(C(C(CO)O)O)O)O)=O']	Aldol Condensation	-6.12
+150_0	['C(C(C(CN)O)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CN)O)O)O)=O']	Aldol Condensation	9.21
+150_1	['C(C(C(CN)O)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CN)O)O)O)=O']	Knoevenagel C	9.21
+152_0	['C(C(C(CN)O)O)=O', 'C(C(C)=O)=O']	['C(C(CC(C(C(CN)O)O)O)=O)=O']	Aldol Condensation	-4.31
+154_0	['C(C(C(CN)O)O)=O', 'C(C)=O']	['C(CC(C(C(CN)O)O)O)=O']	Aldol Condensation	-6.12
+156_0	['C(C(C(CO)O)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CO)O)N)O)=O']	Aldol Condensation	9.21
+156_1	['C(C(C(CO)O)N)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CO)O)N)O)=O']	Knoevenagel C	9.21
+158_0	['C(C(C(CO)O)N)=O', 'C(C(C)=O)=O']	['C(C(CC(C(C(CO)O)N)O)=O)=O']	Aldol Condensation	-4.31
+160_0	['C(C(C(CO)O)N)=O', 'C(C)=O']	['C(CC(C(C(CO)O)N)O)=O']	Aldol Condensation	-6.12
+162_0	['C(C=O)=O', 'C(CO)(CO)=O']	['C(C(C(C(CO)=O)O)O)=O']	Aldol Condensation	-10.17
+162_1	['C(C=O)=O', 'C(CO)(CO)=O']	['C(C(C(C(CO)=O)O)O)=O']	Knoevenagel H	-10.17
+164_0	['C(C=O)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(C=O)O)O)(C(CO)O)=O']	Aldol Condensation	-10.35
+164_1	['C(C=O)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(C=O)O)O)(C(CO)O)=O']	Knoevenagel H	-10.35
+166_0	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC(C(C(C=O)O)O)=O)=O']	Aldol Condensation	-10.35
+166_1	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC(C(C(C=O)O)O)=O)=O']	Knoevenagel H	-10.35
+168_0	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(C=O)O)=O']	Aldol Condensation	-3.62
+168_1	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(C=O)O)=O']	Knoevenagel H	-3.62
+170_0	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(C=O)O)NCC(CO)=O)=O']	Aldol Condensation	-3.62
+170_1	['C(C=O)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(C=O)O)NCC(CO)=O)=O']	Knoevenagel H	-3.62
+172_0	['C(C=O)=O', 'C(CO)(CN)=O']	['C(C(C(C(CN)=O)O)O)=O']	Aldol Condensation	-10.35
+172_1	['C(C=O)=O', 'C(CO)(CN)=O']	['C(C(C(C(CN)=O)O)O)=O']	Knoevenagel H	-10.35
+174_0	['C(C=O)=O', 'C(CO)(CN)=O']	['C(C(C(C(CO)=O)N)O)=O']	Aldol Condensation	23.95
+174_1	['C(C=O)=O', 'C(CO)(CN)=O']	['C(C(C(C(CO)=O)N)O)=O']	Knoevenagel H	23.95
+176_0	['C(C=O)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(C=O)O)N)(C(CO)O)=O']	Aldol Condensation	23.95
+176_1	['C(C=O)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(C=O)O)N)(C(CO)O)=O']	Knoevenagel H	23.95
+178_0	['C(C=O)=O', 'C(CNCC=O)=O']	['C(C(C(C=O)NCC=O)O)=O']	Aldol Condensation	-3.62
+178_1	['C(C=O)=O', 'C(CNCC=O)=O']	['C(C(C(C=O)NCC=O)O)=O']	Knoevenagel H	-3.62
+180_0	['C(C=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C=O)O)=O']	Aldol Condensation	9.21
+180_1	['C(C=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C=O)O)=O']	Knoevenagel C	9.21
+182_0	['C(C=O)=O', 'C(C(C)=O)=O']	['C(C(CC(C=O)=O)O)=O']	Aldol Condensation	-4.31
+184_0	['C(C=O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(C=O)=O)CO)O)=O']	Aldol Condensation	-3.62
+184_1	['C(C=O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(C=O)=O)CO)O)=O']	Knoevenagel C	-3.62
+186_0	['C(C=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C=O)O)O)=O']	Aldol Condensation	-3.62
+186_1	['C(C=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C=O)O)O)=O']	Knoevenagel C	-3.62
+188_0	['C(C=O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C=O)O)=O']	Aldol Condensation	4.57
+188_1	['C(C=O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C=O)O)=O']	Knoevenagel C	4.57
+190_0	['C(C=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C=O)O)O)=O)=O']	Aldol Condensation	-14.99
+190_1	['C(C=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C=O)O)O)=O)=O']	Knoevenagel H	-14.99
+192_0	['C(C=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(C=O)O)=O)O)=O']	Aldol Condensation	51.0
+193_0	['C(C=O)=O', 'C(C)=O']	['C(CC(C=O)O)=O']	Aldol Condensation	-6.12
+195_0	['C(C=O)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C=O)O)NCC(C=O)O)=O']	Aldol Condensation	27.02
+195_1	['C(C=O)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C=O)O)NCC(C=O)O)=O']	Knoevenagel H	27.02
+197_0	['C(CO)(CO)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CO)(CO)O)O)=O']	Aldol Condensation	-5.35
+197_1	['C(CO)(CO)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CO)(CO)O)O)=O']	Knoevenagel H	-5.35
+199_0	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CN)O)O)=O']	Aldol Condensation	-5.53
+199_1	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CN)O)O)=O']	Knoevenagel H	-5.53
+201_0	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)(CO)O)O)=O']	Aldol Condensation	-5.53
+201_1	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)(CO)O)O)=O']	Knoevenagel H	-5.53
+203_0	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CO)O)N)=O']	Aldol Condensation	28.77
+203_1	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CO)O)N)=O']	Knoevenagel H	28.77
+205_0	['C(CO)(CO)=O', 'C(CNCC=O)=O']	['C(CNCC(C(C(CO)=O)O)O)=O']	Aldol Condensation	-40.81
+205_1	['C(CO)(CO)=O', 'C(CNCC=O)=O']	['C(CNCC(C(C(CO)=O)O)O)=O']	Knoevenagel H	-40.81
+207_0	['C(CO)(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CO)(CO)O)NCC=O)=O']	Aldol Condensation	1.2
+207_1	['C(CO)(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CO)(CO)O)NCC=O)=O']	Knoevenagel H	1.2
+209_0	['C(CO)(CO)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)O)O)=O']	Aldol Condensation	2.66
+209_1	['C(CO)(CO)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)O)O)=O']	Knoevenagel H	2.66
+211_0	['C(CO)(CO)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(CO)O)=O']	Aldol Condensation	14.03
+211_1	['C(CO)(CO)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(CO)O)=O']	Knoevenagel C	14.03
+213_0	['C(CO)(CO)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)O)O)=O']	Aldol Condensation	-3.88
+213_1	['C(CO)(CO)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)O)O)=O']	Knoevenagel H	-3.88
+215_0	['C(CO)(CO)=O', 'C(C(C)=O)=O']	['C(C)(C(C(C(CO)=O)O)O)=O']	Aldol Condensation	-8.53
+215_1	['C(CO)(CO)=O', 'C(C(C)=O)=O']	['C(C)(C(C(C(CO)=O)O)O)=O']	Knoevenagel H	-8.53
+217_0	['C(CO)(CO)=O', 'C(C(C)=O)=O']	['C(C(CC(CO)(CO)O)=O)=O']	Aldol Condensation	0.51
+219_0	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CO)=O)O)O)=O']	Aldol Condensation	-5.53
+219_1	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CO)=O)O)O)=O']	Knoevenagel H	-5.53
+221_0	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)O)(CO)=O']	Aldol Condensation	-10.17
+221_1	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)O)(CO)=O']	Knoevenagel H	-10.17
+223_0	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)(CO)O)=O)=O']	Aldol Condensation	1.2
+223_1	['C(CO)(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)(CO)O)=O)=O']	Knoevenagel C	1.2
+225_0	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CO)=O)O)O)O)=O']	Aldol Condensation	-10.17
+225_1	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CO)=O)O)O)O)=O']	Knoevenagel H	-10.17
+227_0	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CO)=O)O)O)O)=O']	Aldol Condensation	-10.17
+227_1	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CO)=O)O)O)O)=O']	Knoevenagel H	-10.17
+229_0	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CO)O)C(C=O)O)=O']	Aldol Condensation	1.2
+229_1	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CO)O)C(C=O)O)=O']	Knoevenagel C	1.2
+231_0	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CO)(CC(C(C(CO)=O)O)O)=O']	Aldol Condensation	-1.98
+231_1	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CO)(CC(C(C(CO)=O)O)O)=O']	Knoevenagel H	-1.98
+233_0	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CO)=O)O)O)=O']	Aldol Condensation	2.66
+233_1	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CO)=O)O)O)=O']	Knoevenagel H	2.66
+235_0	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)(CO)O)=O']	Aldol Condensation	9.38
+235_1	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)(CO)O)=O']	Knoevenagel C	9.38
+237_0	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)(CO)O)O)=O)=O']	Aldol Condensation	-10.17
+237_1	['C(CO)(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)(CO)O)O)=O)=O']	Knoevenagel H	-10.17
+239_0	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CO)=O)O)O)O)=O']	Aldol Condensation	46.78
+239_1	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CO)=O)O)O)O)=O']	Knoevenagel H	46.78
+241_0	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CO)=O)O)O)O)=O']	Aldol Condensation	51.42
+241_1	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CO)=O)O)O)O)=O']	Knoevenagel H	51.42
+243_0	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(CO)(CO)O)=O)O)=O']	Aldol Condensation	55.82
+245_0	['C(CO)(CO)=O', 'C(C)=O']	['C(CO)(C(C(C)O)O)=O']	Aldol Condensation	-10.34
+245_1	['C(CO)(CO)=O', 'C(C)=O']	['C(CO)(C(C(C)O)O)=O']	Knoevenagel H	-10.34
+247_0	['C(CO)(CO)=O', 'C(C)=O']	['C(CC(CO)(CO)O)=O']	Aldol Condensation	-1.3
+249_0	['C(CO)(CO)=O', 'C(C(CN)O)=O']	['C(CO)(C(C(C(CN)O)O)O)=O']	Aldol Condensation	-10.17
+249_1	['C(CO)(CO)=O', 'C(C(CN)O)=O']	['C(CO)(C(C(C(CN)O)O)O)=O']	Knoevenagel H	-10.17
+251_0	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(C(CO)O)=O)O)O)=O']	Aldol Condensation	2.48
+251_1	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(C(CO)O)=O)O)O)=O']	Knoevenagel H	2.48
+253_0	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(C(CO)O)O)=O']	Aldol Condensation	13.85
+253_1	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(C(CO)O)O)=O']	Knoevenagel C	13.85
+255_0	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(C(CO)O)=O)O)O)=O']	Aldol Condensation	-4.06
+255_1	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(C(CO)O)=O)O)O)=O']	Knoevenagel H	-4.06
+257_0	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C(CO)O)=O)O)O)(C)=O']	Aldol Condensation	-8.7
+257_1	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C(CO)O)=O)O)O)(C)=O']	Knoevenagel H	-8.7
+259_0	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CC(CO)(C(CO)O)O)=O)=O']	Aldol Condensation	0.33
+261_0	['C(CO)(C(CO)O)=O', 'C(C)=O']	['C(C(C(C)O)O)(C(CO)O)=O']	Aldol Condensation	-10.51
+261_1	['C(CO)(C(CO)O)=O', 'C(C)=O']	['C(C(C(C)O)O)(C(CO)O)=O']	Knoevenagel H	-10.51
+263_0	['C(CO)(C(CO)O)=O', 'C(C)=O']	['C(CC(CO)(C(CO)O)O)=O']	Aldol Condensation	-1.48
+265_0	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CNCC=O)(C(C(C)O)O)=O']	Aldol Condensation	-10.51
+265_1	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CNCC=O)(C(C(C)O)O)=O']	Knoevenagel H	-10.51
+267_0	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CNC(C(CO)=O)C(C)O)=O']	Aldol Condensation	-3.79
+267_1	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CNC(C(CO)=O)C(C)O)=O']	Knoevenagel H	-3.79
+269_0	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(C(C(C)O)NCC(CO)=O)=O']	Aldol Condensation	-3.79
+269_1	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(C(C(C)O)NCC(CO)=O)=O']	Knoevenagel H	-3.79
+271_0	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CC(CO)(CNCC=O)O)=O']	Aldol Condensation	-32.12
+273_0	['C(CNCC(CO)=O)=O', 'C(C)=O']	['C(CC(CNCC(CO)=O)O)=O']	Aldol Condensation	-36.76
+275_0	['C(CO)(CN)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)(CN)O)O)=O']	Aldol Condensation	-5.7
+275_1	['C(CO)(CN)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)(CN)O)O)=O']	Knoevenagel H	-5.7
+277_0	['C(CO)(CN)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CN)O)N)=O']	Aldol Condensation	28.6
+277_1	['C(CO)(CN)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)(CN)O)N)=O']	Knoevenagel H	28.6
+279_0	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(CN)(C(C(CNCC=O)O)O)=O']	Aldol Condensation	-13.41
+279_1	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(CN)(C(C(CNCC=O)O)O)=O']	Knoevenagel H	-13.41
+281_0	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(CO)(C(C(CNCC=O)O)N)=O']	Aldol Condensation	-6.69
+281_1	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(CO)(C(C(CNCC=O)O)N)=O']	Knoevenagel H	-6.69
+283_0	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CN)(CO)O)NCC=O)=O']	Aldol Condensation	1.02
+283_1	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CN)(CO)O)NCC=O)=O']	Knoevenagel H	1.02
+285_0	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(CC(C(C(CN)=O)O)O)=O']	Aldol Condensation	2.48
+285_1	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(CC(C(C(CN)=O)O)O)=O']	Knoevenagel H	2.48
+287_0	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)N)O)=O']	Aldol Condensation	36.78
+287_1	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)N)O)=O']	Knoevenagel H	36.78
+289_0	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(CN)O)=O']	Aldol Condensation	13.85
+289_1	['C(CO)(CN)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)(CN)O)=O']	Knoevenagel C	13.85
+291_0	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CN)=O)O)O)=O']	Aldol Condensation	-4.06
+291_1	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CN)=O)O)O)=O']	Knoevenagel H	-4.06
+293_0	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)N)O)=O']	Aldol Condensation	30.24
+293_1	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)N)O)=O']	Knoevenagel H	30.24
+295_0	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C)(C(C(C(CN)=O)O)O)=O']	Aldol Condensation	-8.7
+295_1	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C)(C(C(C(CN)=O)O)O)=O']	Knoevenagel H	-8.7
+297_0	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(CO)(C(C(C(C)=O)O)N)=O']	Aldol Condensation	25.6
+297_1	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(CO)(C(C(C(C)=O)O)N)=O']	Knoevenagel H	25.6
+299_0	['C(CO)(CN)=O', 'C(C(C)=O)=O']	['C(C(CC(CO)(CN)O)=O)=O']	Aldol Condensation	0.33
+301_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CN)=O)O)O)=O']	Aldol Condensation	-5.7
+301_1	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CN)=O)O)O)=O']	Knoevenagel H	-5.7
+303_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CO)=O)N)O)=O']	Aldol Condensation	28.6
+303_1	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(CO)=O)N)O)=O']	Knoevenagel H	28.6
+305_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)O)(CN)=O']	Aldol Condensation	-10.35
+305_1	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)O)(CN)=O']	Knoevenagel H	-10.35
+307_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)N)(CO)=O']	Aldol Condensation	23.95
+307_1	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)N)(CO)=O']	Knoevenagel H	23.95
+309_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)(CN)O)=O)=O']	Aldol Condensation	1.02
+309_1	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)(CN)O)=O)=O']	Knoevenagel C	1.02
+311_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CN)=O)O)O)O)=O']	Aldol Condensation	-10.35
+311_1	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CN)=O)O)O)O)=O']	Knoevenagel H	-10.35
+313_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CO)=O)N)O)O)=O']	Aldol Condensation	23.95
+313_1	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(CO)=O)N)O)O)=O']	Knoevenagel H	23.95
+315_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CN)=O)O)O)O)=O']	Aldol Condensation	-10.35
+315_1	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CN)=O)O)O)O)=O']	Knoevenagel H	-10.35
+317_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CO)=O)N)O)O)=O']	Aldol Condensation	23.95
+317_1	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(CC(C(C(CO)=O)N)O)O)=O']	Knoevenagel H	23.95
+319_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CN)O)C(C=O)O)=O']	Aldol Condensation	1.02
+319_1	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CN)O)C(C=O)O)=O']	Knoevenagel C	1.02
+321_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CN)(C(C(CC(CO)=O)O)O)=O']	Aldol Condensation	-2.16
+321_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CN)(C(C(CC(CO)=O)O)O)=O']	Knoevenagel H	-2.16
+323_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CO)(CC(C(C(CO)=O)N)O)=O']	Aldol Condensation	32.14
+323_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CO)(CC(C(C(CO)=O)N)O)=O']	Knoevenagel H	32.14
+325_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CN)=O)O)O)=O']	Aldol Condensation	2.48
+325_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CN)=O)O)O)=O']	Knoevenagel H	2.48
+327_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CO)=O)N)O)=O']	Aldol Condensation	36.78
+327_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(CO)=O)N)O)=O']	Knoevenagel H	36.78
+329_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)(CN)O)=O']	Aldol Condensation	9.21
+329_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)(CN)O)=O']	Knoevenagel C	9.21
+331_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)(CN)O)O)=O)=O']	Aldol Condensation	-10.35
+331_1	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)(CN)O)O)=O)=O']	Knoevenagel H	-10.35
+333_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CN)=O)O)O)O)=O']	Aldol Condensation	46.61
+333_1	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CN)=O)O)O)O)=O']	Knoevenagel H	46.61
+335_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CO)=O)N)O)O)=O']	Aldol Condensation	80.91
+335_1	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(C(C(CO)=O)N)O)O)=O']	Knoevenagel H	80.91
+337_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CN)=O)O)O)O)=O']	Aldol Condensation	51.25
+337_1	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CN)=O)O)O)O)=O']	Knoevenagel H	51.25
+339_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CO)=O)N)O)O)=O']	Aldol Condensation	85.55
+339_1	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C(CO)=O)N)O)O)=O']	Knoevenagel H	85.55
+341_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(CO)(CN)O)=O)O)=O']	Aldol Condensation	-1.31
+343_0	['C(CO)(CN)=O', 'C(C)=O']	['C(CN)(C(C(C)O)O)=O']	Aldol Condensation	-10.51
+343_1	['C(CO)(CN)=O', 'C(C)=O']	['C(CN)(C(C(C)O)O)=O']	Knoevenagel H	-10.51
+345_0	['C(CO)(CN)=O', 'C(C)=O']	['C(CO)(C(C(C)O)N)=O']	Aldol Condensation	-3.79
+345_1	['C(CO)(CN)=O', 'C(C)=O']	['C(CO)(C(C(C)O)N)=O']	Knoevenagel H	-3.79
+347_0	['C(CO)(CN)=O', 'C(C)=O']	['C(CC(CO)(CN)O)=O']	Aldol Condensation	-1.48
+349_0	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(CN)(C(C(C(CN)O)O)O)=O']	Aldol Condensation	-10.35
+349_1	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(CN)(C(C(C(CN)O)O)O)=O']	Knoevenagel H	-10.35
+351_0	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(CO)(C(C(C(CN)O)O)N)=O']	Aldol Condensation	23.95
+351_1	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(CO)(C(C(C(CN)O)O)N)=O']	Knoevenagel H	23.95
+353_0	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(C(CO)O)=O)N)O)=O']	Aldol Condensation	36.78
+353_1	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(C(CO)O)=O)N)O)=O']	Knoevenagel H	36.78
+355_0	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CN)(C(CO)O)O)=O']	Aldol Condensation	13.85
+355_1	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CN)(C(CO)O)O)=O']	Knoevenagel C	13.85
+357_0	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(C(CO)O)=O)N)O)=O']	Aldol Condensation	30.24
+357_1	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(C(CO)O)=O)N)O)=O']	Knoevenagel H	30.24
+359_0	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)N)(C(CO)O)=O']	Aldol Condensation	25.6
+359_1	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)N)(C(CO)O)=O']	Knoevenagel H	25.6
+361_0	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CC(CN)(C(CO)O)O)=O)=O']	Aldol Condensation	0.33
+363_0	['C(CN)(C(CO)O)=O', 'C(C)=O']	['C(C(CO)O)(C(C(C)O)N)=O']	Aldol Condensation	23.79
+363_1	['C(CN)(C(CO)O)=O', 'C(C)=O']	['C(C(CO)O)(C(C(C)O)N)=O']	Knoevenagel H	23.79
+365_0	['C(CN)(C(CO)O)=O', 'C(C)=O']	['C(CC(CN)(C(CO)O)O)=O']	Aldol Condensation	-1.48
+367_0	['C(CNCC=O)=O', 'C(CC=O)=O']	['C(CC(C(C=O)NCC=O)O)=O']	Aldol Condensation	9.21
+367_1	['C(CNCC=O)=O', 'C(CC=O)=O']	['C(CC(C(C=O)NCC=O)O)=O']	Knoevenagel H	9.21
+369_0	['C(CNCC=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CNCC=O)O)=O']	Aldol Condensation	-21.43
+369_1	['C(CNCC=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CNCC=O)O)=O']	Knoevenagel C	-21.43
+371_0	['C(CNCC=O)=O', 'C(C(C)=O)=O']	['C(CNC(C=O)C(C=O)(C)O)=O']	Aldol Condensation	2.67
+371_1	['C(CNCC=O)=O', 'C(C(C)=O)=O']	['C(CNC(C=O)C(C=O)(C)O)=O']	Knoevenagel H	2.67
+373_0	['C(CNCC=O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)NCC=O)=O']	Aldol Condensation	-1.98
+373_1	['C(CNCC=O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)NCC=O)=O']	Knoevenagel H	-1.98
+375_0	['C(CNCC=O)=O', 'C(C(C)=O)=O']	['C(CNCC(CC(C=O)=O)O)=O']	Aldol Condensation	-34.95
+377_0	['C(CNCC=O)=O', 'C(C)=O']	['C(C(C(C)O)NCC=O)=O']	Aldol Condensation	-3.79
+377_1	['C(CNCC=O)=O', 'C(C)=O']	['C(C(C(C)O)NCC=O)=O']	Knoevenagel H	-3.79
+379_0	['C(CNCC=O)=O', 'C(C)=O']	['C(CC(CNCC=O)O)=O']	Aldol Condensation	-36.76
+381_0	['C(CNCC=O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)NCC=O)=O']	Aldol Condensation	-3.62
+381_1	['C(CNCC=O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)NCC=O)=O']	Knoevenagel H	-3.62
+383_0	['C(C(CO)(C(CN)O)O)=O', 'C(C)=O']	['C(CC(C(CO)(C(CN)O)O)O)=O']	Aldol Condensation	-6.12
+385_0	['C(C(CO)(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)(CO)O)O)=O']	Aldol Condensation	9.21
+385_1	['C(C(CO)(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)(CO)O)O)=O']	Knoevenagel C	9.21
+387_0	['C(C(CO)(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CC(C(CO)(CO)O)O)=O)=O']	Aldol Condensation	-4.31
+389_0	['C(C(CO)(CO)O)=O', 'C(C)=O']	['C(CC(C(CO)(CO)O)O)=O']	Aldol Condensation	-6.12
+391_0	['C(C(CO)(C(CO)O)O)=O', 'C(C)=O']	['C(CC(C(CO)(C(CO)O)O)O)=O']	Aldol Condensation	-6.12
+393_0	['C(CC=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CC=O)O)=O']	Aldol Condensation	22.04
+393_1	['C(CC=O)=O', 'C(CC=O)=O']	['C(C(C=O)C(CC=O)O)=O']	Knoevenagel C	22.04
+395_0	['C(CC=O)=O', 'C(C(C)=O)=O']	['C(C(C=O)C(C=O)(C)O)=O']	Aldol Condensation	15.49
+395_1	['C(CC=O)=O', 'C(C(C)=O)=O']	['C(C(C=O)C(C=O)(C)O)=O']	Knoevenagel C	15.49
+397_0	['C(CC=O)=O', 'C(C(C)=O)=O']	['C(C(C=O)C(C(C)=O)O)=O']	Aldol Condensation	10.85
+397_1	['C(CC=O)=O', 'C(C(C)=O)=O']	['C(C(C=O)C(C(C)=O)O)=O']	Knoevenagel C	10.85
+399_0	['C(CC=O)=O', 'C(C(C)=O)=O']	['C(CC(CC(C=O)=O)O)=O']	Aldol Condensation	8.51
+401_0	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(C(C=O)C(C=O)(CCO)O)=O']	Aldol Condensation	13.85
+401_1	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(C(C=O)C(C=O)(CCO)O)=O']	Knoevenagel C	13.85
+403_0	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(C(C=O)C(C(CCO)=O)O)=O']	Aldol Condensation	9.21
+403_1	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(C(C=O)C(C(CCO)=O)O)=O']	Knoevenagel C	9.21
+405_0	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(CC(C(C(C=O)=O)CO)O)=O']	Aldol Condensation	9.21
+405_1	['C(CC=O)=O', 'C(C(CCO)=O)=O']	['C(CC(C(C(C=O)=O)CO)O)=O']	Knoevenagel C	9.21
+407_0	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(C(C=O)C(C(CC=O)O)O)=O']	Aldol Condensation	9.21
+407_1	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(C(C=O)C(C(CC=O)O)O)=O']	Knoevenagel C	9.21
+409_0	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(C(C=O)C(CC(C=O)O)O)=O']	Aldol Condensation	9.21
+409_1	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(C(C=O)C(CC(C=O)O)O)=O']	Knoevenagel C	9.21
+411_0	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C=O)C(C=O)O)O)=O']	Aldol Condensation	9.21
+411_1	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C=O)C(C=O)O)O)=O']	Knoevenagel C	9.21
+413_0	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(C(C=O)C(CC(CO)=O)O)=O']	Aldol Condensation	17.39
+413_1	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(C(C=O)C(CC(CO)=O)O)=O']	Knoevenagel C	17.39
+415_0	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(C(C=O)C(CO)(CC=O)O)=O']	Aldol Condensation	22.04
+415_1	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(C(C=O)C(CO)(CC=O)O)=O']	Knoevenagel C	22.04
+417_0	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C=O)C(CO)=O)O)=O']	Aldol Condensation	17.39
+417_1	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C=O)C(CO)=O)O)=O']	Knoevenagel C	17.39
+419_0	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CC=O)=O)O)O)=O']	Aldol Condensation	-2.16
+419_1	['C(CC=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CC=O)=O)O)O)=O']	Knoevenagel H	-2.16
+421_0	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C=O)C(C(C(C)=O)O)O)=O']	Aldol Condensation	66.16
+421_1	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C=O)C(C(C(C)=O)O)O)=O']	Knoevenagel C	66.16
+423_0	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C=O)C(C)(C(C=O)O)O)=O']	Aldol Condensation	70.8
+423_1	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C=O)C(C)(C(C=O)O)O)=O']	Knoevenagel C	70.8
+425_0	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(CC=O)O)=O)O)=O']	Aldol Condensation	63.82
+427_0	['C(CC=O)=O', 'C(C)=O']	['C(C(C=O)C(C)O)=O']	Aldol Condensation	9.04
+427_1	['C(CC=O)=O', 'C(C)=O']	['C(C(C=O)C(C)O)=O']	Knoevenagel C	9.04
+429_0	['C(CC=O)=O', 'C(C)=O']	['C(CC(CC=O)O)=O']	Aldol Condensation	6.7
+431_0	['C(CC=O)=O', 'C(C(CN)O)=O']	['C(C(C=O)C(C(CN)O)O)=O']	Aldol Condensation	9.21
+431_1	['C(CC=O)=O', 'C(C(CN)O)=O']	['C(C(C=O)C(C(CN)O)O)=O']	Knoevenagel C	9.21
+433_0	['C(CC=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C=O)C(C(C(CO)N)O)O)=O']	Aldol Condensation	9.21
+433_1	['C(CC=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C=O)C(C(C(CO)N)O)O)=O']	Knoevenagel C	9.21
+435_0	['C(C(C)=O)=O', 'C(C(C)=O)=O']	['C(C(C)(CC(C=O)=O)O)=O']	Aldol Condensation	1.97
+437_0	['C(C(C)=O)=O', 'C(C(C)=O)=O']	['C(C)(C(CC(C=O)=O)O)=O']	Aldol Condensation	-2.67
+439_0	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(CC(C=O)=O)O)=O']	Aldol Condensation	0.33
+441_0	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(CC(C=O)=O)O)(CCO)=O']	Aldol Condensation	-4.31
+443_0	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(C)(C(C(C=O)=O)CO)O)=O']	Aldol Condensation	2.67
+443_1	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(C)(C(C(C=O)=O)CO)O)=O']	Knoevenagel C	2.67
+445_0	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(C=O)=O)CO)O)(C)=O']	Aldol Condensation	-1.98
+445_1	['C(C(C)=O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(C=O)=O)CO)O)(C)=O']	Knoevenagel C	-1.98
+447_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(CC(C=O)=O)O)O)=O']	Aldol Condensation	-4.31
+449_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(C(CC(CC(C=O)=O)O)O)=O']	Aldol Condensation	-4.31
+451_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C=O)(C)O)O)=O']	Aldol Condensation	2.67
+451_1	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C=O)(C)O)O)=O']	Knoevenagel C	2.67
+453_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C(C)=O)O)O)=O']	Aldol Condensation	-1.98
+453_1	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C=O)C(C(C)=O)O)O)=O']	Knoevenagel C	-1.98
+455_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(CO)(CC(CC(C=O)=O)O)=O']	Aldol Condensation	3.87
+457_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(CC(C=O)=O)O)=O']	Aldol Condensation	8.51
+459_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C)(C(C=O)C(CO)=O)O)=O']	Aldol Condensation	10.85
+459_1	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C)(C(C=O)C(CO)=O)O)=O']	Knoevenagel C	10.85
+461_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(C)=O)O)=O']	Aldol Condensation	6.21
+461_1	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(C)=O)O)=O']	Knoevenagel C	6.21
+463_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C)(C(C(CC=O)=O)O)O)=O']	Aldol Condensation	-8.7
+463_1	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(C(C)(C(C(CC=O)=O)O)O)=O']	Knoevenagel H	-8.7
+465_0	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(C)=O)O)O)=O)=O']	Aldol Condensation	-13.35
+465_1	['C(C(C)=O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(C)=O)O)O)=O)=O']	Knoevenagel H	-13.35
+467_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C)(C(C(CC(C=O)=O)O)O)=O']	Aldol Condensation	52.64
+469_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(CC(C=O)=O)O)O)=O']	Aldol Condensation	57.28
+471_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C)(CC(C(C=O)O)=O)O)=O']	Aldol Condensation	0.33
+473_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(C(C)=O)O)=O)O)=O']	Aldol Condensation	52.64
+475_0	['C(C(C)=O)=O', 'C(C)=O']	['C(C(CC(C)O)=O)=O']	Aldol Condensation	-4.48
+477_0	['C(C(C)=O)=O', 'C(C)=O']	['C(C(C)(CC=O)O)=O']	Aldol Condensation	0.16
+479_0	['C(C(C)=O)=O', 'C(C)=O']	['C(CC(C(C)=O)O)=O']	Aldol Condensation	-4.48
+481_0	['C(C(C)=O)=O', 'C(C(CN)O)=O']	['C(C(CC(C(CN)O)O)=O)=O']	Aldol Condensation	-4.31
+483_0	['C(C(C)=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(CC(C(C(CO)N)O)O)=O)=O']	Aldol Condensation	-4.31
+485_0	['C(C(CCO)=O)=O', 'C(C)=O']	['C(C(C(CO)C(C)O)=O)=O']	Aldol Condensation	-3.79
+485_1	['C(C(CCO)=O)=O', 'C(C)=O']	['C(C(C(CO)C(C)O)=O)=O']	Knoevenagel C	-3.79
+487_0	['C(C(CCO)=O)=O', 'C(C)=O']	['C(C(CCO)(CC=O)O)=O']	Aldol Condensation	-1.48
+489_0	['C(C(CCO)=O)=O', 'C(C)=O']	['C(CC(C(CCO)=O)O)=O']	Aldol Condensation	-6.12
+491_0	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CO)C(C(CN)O)O)=O)=O']	Aldol Condensation	-3.62
+491_1	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CO)C(C(CN)O)O)=O)=O']	Knoevenagel C	-3.62
+493_0	['C(CC(C=O)O)=O', 'C(C)=O']	['C(C(C(C)O)C(C=O)O)=O']	Aldol Condensation	-3.79
+493_1	['C(CC(C=O)O)=O', 'C(C)=O']	['C(C(C(C)O)C(C=O)O)=O']	Knoevenagel C	-3.79
+495_0	['C(CC(C=O)O)=O', 'C(C)=O']	['C(CC(C(CC=O)O)O)=O']	Aldol Condensation	-6.12
+497_0	['C(CC(C=O)O)=O', 'C(C)=O']	['C(CC(CC(C=O)O)O)=O']	Aldol Condensation	-6.12
+499_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)C(C=O)O)=O']	Aldol Condensation	-3.62
+499_1	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)C(C=O)O)=O']	Knoevenagel C	-3.62
+501_0	['C(CC(CO)=O)=O', 'C(C)=O']	['C(C(C(CO)=O)C(C)O)=O']	Aldol Condensation	4.4
+501_1	['C(CC(CO)=O)=O', 'C(C)=O']	['C(C(C(CO)=O)C(C)O)=O']	Knoevenagel C	4.4
+503_0	['C(CC(CO)=O)=O', 'C(C)=O']	['C(CC(C(C(C)O)O)=O)=O']	Aldol Condensation	-15.16
+503_1	['C(CC(CO)=O)=O', 'C(C)=O']	['C(CC(C(C(C)O)O)=O)=O']	Knoevenagel H	-15.16
+505_0	['C(CC(CO)=O)=O', 'C(C)=O']	['C(CC(CC(CO)=O)O)=O']	Aldol Condensation	2.06
+507_0	['C(CC(CO)=O)=O', 'C(C)=O']	['C(CC(CO)(CC=O)O)=O']	Aldol Condensation	6.7
+509_0	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CO)=O)C(C(CN)O)O)=O']	Aldol Condensation	4.57
+509_1	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CO)=O)C(C(CN)O)O)=O']	Knoevenagel C	4.57
+511_0	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(CC(C(C(C(CN)O)O)O)=O)=O']	Aldol Condensation	-14.99
+511_1	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(CC(C(C(C(CN)O)O)O)=O)=O']	Knoevenagel H	-14.99
+513_0	['C(C(C(C)=O)O)=O', 'C(C)=O']	['C(C(C(CC(C)O)=O)O)=O']	Aldol Condensation	-6.12
+515_0	['C(C(C(C)=O)O)=O', 'C(C)=O']	['C(CC(C(C(C)=O)O)O)=O']	Aldol Condensation	50.83
+517_0	['C(C(C(C)=O)O)=O', 'C(C)=O']	['C(CC(C)(C(C=O)O)O)=O']	Aldol Condensation	55.47
+519_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(CC(C(CN)O)O)=O)O)=O']	Aldol Condensation	-5.96
+521_0	['C(C)=O', 'C(C)=O']	['C(CC(C)O)=O']	Aldol Condensation	-6.29
+523_0	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(CC(C(CNCC=O)O)O)=O']	Aldol Condensation	-6.12
+525_0	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(CC(CNCC(C=O)O)O)=O']	Aldol Condensation	-6.12
+527_0	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C)O)NCC(C=O)O)=O']	Aldol Condensation	-3.79
+527_1	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C)O)NCC(C=O)O)=O']	Knoevenagel H	-3.79
+529_0	['C(C)=O', 'C(C(CN)O)=O']	['C(CC(C(CN)O)O)=O']	Aldol Condensation	-6.12
+531_0	['C(C)=O', 'C(C(C(CO)N)O)=O']	['C(CC(C(C(CO)N)O)O)=O']	Aldol Condensation	-6.12
+533_0	['C(C(CO)O)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(C(CO)O)O)O)=O']	Aldol Condensation	-10.17
+533_1	['C(C(CO)O)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(C(CO)O)O)O)=O']	Knoevenagel H	-10.17
+535_0	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(C(CO)O)O)O)=O']	Aldol Condensation	-10.35
+535_1	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(C(CO)O)O)O)=O']	Knoevenagel H	-10.35
+537_0	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(C(CO)O)O)N)=O']	Aldol Condensation	23.95
+537_1	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(C(CO)O)O)N)=O']	Knoevenagel H	23.95
+539_0	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['C(C(C(C(CO)O)O)NCC=O)=O']	Aldol Condensation	-3.62
+539_1	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['C(C(C(C(CO)O)O)NCC=O)=O']	Knoevenagel H	-3.62
+541_0	['C(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)O)O)=O']	Aldol Condensation	9.21
+541_1	['C(C(CO)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(CO)O)O)=O']	Knoevenagel C	9.21
+543_0	['C(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CC(C(CO)O)O)=O)=O']	Aldol Condensation	-4.31
+545_0	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(C(CO)O)O)=O)=O']	Aldol Condensation	-3.62
+545_1	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(C(CO)O)O)=O)=O']	Knoevenagel C	-3.62
+547_0	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)O)O)C(C=O)O)=O']	Aldol Condensation	-3.62
+547_1	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)O)O)C(C=O)O)=O']	Knoevenagel C	-3.62
+549_0	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(CO)O)O)=O']	Aldol Condensation	4.57
+549_1	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(C(CO)O)O)=O']	Knoevenagel C	4.57
+551_0	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(CO)O)O)O)=O)=O']	Aldol Condensation	-14.99
+551_1	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(C(CO)O)O)O)=O)=O']	Knoevenagel H	-14.99
+553_0	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(C(CO)O)O)=O)O)=O']	Aldol Condensation	51.0
+555_0	['C(C(CO)O)=O', 'C(C)=O']	['C(CC(C(CO)O)O)=O']	Aldol Condensation	-6.12
+557_0	['C(C(C(CO)O)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CO)O)O)O)=O']	Aldol Condensation	9.21
+557_1	['C(C(C(CO)O)O)=O', 'C(CC=O)=O']	['C(C(C=O)C(C(C(CO)O)O)O)=O']	Knoevenagel C	9.21
+559_0	['C(C(C(CO)O)O)=O', 'C(C(C)=O)=O']	['C(C(CC(C(C(CO)O)O)O)=O)=O']	Aldol Condensation	-4.31
+561_0	['C(C(C(CO)O)O)=O', 'C(C)=O']	['C(CC(C(C(CO)O)O)O)=O']	Aldol Condensation	-6.12
+563_0	['C(CN)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(C(C(CN)O)N)O)N)=O']	Aldol Condensation	-3.62
+563_1	['C(CN)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(C(C(CN)O)N)O)N)=O']	Knoevenagel H	-3.62
+565_0	['C(CN)=O', 'C(C(CO)N)=O']	['C(C(C(C(CO)N)O)N)=O']	Aldol Condensation	23.95
+565_1	['C(CN)=O', 'C(C(CO)N)=O']	['C(C(C(C(CO)N)O)N)=O']	Knoevenagel H	23.95
+567_0	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(C(C(CN)O)O)O)N)=O']	Aldol Condensation	23.95
+567_1	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(C(C(CN)O)O)O)N)=O']	Knoevenagel H	23.95
+569_0	['C(CN)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(C(C(CO)O)N)O)N)=O']	Aldol Condensation	23.95
+569_1	['C(CN)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(C(C(CO)O)N)O)N)=O']	Knoevenagel H	23.95
+571_0	['C(CN)=O', 'C(C=O)=O']	['C(C(C(C=O)N)O)=O']	Aldol Condensation	23.95
+571_1	['C(CN)=O', 'C(C=O)=O']	['C(C(C(C=O)N)O)=O']	Knoevenagel H	23.95
+573_0	['C(CN)=O', 'C(CO)(CO)=O']	['C(C(C(CO)(CO)O)N)=O']	Aldol Condensation	28.77
+573_1	['C(CN)=O', 'C(CO)(CO)=O']	['C(C(C(CO)(CO)O)N)=O']	Knoevenagel H	28.77
+575_0	['C(CN)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CN)O)O)=O']	Aldol Condensation	-10.17
+575_1	['C(CN)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CN)O)O)=O']	Knoevenagel H	-10.17
+577_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)(C(CO)O)O)N)=O']	Aldol Condensation	28.6
+577_1	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)(C(CO)O)O)N)=O']	Knoevenagel H	28.6
+579_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CN)O)O)(C(CO)O)=O']	Aldol Condensation	-10.35
+579_1	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CN)O)O)(C(CO)O)=O']	Knoevenagel H	-10.35
+581_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC=O)(CO)O)N)=O']	Aldol Condensation	-2.04
+581_1	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC=O)(CO)O)N)=O']	Knoevenagel H	-2.04
+583_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC(CO)=O)O)N)=O']	Aldol Condensation	-3.62
+583_1	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC(CO)=O)O)N)=O']	Knoevenagel H	-3.62
+585_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(C(CN)O)O)=O']	Aldol Condensation	-10.35
+585_1	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(C(CN)O)O)=O']	Knoevenagel H	-10.35
+587_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(CN)O)=O']	Aldol Condensation	-3.62
+587_1	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(CN)O)=O']	Knoevenagel H	-3.62
+589_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CN)O)NCC(CO)=O)=O']	Aldol Condensation	-3.62
+589_1	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CN)O)NCC(CO)=O)=O']	Knoevenagel H	-3.62
+591_0	['C(CN)=O', 'C(CO)(CN)=O']	['C(C(C(CN)(CO)O)N)=O']	Aldol Condensation	28.6
+591_1	['C(CN)=O', 'C(CO)(CN)=O']	['C(C(C(CN)(CO)O)N)=O']	Knoevenagel H	28.6
+593_0	['C(CN)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CN)O)O)=O']	Aldol Condensation	-10.35
+593_1	['C(CN)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CN)O)O)=O']	Knoevenagel H	-10.35
+595_0	['C(CN)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CN)O)N)=O']	Aldol Condensation	23.95
+595_1	['C(CN)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CN)O)N)=O']	Knoevenagel H	23.95
+597_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(CN)(C(CO)O)O)N)=O']	Aldol Condensation	28.6
+597_1	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(CN)(C(CO)O)O)N)=O']	Knoevenagel H	28.6
+599_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(C(CN)O)N)=O']	Aldol Condensation	23.95
+599_1	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(C(CN)O)N)=O']	Knoevenagel H	23.95
+601_0	['C(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CNCC=O)O)N)=O']	Aldol Condensation	-6.69
+601_1	['C(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CNCC=O)O)N)=O']	Knoevenagel H	-6.69
+603_0	['C(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CN)O)NCC=O)=O']	Aldol Condensation	-3.62
+603_1	['C(CN)=O', 'C(CNCC=O)=O']	['C(C(C(CN)O)NCC=O)=O']	Knoevenagel H	-3.62
+605_0	['C(CN)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)N)=O']	Aldol Condensation	23.95
+605_1	['C(CN)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)N)=O']	Knoevenagel H	23.95
+607_0	['C(CN)=O', 'C(CC=O)=O']	['C(CC(C(C=O)N)O)=O']	Aldol Condensation	9.21
+607_1	['C(CN)=O', 'C(CC=O)=O']	['C(CC(C(C=O)N)O)=O']	Knoevenagel H	9.21
+609_0	['C(CN)=O', 'C(CC=O)=O']	['C(C(C=O)C(CN)O)=O']	Aldol Condensation	9.21
+609_1	['C(CN)=O', 'C(CC=O)=O']	['C(C(C=O)C(CN)O)=O']	Knoevenagel C	9.21
+611_0	['C(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C=O)N)O)=O']	Aldol Condensation	2.67
+611_1	['C(CN)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C=O)N)O)=O']	Knoevenagel H	2.67
+613_0	['C(CN)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)N)=O']	Aldol Condensation	25.6
+613_1	['C(CN)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)N)=O']	Knoevenagel H	25.6
+615_0	['C(CN)=O', 'C(C(C)=O)=O']	['C(C(CC(CN)O)=O)=O']	Aldol Condensation	-4.31
+617_0	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)N)O)=O']	Aldol Condensation	28.6
+617_1	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)N)O)=O']	Knoevenagel H	28.6
+619_0	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)N)=O']	Aldol Condensation	23.95
+619_1	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)N)=O']	Knoevenagel H	23.95
+621_0	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CN)O)=O)=O']	Aldol Condensation	-3.62
+621_1	['C(CN)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CN)O)=O)=O']	Knoevenagel C	-3.62
+623_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C=O)N)O)O)=O']	Aldol Condensation	-3.62
+623_1	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C=O)N)O)O)=O']	Knoevenagel H	-3.62
+625_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)N)=O']	Aldol Condensation	-3.62
+625_1	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)N)=O']	Knoevenagel H	-3.62
+627_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CN)O)C(C=O)O)=O']	Aldol Condensation	-3.62
+627_1	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CN)O)C(C=O)O)=O']	Knoevenagel C	-3.62
+629_0	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)N)=O']	Aldol Condensation	4.57
+629_1	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)N)=O']	Knoevenagel H	4.57
+631_0	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C=O)N)O)=O']	Aldol Condensation	36.78
+631_1	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C=O)N)O)=O']	Knoevenagel H	36.78
+633_0	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CN)O)=O']	Aldol Condensation	4.57
+633_1	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CN)O)=O']	Knoevenagel C	4.57
+635_0	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CN)O)O)=O)=O']	Aldol Condensation	-14.99
+635_1	['C(CN)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CN)O)O)=O)=O']	Knoevenagel H	-14.99
+637_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)N)=O']	Aldol Condensation	80.91
+637_1	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)N)=O']	Knoevenagel H	80.91
+639_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)N)=O']	Aldol Condensation	85.55
+639_1	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)N)=O']	Knoevenagel H	85.55
+641_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(CN)O)=O)O)=O']	Aldol Condensation	-5.96
+643_0	['C(CN)=O', 'C(C)=O']	['C(C(C(C)O)N)=O']	Aldol Condensation	-3.79
+643_1	['C(CN)=O', 'C(C)=O']	['C(C(C(C)O)N)=O']	Knoevenagel H	-3.79
+645_0	['C(CN)=O', 'C(C)=O']	['C(CC(CN)O)=O']	Aldol Condensation	-6.12
+647_0	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C(CNCC=O)O)O)N)=O']	Aldol Condensation	23.95
+647_1	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C(CNCC=O)O)O)N)=O']	Knoevenagel H	23.95
+649_0	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CNCC(C=O)O)O)N)=O']	Aldol Condensation	23.95
+649_1	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CNCC(C=O)O)O)N)=O']	Knoevenagel H	23.95
+651_0	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CN)O)NCC(C=O)O)=O']	Aldol Condensation	27.02
+651_1	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CN)O)NCC(C=O)O)=O']	Knoevenagel H	27.02
+653_0	['C(CN)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)N)=O']	Aldol Condensation	-3.62
+653_1	['C(CN)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)N)=O']	Knoevenagel H	-3.62
+655_0	['C(CN)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)N)=O']	Aldol Condensation	-3.62
+655_1	['C(CN)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)N)=O']	Knoevenagel H	-3.62
+656_0	['C=O', 'C(CO)(CO)=O']	['C(CO)(C(CO)O)=O']	Aldol Condensation	-29.42
+656_1	['C=O', 'C(CO)(CO)=O']	['C(CO)(C(CO)O)=O']	Knoevenagel H	-29.42
+658_0	['C=O', 'C(CO)(C(CO)O)=O']	['C(C(CO)O)(C(CO)O)=O']	Aldol Condensation	-29.6
+658_1	['C=O', 'C(CO)(C(CO)O)=O']	['C(C(CO)O)(C(CO)O)=O']	Knoevenagel H	-29.6
+659_0	['C=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(CO)O)=O']	Aldol Condensation	-29.6
+659_1	['C=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(CO)O)=O']	Knoevenagel H	-29.6
+661_0	['C=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)CO)=O']	Aldol Condensation	-22.87
+661_1	['C=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)CO)=O']	Knoevenagel H	-22.87
+663_0	['C=O', 'C(CNCC(CO)=O)=O']	['C(C(CO)NCC(CO)=O)=O']	Aldol Condensation	-22.87
+663_1	['C=O', 'C(CNCC(CO)=O)=O']	['C(C(CO)NCC(CO)=O)=O']	Knoevenagel H	-22.87
+665_0	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(C(CO)O)(C(CO)NCC=O)=O']	Aldol Condensation	-22.87
+665_1	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(C(CO)O)(C(CO)NCC=O)=O']	Knoevenagel H	-22.87
+667_0	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(C(CO)NCC(C(CO)O)=O)=O']	Aldol Condensation	-22.87
+667_1	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(C(CO)NCC(C(CO)O)=O)=O']	Knoevenagel H	-22.87
+668_0	['C=O', 'C(CO)(CN)=O']	['C(CN)(C(CO)O)=O']	Aldol Condensation	-29.6
+668_1	['C=O', 'C(CO)(CN)=O']	['C(CN)(C(CO)O)=O']	Knoevenagel H	-29.6
+670_0	['C=O', 'C(CO)(CN)=O']	['C(CO)(C(CO)N)=O']	Aldol Condensation	-22.87
+670_1	['C=O', 'C(CO)(CN)=O']	['C(CO)(C(CO)N)=O']	Knoevenagel H	-22.87
+672_0	['C=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(CO)N)=O']	Aldol Condensation	4.7
+672_1	['C=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(CO)N)=O']	Knoevenagel H	4.7
+674_0	['C=O', 'C(CNCC=O)=O']	['C(C(CO)NCC=O)=O']	Aldol Condensation	-22.87
+674_1	['C=O', 'C(CNCC=O)=O']	['C(C(CO)NCC=O)=O']	Knoevenagel H	-22.87
+676_0	['C=O', 'C(CC=O)=O']	['C(C(C=O)CO)=O']	Aldol Condensation	-10.04
+676_1	['C=O', 'C(CC=O)=O']	['C(C(C=O)CO)=O']	Knoevenagel C	-10.04
+677_0	['C=O', 'C(C(C)=O)=O']	['C(C(CCO)=O)=O']	Aldol Condensation	-23.56
+679_0	['C=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)CO)=O)=O']	Aldol Condensation	-22.87
+679_1	['C=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)CO)=O)=O']	Knoevenagel C	-22.87
+681_0	['C=O', 'C(CC(C=O)O)=O']	['C(C(CO)C(C=O)O)=O']	Aldol Condensation	-22.87
+681_1	['C=O', 'C(CC(C=O)O)=O']	['C(C(CO)C(C=O)O)=O']	Knoevenagel C	-22.87
+683_0	['C=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)CO)=O']	Aldol Condensation	-14.68
+683_1	['C=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)CO)=O']	Knoevenagel C	-14.68
+685_0	['C=O', 'C(CC(CO)=O)=O']	['C(CC(C(CO)O)=O)=O']	Aldol Condensation	-34.24
+685_1	['C=O', 'C(CC(CO)=O)=O']	['C(CC(C(CO)O)=O)=O']	Knoevenagel H	-34.24
+687_0	['C=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CCO)=O)O)=O']	Aldol Condensation	-25.21
+689_0	['C=O', 'C(C)=O']	['C(CCO)=O']	Aldol Condensation	-25.37
+691_0	['C=O', 'C(C(CNCC=O)O)=O']	['C(C(CO)NCC(C=O)O)=O']	Aldol Condensation	7.77
+691_1	['C=O', 'C(C(CNCC=O)O)=O']	['C(C(CO)NCC(C=O)O)=O']	Knoevenagel H	7.77
+693_0	['C=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(CO)NC(CO)C(C=O)O)=O']	Aldol Condensation	-22.87
+693_1	['C=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(CO)NC(CO)C(C=O)O)=O']	Knoevenagel H	-22.87
+695_0	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(C(C(CN)O)N)O)O)=O']	Aldol Condensation	-13.37
+695_1	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(C(C(CN)O)N)O)O)=O']	Knoevenagel H	-13.37
+697_0	['C(CO)=O', 'C(C(CO)N)=O']	['C(C(C(C(CO)N)O)O)=O']	Aldol Condensation	-13.37
+697_1	['C(CO)=O', 'C(C(CO)N)=O']	['C(C(C(C(CO)N)O)O)=O']	Knoevenagel H	-13.37
+699_0	['C(CO)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(C(C(CN)O)O)O)O)=O']	Aldol Condensation	-13.37
+699_1	['C(CO)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(C(C(CN)O)O)O)O)=O']	Knoevenagel H	-13.37
+701_0	['C(CO)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(C(C(CO)O)N)O)O)=O']	Aldol Condensation	-13.37
+701_1	['C(CO)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(C(C(CO)O)N)O)O)=O']	Knoevenagel H	-13.37
+703_0	['C(CO)=O', 'C(C=O)=O']	['C(C(C(C=O)O)O)=O']	Aldol Condensation	-13.37
+703_1	['C(CO)=O', 'C(C=O)=O']	['C(C(C(C=O)O)O)=O']	Knoevenagel H	-13.37
+705_0	['C(CO)=O', 'C(CO)(CO)=O']	['C(C(C(CO)(CO)O)O)=O']	Aldol Condensation	-8.55
+705_1	['C(CO)=O', 'C(CO)(CO)=O']	['C(C(C(CO)(CO)O)O)=O']	Knoevenagel H	-8.55
+707_0	['C(CO)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CO)O)O)=O']	Aldol Condensation	-13.19
+707_1	['C(CO)=O', 'C(CO)(CO)=O']	['C(CO)(C(C(CO)O)O)=O']	Knoevenagel H	-13.19
+709_0	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)(C(CO)O)O)O)=O']	Aldol Condensation	-8.73
+709_1	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)(C(CO)O)O)O)=O']	Knoevenagel H	-8.73
+711_0	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)O)O)(C(CO)O)=O']	Aldol Condensation	-13.37
+711_1	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)O)O)(C(CO)O)=O']	Knoevenagel H	-13.37
+713_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CO)(CNCC=O)O)O)=O']	Aldol Condensation	-39.37
+713_1	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CO)(CNCC=O)O)O)=O']	Knoevenagel H	-39.37
+715_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC(CO)=O)O)O)=O']	Aldol Condensation	-44.01
+715_1	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CNCC(CO)=O)O)O)=O']	Knoevenagel H	-44.01
+717_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(C(CO)O)O)=O']	Aldol Condensation	-13.37
+717_1	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(CNCC=O)(C(C(CO)O)O)=O']	Knoevenagel H	-13.37
+719_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(CO)O)=O']	Aldol Condensation	-6.64
+719_1	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(CNC(C(CO)=O)C(CO)O)=O']	Knoevenagel H	-6.64
+721_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CO)O)NCC(CO)=O)=O']	Aldol Condensation	-6.64
+721_1	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['C(C(C(CO)O)NCC(CO)=O)=O']	Knoevenagel H	-6.64
+723_0	['C(CO)=O', 'C(CO)(CN)=O']	['C(C(C(CO)(CN)O)O)=O']	Aldol Condensation	-8.73
+723_1	['C(CO)=O', 'C(CO)(CN)=O']	['C(C(C(CO)(CN)O)O)=O']	Knoevenagel H	-8.73
+725_0	['C(CO)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)O)O)=O']	Aldol Condensation	-13.37
+725_1	['C(CO)=O', 'C(CO)(CN)=O']	['C(CN)(C(C(CO)O)O)=O']	Knoevenagel H	-13.37
+727_0	['C(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)O)N)=O']	Aldol Condensation	20.93
+727_1	['C(CO)=O', 'C(CO)(CN)=O']	['C(CO)(C(C(CO)O)N)=O']	Knoevenagel H	20.93
+729_0	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(CN)(C(CO)O)O)O)=O']	Aldol Condensation	-8.73
+729_1	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(CN)(C(CO)O)O)O)=O']	Knoevenagel H	-8.73
+731_0	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(C(CO)O)N)=O']	Aldol Condensation	20.93
+731_1	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(C(CO)O)(C(C(CO)O)N)=O']	Knoevenagel H	20.93
+733_0	['C(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CNCC=O)O)O)=O']	Aldol Condensation	-44.01
+733_1	['C(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CNCC=O)O)O)=O']	Knoevenagel H	-44.01
+735_0	['C(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CO)O)NCC=O)=O']	Aldol Condensation	-6.64
+735_1	['C(CO)=O', 'C(CNCC=O)=O']	['C(C(C(CO)O)NCC=O)=O']	Knoevenagel H	-6.64
+737_0	['C(CO)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)O)=O']	Aldol Condensation	-13.37
+737_1	['C(CO)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)O)=O']	Knoevenagel H	-13.37
+739_0	['C(CO)=O', 'C(CC=O)=O']	['C(CC(C(C=O)O)O)=O']	Aldol Condensation	-0.54
+739_1	['C(CO)=O', 'C(CC=O)=O']	['C(CC(C(C=O)O)O)=O']	Knoevenagel H	-0.54
+741_0	['C(CO)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)O)=O']	Aldol Condensation	6.18
+741_1	['C(CO)=O', 'C(CC=O)=O']	['C(C(C=O)C(CO)O)=O']	Knoevenagel C	6.18
+743_0	['C(CO)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C=O)O)O)=O']	Aldol Condensation	-7.08
+743_1	['C(CO)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C=O)O)O)=O']	Knoevenagel H	-7.08
+745_0	['C(CO)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)O)=O']	Aldol Condensation	-11.73
+745_1	['C(CO)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)O)=O']	Knoevenagel H	-11.73
+747_0	['C(CO)=O', 'C(C(C)=O)=O']	['C(C(CC(CO)O)=O)=O']	Aldol Condensation	-7.34
+749_0	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)O)O)=O']	Aldol Condensation	-8.73
+749_1	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)O)O)=O']	Knoevenagel H	-8.73
+751_0	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(C=O)O)O)(CCO)=O']	Aldol Condensation	-13.37
+751_1	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(C=O)O)O)(CCO)=O']	Knoevenagel H	-13.37
+753_0	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)O)=O)=O']	Aldol Condensation	-6.64
+753_1	['C(CO)=O', 'C(C(CCO)=O)=O']	['C(C(C(CO)C(CO)O)=O)=O']	Knoevenagel C	-6.64
+755_0	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C=O)O)O)O)=O']	Aldol Condensation	-13.37
+755_1	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C=O)O)O)O)=O']	Knoevenagel H	-13.37
+757_0	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)O)=O']	Aldol Condensation	-13.37
+757_1	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)O)=O']	Knoevenagel H	-13.37
+759_0	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)O)C(C=O)O)=O']	Aldol Condensation	-6.64
+759_1	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)O)C(C=O)O)=O']	Knoevenagel C	-6.64
+761_0	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)O)=O']	Aldol Condensation	-5.18
+761_1	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)O)=O']	Knoevenagel H	-5.18
+763_0	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C=O)O)O)=O']	Aldol Condensation	-0.54
+763_1	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C=O)O)O)=O']	Knoevenagel H	-0.54
+765_0	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)O)=O']	Aldol Condensation	1.54
+765_1	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(C(C(CO)=O)C(CO)O)=O']	Knoevenagel C	1.54
+767_0	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)O)O)=O)=O']	Aldol Condensation	-18.01
+767_1	['C(CO)=O', 'C(CC(CO)=O)=O']	['C(CC(C(C(CO)O)O)=O)=O']	Knoevenagel H	-18.01
+769_0	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)O)=O']	Aldol Condensation	43.58
+769_1	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)O)=O']	Knoevenagel H	43.58
+771_0	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)O)=O']	Aldol Condensation	48.22
+771_1	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)O)=O']	Knoevenagel H	48.22
+773_0	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(CC(CO)O)=O)O)=O']	Aldol Condensation	-8.98
+775_0	['C(CO)=O', 'C(C)=O']	['C(C(C(C)O)O)=O']	Aldol Condensation	-13.54
+775_1	['C(CO)=O', 'C(C)=O']	['C(C(C(C)O)O)=O']	Knoevenagel H	-13.54
+777_0	['C(CO)=O', 'C(C)=O']	['C(CC(CO)O)=O']	Aldol Condensation	-9.15
+779_0	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C(CNCC=O)O)O)O)=O']	Aldol Condensation	-13.37
+779_1	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(C(CNCC=O)O)O)O)=O']	Knoevenagel H	-13.37
+781_0	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CNCC(C=O)O)O)O)=O']	Aldol Condensation	-13.37
+781_1	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CNCC(C=O)O)O)O)=O']	Knoevenagel H	-13.37
+783_0	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CO)O)NCC(C=O)O)=O']	Aldol Condensation	24.0
+783_1	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(C(CO)O)NCC(C=O)O)=O']	Knoevenagel H	24.0
+785_0	['C(CO)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)O)=O']	Aldol Condensation	-13.37
+785_1	['C(CO)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)O)=O']	Knoevenagel H	-13.37
+787_0	['C(CO)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)O)=O']	Aldol Condensation	-13.37
+787_1	['C(CO)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)O)=O']	Knoevenagel H	-13.37
+788_0	['O', 'C(C=O)=O']	['C(CO)(O)=O']	Benzilic Acid Rearrangement	-36.99
+788_1	['O', 'C(C=O)=O']	['C(CO)(O)=O']	Cannizarro 1	-36.99
+790_0	['O', 'C(C(C)=O)=O']	['C(C(C)O)(O)=O']	Benzilic Acid Rearrangement	-13.62
+790_1	['O', 'C(C(C)=O)=O']	['C(C(C)O)(O)=O']	Cannizarro 1	-13.62
+792_0	['O', 'C(C(CCO)=O)=O']	['C(C(CCO)O)(O)=O']	Benzilic Acid Rearrangement	-15.27
+792_1	['O', 'C(C(CCO)=O)=O']	['C(C(CCO)O)(O)=O']	Cannizarro 1	-15.27
+794_0	['C(C(CO)O)(O)=O']	['O', 'C(C(CO)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+796_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C(C(C(CO)O)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+798_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(C(C(CO)O)O)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+800_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(CO)O)O)O)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+802_0	['C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CN)O)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+803_0	['C(C(C(C(CO)O)O)N)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Retro Aldol	-23.95
+803_1	['C(C(C(C(CO)O)O)N)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Knoevenagel H (inv)	-23.95
+804_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Retro Aldol	-23.95
+804_1	['C(C(C(C(C(CO)O)O)O)N)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Knoevenagel H (inv)	-23.95
+805_0	['C(C(C(CN)O)N)=O']	['C(CN)=O', 'C(CN)=O']	Retro Aldol	-23.95
+805_1	['C(C(C(CN)O)N)=O']	['C(CN)=O', 'C(CN)=O']	Knoevenagel H (inv)	-23.95
+806_0	['C(C(CO)N)=O']	['C=O', 'C(CN)=O']	Retro Aldol	22.87
+806_1	['C(C(CO)N)=O']	['C=O', 'C(CN)=O']	Knoevenagel H (inv)	22.87
+807_0	['C(C(C(C(CO)O)O)O)=O']	['C(CO)=O', 'C(C(CO)O)=O']	Retro Aldol	13.37
+807_1	['C(C(C(C(CO)O)O)O)=O']	['C(CO)=O', 'C(C(CO)O)=O']	Knoevenagel H (inv)	13.37
+808_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Retro Aldol	13.37
+808_1	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Knoevenagel H (inv)	13.37
+809_0	['C(C(C(CN)O)O)=O']	['C(CO)=O', 'C(CN)=O']	Retro Aldol	13.37
+809_1	['C(C(C(CN)O)O)=O']	['C(CO)=O', 'C(CN)=O']	Knoevenagel H (inv)	13.37
+810_0	['C(C(C(CO)O)N)=O']	['C(CO)=O', 'C(CN)=O']	Retro Aldol	6.64
+810_1	['C(C(C(CO)O)N)=O']	['C(CO)=O', 'C(CN)=O']	Knoevenagel H (inv)	6.64
+811_0	['C(CO)(C(CO)O)=O']	['C=O', 'C(CO)(CO)=O']	Retro Aldol	29.42
+811_1	['C(CO)(C(CO)O)=O']	['C=O', 'C(CO)(CO)=O']	Knoevenagel H (inv)	29.42
+812_0	['C(CNCC=O)(C(CO)O)=O']	['C=O', 'C(CNCC(CO)=O)=O']	Retro Aldol	29.6
+812_1	['C(CNCC=O)(C(CO)O)=O']	['C=O', 'C(CNCC(CO)=O)=O']	Knoevenagel H (inv)	29.6
+813_0	['C(CN)(C(CO)O)=O']	['C=O', 'C(CO)(CN)=O']	Retro Aldol	29.6
+813_1	['C(CN)(C(CO)O)=O']	['C=O', 'C(CO)(CN)=O']	Knoevenagel H (inv)	29.6
+814_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['C(C(CO)O)=O', 'C(C(CO)O)=O']	Retro Aldol	7.7
+814_1	['C(C(CO)(C(C(CO)O)O)O)=O']	['C(C(CO)O)=O', 'C(C(CO)O)=O']	Knoevenagel C (inverse)	7.7
+814_2	['C(C(CO)(C(C(CO)O)O)O)=O']	['C(C(CO)O)=O', 'C(C(CO)O)=O']	Knoevenagel H (inv)	7.7
+815_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['C=O', 'C(C(C(C(CO)O)O)O)=O']	Retro Aldol	26.95
+815_1	['C(C(CO)(C(C(CO)O)O)O)=O']	['C=O', 'C(C(C(C(CO)O)O)O)=O']	Knoevenagel C (inverse)	26.95
+815_2	['C(C(CO)(C(C(CO)O)O)O)=O']	['C=O', 'C(C(C(C(CO)O)O)O)=O']	Knoevenagel H (inv)	26.95
+816_0	['C(C(CO)(C(CN)O)O)=O']	['C=O', 'C(C(C(CN)O)O)=O']	Retro Aldol	26.95
+816_1	['C(C(CO)(C(CN)O)O)=O']	['C=O', 'C(C(C(CN)O)O)=O']	Knoevenagel C (inverse)	26.95
+816_2	['C(C(CO)(C(CN)O)O)=O']	['C=O', 'C(C(C(CN)O)O)=O']	Knoevenagel H (inv)	26.95
+817_0	['C(C(CO)(C(CN)O)O)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Retro Aldol	7.7
+817_1	['C(C(CO)(C(CN)O)O)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Knoevenagel C (inverse)	7.7
+817_2	['C(C(CO)(C(CN)O)O)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Knoevenagel H (inv)	7.7
+818_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(CO)=O', 'C(C(C(CN)O)O)=O']	Retro Aldol	10.73
+818_1	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(CO)=O', 'C(C(C(CN)O)O)=O']	Knoevenagel C (inverse)	10.73
+818_2	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(CO)=O', 'C(C(C(CN)O)O)=O']	Knoevenagel H (inv)	10.73
+819_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Retro Aldol	7.7
+819_1	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Knoevenagel C (inverse)	7.7
+819_2	['C(C(C(CO)O)(C(CN)O)O)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Knoevenagel H (inv)	7.7
+820_0	['C(C(CO)(CO)O)=O']	['C=O', 'C(C(CO)O)=O']	Retro Aldol	26.95
+820_1	['C(C(CO)(CO)O)=O']	['C=O', 'C(C(CO)O)=O']	Knoevenagel C (inverse)	26.95
+820_2	['C(C(CO)(CO)O)=O']	['C=O', 'C(C(CO)O)=O']	Knoevenagel H (inv)	26.95
+821_0	['C(C(CO)(C(CO)O)O)=O']	['C=O', 'C(C(C(CO)O)O)=O']	Retro Aldol	26.95
+821_1	['C(C(CO)(C(CO)O)O)=O']	['C=O', 'C(C(C(CO)O)O)=O']	Knoevenagel C (inverse)	26.95
+821_2	['C(C(CO)(C(CO)O)O)=O']	['C=O', 'C(C(C(CO)O)O)=O']	Knoevenagel H (inv)	26.95
+822_0	['C(C(CO)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(CO)O)=O']	Retro Aldol	10.73
+822_1	['C(C(CO)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(CO)O)=O']	Knoevenagel C (inverse)	10.73
+822_2	['C(C(CO)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(CO)O)=O']	Knoevenagel H (inv)	10.73
+823_0	['C(C(C(CO)O)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Retro Aldol	10.73
+823_1	['C(C(C(CO)O)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Knoevenagel C (inverse)	10.73
+823_2	['C(C(C(CO)O)(C(CO)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Knoevenagel H (inv)	10.73
+824_0	['C(C(CCO)=O)=O']	['C=O', 'C(C(C)=O)=O']	Retro Aldol	23.56
+825_0	['C(CC(C=O)O)=O']	['C(C=O)=O', 'C(C)=O']	Retro Aldol	6.12
+826_0	['C(C(C(C(CO)O)O)O)=O']	['C(CO)(C(C(CO)O)O)=O']	Keto-enol migration twice	-2.0
+827_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)(C(C(C(CO)O)O)O)=O']	Keto-enol migration twice	-2.0
+829_0	['C(C(C(CN)O)O)=O']	['C(CO)(C(CN)O)=O']	Keto-enol migration twice	-2.0
+830_0	['C(CO)(CO)=O']	['C(C(CO)O)=O']	Keto-enol migration twice	2.18
+831_0	['C(CO)(C(CO)O)=O']	['C(C(C(CO)O)O)=O']	Keto-enol migration twice	2.0
+832_0	['C(CO)(C(CO)O)=O']	['C(CO)(C(CO)O)=O']	Keto-enol migration twice	0.0
+833_0	['C(CNCC(CO)=O)=O']	['C(C(CNCC=O)O)=O']	Keto-enol migration twice	-28.64
+835_0	['C(CNCC=O)(C(CO)O)=O']	['C(CNCC(C(CO)=O)O)=O']	Keto-enol migration twice	-30.64
+836_0	['C(CO)(CN)=O']	['C(C(CN)O)=O']	Keto-enol migration twice	2.0
+837_0	['C(CN)(C(CO)O)=O']	['C(CO)(C(CN)O)=O']	Keto-enol migration twice	0.0
+838_0	['C(CC(C=O)O)=O']	['C(CC(CO)=O)=O']	Keto-enol migration twice	-10.19
+839_0	['C(CC(CO)=O)=O']	['C(CC(C=O)O)=O']	Keto-enol migration twice	10.19
+841_0	['C(C(C(C)=O)O)=O']	['C(C(CO)=O)(C)=O']	Keto-enol migration twice	54.95
+843_0	['C(C(C(C)=O)O)=O']	['C(C(C(C)O)=O)=O']	Keto-enol migration twice	56.95
+844_0	['C(C(CNCC=O)O)=O']	['C(CNCC(CO)=O)=O']	Keto-enol migration twice	28.64
+845_0	['C(C(C(CO)NCC=O)O)=O']	['C(CNC(C(CO)=O)CO)=O']	Keto-enol migration twice	-2.0
+846_0	['C(C(CN)O)=O']	['C(CO)(CN)=O']	Keto-enol migration twice	-2.0
+847_0	['C(C(C(CO)N)O)=O']	['C(CO)(C(CO)N)=O']	Keto-enol migration twice	-2.0
+849_0	['C(C(C(CN)O)O)=O']	['O', 'C1(CNCC1O)=O']	Amadori/Heyns Rearrangement	-96.69
+851_0	['C(C(C(CN)O)N)=O', 'C(CO)(CO)=O']	['O', 'C(C(C(CN)O)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	-9.58
+853_0	['C(C(C(CN)O)N)=O', 'C(CO)(CO)=O']	['O', 'C(C(C(CNC(C=O)CO)O)N)=O']	Amadori/Heyns Rearrangement	-9.58
+855_0	['C(C(C(CN)O)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CN)O)NC(C=O)CN)=O']	Amadori/Heyns Rearrangement	-9.76
+857_0	['C(C(C(CN)O)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CNC(C=O)CN)O)N)=O']	Amadori/Heyns Rearrangement	-9.76
+859_0	['C(C(C(CN)O)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CN)O)NCC(CN)=O)=O']	Amadori/Heyns Rearrangement	-20.49
+861_0	['C(C(C(CN)O)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CNCC(CN)=O)O)N)=O']	Amadori/Heyns Rearrangement	7.08
+863_0	['C(C(CO)N)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(CO)NCC(C(CN)O)=O)=O']	Amadori/Heyns Rearrangement	7.08
+865_0	['C(C(CO)N)=O', 'C(CO)(CO)=O']	['O', 'C(C(CO)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	17.99
+867_0	['C(C(CO)N)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(C(C(CO)O)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	17.81
+869_0	['C(C(CO)N)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(C(CO)NC(C(CO)=O)CO)=O']	Amadori/Heyns Rearrangement	15.81
+869_1	['C(C(CO)N)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(C(CO)NC(C(CO)=O)CO)=O']	Amadori Rearrangement	15.81
+871_0	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(CN)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	17.81
+873_0	['C(C(CO)N)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CO)NC(C(CO)=O)CN)=O']	Amadori/Heyns Rearrangement	15.81
+875_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['O', 'C(C(CO)NCC(CC=O)=O)=O']	Amadori/Heyns Rearrangement	-1.1
+877_0	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['O', 'C(CC(C=O)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	26.0
+879_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(CO)NCC(C(C)=O)=O)=O']	Amadori/Heyns Rearrangement	64.03
+881_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(CO)NC(C(C=O)=O)C)=O']	Amadori/Heyns Rearrangement	72.76
+883_0	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(CO)NCC(CN)=O)=O']	Amadori/Heyns Rearrangement	7.08
+885_0	['C(C(CO)N)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(CO)NCC(C(CO)N)=O)=O']	Amadori/Heyns Rearrangement	7.08
+887_0	['C(C(C(C(CO)O)O)O)=O', 'C(CN)O']	['O', 'C(CNCCO)(C(C(CO)O)O)=O']	Amadori/Heyns Rearrangement	-34.52
+889_0	['C(C(C(CN)O)O)=O', 'C(CO)(CO)=O']	['O', 'C(C(CO)NCC(C(C=O)O)O)=O']	Amadori/Heyns Rearrangement	17.99
+891_0	['C(C(C(CN)O)O)=O', 'C(CO)(CN)=O']	['O', 'C(C(CN)NCC(C(C=O)O)O)=O']	Amadori/Heyns Rearrangement	17.81
+893_0	['C(C(C(CN)O)O)=O', 'C(CO)(CN)=O']	['O', 'C(CNCC(CO)=O)(C(CN)O)=O']	Amadori/Heyns Rearrangement	7.08
+895_0	['C(C(C(CN)O)O)=O', 'C(CN)O']	['O', 'C(CNCCO)(C(CN)O)=O']	Amadori/Heyns Rearrangement	-34.52
+897_0	['C(C(C(CN)O)O)=O', 'C(CN)(O)=O']	['O', 'C(CNCC(O)=O)(C(CN)O)=O']	Amadori/Heyns Rearrangement	-19.69
+899_0	['C(C(C(CN)O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CNCC(CN)=O)O)O)=O']	Amadori/Heyns Rearrangement	7.08
+901_0	['C(C(C(CN)O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C(CN)O)=O)O)=O']	Amadori/Heyns Rearrangement	-23.56
+902_0	['C(C(C(CO)O)N)=O', 'C(CO)(CO)=O']	['O', 'C(C(C(CO)O)NC(C=O)CO)=O']	Amadori/Heyns Rearrangement	17.99
+904_0	['C(C(C(CO)O)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CO)O)NC(C=O)CN)=O']	Amadori/Heyns Rearrangement	17.81
+906_0	['C(C(C(CO)O)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CO)O)NCC(CN)=O)=O']	Amadori/Heyns Rearrangement	7.08
+907_0	['C(CO)(CO)=O', 'C(CO)(CN)=O']	['O', 'C(C(CO)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	17.99
+908_0	['C(CO)(CO)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CO)NCC(C(CO)O)=O)=O']	Amadori/Heyns Rearrangement	17.99
+910_0	['C(CO)(CO)=O', 'C(CNCC=O)=O']	['O', 'C(C(CO)N(CC=O)CC=O)=O']	Amadori/Heyns Rearrangement	-29.25
+912_0	['C(CO)(CO)=O', 'C(CN)O']	['O', 'C(C(CO)NCCO)=O']	Amadori/Heyns Rearrangement	-23.61
+914_0	['C(CO)(CO)=O', 'C(CN)(O)=O']	['O', 'C(C(CO)NCC(O)=O)=O']	Amadori/Heyns Rearrangement	-8.79
+915_0	['C(CO)(CO)=O', 'C(C(CN)O)=O']	['O', 'C(C(CO)NCC(C=O)O)=O']	Amadori/Heyns Rearrangement	17.99
+916_0	['C(CO)(CO)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(CO)NC(CO)C(C=O)O)=O']	Amadori/Heyns Rearrangement	17.99
+917_0	['C(CO)(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CO)O)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	17.81
+919_0	['C(CO)(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(CO)(CNC(C(CO)=O)CO)=O']	Amadori/Heyns Rearrangement	15.81
+919_1	['C(CO)(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(CO)(CNC(C(CO)=O)CO)=O']	Amadori Rearrangement	15.81
+921_0	['C(CO)(C(CO)O)=O', 'C(CN)O']	['O', 'C(C(C(CO)O)NCCO)=O']	Amadori/Heyns Rearrangement	-23.79
+923_0	['C(CO)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CO)(C(CO)NCCO)=O']	Amadori/Heyns Rearrangement	-25.79
+923_1	['C(CO)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CO)(C(CO)NCCO)=O']	Amadori Rearrangement	-25.79
+925_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CO)O)NCC(O)=O)=O']	Amadori/Heyns Rearrangement	-8.96
+927_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNC(C(CO)=O)CO)(O)=O']	Amadori/Heyns Rearrangement	-10.96
+927_1	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNC(C(CO)=O)CO)(O)=O']	Amadori Rearrangement	-10.96
+928_0	['C(CO)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CO)O)NCC(C=O)O)=O']	Amadori/Heyns Rearrangement	17.81
+930_0	['C(CO)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C(CO)=O)CO)O)=O']	Amadori/Heyns Rearrangement	15.81
+930_1	['C(CO)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C(CO)=O)CO)O)=O']	Amadori Rearrangement	15.81
+932_0	['C(CNCC(CO)=O)=O', 'C(CN)O']	['O', 'C(C(CNCC=O)NCCO)=O']	Amadori/Heyns Rearrangement	-23.79
+934_0	['C(CNCC(CO)=O)=O', 'C(CN)(O)=O']	['O', 'C(C(CNCC=O)NCC(O)=O)=O']	Amadori/Heyns Rearrangement	-8.96
+936_0	['C(CO)(CN)=O', 'C(CO)(CN)=O']	['O', 'C(C(CN)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	17.81
+938_0	['C(CO)(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CO)(CNC(C(CO)=O)CN)=O']	Amadori/Heyns Rearrangement	15.81
+940_0	['C(CO)(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CN)NCC(C(CO)O)=O)=O']	Amadori/Heyns Rearrangement	17.81
+942_0	['C(CO)(CN)=O', 'C(CNCC=O)=O']	['O', 'C(C(CN)N(CC=O)CC=O)=O']	Amadori/Heyns Rearrangement	-29.42
+944_0	['C(CO)(CN)=O', 'C(CN)O']	['O', 'C(C(CN)NCCO)=O']	Amadori/Heyns Rearrangement	6.85
+946_0	['C(CO)(CN)=O', 'C(CN)(O)=O']	['O', 'C(C(CN)NCC(O)=O)=O']	Amadori/Heyns Rearrangement	21.68
+948_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(CNCC(CO)=O)=O)=O']	Amadori/Heyns Rearrangement	-1.1
+950_0	['C(CO)(CN)=O', 'C(CC(CO)=O)=O']	['O', 'C(C(CC=O)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	26.0
+952_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CO)(CNCC(C(C)=O)=O)=O']	Amadori/Heyns Rearrangement	64.03
+954_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CO)(CNC(C(C=O)=O)C)=O']	Amadori/Heyns Rearrangement	72.76
+956_0	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['O', 'C(CNCC(CN)=O)(CO)=O']	Amadori/Heyns Rearrangement	7.08
+958_0	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['O', 'C(C(CN)NCC(C=O)O)=O']	Amadori/Heyns Rearrangement	17.81
+960_0	['C(CO)(CN)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(CNCC(CO)=O)(C(CO)N)=O']	Amadori/Heyns Rearrangement	7.08
+962_0	['C(CO)(CN)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(CN)NC(CO)C(C=O)O)=O']	Amadori/Heyns Rearrangement	17.81
+964_0	['C(CN)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CO)(C(CN)NCCO)=O']	Amadori/Heyns Rearrangement	4.85
+966_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNC(C(CO)=O)CN)(O)=O']	Amadori/Heyns Rearrangement	19.68
+968_0	['C(CN)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(CNCC(CN)=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	7.08
+970_0	['C(CN)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C(CO)=O)CN)O)=O']	Amadori/Heyns Rearrangement	15.81
+972_0	['C(CNCC=O)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(CN(CC=O)CC=O)=O)=O']	Amadori/Heyns Rearrangement	-48.34
+974_0	['C(CNCC=O)=O', 'C(CC(CO)=O)=O']	['O', 'C(CN(CC=O)C(C=O)CC=O)=O']	Amadori/Heyns Rearrangement	-21.24
+976_0	['C(CNCC=O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CN(CC=O)CC(C(C)=O)=O)=O']	Amadori/Heyns Rearrangement	16.8
+978_0	['C(CNCC=O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CN(CC=O)C(C(C=O)=O)C)=O']	Amadori/Heyns Rearrangement	25.53
+980_0	['C(CNCC=O)=O', 'C(C(CN)O)=O']	['O', 'C(CN(CC=O)CC(CN)=O)=O']	Amadori/Heyns Rearrangement	-40.15
+982_0	['C(CN)O', 'C(CC(C=O)O)=O']	['O', 'C(CC(CNCCO)=O)=O']	Amadori/Heyns Rearrangement	-42.7
+984_0	['C(CN)O', 'C(CC(CO)=O)=O']	['O', 'C(CC(C=O)NCCO)=O']	Amadori/Heyns Rearrangement	-15.6
+986_0	['C(CN)O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(CNCCO)=O)(C)=O']	Amadori/Heyns Rearrangement	22.43
+988_0	['C(CN)O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)NCCO)=O)=O']	Amadori/Heyns Rearrangement	31.16
+990_0	['C(CN)O', 'C(C(CNCC=O)O)=O']	['O', 'C(CNCC(CNCCO)=O)=O']	Amadori/Heyns Rearrangement	-3.88
+992_0	['C(CN)O', 'C(C(CN)O)=O']	['O', 'C(CNCCO)(CN)=O']	Amadori/Heyns Rearrangement	-6.94
+994_0	['C(CN)O', 'C(C(C(CO)N)O)=O']	['O', 'C(CNCCO)(C(CO)N)=O']	Amadori/Heyns Rearrangement	-6.94
+996_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(CNCC(O)=O)=O)=O']	Amadori/Heyns Rearrangement	-27.88
+998_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['O', 'C(CC(C=O)NCC(O)=O)=O']	Amadori/Heyns Rearrangement	-0.78
+1000_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CNCC(C(C)=O)=O)(O)=O']	Amadori/Heyns Rearrangement	37.26
+1002_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CNC(C(C=O)=O)C)(O)=O']	Amadori/Heyns Rearrangement	45.99
+1004_0	['C(CN)(O)=O', 'C(C(CNCC=O)O)=O']	['O', 'C(CNCC(CNCC(O)=O)=O)=O']	Amadori/Heyns Rearrangement	10.95
+1006_0	['C(CN)(O)=O', 'C(C(CN)O)=O']	['O', 'C(CNCC(CN)=O)(O)=O']	Amadori/Heyns Rearrangement	7.88
+1008_0	['C(CN)(O)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(CNCC(O)=O)(C(CO)N)=O']	Amadori/Heyns Rearrangement	7.88
+1010_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(CC=O)=O)O)=O']	Amadori/Heyns Rearrangement	-31.74
+1012_0	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['O', 'C(CC(C=O)NCC(C=O)O)=O']	Amadori/Heyns Rearrangement	26.0
+1014_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C(C)=O)=O)O)=O']	Amadori/Heyns Rearrangement	64.03
+1016_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C(C=O)=O)C)O)=O']	Amadori/Heyns Rearrangement	72.76
+1018_0	['C(C(CN)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(CN)=O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1020_0	['C(C(CN)O)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(CNCC(C(CO)N)=O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1022_0	['C(C(CN)O)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(C(CO)NCC(CN)=O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1023_0	['N', 'C(C(C(C(CO)O)O)O)=O']	['O', 'C(CN)(C(C(CO)O)O)=O']	Amadori/Heyns Rearrangement	-20.34
+1024_0	['N', 'C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CN)(C(C(C(CO)O)O)O)=O']	Amadori/Heyns Rearrangement	-20.34
+1026_0	['N', 'C(C(C(CN)O)O)=O']	['O', 'C(CN)(C(CN)O)=O']	Amadori/Heyns Rearrangement	-20.34
+1027_0	['N', 'C(CO)(CO)=O']	['O', 'C(C(CO)N)=O']	Amadori/Heyns Rearrangement	-9.43
+1028_0	['N', 'C(CO)(C(CO)O)=O']	['O', 'C(C(C(CO)O)N)=O']	Amadori/Heyns Rearrangement	-9.61
+1029_0	['N', 'C(CO)(C(CO)O)=O']	['O', 'C(CO)(C(CO)N)=O']	Amadori/Heyns Rearrangement	-11.61
+1029_1	['N', 'C(CO)(C(CO)O)=O']	['O', 'C(CO)(C(CO)N)=O']	Amadori Rearrangement	-11.61
+1031_0	['N', 'C(CNCC(CO)=O)=O']	['O', 'C(C(CNCC=O)N)=O']	Amadori/Heyns Rearrangement	-12.67
+1033_0	['N', 'C(CNCC=O)(C(CO)O)=O']	['O', 'C(CO)(C(CNCC=O)N)=O']	Amadori/Heyns Rearrangement	-14.68
+1035_0	['N', 'C(CO)(CN)=O']	['O', 'C(C(CN)N)=O']	Amadori/Heyns Rearrangement	17.97
+1037_0	['N', 'C(CN)(C(CO)O)=O']	['O', 'C(CO)(C(CN)N)=O']	Amadori/Heyns Rearrangement	15.96
+1039_0	['N', 'C(CC(C=O)O)=O']	['O', 'C(CC(CN)=O)=O']	Amadori/Heyns Rearrangement	-28.52
+1041_0	['N', 'C(CC(CO)=O)=O']	['O', 'C(CC(C=O)N)=O']	Amadori/Heyns Rearrangement	-1.42
+1043_0	['N', 'C(C(C(C)=O)O)=O']	['O', 'C(C(CN)=O)(C)=O']	Amadori/Heyns Rearrangement	36.61
+1045_0	['N', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)N)=O)=O']	Amadori/Heyns Rearrangement	45.34
+1047_0	['N', 'C(C(CNCC=O)O)=O']	['O', 'C(CNCC(CN)=O)=O']	Amadori/Heyns Rearrangement	10.3
+1049_0	['N', 'C(C(C(CO)NCC=O)O)=O']	['O', 'C(CNC(C(CN)=O)CO)=O']	Amadori/Heyns Rearrangement	-20.34
+1051_0	['N', 'C(C(CN)O)=O']	['O', 'C(CN)(CN)=O']	Amadori/Heyns Rearrangement	7.24
+1053_0	['N', 'C(C(C(CO)N)O)=O']	['O', 'C(CN)(C(CO)N)=O']	Amadori/Heyns Rearrangement	7.24
+1054_0	['C(C(CO)O)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CN)O)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	-20.49
+1055_0	['C(C(CO)O)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CNCC(CO)=O)O)N)=O']	Amadori/Heyns Rearrangement	-20.49
+1056_0	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['O', 'C(C(CO)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	7.08
+1057_0	['C(C(CO)O)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(C(CNCC(CO)=O)O)O)=O']	Amadori/Heyns Rearrangement	-23.56
+1058_0	['C(C(CO)O)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)O)NCC(CO)=O)=O']	Amadori/Heyns Rearrangement	7.08
+1060_0	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(CO)(CNCC(CO)=O)=O']	Amadori/Heyns Rearrangement	7.08
+1062_0	['C(C(CO)O)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CNCC(CO)=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	7.08
+1064_0	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['O', 'C(CN(CC=O)CC(CO)=O)=O']	Amadori/Heyns Rearrangement	-40.15
+1066_0	['C(C(CO)O)=O', 'C(CN)O']	['O', 'C(CO)(CNCCO)=O']	Amadori/Heyns Rearrangement	-34.52
+1068_0	['C(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNCC(CO)=O)(O)=O']	Amadori/Heyns Rearrangement	-19.69
+1070_0	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(CO)=O)O)=O']	Amadori/Heyns Rearrangement	-23.56
+1072_0	['C(C(CO)O)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(C(CO)NCC(CO)=O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1073_0	['C(C(C(CO)O)O)=O', 'C(C(CO)N)=O']	['O', 'C(C(CO)NCC(C(CO)O)=O)=O']	Amadori/Heyns Rearrangement	7.08
+1074_0	['C(C(C(CO)O)O)=O', 'C(CO)(CN)=O']	['O', 'C(CNCC(CO)=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	7.08
+1076_0	['C(C(C(CO)O)O)=O', 'C(CN)O']	['O', 'C(CNCCO)(C(CO)O)=O']	Amadori/Heyns Rearrangement	-34.52
+1078_0	['C(C(C(CO)O)O)=O', 'C(CN)(O)=O']	['O', 'C(CNCC(O)=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	-19.69
+1080_0	['C(C(C(CO)O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C(CO)O)=O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1081_0	['C(CN)=O', 'C(C(C(C(CO)O)O)O)=O']	['O', 'C(CNCC=O)(C(C(CO)O)O)=O']	Amadori/Heyns Rearrangement	7.08
+1083_0	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(CNCC=O)(C(CN)O)=O']	Amadori/Heyns Rearrangement	7.08
+1084_0	['C(CN)=O', 'C(CO)(CO)=O']	['O', 'C(C(CO)NCC=O)=O']	Amadori/Heyns Rearrangement	17.99
+1085_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(C(C(CO)O)NCC=O)=O']	Amadori/Heyns Rearrangement	17.81
+1086_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(CNC(C(CO)=O)CO)=O']	Amadori/Heyns Rearrangement	15.81
+1086_1	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(CNC(C(CO)=O)CO)=O']	Amadori Rearrangement	15.81
+1088_0	['C(CN)=O', 'C(CNCC(CO)=O)=O']	['O', 'C(CNC(C=O)CNCC=O)=O']	Amadori/Heyns Rearrangement	-12.83
+1090_0	['C(CN)=O', 'C(CO)(CN)=O']	['O', 'C(C(CN)NCC=O)=O']	Amadori/Heyns Rearrangement	17.81
+1092_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CNC(C(CO)=O)CN)=O']	Amadori/Heyns Rearrangement	15.81
+1094_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(CNCC=O)=O)=O']	Amadori/Heyns Rearrangement	-1.1
+1096_0	['C(CN)=O', 'C(CC(CO)=O)=O']	['O', 'C(CC(C=O)NCC=O)=O']	Amadori/Heyns Rearrangement	26.0
+1098_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CNCC(C(C)=O)=O)=O']	Amadori/Heyns Rearrangement	64.03
+1100_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(CNC(C(C=O)=O)C)=O']	Amadori/Heyns Rearrangement	72.76
+1102_0	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['O', 'C(CNCC(CNCC=O)=O)=O']	Amadori/Heyns Rearrangement	37.72
+1103_0	['C(CN)=O', 'C(C(CN)O)=O']	['O', 'C(CNCC(CN)=O)=O']	Amadori/Heyns Rearrangement	7.08
+1105_0	['C(CN)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(CNCC=O)(C(CO)N)=O']	Amadori/Heyns Rearrangement	7.08
+1106_0	['C(CO)=O', 'C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(C(C(CO)O)O)NCC=O)=O']	Amadori/Heyns Rearrangement	-21.51
+1107_0	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CN)O)NCC=O)=O']	Amadori/Heyns Rearrangement	-21.51
+1108_0	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CNCC=O)O)N)=O']	Amadori/Heyns Rearrangement	-24.58
+1109_0	['C(CO)=O', 'C(C(CO)N)=O']	['O', 'C(C(CO)NCC=O)=O']	Amadori/Heyns Rearrangement	6.06
+1110_0	['C(CO)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(C(CNCC=O)O)O)=O']	Amadori/Heyns Rearrangement	-24.58
+1111_0	['C(CO)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)O)NCC=O)=O']	Amadori/Heyns Rearrangement	6.06
+1112_0	['C(CO)=O', 'C(CNCC(CO)=O)=O']	['O', 'C(CN(CC=O)CC(CO)=O)=O']	Amadori/Heyns Rearrangement	-41.18
+1113_0	['C(CO)=O', 'C(CO)(CN)=O']	['O', 'C(CNCC(CO)=O)=O']	Amadori/Heyns Rearrangement	6.06
+1114_0	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CNCC=O)(C(CO)O)=O']	Amadori/Heyns Rearrangement	6.06
+1116_0	['C(CO)=O', 'C(CNCC=O)=O']	['O', 'C(CN(CC=O)CC=O)=O']	Amadori/Heyns Rearrangement	-41.18
+1118_0	['C(CO)=O', 'C(CN)O']	['O', 'C(CNCCO)=O']	Amadori/Heyns Rearrangement	-35.54
+1120_0	['C(CO)=O', 'C(CN)(O)=O']	['O', 'C(CNCC(O)=O)=O']	Amadori/Heyns Rearrangement	-20.72
+1122_0	['C(CO)=O', 'C(C(CO)(C(CN)O)O)=O']	['O', 'C(C(CO)(C(CNCC=O)O)O)=O']	Amadori/Heyns Rearrangement	-24.58
+1124_0	['C(CO)=O', 'C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CNCC=O)O)O)(O)=O']	Amadori/Heyns Rearrangement	-24.58
+1126_0	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['O', 'C(C(CN(CC=O)CC=O)O)=O']	Amadori/Heyns Rearrangement	-10.54
+1127_0	['C(CO)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC=O)O)=O']	Amadori/Heyns Rearrangement	-24.58
+1128_0	['C(CO)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(C(CO)NCC=O)O)=O']	Amadori/Heyns Rearrangement	6.06
+1130_0	['C=O', 'O', 'C(C(C(C(CO)O)O)N)=O']	['C(O)=O', 'C(C(C(C(CO)N)O)O)O']	Cannizarro 2, HCHO (oxidation)	-52.52
+1132_0	['C=O', 'O', 'C(C(C(C(C(CO)O)O)O)N)=O']	['C(O)=O', 'C(C(C(C(C(CO)N)O)O)O)O']	Cannizarro 2, HCHO (oxidation)	-52.52
+1134_0	['C=O', 'O', 'C(C(C(CN)O)N)=O']	['C(O)=O', 'C(C(C(CN)O)N)O']	Cannizarro 2, HCHO (oxidation)	-52.52
+1136_0	['C=O', 'O', 'C(C(CO)N)=O']	['C(O)=O', 'C(C(CO)N)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1138_0	['C=O', 'O', 'C(C(C(C(CO)O)O)O)=O']	['C(O)=O', 'C(C(C(C(CO)O)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1140_0	['C=O', 'O', 'C(C(C(C(C(CO)O)O)O)O)=O']	['C(O)=O', 'C(C(C(C(C(CO)O)O)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1142_0	['C=O', 'O', 'C(C(C(CN)O)O)=O']	['C(O)=O', 'C(C(C(CN)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1144_0	['C=O', 'O', 'C(C(C(CO)O)N)=O']	['C(O)=O', 'C(C(C(CO)O)N)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1145_0	['C=O', 'O', 'C(C=O)=O']	['C(CO)=O', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)	-21.92
+1146_0	['C=O', 'O', 'C(CNCC(CO)=O)=O']	['C(O)=O', 'C(CO)(CNCCO)=O']	Cannizarro 2, HCHO (oxidation)	-55.59
+1147_0	['C=O', 'O', 'C(CNCC=O)(C(CO)O)=O']	['C(O)=O', 'C(CNCCO)(C(CO)O)=O']	Cannizarro 2, HCHO (oxidation)	-55.59
+1148_0	['C=O', 'O', 'C(CNCC=O)=O']	['C(O)=O', 'C(CNCCO)=O']	Cannizarro 2, HCHO (oxidation)	-55.59
+1150_0	['C=O', 'O', 'C(C(CO)(C(C(CO)O)O)O)=O']	['C(O)=O', 'C(C(CO)(C(C(CO)O)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1152_0	['C=O', 'O', 'C(C(CO)(C(CN)O)O)=O']	['C(O)=O', 'C(C(CO)(C(CN)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1154_0	['C=O', 'O', 'C(C(C(CO)O)(C(CN)O)O)=O']	['C(O)=O', 'C(C(C(CO)O)(C(CN)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1156_0	['C=O', 'O', 'C(C(CO)(CO)O)=O']	['C(O)=O', 'C(C(CO)(CO)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1158_0	['C=O', 'O', 'C(C(CO)(C(CO)O)O)=O']	['C(O)=O', 'C(C(CO)(C(CO)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1160_0	['C=O', 'O', 'C(C(C(CO)O)(C(CO)O)O)=O']	['C(O)=O', 'C(C(C(CO)O)(C(CO)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1161_0	['C=O', 'O', 'C(CC=O)=O']	['C(O)=O', 'C(CCO)=O']	Cannizarro 2, HCHO (oxidation)	-12.12
+1163_0	['C=O', 'O', 'C(C(C)=O)=O']	['C(O)=O', 'C(C)(CO)=O']	Cannizarro 2, HCHO (oxidation)	-23.3
+1165_0	['C=O', 'O', 'C(C(CCO)=O)=O']	['C(O)=O', 'C(CO)(CCO)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1166_0	['C=O', 'O', 'C(CC(C=O)O)=O']	['C(O)=O', 'C(CC(CO)O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1168_0	['C=O', 'O', 'C(CC(C=O)O)=O']	['C(O)=O', 'C(C(CCO)O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1169_0	['C=O', 'O', 'C(CC(CO)=O)=O']	['C(O)=O', 'C(CO)(CCO)=O']	Cannizarro 2, HCHO (oxidation)	-16.76
+1171_0	['C=O', 'O', 'C(C(C(C)=O)O)=O']	['C(O)=O', 'C(C)(C(CO)O)=O']	Cannizarro 2, HCHO (oxidation)	32.0
+1173_0	['C=O', 'O', 'C(C)=O']	['C(O)=O', 'CCO']	Cannizarro 2, HCHO (oxidation)	-25.39
+1175_0	['C=O', 'O', 'C(C(CNCC=O)O)=O']	['C(O)=O', 'C(CNCC(CO)O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1177_0	['C=O', 'O', 'C(C(CNCC=O)O)=O']	['C(O)=O', 'C(C(CNCCO)O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1179_0	['C=O', 'O', 'C(C(C(CO)NCC=O)O)=O']	['C(O)=O', 'C(CNC(CO)C(CO)O)=O']	Cannizarro 2, HCHO (oxidation)	-55.59
+1181_0	['C=O', 'O', 'C(C(C(CO)NCC=O)O)=O']	['C(O)=O', 'C(C(C(CO)NCCO)O)=O']	Cannizarro 2, HCHO (oxidation)	-55.59
+1183_0	['C=O', 'O', 'C(C(CN)O)=O']	['C(O)=O', 'C(C(CN)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1184_0	['C=O', 'O', 'C(C(C(CO)N)O)=O']	['C(O)=O', 'C(C(C(CO)O)N)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+1186_0	['C=O', 'O', 'C(C(C(C(CO)O)O)N)=O']	['CO', 'C(C(C(C(CO)O)O)N)(O)=O']	Cannizarro 2, HCHO (reduction)	-57.75
+1188_0	['C=O', 'O', 'C(C(C(C(C(CO)O)O)O)N)=O']	['CO', 'C(C(C(C(C(CO)O)O)O)N)(O)=O']	Cannizarro 2, HCHO (reduction)	-57.75
+1190_0	['C=O', 'O', 'C(C(C(CN)O)N)=O']	['CO', 'C(C(C(CN)O)N)(O)=O']	Cannizarro 2, HCHO (reduction)	-57.75
+1192_0	['C=O', 'O', 'C(C(CO)N)=O']	['CO', 'C(C(CO)N)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1193_0	['C=O', 'O', 'C(C(C(C(CO)O)O)O)=O']	['CO', 'C(C(C(C(CO)O)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1194_0	['C=O', 'O', 'C(C(C(C(C(CO)O)O)O)O)=O']	['CO', 'C(C(C(C(C(CO)O)O)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1195_0	['C=O', 'O', 'C(C(C(CN)O)O)=O']	['CO', 'C(C(C(CN)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1197_0	['C=O', 'O', 'C(C(C(CO)O)N)=O']	['CO', 'C(C(C(CO)O)N)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1199_0	['C=O', 'O', 'C(C=O)=O']	['CO', 'C(C(O)=O)=O']	Cannizarro 2, HCHO (reduction)	-26.42
+1200_0	['C=O', 'O', 'C(CNCC(CO)=O)=O']	['CO', 'C(CNCC(CO)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-60.81
+1201_0	['C=O', 'O', 'C(CNCC=O)(C(CO)O)=O']	['CO', 'C(CNCC(O)=O)(C(CO)O)=O']	Cannizarro 2, HCHO (reduction)	-60.81
+1202_0	['C=O', 'O', 'C(CNCC=O)=O']	['CO', 'C(CNCC(O)=O)=O']	Cannizarro 2, HCHO (reduction)	-60.81
+1204_0	['C=O', 'O', 'C(C(CO)(C(C(CO)O)O)O)=O']	['CO', 'C(C(CO)(C(C(CO)O)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1206_0	['C=O', 'O', 'C(C(CO)(C(CN)O)O)=O']	['CO', 'C(C(CO)(C(CN)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1208_0	['C=O', 'O', 'C(C(C(CO)O)(C(CN)O)O)=O']	['CO', 'C(C(C(CO)O)(C(CN)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1210_0	['C=O', 'O', 'C(C(CO)(CO)O)=O']	['CO', 'C(C(CO)(CO)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1212_0	['C=O', 'O', 'C(C(CO)(C(CO)O)O)=O']	['CO', 'C(C(CO)(C(CO)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1214_0	['C=O', 'O', 'C(C(C(CO)O)(C(CO)O)O)=O']	['CO', 'C(C(C(CO)O)(C(CO)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1216_0	['C=O', 'O', 'C(CC=O)=O']	['CO', 'C(CC(O)=O)=O']	Cannizarro 2, HCHO (reduction)	-27.03
+1218_0	['C=O', 'O', 'C(C(C)=O)=O']	['CO', 'C(C(C)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-22.75
+1220_0	['C=O', 'O', 'C(C(CCO)=O)=O']	['CO', 'C(C(CCO)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1222_0	['C=O', 'O', 'C(CC(C=O)O)=O']	['CO', 'C(C(CC=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1224_0	['C=O', 'O', 'C(CC(C=O)O)=O']	['CO', 'C(CC(C=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1226_0	['C=O', 'O', 'C(CC(CO)=O)=O']	['CO', 'C(CC(CO)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-21.99
+1228_0	['C=O', 'O', 'C(C(C(C)=O)O)=O']	['CO', 'C(C(C(C)=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	26.78
+1230_0	['C=O', 'O', 'C(C)=O']	['CO', 'C(C)(O)=O']	Cannizarro 2, HCHO (reduction)	-41.75
+1232_0	['C=O', 'O', 'C(C(CNCC=O)O)=O']	['CO', 'C(C(CNCC=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1234_0	['C=O', 'O', 'C(C(CNCC=O)O)=O']	['CO', 'C(C(CNCC(O)=O)O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1236_0	['C=O', 'O', 'C(C(C(CO)NCC=O)O)=O']	['CO', 'C(C(C(CO)NCC=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-60.81
+1238_0	['C=O', 'O', 'C(C(C(CO)NCC=O)O)=O']	['CO', 'C(C(C(CO)NCC(O)=O)O)=O']	Cannizarro 2, HCHO (reduction)	-60.81
+1240_0	['C=O', 'O', 'C(C(CN)O)=O']	['CO', 'C(C(CN)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1242_0	['C=O', 'O', 'C(C(C(CO)N)O)=O']	['CO', 'C(C(C(CO)N)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+1244_0	['C(CNCC=O)(C(CO)O)=O']	['C1(CNCC(C1(CO)O)O)=O']	Knoevenagel C	-67.61
+1244_1	['C(CNCC=O)(C(CO)O)=O']	['C1(CNCC(C1(CO)O)O)=O']	Knoevenagel H	-67.61
+1246_0	['C(C(CNCC=O)O)=O']	['C(C1(CNCC1O)O)=O']	Knoevenagel C	-66.9
+1246_1	['C(C(CNCC=O)O)=O']	['C(C1(CNCC1O)O)=O']	Knoevenagel H	-66.9
+1248_0	['C(C(C(CO)NCC=O)O)=O']	['C(C1(C(CNC1CO)O)O)=O']	Knoevenagel C	-104.12
+1248_1	['C(C(C(CO)NCC=O)O)=O']	['C(C1(C(CNC1CO)O)O)=O']	Knoevenagel H	-104.12
+1250_0	['C(C(C(C(CO)O)O)N)=O', 'C(C)=O']	['C(C(C(C)O)(C(C(CO)O)O)N)=O']	Knoevenagel C	-3.19
+1250_1	['C(C(C(C(CO)O)O)N)=O', 'C(C)=O']	['C(C(C(C)O)(C(C(CO)O)O)N)=O']	Knoevenagel H	-3.19
+1252_0	['C(C(C(CN)O)N)=O', 'C(C=O)=O']	['C(C(C(CN)O)(C(C=O)O)N)=O']	Knoevenagel C	-3.02
+1252_1	['C(C(C(CN)O)N)=O', 'C(C=O)=O']	['C(C(C(CN)O)(C(C=O)O)N)=O']	Knoevenagel H	-3.02
+1254_0	['C(C(C(CN)O)N)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CN)O)N)=O']	Knoevenagel C	9.81
+1254_1	['C(C(C(CN)O)N)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CN)O)N)=O']	Knoevenagel H	9.81
+1256_0	['C(C(C(CN)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C=O)(C)O)N)=O']	Knoevenagel C	3.27
+1256_1	['C(C(C(CN)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C=O)(C)O)N)=O']	Knoevenagel H	3.27
+1258_0	['C(C(C(CN)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C(C)=O)O)N)=O']	Knoevenagel C	-1.38
+1258_1	['C(C(C(CN)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C(C)=O)O)N)=O']	Knoevenagel H	-1.38
+1260_0	['C(C(C(CN)O)N)=O', 'C(C)=O']	['C(C(C(CN)O)(C(C)O)N)=O']	Knoevenagel C	-3.19
+1260_1	['C(C(C(CN)O)N)=O', 'C(C)=O']	['C(C(C(CN)O)(C(C)O)N)=O']	Knoevenagel H	-3.19
+1262_0	['C(C(CO)N)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)N)O)N)=O']	Knoevenagel C	24.55
+1262_1	['C(C(CO)N)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)N)O)N)=O']	Knoevenagel H	24.55
+1264_0	['C(C(CO)N)=O', 'C(C=O)=O']	['C(C(CO)(C(C=O)O)N)=O']	Knoevenagel C	24.55
+1264_1	['C(C(CO)N)=O', 'C(C=O)=O']	['C(C(CO)(C(C=O)O)N)=O']	Knoevenagel H	24.55
+1266_0	['C(C(CO)N)=O', 'C(CO)(CO)=O']	['C(C(CO)(C(CO)(CO)O)N)=O']	Knoevenagel C	29.37
+1266_1	['C(C(CO)N)=O', 'C(CO)(CO)=O']	['C(C(CO)(C(CO)(CO)O)N)=O']	Knoevenagel H	29.37
+1268_0	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(C(CO)(C(CN)(CO)O)N)=O']	Knoevenagel C	29.2
+1268_1	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['C(C(CO)(C(CN)(CO)O)N)=O']	Knoevenagel H	29.2
+1270_0	['C(C(CO)N)=O', 'C(CNCC=O)=O']	['C(C(CO)(C(CNCC=O)O)N)=O']	Knoevenagel C	-6.09
+1270_1	['C(C(CO)N)=O', 'C(CNCC=O)=O']	['C(C(CO)(C(CNCC=O)O)N)=O']	Knoevenagel H	-6.09
+1272_0	['C(C(CO)N)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(CO)N)O)O)(O)=O']	Knoevenagel C	-7.7
+1272_1	['C(C(CO)N)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(CO)N)O)O)(O)=O']	Knoevenagel H	-7.7
+1274_0	['C(C(CO)N)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)N)=O']	Knoevenagel C	37.38
+1274_1	['C(C(CO)N)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)N)=O']	Knoevenagel H	37.38
+1276_0	['C(C(CO)N)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)N)=O']	Knoevenagel C	30.84
+1276_1	['C(C(CO)N)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)N)=O']	Knoevenagel H	30.84
+1278_0	['C(C(CO)N)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)N)=O']	Knoevenagel C	26.2
+1278_1	['C(C(CO)N)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)N)=O']	Knoevenagel H	26.2
+1280_0	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C=O)(CCO)O)N)=O']	Knoevenagel C	29.2
+1280_1	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C=O)(CCO)O)N)=O']	Knoevenagel H	29.2
+1282_0	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C(CCO)=O)O)N)=O']	Knoevenagel C	24.55
+1282_1	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C(CCO)=O)O)N)=O']	Knoevenagel H	24.55
+1284_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(C(CC=O)O)O)N)=O']	Knoevenagel C	24.55
+1284_1	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(C(CC=O)O)O)N)=O']	Knoevenagel H	24.55
+1286_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(CC(C=O)O)O)N)=O']	Knoevenagel C	24.55
+1286_1	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(CC(C=O)O)O)N)=O']	Knoevenagel H	24.55
+1288_0	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CC(CO)=O)O)N)=O']	Knoevenagel C	32.74
+1288_1	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CC(CO)=O)O)N)=O']	Knoevenagel H	32.74
+1290_0	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CO)(CC=O)O)N)=O']	Knoevenagel C	37.38
+1290_1	['C(C(CO)N)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CO)(CC=O)O)N)=O']	Knoevenagel H	37.38
+1292_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(CO)N)O)O)=O']	Knoevenagel C	49.25
+1292_1	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(CO)N)O)O)=O']	Knoevenagel H	49.25
+1294_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C(C(C)=O)O)O)N)=O']	Knoevenagel C	81.5
+1294_1	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C(C(C)=O)O)O)N)=O']	Knoevenagel H	81.5
+1296_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C)(C(C=O)O)O)N)=O']	Knoevenagel C	86.15
+1296_1	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C)(C(C=O)O)O)N)=O']	Knoevenagel H	86.15
+1298_0	['C(C(CO)N)=O', 'C(C)=O']	['C(C(CO)(C(C)O)N)=O']	Knoevenagel C	-3.19
+1298_1	['C(C(CO)N)=O', 'C(C)=O']	['C(C(CO)(C(C)O)N)=O']	Knoevenagel H	-3.19
+1300_0	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CO)N)O)O)=O']	Knoevenagel C	-7.7
+1300_1	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CO)N)O)O)=O']	Knoevenagel H	-7.7
+1302_0	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)N)=O']	Knoevenagel C	24.55
+1302_1	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)N)=O']	Knoevenagel H	24.55
+1304_0	['C(C(C(C(CO)O)O)O)=O', 'C(C)=O']	['C(C(C(C)O)(C(C(CO)O)O)O)=O']	Knoevenagel C	-7.87
+1304_1	['C(C(C(C(CO)O)O)O)=O', 'C(C)=O']	['C(C(C(C)O)(C(C(CO)O)O)O)=O']	Knoevenagel H	-7.87
+1306_0	['C(C(C(CN)O)O)=O', 'C(C=O)=O']	['C(C(C(CN)O)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1306_1	['C(C(C(CN)O)O)=O', 'C(C=O)=O']	['C(C(C(CN)O)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1308_0	['C(C(C(CN)O)O)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CN)O)O)=O']	Knoevenagel C	5.12
+1308_1	['C(C(C(CN)O)O)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CN)O)O)=O']	Knoevenagel H	5.12
+1310_0	['C(C(C(CN)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C=O)(C)O)O)=O']	Knoevenagel C	-1.42
+1310_1	['C(C(C(CN)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C=O)(C)O)O)=O']	Knoevenagel H	-1.42
+1312_0	['C(C(C(CN)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1312_1	['C(C(C(CN)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CN)O)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1314_0	['C(C(C(CN)O)O)=O', 'C(C)=O']	['C(C(C(C)O)(C(CN)O)O)=O']	Knoevenagel C	-7.87
+1314_1	['C(C(C(CN)O)O)=O', 'C(C)=O']	['C(C(C(C)O)(C(CN)O)O)=O']	Knoevenagel H	-7.87
+1316_0	['C(C(C(CO)O)N)=O', 'C(C=O)=O']	['C(C(C(CO)O)(C(C=O)O)N)=O']	Knoevenagel C	24.55
+1316_1	['C(C(C(CO)O)N)=O', 'C(C=O)=O']	['C(C(C(CO)O)(C(C=O)O)N)=O']	Knoevenagel H	24.55
+1318_0	['C(C(C(CO)O)N)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CO)O)N)=O']	Knoevenagel C	37.38
+1318_1	['C(C(C(CO)O)N)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CO)O)N)=O']	Knoevenagel H	37.38
+1320_0	['C(C(C(CO)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C=O)(C)O)N)=O']	Knoevenagel C	30.84
+1320_1	['C(C(C(CO)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C=O)(C)O)N)=O']	Knoevenagel H	30.84
+1322_0	['C(C(C(CO)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C(C)=O)O)N)=O']	Knoevenagel C	26.2
+1322_1	['C(C(C(CO)O)N)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C(C)=O)O)N)=O']	Knoevenagel H	26.2
+1324_0	['C(C(C(CO)O)N)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)N)=O']	Knoevenagel C	24.38
+1324_1	['C(C(C(CO)O)N)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)N)=O']	Knoevenagel H	24.38
+1326_0	['C(C=O)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1326_1	['C(C=O)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1328_0	['C(C=O)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(C=O)O)O)=O']	Knoevenagel C	19.87
+1328_1	['C(C=O)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(C=O)O)O)=O']	Knoevenagel H	19.87
+1330_0	['C(C=O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C=O)O)O)(O)=O']	Knoevenagel C	-7.7
+1330_1	['C(C=O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C=O)O)O)(O)=O']	Knoevenagel H	-7.7
+1332_0	['C(C=O)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(C=O)O)O)(O)=O']	Knoevenagel C	-7.7
+1332_1	['C(C=O)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(C=O)O)O)(O)=O']	Knoevenagel H	-7.7
+1334_0	['C(C=O)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CN)O)(C(C=O)O)O)(O)=O']	Knoevenagel C	-7.7
+1334_1	['C(C=O)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CN)O)(C(C=O)O)O)(O)=O']	Knoevenagel H	-7.7
+1336_0	['C(C=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C=O)O)O)=O']	Knoevenagel C	49.25
+1336_1	['C(C=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C=O)O)O)=O']	Knoevenagel H	49.25
+1338_0	['C(C=O)=O', 'C(C(CNCC=O)O)=O']	['C(CNCC(C=O)(C(C=O)O)O)=O']	Knoevenagel C	22.94
+1338_1	['C(C=O)=O', 'C(C(CNCC=O)O)=O']	['C(CNCC(C=O)(C(C=O)O)O)=O']	Knoevenagel H	22.94
+1340_0	['C(C=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1340_1	['C(C=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1342_0	['C(C=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1342_1	['C(C=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1344_0	['C(CO)(CO)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)(CO)O)O)(O)=O']	Knoevenagel C	-2.89
+1344_1	['C(CO)(CO)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)(CO)O)O)(O)=O']	Knoevenagel H	-2.89
+1346_0	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)(CO)O)O)=O']	Knoevenagel C	54.07
+1346_1	['C(CO)(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)(CO)O)O)=O']	Knoevenagel H	54.07
+1348_0	['C(CO)(CO)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CO)O)O)=O']	Knoevenagel C	-2.89
+1348_1	['C(CO)(CO)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CO)O)O)=O']	Knoevenagel H	-2.89
+1350_0	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)(CO)O)O)=O']	Knoevenagel C	5.12
+1350_1	['C(CO)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(CO)=O)(CO)O)O)=O']	Knoevenagel H	5.12
+1352_0	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)(CO)O)O)=O']	Knoevenagel C	-1.42
+1352_1	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CO)=O)(CO)O)O)=O']	Knoevenagel H	-1.42
+1354_0	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(CO)(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1354_1	['C(CO)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(CO)(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1356_0	['C(CO)(C(CO)O)=O', 'C(C)=O']	['C(CO)(C(CO)(C(C)O)O)=O']	Knoevenagel C	-7.87
+1356_1	['C(CO)(C(CO)O)=O', 'C(C)=O']	['C(CO)(C(CO)(C(C)O)O)=O']	Knoevenagel H	-7.87
+1358_0	['C(CO)(CN)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)(CN)O)O)(O)=O']	Knoevenagel C	-3.06
+1358_1	['C(CO)(CN)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)(CN)O)O)(O)=O']	Knoevenagel H	-3.06
+1360_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)(CN)O)O)=O']	Knoevenagel C	53.89
+1360_1	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)(CN)O)O)=O']	Knoevenagel H	53.89
+1362_0	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CN)O)O)=O']	Knoevenagel C	-3.06
+1362_1	['C(CO)(CN)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CN)O)O)=O']	Knoevenagel H	-3.06
+1364_0	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(CN)=O)(CO)O)O)=O']	Knoevenagel C	32.7
+1364_1	['C(CN)(C(CO)O)=O', 'C(CC=O)=O']	['C(CC(C(C(CN)=O)(CO)O)O)=O']	Knoevenagel H	32.7
+1366_0	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CN)=O)(CO)O)O)=O']	Knoevenagel C	26.15
+1366_1	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(CN)=O)(CO)O)O)=O']	Knoevenagel H	26.15
+1368_0	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(CN)(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel C	21.51
+1368_1	['C(CN)(C(CO)O)=O', 'C(C(C)=O)=O']	['C(CN)(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel H	21.51
+1370_0	['C(CN)(C(CO)O)=O', 'C(C)=O']	['C(CN)(C(CO)(C(C)O)O)=O']	Knoevenagel C	19.7
+1370_1	['C(CN)(C(CO)O)=O', 'C(C)=O']	['C(CN)(C(CO)(C(C)O)O)=O']	Knoevenagel H	19.7
+1372_0	['C(CNCC=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CNCC=O)O)O)=O']	Knoevenagel C	-38.34
+1372_1	['C(CNCC=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CNCC=O)O)O)=O']	Knoevenagel H	-38.34
+1374_0	['C(C(CO)O)(O)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)O)(O)=O']	Knoevenagel C	5.12
+1374_1	['C(C(CO)O)(O)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)O)(O)=O']	Knoevenagel H	5.12
+1376_0	['C(C(CO)O)(O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)O)(O)=O']	Knoevenagel C	-1.42
+1376_1	['C(C(CO)O)(O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)O)(O)=O']	Knoevenagel H	-1.42
+1378_0	['C(C(CO)O)(O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)O)(O)=O']	Knoevenagel C	-6.06
+1378_1	['C(C(CO)O)(O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)O)(O)=O']	Knoevenagel H	-6.06
+1380_0	['C(C(CO)O)(O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)(O)=O']	Knoevenagel C	-7.87
+1380_1	['C(C(CO)O)(O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)(O)=O']	Knoevenagel H	-7.87
+1382_0	['C(C(CO)O)(O)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)O)(O)=O']	Knoevenagel C	-7.7
+1382_1	['C(C(CO)O)(O)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)O)(O)=O']	Knoevenagel H	-7.7
+1384_0	['C(C(C(CO)O)O)(O)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)O)(O)=O']	Knoevenagel C	-7.87
+1384_1	['C(C(C(CO)O)O)(O)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)O)(O)=O']	Knoevenagel H	-7.87
+1386_0	['C(C(C(CN)O)O)(O)=O', 'C(C)=O']	['C(C(C(C)O)(C(CN)O)O)(O)=O']	Knoevenagel C	-7.87
+1386_1	['C(C(C(CN)O)O)(O)=O', 'C(C)=O']	['C(C(C(C)O)(C(CN)O)O)(O)=O']	Knoevenagel H	-7.87
+1388_0	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(CC(C(C=O)(C(C)=O)O)O)=O']	Knoevenagel C	62.07
+1388_1	['C(CC=O)=O', 'C(C(C(C)=O)O)=O']	['C(CC(C(C=O)(C(C)=O)O)O)=O']	Knoevenagel H	62.07
+1390_0	['C(CC=O)=O', 'C(C(CN)O)=O']	['C(C(C(CC=O)O)(CN)O)=O']	Knoevenagel C	5.12
+1390_1	['C(CC=O)=O', 'C(C(CN)O)=O']	['C(C(C(CC=O)O)(CN)O)=O']	Knoevenagel H	5.12
+1392_0	['C(CC=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CC=O)O)(C(CO)N)O)=O']	Knoevenagel C	5.12
+1392_1	['C(CC=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CC=O)O)(C(CO)N)O)=O']	Knoevenagel H	5.12
+1394_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C)(C(C=O)(C(C)=O)O)O)=O']	Knoevenagel C	55.53
+1394_1	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C)(C(C=O)(C(C)=O)O)O)=O']	Knoevenagel H	55.53
+1396_0	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(C)=O)O)O)=O']	Knoevenagel C	50.89
+1396_1	['C(C(C)=O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(C)=O)O)O)=O']	Knoevenagel H	50.89
+1398_0	['C(C(C)=O)=O', 'C(C(CN)O)=O']	['C(C(C)(C(C=O)(CN)O)O)=O']	Knoevenagel C	-1.42
+1398_1	['C(C(C)=O)=O', 'C(C(CN)O)=O']	['C(C(C)(C(C=O)(CN)O)O)=O']	Knoevenagel H	-1.42
+1400_0	['C(C(C)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1400_1	['C(C(C)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1402_0	['C(C(C)=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C=O)(C)O)O)=O']	Knoevenagel C	-1.42
+1402_1	['C(C(C)=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C=O)(C)O)O)=O']	Knoevenagel H	-1.42
+1404_0	['C(C(C)=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1404_1	['C(C(C)=O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)N)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1406_0	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(CCO)(C(C=O)(CN)O)O)=O']	Knoevenagel C	-3.06
+1406_1	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(CCO)(C(C=O)(CN)O)O)=O']	Knoevenagel H	-3.06
+1408_0	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CCO)=O)O)O)=O']	Knoevenagel C	-7.7
+1408_1	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CCO)=O)O)O)=O']	Knoevenagel H	-7.7
+1410_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CC=O)O)O)O)=O']	Knoevenagel C	-7.7
+1410_1	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CC=O)O)O)O)=O']	Knoevenagel H	-7.7
+1412_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CC(C=O)O)O)O)=O']	Knoevenagel C	-7.7
+1412_1	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CC(C=O)O)O)O)=O']	Knoevenagel H	-7.7
+1414_0	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CC(CO)=O)O)(CN)O)=O']	Knoevenagel C	0.48
+1414_1	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(C(CC(CO)=O)O)(CN)O)=O']	Knoevenagel H	0.48
+1416_0	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CC=O)O)O)=O']	Knoevenagel C	5.12
+1416_1	['C(CC(CO)=O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)(CC=O)O)O)=O']	Knoevenagel H	5.12
+1418_0	['C(C(C(C)=O)O)=O', 'C(C)=O']	['C(C(C(C)=O)(C(C)O)O)=O']	Knoevenagel C	49.08
+1418_1	['C(C(C(C)=O)O)=O', 'C(C)=O']	['C(C(C(C)=O)(C(C)O)O)=O']	Knoevenagel H	49.08
+1420_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C(C(C)=O)O)O)(CN)O)=O']	Knoevenagel C	49.25
+1420_1	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C(C(C)=O)O)O)(CN)O)=O']	Knoevenagel H	49.25
+1422_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C)(C(C=O)O)O)O)=O']	Knoevenagel C	53.89
+1422_1	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C)(C(C=O)O)O)O)=O']	Knoevenagel H	53.89
+1424_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C)=O)(C(C(CN)O)O)O)=O']	Knoevenagel C	49.25
+1424_1	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C)=O)(C(C(CN)O)O)O)=O']	Knoevenagel H	49.25
+1426_0	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(C)O)O)=O']	Knoevenagel C	-7.87
+1426_1	['C(C)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(C)O)O)=O']	Knoevenagel H	-7.87
+1428_0	['C(C)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C)O)O)=O']	Knoevenagel C	-7.87
+1428_1	['C(C)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C)O)O)=O']	Knoevenagel H	-7.87
+1430_0	['C(C)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C)O)(C(CO)N)O)=O']	Knoevenagel C	-7.87
+1430_1	['C(C)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C)O)(C(CO)N)O)=O']	Knoevenagel H	-7.87
+1432_0	['C(C(CN)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CN)O)O)O)=O']	Knoevenagel C	-7.7
+1432_1	['C(C(CN)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CN)O)O)O)=O']	Knoevenagel H	-7.7
+1434_0	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)O)O)N)=O']	Knoevenagel C	24.55
+1434_1	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)O)O)N)=O']	Knoevenagel H	24.55
+1436_0	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)N)O)O)=O']	Knoevenagel C	-7.7
+1436_1	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(C(CO)N)O)O)=O']	Knoevenagel H	-7.7
+1438_0	['C(C(CO)O)=O', 'C(C=O)=O']	['C(C(CO)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1438_1	['C(C(CO)O)=O', 'C(C=O)=O']	['C(C(CO)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1440_0	['C(C(CO)O)=O', 'C(CO)(CO)=O']	['C(C(CO)(C(CO)(CO)O)O)=O']	Knoevenagel C	-2.89
+1440_1	['C(C(CO)O)=O', 'C(CO)(CO)=O']	['C(C(CO)(C(CO)(CO)O)O)=O']	Knoevenagel H	-2.89
+1442_0	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(C(CO)(C(CO)(CN)O)O)=O']	Knoevenagel C	-3.06
+1442_1	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['C(C(CO)(C(CO)(CN)O)O)=O']	Knoevenagel H	-3.06
+1443_0	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['C(C(CO)(C(CNCC=O)O)O)=O']	Knoevenagel C	-38.34
+1443_1	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['C(C(CO)(C(CNCC=O)O)O)=O']	Knoevenagel H	-38.34
+1444_0	['C(C(CO)O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(CO)O)O)O)(O)=O']	Knoevenagel C	-7.7
+1444_1	['C(C(CO)O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(CO)O)O)O)(O)=O']	Knoevenagel H	-7.7
+1446_0	['C(C(CO)O)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)O)=O']	Knoevenagel C	5.12
+1446_1	['C(C(CO)O)=O', 'C(CC=O)=O']	['C(C(CO)(C(CC=O)O)O)=O']	Knoevenagel H	5.12
+1448_0	['C(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)O)=O']	Knoevenagel C	-1.42
+1448_1	['C(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C=O)(C)O)O)=O']	Knoevenagel H	-1.42
+1450_0	['C(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1450_1	['C(C(CO)O)=O', 'C(C(C)=O)=O']	['C(C(CO)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1452_0	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)(CO)O)O)=O']	Knoevenagel C	-3.06
+1452_1	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C=O)(CO)O)O)=O']	Knoevenagel H	-3.06
+1454_0	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C(CCO)=O)O)O)=O']	Knoevenagel C	-7.7
+1454_1	['C(C(CO)O)=O', 'C(C(CCO)=O)=O']	['C(C(CO)(C(C(CCO)=O)O)O)=O']	Knoevenagel H	-7.7
+1456_0	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(C(CC=O)O)O)O)=O']	Knoevenagel C	-7.7
+1456_1	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(C(CC=O)O)O)O)=O']	Knoevenagel H	-7.7
+1458_0	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(CC(C=O)O)O)O)=O']	Knoevenagel C	-7.7
+1458_1	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(CO)(C(CC(C=O)O)O)O)=O']	Knoevenagel H	-7.7
+1460_0	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CC(CO)=O)O)O)=O']	Knoevenagel C	0.48
+1460_1	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CC(CO)=O)O)O)=O']	Knoevenagel H	0.48
+1462_0	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CO)(CC=O)O)O)=O']	Knoevenagel C	5.12
+1462_1	['C(C(CO)O)=O', 'C(CC(CO)=O)=O']	['C(C(CO)(C(CO)(CC=O)O)O)=O']	Knoevenagel H	5.12
+1464_0	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(CO)O)O)O)=O']	Knoevenagel C	49.25
+1464_1	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(C(CO)O)O)O)=O']	Knoevenagel H	49.25
+1466_0	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C(C(C)=O)O)O)O)=O']	Knoevenagel C	49.25
+1466_1	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C(C(C)=O)O)O)O)=O']	Knoevenagel H	49.25
+1468_0	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C)(C(C=O)O)O)O)=O']	Knoevenagel C	53.89
+1468_1	['C(C(CO)O)=O', 'C(C(C(C)=O)O)=O']	['C(C(CO)(C(C)(C(C=O)O)O)O)=O']	Knoevenagel H	53.89
+1470_0	['C(C(CO)O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)=O']	Knoevenagel C	-7.87
+1470_1	['C(C(CO)O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)=O']	Knoevenagel H	-7.87
+1472_0	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CO)O)O)O)=O']	Knoevenagel C	-7.7
+1472_1	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(C(CO)O)O)O)=O']	Knoevenagel H	-7.7
+1474_0	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)O)=O']	Knoevenagel C	-7.7
+1474_1	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['C(C(CO)(C(C(CN)O)O)O)=O']	Knoevenagel H	-7.7
+1476_0	['C(C(C(CO)O)O)=O', 'C(C=O)=O']	['C(C(C(CO)O)(C(C=O)O)O)=O']	Knoevenagel C	-7.7
+1476_1	['C(C(C(CO)O)O)=O', 'C(C=O)=O']	['C(C(C(CO)O)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1478_0	['C(C(C(CO)O)O)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CO)O)O)=O']	Knoevenagel C	5.12
+1478_1	['C(C(C(CO)O)O)=O', 'C(CC=O)=O']	['C(C(C(CC=O)O)(C(CO)O)O)=O']	Knoevenagel H	5.12
+1480_0	['C(C(C(CO)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C=O)(C)O)O)=O']	Knoevenagel C	-1.42
+1480_1	['C(C(C(CO)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C=O)(C)O)O)=O']	Knoevenagel H	-1.42
+1482_0	['C(C(C(CO)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C(C)=O)O)O)=O']	Knoevenagel C	-6.06
+1482_1	['C(C(C(CO)O)O)=O', 'C(C(C)=O)=O']	['C(C(C(CO)O)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1484_0	['C(C(C(CO)O)O)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)O)=O']	Knoevenagel C	-7.87
+1484_1	['C(C(C(CO)O)O)=O', 'C(C)=O']	['C(C(C(CO)O)(C(C)O)O)=O']	Knoevenagel H	-7.87
+1486_0	['C(CN)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(CN)O)(C(CN)O)N)=O']	Knoevenagel C	-3.02
+1486_1	['C(CN)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(CN)O)(C(CN)O)N)=O']	Knoevenagel H	-3.02
+1488_0	['C(CN)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(CN)O)N)=O']	Knoevenagel C	24.55
+1488_1	['C(CN)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(CN)O)N)=O']	Knoevenagel H	24.55
+1490_0	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(CN)O)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+1490_1	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(CN)O)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+1492_0	['C(CN)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(CO)O)(C(CN)O)N)=O']	Knoevenagel C	24.55
+1492_1	['C(CN)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(CO)O)(C(CN)O)N)=O']	Knoevenagel H	24.55
+1494_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+1494_1	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+1496_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(CN)O)O)=O']	Knoevenagel C	19.87
+1496_1	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(CN)O)O)=O']	Knoevenagel H	19.87
+1497_0	['C(CN)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CN)O)O)(O)=O']	Knoevenagel C	-7.7
+1497_1	['C(CN)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CN)O)O)(O)=O']	Knoevenagel H	-7.7
+1498_0	['C(CN)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(CN)O)O)(O)=O']	Knoevenagel C	-7.7
+1498_1	['C(CN)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(CN)O)O)(O)=O']	Knoevenagel H	-7.7
+1500_0	['C(CN)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CN)O)(C(CN)O)O)(O)=O']	Knoevenagel C	-7.7
+1500_1	['C(CN)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CN)O)(C(CN)O)O)(O)=O']	Knoevenagel H	-7.7
+1502_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CN)O)O)=O']	Knoevenagel C	49.25
+1502_1	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CN)O)O)=O']	Knoevenagel H	49.25
+1504_0	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+1504_1	['C(CN)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+1506_0	['C(CN)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CN)O)O)=O']	Knoevenagel C	-7.7
+1506_1	['C(CN)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CN)O)O)=O']	Knoevenagel H	-7.7
+1508_0	['C(CN)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CN)O)(C(CO)N)O)=O']	Knoevenagel C	-7.7
+1508_1	['C(CN)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CN)O)(C(CO)N)O)=O']	Knoevenagel H	-7.7
+1509_0	['C=O', 'C(C(C(C(CO)O)O)N)=O']	['C(C(CO)(C(C(CO)O)O)N)=O']	Knoevenagel C	-22.27
+1509_1	['C=O', 'C(C(C(C(CO)O)O)N)=O']	['C(C(CO)(C(C(CO)O)O)N)=O']	Knoevenagel H	-22.27
+1510_0	['C=O', 'C(C(C(CN)O)N)=O']	['C(C(CO)(C(CN)O)N)=O']	Knoevenagel C	-22.27
+1510_1	['C=O', 'C(C(C(CN)O)N)=O']	['C(C(CO)(C(CN)O)N)=O']	Knoevenagel H	-22.27
+1512_0	['C=O', 'C(C(CO)N)=O']	['C(C(CO)(CO)N)=O']	Knoevenagel C	-22.27
+1512_1	['C=O', 'C(C(CO)N)=O']	['C(C(CO)(CO)N)=O']	Knoevenagel H	-22.27
+1513_0	['C=O', 'C(C(C(C(CO)O)O)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel C	-26.95
+1513_1	['C=O', 'C(C(C(C(CO)O)O)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel H	-26.95
+1514_0	['C=O', 'C(C(C(CN)O)O)=O']	['C(C(CO)(C(CN)O)O)=O']	Knoevenagel C	-26.95
+1514_1	['C=O', 'C(C(C(CN)O)O)=O']	['C(C(CO)(C(CN)O)O)=O']	Knoevenagel H	-26.95
+1516_0	['C=O', 'C(C(C(CO)O)N)=O']	['C(C(CO)(C(CO)O)N)=O']	Knoevenagel C	5.3
+1516_1	['C=O', 'C(C(C(CO)O)N)=O']	['C(C(CO)(C(CO)O)N)=O']	Knoevenagel H	5.3
+1518_0	['C=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(CO)O)=O']	Knoevenagel C	-26.95
+1518_1	['C=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(CO)O)=O']	Knoevenagel H	-26.95
+1520_0	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(CNCC=O)(C(CO)(CO)O)=O']	Knoevenagel C	-26.95
+1520_1	['C=O', 'C(CNCC=O)(C(CO)O)=O']	['C(CNCC=O)(C(CO)(CO)O)=O']	Knoevenagel H	-26.95
+1522_0	['C=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(CO)O)=O']	Knoevenagel C	0.62
+1522_1	['C=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(CO)O)=O']	Knoevenagel H	0.62
+1523_0	['C=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel C	-26.95
+1523_1	['C=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel H	-26.95
+1524_0	['C=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(CO)(C(CO)O)O)(O)=O']	Knoevenagel C	-26.95
+1524_1	['C=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(CO)(C(CO)O)O)(O)=O']	Knoevenagel H	-26.95
+1525_0	['C=O', 'C(C(C(C(CO)O)O)O)(O)=O']	['C(C(CO)(C(C(CO)O)O)O)(O)=O']	Knoevenagel C	-26.95
+1525_1	['C=O', 'C(C(C(C(CO)O)O)O)(O)=O']	['C(C(CO)(C(C(CO)O)O)O)(O)=O']	Knoevenagel H	-26.95
+1526_0	['C=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(CO)(C(CN)O)O)(O)=O']	Knoevenagel C	-26.95
+1526_1	['C=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(CO)(C(CN)O)O)(O)=O']	Knoevenagel H	-26.95
+1528_0	['C=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(CO)O)=O']	Knoevenagel C	30.0
+1528_1	['C=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(CO)O)=O']	Knoevenagel H	30.0
+1530_0	['C=O', 'C(C(CNCC=O)O)=O']	['C(C(CO)(CNCC=O)O)=O']	Knoevenagel C	-26.95
+1530_1	['C=O', 'C(C(CNCC=O)O)=O']	['C(C(CO)(CNCC=O)O)=O']	Knoevenagel H	-26.95
+1532_0	['C=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(CO)(C(CO)NCC=O)O)=O']	Knoevenagel C	-26.95
+1532_1	['C=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(CO)(C(CO)NCC=O)O)=O']	Knoevenagel H	-26.95
+1534_0	['C=O', 'C(C(CN)O)=O']	['C(C(CO)(CN)O)=O']	Knoevenagel C	-26.95
+1534_1	['C=O', 'C(C(CN)O)=O']	['C(C(CO)(CN)O)=O']	Knoevenagel H	-26.95
+1536_0	['C=O', 'C(C(C(CO)N)O)=O']	['C(C(CO)(C(CO)N)O)=O']	Knoevenagel C	-26.95
+1536_1	['C=O', 'C(C(C(CO)N)O)=O']	['C(C(CO)(C(CO)N)O)=O']	Knoevenagel H	-26.95
+1537_0	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(CO)O)(C(CN)O)N)=O']	Knoevenagel C	-6.04
+1537_1	['C(CO)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(CO)O)(C(CN)O)N)=O']	Knoevenagel H	-6.04
+1538_0	['C(CO)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(CO)O)N)=O']	Knoevenagel C	21.53
+1538_1	['C(CO)=O', 'C(C(CO)N)=O']	['C(C(CO)(C(CO)O)N)=O']	Knoevenagel H	21.53
+1539_0	['C(CO)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(CO)O)(C(CN)O)O)=O']	Knoevenagel C	-10.73
+1539_1	['C(CO)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(CO)O)(C(CN)O)O)=O']	Knoevenagel H	-10.73
+1541_0	['C(CO)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(CO)O)(C(CO)O)N)=O']	Knoevenagel C	21.53
+1541_1	['C(CO)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(CO)O)(C(CO)O)N)=O']	Knoevenagel H	21.53
+1543_0	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+1543_1	['C(CO)=O', 'C(CO)(C(CO)O)=O']	['C(CO)(C(CO)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+1545_0	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(CO)O)O)=O']	Knoevenagel C	16.85
+1545_1	['C(CO)=O', 'C(CN)(C(CO)O)=O']	['C(CN)(C(CO)(C(CO)O)O)=O']	Knoevenagel H	16.85
+1546_0	['C(CO)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)O)O)(O)=O']	Knoevenagel C	-10.73
+1546_1	['C(CO)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(CO)O)O)(O)=O']	Knoevenagel H	-10.73
+1547_0	['C(CO)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(CO)O)O)(O)=O']	Knoevenagel C	-10.73
+1547_1	['C(CO)=O', 'C(C(C(CO)O)O)(O)=O']	['C(C(C(CO)O)(C(CO)O)O)(O)=O']	Knoevenagel H	-10.73
+1548_0	['C(CO)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CO)O)(C(CN)O)O)(O)=O']	Knoevenagel C	-10.73
+1548_1	['C(CO)=O', 'C(C(C(CN)O)O)(O)=O']	['C(C(C(CO)O)(C(CN)O)O)(O)=O']	Knoevenagel H	-10.73
+1550_0	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)O)O)=O']	Knoevenagel C	46.22
+1550_1	['C(CO)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)=O)(C(CO)O)O)=O']	Knoevenagel H	46.22
+1552_0	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(CO)O)O)=O']	Knoevenagel C	19.91
+1552_1	['C(CO)=O', 'C(C(CNCC=O)O)=O']	['C(C(CNCC=O)(C(CO)O)O)=O']	Knoevenagel H	19.91
+1554_0	['C(CO)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+1554_1	['C(CO)=O', 'C(C(CN)O)=O']	['C(C(CN)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+1556_0	['C(CO)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)O)(C(CO)N)O)=O']	Knoevenagel C	-10.73
+1556_1	['C(CO)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CO)O)(C(CO)N)O)=O']	Knoevenagel H	-10.73
+1558_0	['C(C(C(CN)O)N)=O', 'C(CN)(O)=O']	['C(C(C(C(C(CN)O)N)O)N)(O)=O']	Knoevenagel H	-27.33
+1560_0	['C(C(CO)N)=O', 'C(CN)(O)=O']	['C(C(C(C(CO)N)O)N)(O)=O']	Knoevenagel H	0.25
+1562_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)N)O)(CC=O)O)=O']	Knoevenagel H	-7.7
+1564_0	['C(C(C(CN)O)O)=O', 'C(CN)(O)=O']	['C(C(C(C(C(CN)O)O)O)N)(O)=O']	Knoevenagel H	0.25
+1566_0	['C(C(C(CO)O)N)=O', 'C(CN)(O)=O']	['C(C(C(C(C(CO)O)N)O)N)(O)=O']	Knoevenagel H	0.25
+1568_0	['C(C=O)=O', 'C(CN)(O)=O']	['C(C(C(C=O)O)N)(O)=O']	Knoevenagel H	0.25
+1570_0	['C(C=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C=O)(C(C=O)O)O)=O']	Knoevenagel H	-7.7
+1572_0	['C(CO)(CO)=O', 'C(CN)(O)=O']	['C(C(C(CO)(CO)O)N)(O)=O']	Knoevenagel H	5.07
+1574_0	['C(CO)(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CO)O)(CC=O)O)=O']	Knoevenagel H	-2.89
+1576_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(C(CO)(C(CO)O)O)N)(O)=O']	Knoevenagel H	4.89
+1578_0	['C(CO)(CN)=O', 'C(CN)(O)=O']	['C(C(C(CN)(CO)O)N)(O)=O']	Knoevenagel H	4.89
+1580_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)(CN)O)(CC=O)O)=O']	Knoevenagel H	-3.06
+1582_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(C(CN)(C(CO)O)O)N)(O)=O']	Knoevenagel H	32.46
+1584_0	['C(CNCC=O)=O', 'C(CN)(O)=O']	['C(C(C(CNCC=O)O)N)(O)=O']	Knoevenagel H	0.25
+1586_0	['C(CN)(O)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)N)(O)=O']	Knoevenagel H	0.25
+1588_0	['C(CN)(O)=O', 'C(CC=O)=O']	['C(CC(C(C(O)=O)N)O)=O']	Knoevenagel H	13.07
+1590_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(O)=O)N)O)=O']	Knoevenagel H	6.53
+1592_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)N)(O)=O']	Knoevenagel H	1.89
+1594_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(O)=O)N)O)=O']	Knoevenagel H	4.89
+1596_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(CCO)=O)O)N)(O)=O']	Knoevenagel H	0.25
+1598_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(O)=O)N)O)O)=O']	Knoevenagel H	0.25
+1600_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)N)(O)=O']	Knoevenagel H	0.25
+1602_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)N)(O)=O']	Knoevenagel H	8.43
+1604_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(O)=O)N)O)=O']	Knoevenagel H	13.07
+1606_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)N)(O)=O']	Knoevenagel H	57.2
+1608_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)N)(O)=O']	Knoevenagel H	61.84
+1610_0	['C(CN)(O)=O', 'C(C)=O']	['C(C(C(C)O)N)(O)=O']	Knoevenagel H	0.08
+1612_0	['C(CN)(O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)N)(O)=O']	Knoevenagel H	0.25
+1614_0	['C(CN)(O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)N)(O)=O']	Knoevenagel H	0.25
+1616_0	['C(CC=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C=O)(CC=O)O)O)=O']	Knoevenagel H	5.12
+1618_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C=O)(C(C=O)(C)O)O)=O']	Knoevenagel H	-1.42
+1620_0	['C(C(C)=O)=O', 'C(CC(C=O)O)=O']	['C(CC(C=O)(C(C(C)=O)O)O)=O']	Knoevenagel H	-6.06
+1622_0	['C(CC(C=O)O)=O', 'C(C)=O']	['C(C(C(C)O)(CC=O)O)=O']	Knoevenagel H	-7.87
+1624_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)(CC=O)O)=O']	Knoevenagel H	-7.7
+1625_0	['C(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(C(C(CO)O)O)N)(O)=O']	Knoevenagel H	0.25
+1627_0	['C(C(CO)O)=O', 'C(CC(C=O)O)=O']	['C(C(C(C(CO)O)O)(CC=O)O)=O']	Knoevenagel H	-7.7
+1628_0	['C(C(C(CO)O)O)=O', 'C(CN)(O)=O']	['C(C(C(C(C(CO)O)O)O)N)(O)=O']	Knoevenagel H	0.25
+1629_0	['C(CN)=O', 'C(CN)(O)=O']	['C(C(C(CN)O)N)(O)=O']	Knoevenagel H	0.25
+1631_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['C(C(C(CN)O)(CC=O)O)=O']	Knoevenagel H	-7.7
+1633_0	['C(CO)(O)=O', 'C(C(C(CN)O)N)=O']	['C(C(C(C(C(CN)O)N)O)O)(O)=O']	Knoevenagel H	-18.19
+1635_0	['C(CO)(O)=O', 'C(C(CO)N)=O']	['C(C(C(C(CO)N)O)O)(O)=O']	Knoevenagel H	9.38
+1637_0	['C(CO)(O)=O', 'C(C(C(CN)O)O)=O']	['C(C(C(C(C(CN)O)O)O)O)(O)=O']	Knoevenagel H	9.38
+1639_0	['C(CO)(O)=O', 'C(C(C(CO)O)N)=O']	['C(C(C(C(C(CO)O)N)O)O)(O)=O']	Knoevenagel H	9.38
+1641_0	['C(CO)(O)=O', 'C(C=O)=O']	['C(C(C(C=O)O)O)(O)=O']	Knoevenagel H	9.38
+1643_0	['C(CO)(O)=O', 'C(CO)(CO)=O']	['C(C(C(CO)(CO)O)O)(O)=O']	Knoevenagel H	14.2
+1645_0	['C(CO)(O)=O', 'C(CO)(C(CO)O)=O']	['C(C(C(CO)(C(CO)O)O)O)(O)=O']	Knoevenagel H	14.02
+1647_0	['C(CO)(O)=O', 'C(CO)(CN)=O']	['C(C(C(CO)(CN)O)O)(O)=O']	Knoevenagel H	14.02
+1649_0	['C(CO)(O)=O', 'C(CN)(C(CO)O)=O']	['C(C(C(CN)(C(CO)O)O)O)(O)=O']	Knoevenagel H	14.02
+1650_0	['C(CO)(O)=O', 'C(CNCC=O)=O']	['C(C(C(CNCC=O)O)O)(O)=O']	Knoevenagel H	-21.26
+1652_0	['C(CO)(O)=O', 'C(C(CO)(CO)O)=O']	['C(C(C(C(CO)(CO)O)O)O)(O)=O']	Knoevenagel H	9.38
+1654_0	['C(CO)(O)=O', 'C(CC=O)=O']	['C(CC(C(C(O)=O)O)O)=O']	Knoevenagel H	22.21
+1656_0	['C(CO)(O)=O', 'C(C(C)=O)=O']	['C(C(C)(C(C(O)=O)O)O)=O']	Knoevenagel H	15.67
+1658_0	['C(CO)(O)=O', 'C(C(C)=O)=O']	['C(C(C(C(C)=O)O)O)(O)=O']	Knoevenagel H	11.02
+1660_0	['C(CO)(O)=O', 'C(C(CCO)=O)=O']	['C(C(CCO)(C(C(O)=O)O)O)=O']	Knoevenagel H	14.02
+1662_0	['C(CO)(O)=O', 'C(C(CCO)=O)=O']	['C(C(C(C(O)=O)O)O)(CCO)=O']	Knoevenagel H	9.38
+1664_0	['C(CO)(O)=O', 'C(CC(C=O)O)=O']	['C(CC(C(C(C(O)=O)O)O)O)=O']	Knoevenagel H	9.38
+1666_0	['C(CO)(O)=O', 'C(CC(C=O)O)=O']	['C(C(C(CC(C=O)O)O)O)(O)=O']	Knoevenagel H	9.38
+1668_0	['C(CO)(O)=O', 'C(CC(CO)=O)=O']	['C(C(C(CC(CO)=O)O)O)(O)=O']	Knoevenagel H	17.56
+1670_0	['C(CO)(O)=O', 'C(CC(CO)=O)=O']	['C(CC(CO)(C(C(O)=O)O)O)=O']	Knoevenagel H	22.21
+1672_0	['C(CO)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C(C(C)=O)O)O)O)(O)=O']	Knoevenagel H	66.33
+1674_0	['C(CO)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(C(C)(C(C=O)O)O)O)(O)=O']	Knoevenagel H	70.97
+1676_0	['C(CO)(O)=O', 'C(C)=O']	['C(C(C(C)O)O)(O)=O']	Knoevenagel H	9.21
+1678_0	['C(CO)(O)=O', 'C(C(CN)O)=O']	['C(C(C(C(CN)O)O)O)(O)=O']	Knoevenagel H	9.38
+1680_0	['C(CO)(O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(C(C(CO)N)O)O)O)(O)=O']	Knoevenagel H	9.38
+1681_0	['C=O', 'C(CN)(O)=O']	['C(C(CO)N)(O)=O']	Knoevenagel H	-19.0
+1683_0	['C=O', 'C(CC(C=O)O)=O']	['C(C(CO)(CC=O)O)=O']	Knoevenagel H	-26.95
+1684_0	['C(CO)=O', 'C(CN)(O)=O']	['C(C(C(CO)O)N)(O)=O']	Knoevenagel H	-2.78
+1686_0	['C(CO)=O', 'C(CC(C=O)O)=O']	['C(C(C(CO)O)(CC=O)O)=O']	Knoevenagel H	-10.73
+1687_0	['C(C(CO)O)(O)=O']	['C=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	9.87
+1688_0	['C(C(C(CO)O)O)(O)=O']	['C(CO)=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	-6.36
+1689_0	['C(C(C(C(CO)O)O)O)(O)=O']	['C(C(CO)O)=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	-9.38
+1690_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['C(C(C(CO)O)O)=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	-9.38
+1691_0	['C(C(C(CN)O)O)(O)=O']	['C(CN)=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	-9.38
+1694_0	['C(CN)(O)=O']	['C(=O)=O', 'CN']	Ketone-Catalyzed Decarboxylation	-46.78
+1696_0	['C(C(CO)N)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CO)NC(C(CN)=O)CO)=O']	Amadori Rearrangement	15.81
+1698_0	['C(C(CO)N)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(CO)NC(C=O)C(C)=O)=O']	Amadori Rearrangement	72.76
+1700_0	['C(CO)(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CO)(CNC(C(CN)=O)CO)=O']	Amadori Rearrangement	15.81
+1702_0	['C(CO)(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)NCC(CO)=O)=O']	Amadori Rearrangement	72.76
+1704_0	['C(CN)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CN)(C(CO)NCCO)=O']	Amadori Rearrangement	1.78
+1706_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNC(C(CN)=O)CO)(O)=O']	Amadori Rearrangement	16.61
+1708_0	['C(CN)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C(CN)=O)CO)O)=O']	Amadori Rearrangement	15.81
+1710_0	['C(CNCC=O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)N(CC=O)CC=O)=O']	Amadori Rearrangement	25.53
+1712_0	['C(CN)O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)NCCO)=O']	Amadori Rearrangement	61.8
+1714_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)NCC(O)=O)=O']	Amadori Rearrangement	76.63
+1716_0	['C(C(C(C)=O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNC(C=O)C(C)=O)O)=O']	Amadori Rearrangement	72.76
+1717_0	['N', 'C(CNCC=O)(C(CO)O)=O']	['O', 'C(CNCC=O)(C(CO)N)=O']	Amadori Rearrangement	-11.61
+1718_0	['N', 'C(CN)(C(CO)O)=O']	['O', 'C(CN)(C(CO)N)=O']	Amadori Rearrangement	15.96
+1720_0	['N', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)N)=O']	Amadori Rearrangement	61.48
+1721_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CNC(C(CN)=O)CO)=O']	Amadori Rearrangement	15.81
+1723_0	['C(CN)=O', 'C(C(C(C)=O)O)=O']	['O', 'C(C(C(C)=O)NCC=O)=O']	Amadori Rearrangement	72.76
+1724_0	['C(C=O)=O', 'C(CN)(O)=O']	['C=O', 'C(CN)=O', 'C(=O)=O']	Strecker Degradation Dicarbonyl, H, H, H, H	-31.42
+1726_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C=O', 'C(=O)=O', 'C(C(C)N)=O']	Strecker Degradation Dicarbonyl, H, H, H, C	-21.04
+1728_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C=O', 'C(=O)=O', 'C(C(CCO)N)=O']	Strecker Degradation Dicarbonyl, H, H, H, C	-22.69
+1730_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C=O', 'C(=O)=O', 'C(C)(CN)=O']	Strecker Degradation Dicarbonyl, H, H, C, H	-29.77
+1732_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C=O', 'C(=O)=O', 'C(CN)(CCO)=O']	Strecker Degradation Dicarbonyl, H, H, C, H	-31.42
+1733_0	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(CC(C(C=O)N)O)=O']	Elimination + enol to keto	-66.59
+1734_0	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(C(C(C)=O)O)N)=O']	Elimination + enol to keto	-45.4
+1736_0	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(CC(CO)=O)N)=O']	Elimination + enol to keto	-68.59
+1738_0	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(C(CCO)=O)N)=O']	Elimination + enol to keto	-52.45
+1740_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(CC(C=O)N)(C(CO)O)=O']	Elimination + enol to keto	-68.59
+1741_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(C(CCO)=O)O)N)=O']	Elimination + enol to keto	-41.01
+1743_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(CC(CO)O)=O)N)=O']	Elimination + enol to keto	-52.45
+1744_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(CC(C(C(C=O)N)O)O)=O']	Elimination + enol to keto	-66.59
+1745_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(CC(CO)=O)O)N)=O']	Elimination + enol to keto	-68.59
+1746_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(C(C(C)=O)O)O)N)=O']	Elimination + enol to keto	-45.4
+1747_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(CC(CO)O)=O)=O']	Elimination + enol to keto	-41.01
+1748_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(CC(C(C=O)O)O)=O']	Elimination + enol to keto	-39.01
+1749_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(C(C(C)=O)O)O)=O']	Elimination + enol to keto	-45.4
+1751_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(CC(CO)=O)O)=O']	Elimination + enol to keto	-41.01
+1752_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(CC(C(CO)O)=O)=O']	Elimination + enol to keto	-53.84
+1753_0	['C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(C(CCO)=O)O)=O']	Elimination + enol to keto	-97.97
+1754_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(CC(C(CO)O)O)=O)=O']	Elimination + enol to keto	-41.01
+1756_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C=O)O)(C(CO)O)=O']	Elimination + enol to keto	-41.01
+1757_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(C=O)O)O)(CCO)=O']	Elimination + enol to keto	-41.01
+1758_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C(C(CO)O)O)=O)=O']	Elimination + enol to keto	-53.84
+1759_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(CC(CO)O)=O)O)=O']	Elimination + enol to keto	-97.97
+1760_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C(C(C=O)O)O)O)=O']	Elimination + enol to keto	-39.01
+1761_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(CC(CO)=O)O)O)=O']	Elimination + enol to keto	-41.01
+1762_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(C(C(C)=O)O)O)O)=O']	Elimination + enol to keto	-45.4
+1764_0	['C(C(C(CN)O)O)=O']	['O', 'C(C(CCN)=O)=O']	Elimination + enol to keto	-41.01
+1765_0	['C(C(C(CN)O)O)=O']	['O', 'C(CC(CN)=O)=O']	Elimination + enol to keto	-49.2
+1766_0	['C(C(C(CO)O)N)=O']	['O', 'C(CC(C=O)N)=O']	Elimination + enol to keto	-39.01
+1767_0	['C(C(C(CO)O)N)=O']	['O', 'C(C(C(C)=O)N)=O']	Elimination + enol to keto	-29.27
+1768_0	['C(CO)(C(CO)O)=O']	['O', 'C(CC(CO)=O)=O']	Elimination + enol to keto	-47.2
+1769_0	['C(CO)(C(CO)O)=O']	['O', 'C(C(CO)=O)(C)=O']	Elimination + enol to keto	-45.4
+1770_0	['C(CNCC=O)(C(CO)O)=O']	['O', 'C(CC(CNCC=O)=O)=O']	Elimination + enol to keto	-47.2
+1771_0	['C(CNCC=O)(C(CO)O)=O']	['O', 'C(CNCC(C(C)=O)=O)=O']	Elimination + enol to keto	-45.4
+1772_0	['C(CN)(C(CO)O)=O']	['O', 'C(CC(CN)=O)=O']	Elimination + enol to keto	-47.2
+1773_0	['C(CN)(C(CO)O)=O']	['O', 'C(C(CN)=O)(C)=O']	Elimination + enol to keto	-45.4
+1774_0	['C(C(CO)O)O']	['O', 'C(CCO)=O']	Elimination + enol to keto	-33.57
+1775_0	['C(C(CO)O)O']	['O', 'C(C)(CO)=O']	Elimination + enol to keto	-39.96
+1776_0	['C(C(C(CO)O)O)O']	['O', 'C(C)(C(CO)O)=O']	Elimination + enol to keto	-45.4
+1777_0	['C(C(C(CO)O)O)O']	['O', 'C(CO)(CCO)=O']	Elimination + enol to keto	-41.01
+1778_0	['C(C(C(CO)O)O)O']	['O', 'C(CC(CO)O)=O']	Elimination + enol to keto	-39.01
+1779_0	['C(C(CO)O)(O)=O']	['O', 'C(CC(O)=O)=O']	Elimination + enol to keto	-48.7
+1780_0	['C(C(CO)O)(O)=O']	['O', 'C(C(C)=O)(O)=O']	Elimination + enol to keto	-39.62
+1781_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C(C(CCO)=O)(O)=O']	Elimination + enol to keto	-41.01
+1782_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C(C(CC=O)O)(O)=O']	Elimination + enol to keto	-39.01
+1783_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C(CC(CO)=O)(O)=O']	Elimination + enol to keto	-41.01
+1784_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C(C(C(C)=O)O)(O)=O']	Elimination + enol to keto	-45.4
+1785_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(CO)(C(CC=O)O)O)=O']	Elimination + enol to keto	-39.01
+1786_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(CO)(C(C(C)=O)O)O)=O']	Elimination + enol to keto	-45.4
+1788_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(CO)(CC(CO)=O)O)=O']	Elimination + enol to keto	-41.01
+1790_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(C(CCO)=O)(CO)O)=O']	Elimination + enol to keto	-41.01
+1792_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(C(C(CO)O)=O)CO)=O']	Elimination + enol to keto	-36.93
+1793_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['O', 'C(C(C=O)C(C(CO)O)O)=O']	Elimination + enol to keto	-34.93
+1794_0	['C(C(CO)(C(CN)O)O)=O']	['O', 'C(C(C=O)C(CN)O)=O']	Elimination + enol to keto	-34.93
+1796_0	['C(C(CO)(C(CN)O)O)=O']	['O', 'C(C(C(CN)=O)CO)=O']	Elimination + enol to keto	-36.93
+1797_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C(CN)O)(CC=O)O)=O']	Elimination + enol to keto	-39.01
+1798_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C(CO)=O)C(CN)O)=O']	Elimination + enol to keto	-36.93
+1799_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C(C)=O)(C(CN)O)O)=O']	Elimination + enol to keto	-45.4
+1801_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C(CN)=O)C(CO)O)=O']	Elimination + enol to keto	-36.93
+1802_0	['C(C(CO)(CO)O)=O']	['O', 'C(C(C=O)CO)=O']	Elimination + enol to keto	-34.93
+1803_0	['C(C(CO)(C(CO)O)O)=O']	['O', 'C(C(C=O)C(CO)O)=O']	Elimination + enol to keto	-34.93
+1804_0	['C(C(CO)(C(CO)O)O)=O']	['O', 'C(C(CO)(CC=O)O)=O']	Elimination + enol to keto	-39.01
+1805_0	['C(C(CO)(C(CO)O)O)=O']	['O', 'C(C(C(CO)=O)CO)=O']	Elimination + enol to keto	-36.93
+1806_0	['C(C(CO)(C(CO)O)O)=O']	['O', 'C(C(C(C)=O)(CO)O)=O']	Elimination + enol to keto	-45.4
+1807_0	['C(C(C(CO)O)(C(CO)O)O)=O']	['O', 'C(C(C(CO)O)(CC=O)O)=O']	Elimination + enol to keto	-39.01
+1808_0	['C(C(C(CO)O)(C(CO)O)O)=O']	['O', 'C(C(C(C)=O)(C(CO)O)O)=O']	Elimination + enol to keto	-45.4
+1809_0	['C(C(C(CO)O)(C(CO)O)O)=O']	['O', 'C(C(C(CO)=O)C(CO)O)=O']	Elimination + enol to keto	-36.93
+1810_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(CC(C(C(O)=O)O)O)=O']	Elimination + enol to keto	-39.01
+1811_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(C(C(C)=O)O)O)(O)=O']	Elimination + enol to keto	-45.4
+1813_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(CC(CO)=O)O)(O)=O']	Elimination + enol to keto	-41.01
+1815_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(C(CCO)=O)O)(O)=O']	Elimination + enol to keto	-41.01
+1817_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(CC(C(CO)O)=O)(O)=O']	Elimination + enol to keto	-41.01
+1819_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(CC(CO)O)=O)(O)=O']	Elimination + enol to keto	-41.01
+1821_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(CC(C(O)=O)O)(C(CO)O)=O']	Elimination + enol to keto	-41.01
+1822_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(C(O)=O)O)O)(CCO)=O']	Elimination + enol to keto	-41.01
+1824_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(CC(CO)O)=O)O)(O)=O']	Elimination + enol to keto	-41.01
+1826_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(CC(C(C(CO)O)O)=O)(O)=O']	Elimination + enol to keto	-41.01
+1827_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(CC(C(C(C(O)=O)O)O)O)=O']	Elimination + enol to keto	-39.01
+1828_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(CC(CO)=O)O)O)(O)=O']	Elimination + enol to keto	-41.01
+1829_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(C)=O)O)O)O)(O)=O']	Elimination + enol to keto	-45.4
+1831_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(CC(C(CO)O)O)=O)(O)=O']	Elimination + enol to keto	-41.01
+1833_0	['C(C(C(CN)O)O)(O)=O']	['O', 'C(CC(CN)=O)(O)=O']	Elimination + enol to keto	-41.01
+1835_0	['C(C(C(CN)O)O)(O)=O']	['O', 'C(C(O)=O)(CCN)=O']	Elimination + enol to keto	-41.01
+1837_0	['C1C(C(C(O)O1)O)O']	['O', 'C1(COCC1O)=O']	Elimination + enol to keto	-51.69
+1839_0	['C1C(C(C(O)O1)O)O']	['O', 'C1(C(O)OCC1)=O']	Elimination + enol to keto	-51.69
+1841_0	['C1C(C(C(O)O1)O)O']	['O', 'C1(CC(CO1)O)=O']	Elimination + enol to keto	-65.88
+1843_0	['C1C(C(C(O)O1)O)O']	['O', 'C1(COC(C1)O)=O']	Elimination + enol to keto	-51.69
+1845_0	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(CO)O)=C(C=O)N']	Elimination2	-3.69
+1845_1	['C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(CO)O)=C(C=O)N']	Dehydration of Amines	-3.69
+1847_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(CO)O)O)=C(C=O)N']	Elimination2	-3.69
+1847_1	['C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(CO)O)O)=C(C=O)N']	Dehydration of Amines	-3.69
+1849_0	['C(C(C(CN)O)N)=O']	['O', 'C(CN)=C(C=O)N']	Elimination2	-3.69
+1849_1	['C(C(C(CN)O)N)=O']	['O', 'C(CN)=C(C=O)N']	Dehydration of Amines	-3.69
+1851_0	['C(C(C(CN)O)N)=O']	['O', 'C(C(C=CN)N)=O']	Elimination2	-0.43
+1851_1	['C(C(C(CN)O)N)=O']	['O', 'C(C(C=CN)N)=O']	Dehydration of Amines	-0.43
+1853_0	['C(C(CO)N)=O']	['O', 'C=C(C=O)N']	Elimination2	22.02
+1853_1	['C(C(CO)N)=O']	['O', 'C=C(C=O)N']	Dehydration of Amines	22.02
+1855_0	['C(C(C(CN)O)O)=O']	['O', 'C(C(C=CN)O)=O']	Elimination2	27.14
+1855_1	['C(C(C(CN)O)O)=O']	['O', 'C(C(C=CN)O)=O']	Dehydration of Amines	27.14
+1857_0	['C(C(C(CO)O)N)=O']	['O', 'C(CO)=C(C=O)N']	Elimination2	23.89
+1857_1	['C(C(C(CO)O)N)=O']	['O', 'C(CO)=C(C=O)N']	Dehydration of Amines	23.89
+1859_0	['C(CN)O']	['O', 'C=CN']	Elimination2	-13.26
+1859_1	['C(CN)O']	['O', 'C=CN']	Dehydration of Amines	-13.26
+1861_0	['C(C(CO)(C(CN)O)O)=O']	['O', 'C(C(C=CN)(CO)O)=O']	Elimination2	27.14
+1861_1	['C(C(CO)(C(CN)O)O)=O']	['O', 'C(C(C=CN)(CO)O)=O']	Dehydration of Amines	27.14
+1863_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C=CN)(C(CO)O)O)=O']	Elimination2	27.14
+1863_1	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C(C(C=CN)(C(CO)O)O)=O']	Dehydration of Amines	27.14
+1865_0	['C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C=CN)O)(O)=O']	Elimination2	27.14
+1865_1	['C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C=CN)O)(O)=O']	Dehydration of Amines	27.14
+1867_0	['C(C(CCO)=O)=O']	['O', 'C=CC(C=O)=O']	Elimination2	-2.3
+1869_0	['C(CC(C=O)O)=O']	['O', 'C(C=CC=O)=O']	Elimination2	-0.43
+1871_0	['C(C(CNCC=O)O)=O']	['O', 'C(CNC=CC=O)=O']	Elimination2	30.21
+1871_1	['C(C(CNCC=O)O)=O']	['O', 'C(CNC=CC=O)=O']	Dehydration of Amines	30.21
+1873_0	['C(C(C(CO)NCC=O)O)=O']	['O', 'C(CNC(CO)=CC=O)=O']	Elimination2	-3.69
+1873_1	['C(C(C(CO)NCC=O)O)=O']	['O', 'C(CNC(CO)=CC=O)=O']	Dehydration of Amines	-3.69
+1875_0	['C(C(C(CO)NCC=O)O)=O']	['O', 'C(C(C(NCC=O)=C)O)=O']	Elimination2	-5.55
+1875_1	['C(C(C(CO)NCC=O)O)=O']	['O', 'C(C(C(NCC=O)=C)O)=O']	Dehydration of Amines	-5.55
+1877_0	['C(C(CN)O)=O']	['O', 'C(N)=CC=O']	Elimination2	27.14
+1877_1	['C(C(CN)O)=O']	['O', 'C(N)=CC=O']	Dehydration of Amines	27.14
+1879_0	['C(C(C(CO)N)O)=O']	['O', 'C(CO)(N)=CC=O']	Elimination2	23.89
+1879_1	['C(C(C(CO)N)O)=O']	['O', 'C(CO)(N)=CC=O']	Dehydration of Amines	23.89
+1881_0	['C(C(C(CO)N)O)=O']	['O', 'C(C(C(N)=C)O)=O']	Elimination2	22.02
+1881_1	['C(C(C(CO)N)O)=O']	['O', 'C(C(C(N)=C)O)=O']	Dehydration of Amines	22.02
+1882_0	['O', 'C(CC=O)=O']	['C(C(CO)O)=O']	Hydration of C(=O)C	51.84
+1883_0	['O', 'C(C(C)=O)=O']	['C(C(CO)O)=O']	Hydration of C(=O)C	47.05
+1884_0	['O', 'C(C(CCO)=O)=O']	['C(C(C(CO)O)O)=O']	Hydration of C(=O)C	41.01
+1885_0	['O', 'C(CC(C=O)O)=O']	['C(C(C(CO)O)O)=O']	Hydration of C(=O)C	39.01
+1886_0	['O', 'C(CC(CO)=O)=O']	['C(CO)(C(CO)O)=O']	Hydration of C(=O)C	47.2
+1887_0	['O', 'C(CC(CO)=O)=O']	['C(C(C(CO)O)O)=O']	Hydration of C(=O)C	49.2
+1888_0	['O', 'C(C(C(C)=O)O)=O']	['C(C(C(CO)O)O)=O']	Hydration of C(=O)C	102.36
+1889_0	['O', 'C(C)=O']	['C(CO)O']	Hydration of C(=O)C	43.23
+1890_0	['C(C(C(C(CO)O)O)N)=O']	['N', 'C(CC(C(CO)O)=O)=O']	Deamination 2	-69.81
+1891_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['N', 'C(CC(C(C(CO)O)O)=O)=O']	Deamination 2	-69.81
+1892_0	['C(C(C(CN)O)N)=O']	['N', 'C(CC(CN)=O)=O']	Deamination 2	-65.16
+1893_0	['C(C(C(CN)O)N)=O']	['N', 'C(C(C(C)=O)N)=O']	Deamination 2	-38.51
+1894_0	['C(C(CO)N)=O']	['N', 'C(CC=O)=O']	Deamination 2	-40.23
+1895_0	['C(C(C(CN)O)O)=O']	['N', 'C(C(C(C)=O)O)=O']	Deamination 2	-84.02
+1896_0	['C(C(C(CO)O)N)=O']	['N', 'C(CC(CO)=O)=O']	Deamination 2	-37.59
+1897_0	['C(CN)O']	['N', 'C(C)=O']	Deamination 2	-35.86
+1898_0	['C(C(CO)(C(CN)O)O)=O']	['N', 'C(C(C(C)=O)(CO)O)=O']	Deamination 2	-27.07
+1899_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['N', 'C(C(C(C)=O)(C(CO)O)O)=O']	Deamination 2	-27.07
+1900_0	['C(C(C(CN)O)O)(O)=O']	['N', 'C(C(C(C)=O)O)(O)=O']	Deamination 2	-27.07
+1901_0	['C(C(CNCC=O)O)=O']	['C(CN)=O', 'C(C(C)=O)=O']	Deamination 2	-25.49
+1902_0	['C(C(C(CO)NCC=O)O)=O']	['C(CN)=O', 'C(C(CCO)=O)=O']	Deamination 2	-56.83
+1903_0	['C(C(C(CO)NCC=O)O)=O']	['C(CN)=O', 'C(CC(C=O)O)=O']	Deamination 2	-54.82
+1904_0	['C(C(CN)O)=O']	['N', 'C(C(C)=O)=O']	Deamination 2	-28.71
+1905_0	['C(C(C(CO)N)O)=O']	['N', 'C(C(CCO)=O)=O']	Deamination 2	-29.41
+1906_0	['C(C(C(CO)N)O)=O']	['N', 'C(CC(C=O)O)=O']	Deamination 2	-27.4
+1908_0	['C(C(C(C(CO)O)O)N)=O', 'C(CN)O']	['O', 'C(C(C(C(CO)O)NCCO)N)=O']	Mannich Addition	-25.79
+1910_0	['C(C(C(CN)O)N)=O', 'C(C(CO)N)=O']	['O', 'C(C(C(CN)NC(C=O)CO)N)=O']	Mannich Addition	15.81
+1912_0	['C(C(C(CN)O)N)=O', 'C(C(CO)N)=O']	['O', 'C(C(CNC(C=O)C(CN)O)N)=O']	Mannich Addition	-18.49
+1914_0	['C(C(C(CN)O)N)=O', 'C(C(CO)N)=O']	['O', 'C(C(C(CNCC(C=O)N)O)N)=O']	Mannich Addition	6.02
+1916_0	['C(C(C(CN)O)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CN)NCC(CO)=O)N)=O']	Mannich Addition	15.81
+1918_0	['C(C(C(CN)O)N)=O', 'C(CN)O']	['O', 'C(C(C(CN)NCCO)N)=O']	Mannich Addition	4.85
+1920_0	['C(C(C(CN)O)N)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CN)NCC(O)=O)N)=O']	Mannich Addition	16.61
+1922_0	['C(C(C(CN)O)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CN)NCC(C=O)O)N)=O']	Mannich Addition	15.81
+1924_0	['C(C(CO)N)=O', 'C(C(CO)N)=O']	['O', 'C(C(CNC(C=O)CO)N)=O']	Mannich Addition	9.08
+1926_0	['C(C(CO)N)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(CNCC(C(C=O)O)O)N)=O']	Mannich Addition	6.02
+1928_0	['C(C(CO)N)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(CO)NC(CN)C(C=O)O)=O']	Mannich Addition	15.81
+1930_0	['C(C(CO)N)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(CNC(C=O)C(CO)O)N)=O']	Mannich Addition	9.08
+1932_0	['C(C(CO)N)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)NC(C=O)CO)N)=O']	Mannich Addition	15.81
+1934_0	['C(C(CO)N)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(C(CO)NCC(C(CO)=O)O)=O']	Mannich Addition	9.08
+1936_0	['C(C(CO)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(CNCC(CO)=O)N)=O']	Mannich Addition	9.08
+1938_0	['C(C(CO)N)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CNCC(C(CO)O)=O)N)=O']	Mannich Addition	9.08
+1940_0	['C(C(CO)N)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CO)NCC(C(CN)=O)O)=O']	Mannich Addition	9.08
+1942_0	['C(C(CO)N)=O', 'C(CNCC=O)=O']	['O', 'C(C(CN(CC=O)CC=O)N)=O']	Mannich Addition	-38.15
+1944_0	['C(C(CO)N)=O', 'C(CN)O']	['O', 'C(C(CNCCO)N)=O']	Mannich Addition	-4.94
+1946_0	['C(C(CO)N)=O', 'C(C(CO)O)(O)=O']	['O', 'C(C(CO)NCC(C(O)=O)O)=O']	Mannich Addition	-21.56
+1948_0	['C(C(CO)N)=O', 'C(CN)(O)=O']	['O', 'C(C(CNCC(O)=O)N)=O']	Mannich Addition	9.88
+1950_0	['C(C(CO)N)=O', 'C(C(CCO)=O)=O']	['O', 'C(C(CO)NCCC(C=O)=O)=O']	Mannich Addition	-21.56
+1951_0	['C(C(CO)N)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(C=O)NC(C=O)CO)=O']	Mannich Addition	15.81
+1953_0	['C(C(CO)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C=O)O)N)=O']	Mannich Addition	6.02
+1955_0	['C(C(CO)N)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(CNC(CO)C(C=O)O)N)=O']	Mannich Addition	6.02
+1957_0	['C(C(C(C(CO)O)O)O)=O', 'C(CN)O']	['O', 'C(C(C(C(CO)O)NCCO)O)=O']	Mannich Addition	-25.79
+1959_0	['C(C(C(CN)O)O)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CN)NCC(CO)=O)O)=O']	Mannich Addition	15.81
+1961_0	['C(C(C(CN)O)O)=O', 'C(CN)O']	['O', 'C(C(C(CN)NCCO)O)=O']	Mannich Addition	4.85
+1963_0	['C(C(C(CN)O)O)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CN)NCC(O)=O)O)=O']	Mannich Addition	16.61
+1965_0	['C(C(C(CN)O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CN)NCC(C=O)O)O)=O']	Mannich Addition	15.81
+1967_0	['C(C(C(CO)O)N)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CO)NCC(CO)=O)N)=O']	Mannich Addition	15.81
+1969_0	['C(C(C(CO)O)N)=O', 'C(CN)O']	['O', 'C(C(C(CO)NCCO)N)=O']	Mannich Addition	1.78
+1971_0	['C(C(C(CO)O)N)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CO)NCC(O)=O)N)=O']	Mannich Addition	16.61
+1973_0	['C(C(C(CO)O)N)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CO)NCC(C=O)O)N)=O']	Mannich Addition	12.74
+1975_0	['C(CO)(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(CO)(CNCC(C(CO)=O)O)=O']	Mannich Addition	9.08
+1977_0	['C(CO)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CO)(C(CNCCO)O)=O']	Mannich Addition	-32.52
+1979_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CNCC(C(CO)=O)O)(O)=O']	Mannich Addition	-17.69
+1981_0	['C(CO)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C(CO)=O)O)O)=O']	Mannich Addition	-21.56
+1983_0	['C(CO)(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CN)(C(CNCC(CO)=O)O)=O']	Mannich Addition	9.08
+1985_0	['C(CO)(CN)=O', 'C(C(CO)O)(O)=O']	['O', 'C(C(CNCC(CO)=O)O)(O)=O']	Mannich Addition	-21.56
+1987_0	['C(CO)(CN)=O', 'C(C(CCO)=O)=O']	['O', 'C(CO)(CNCCC(C=O)=O)=O']	Mannich Addition	-21.56
+1988_0	['C(CO)(CN)=O', 'C(CC(C=O)O)=O']	['O', 'C(C(CC=O)NCC(CO)=O)=O']	Mannich Addition	15.81
+1990_0	['C(CN)(C(CO)O)=O', 'C(CN)O']	['O', 'C(CN)(C(CNCCO)O)=O']	Mannich Addition	-32.52
+1992_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(CN)(C(CNCC(O)=O)O)=O']	Mannich Addition	-17.69
+1994_0	['C(CN)(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C(CN)=O)O)O)=O']	Mannich Addition	-21.56
+1996_0	['C(CNCC=O)=O', 'C(C(CO)O)(O)=O']	['O', 'C(C(CN(CC=O)CC=O)O)(O)=O']	Mannich Addition	-38.15
+1998_0	['C(CNCC=O)=O', 'C(C(CCO)=O)=O']	['O', 'C(CN(CCC(C=O)=O)CC=O)=O']	Mannich Addition	-38.15
+1999_0	['C(CNCC=O)=O', 'C(CC(C=O)O)=O']	['O', 'C(CN(CC=O)C(C=O)CC=O)=O']	Mannich Addition	-31.43
+2001_0	['C(CN)O', 'C(C(CO)O)(O)=O']	['O', 'C(C(CNCCO)O)(O)=O']	Mannich Addition	-32.52
+2003_0	['C(CN)O', 'C(C(C(CO)O)O)(O)=O']	['O', 'C(C(C(CO)NCCO)O)(O)=O']	Mannich Addition	-25.79
+2005_0	['C(CN)O', 'C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CN)NCCO)O)(O)=O']	Mannich Addition	4.85
+2007_0	['C(CN)O', 'C(C(CCO)=O)=O']	['O', 'C(C(CCNCCO)=O)=O']	Mannich Addition	-32.52
+2008_0	['C(CN)O', 'C(CC(C=O)O)=O']	['O', 'C(CC(C=O)NCCO)=O']	Mannich Addition	-25.79
+2010_0	['C(C(CO)O)(O)=O', 'C(CN)(O)=O']	['O', 'C(C(CNCC(O)=O)O)(O)=O']	Mannich Addition	-17.69
+2012_0	['C(C(CO)O)(O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C=O)O)O)(O)=O']	Mannich Addition	-21.56
+2014_0	['C(C(C(CO)O)O)(O)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CO)NCC(O)=O)O)(O)=O']	Mannich Addition	-10.96
+2016_0	['C(CN)(O)=O', 'C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CN)NCC(O)=O)O)(O)=O']	Mannich Addition	16.61
+2018_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['O', 'C(CNCCC(C=O)=O)(O)=O']	Mannich Addition	-17.69
+2019_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(C=O)NCC(O)=O)=O']	Mannich Addition	-10.96
+2021_0	['C(C(CCO)=O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCCC(C=O)=O)O)=O']	Mannich Addition	-21.56
+2022_0	['C(CC(C=O)O)=O', 'C(C(CN)O)=O']	['O', 'C(CC(C=O)NCC(C=O)O)=O']	Mannich Addition	15.81
+2024_0	['N', 'C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(C(C(CO)O)N)N)=O']	Mannich Addition	-11.61
+2026_0	['N', 'C(C(C(C(C(CO)O)O)O)N)=O']	['O', 'C(C(C(C(C(CO)O)O)N)N)=O']	Mannich Addition	-11.61
+2028_0	['N', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CN)N)N)=O']	Mannich Addition	15.96
+2029_0	['N', 'C(C(CO)N)=O']	['O', 'C(C(CN)N)=O']	Mannich Addition	9.24
+2031_0	['N', 'C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(C(C(CO)O)N)O)=O']	Mannich Addition	-11.61
+2033_0	['N', 'C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(C(C(CO)O)O)N)O)=O']	Mannich Addition	-11.61
+2035_0	['N', 'C(C(C(CN)O)O)=O']	['O', 'C(C(C(CN)N)O)=O']	Mannich Addition	15.96
+2037_0	['N', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)N)N)=O']	Mannich Addition	15.96
+2038_0	['N', 'C(CO)(C(CO)O)=O']	['O', 'C(CO)(C(CN)O)=O']	Mannich Addition	-18.34
+2039_0	['N', 'C(CNCC=O)(C(CO)O)=O']	['O', 'C(CNCC=O)(C(CN)O)=O']	Mannich Addition	-18.34
+2040_0	['N', 'C(CN)(C(CO)O)=O']	['O', 'C(CN)(C(CN)O)=O']	Mannich Addition	-18.34
+2041_0	['N', 'C(C(CO)O)(O)=O']	['O', 'C(C(CN)O)(O)=O']	Mannich Addition	-18.34
+2042_0	['N', 'C(C(C(CO)O)O)(O)=O']	['O', 'C(C(C(CO)N)O)(O)=O']	Mannich Addition	-11.61
+2044_0	['N', 'C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C(C(C(C(CO)O)N)O)(O)=O']	Mannich Addition	-11.61
+2046_0	['N', 'C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(CO)O)O)N)O)(O)=O']	Mannich Addition	-11.61
+2048_0	['N', 'C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CN)N)O)(O)=O']	Mannich Addition	15.96
+2049_0	['N', 'C(C(CCO)=O)=O']	['O', 'C(C(CCN)=O)=O']	Mannich Addition	-18.34
+2050_0	['N', 'C(CC(C=O)O)=O']	['O', 'C(CC(C=O)N)=O']	Mannich Addition	-11.61
+2051_0	['C(C(CO)O)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CN)O)NCC(C=O)O)=O']	Mannich Addition	-18.49
+2052_0	['C(C(CO)O)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CNCC(C=O)O)O)N)=O']	Mannich Addition	-21.56
+2053_0	['C(C(CO)O)=O', 'C(C(CO)N)=O']	['O', 'C(C(CO)NCC(C=O)O)=O']	Mannich Addition	9.08
+2054_0	['C(C(CO)O)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(C(CNCC(C=O)O)O)O)=O']	Mannich Addition	-21.56
+2055_0	['C(C(CO)O)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)O)NCC(C=O)O)=O']	Mannich Addition	9.08
+2056_0	['C(C(CO)O)=O', 'C(CO)(CN)=O']	['O', 'C(C(CNCC(CO)=O)O)=O']	Mannich Addition	-21.56
+2057_0	['C(C(CO)O)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(C(CNCC(C(CO)O)=O)O)=O']	Mannich Addition	9.08
+2058_0	['C(C(CO)O)=O', 'C(CNCC=O)=O']	['O', 'C(C(CN(CC=O)CC=O)O)=O']	Mannich Addition	-38.15
+2059_0	['C(C(CO)O)=O', 'C(CN)O']	['O', 'C(C(CNCCO)O)=O']	Mannich Addition	-32.52
+2060_0	['C(C(CO)O)=O', 'C(CN)(O)=O']	['O', 'C(C(CNCC(O)=O)O)=O']	Mannich Addition	-17.69
+2062_0	['C(C(CO)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(CNCC(C=O)O)O)=O']	Mannich Addition	-21.56
+2064_0	['C(C(CO)O)=O', 'C(C(C(CO)N)O)=O']	['O', 'C(C(C(CO)NCC(C=O)O)O)=O']	Mannich Addition	-21.56
+2065_0	['C(C(C(CO)O)O)=O', 'C(C(CO)N)=O']	['O', 'C(C(CO)NC(CO)C(C=O)O)=O']	Mannich Addition	15.81
+2066_0	['C(C(C(CO)O)O)=O', 'C(CO)(CN)=O']	['O', 'C(C(C(CO)NCC(CO)=O)O)=O']	Mannich Addition	15.81
+2067_0	['C(C(C(CO)O)O)=O', 'C(CN)O']	['O', 'C(C(C(CO)NCCO)O)=O']	Mannich Addition	-25.79
+2068_0	['C(C(C(CO)O)O)=O', 'C(CN)(O)=O']	['O', 'C(C(C(CO)NCC(O)=O)O)=O']	Mannich Addition	-10.96
+2069_0	['C(C(C(CO)O)O)=O', 'C(C(CN)O)=O']	['O', 'C(C(C(CO)NCC(C=O)O)O)=O']	Mannich Addition	-14.83
+2071_0	['C(CN)=O', 'C(C(C(C(CO)O)O)N)=O']	['O', 'C(C(C(C(CO)O)NCC=O)N)=O']	Mannich Addition	15.81
+2073_0	['C(CN)=O', 'C(C(C(CN)O)N)=O']	['O', 'C(C(C(CN)NCC=O)N)=O']	Mannich Addition	15.81
+2074_0	['C(CN)=O', 'C(C(CO)N)=O']	['O', 'C(C(CNCC=O)N)=O']	Mannich Addition	6.02
+2076_0	['C(CN)=O', 'C(C(C(C(CO)O)O)O)=O']	['O', 'C(C(C(C(CO)O)NCC=O)O)=O']	Mannich Addition	15.81
+2078_0	['C(CN)=O', 'C(C(C(CN)O)O)=O']	['O', 'C(C(C(CN)NCC=O)O)=O']	Mannich Addition	15.81
+2080_0	['C(CN)=O', 'C(C(C(CO)O)N)=O']	['O', 'C(C(C(CO)NCC=O)N)=O']	Mannich Addition	12.74
+2081_0	['C(CN)=O', 'C(CO)(C(CO)O)=O']	['O', 'C(CNCC(C(CO)=O)O)=O']	Mannich Addition	-21.56
+2083_0	['C(CN)=O', 'C(CN)(C(CO)O)=O']	['O', 'C(CN)(C(CNCC=O)O)=O']	Mannich Addition	-21.56
+2084_0	['C(CN)=O', 'C(C(CO)O)(O)=O']	['O', 'C(C(CNCC=O)O)(O)=O']	Mannich Addition	-21.56
+2085_0	['C(CN)=O', 'C(C(C(CO)O)O)(O)=O']	['O', 'C(C(C(CO)NCC=O)O)(O)=O']	Mannich Addition	-14.83
+2087_0	['C(CN)=O', 'C(C(C(CN)O)O)(O)=O']	['O', 'C(C(C(CN)NCC=O)O)(O)=O']	Mannich Addition	15.81
+2089_0	['C(CN)=O', 'C(C(CCO)=O)=O']	['O', 'C(CNCCC(C=O)=O)=O']	Mannich Addition	-21.56
+2090_0	['C(CN)=O', 'C(CC(C=O)O)=O']	['O', 'C(CC(C=O)NCC=O)=O']	Mannich Addition	15.81
+2091_0	['O', 'C(C(CNCC=O)O)=O']	['C(C(CO)O)=O', 'C(CN)=O']	Mannich Addition (reverse)	21.56
+2092_0	['O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(C(CO)O)O)=O', 'C(CN)=O']	Mannich Addition (reverse)	-15.81
+2093_0	['O', 'C(C(CN)O)=O']	['N', 'C(C(CO)O)=O']	Mannich Addition (reverse)	18.34
+2094_0	['O', 'C(C(C(CO)N)O)=O']	['N', 'C(C(C(CO)O)O)=O']	Mannich Addition (reverse)	11.61
+2096_0	['C(C(C(C(CO)O)O)N)=O']	['C(C1C(C(C(O)O1)N)O)O']	Hemiacetal Formation for 5 membered rings	-26.52
+2098_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['C(C(C1C(C(C(O)O1)N)O)O)O']	Hemiacetal Formation for 5 membered rings	-26.52
+2100_0	['C(C(C(C(CO)O)O)O)=O']	['C(C1C(C(C(O)O1)O)O)O']	Hemiacetal Formation for 5 membered rings	-1.45
+2102_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(C(C1C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 5 membered rings	-1.45
+2104_0	['C(C(C(CO)O)N)=O']	['C1C(C(C(O)O1)N)O']	Hemiacetal Formation for 5 membered rings	0.9
+2106_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['C1(C(CO)(C(C(CO)O1)O)O)O']	Hemiacetal Formation for 5 membered rings	-7.27
+2108_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['C1C(C(C(O)O1)(C(CN)O)O)O']	Hemiacetal Formation for 5 membered rings	-7.42
+2110_0	['C(C(CO)(C(CO)O)O)=O']	['C1C(C(C(O)O1)(CO)O)O']	Hemiacetal Formation for 5 membered rings	-7.42
+2112_0	['C(C(C(CO)O)(C(CO)O)O)=O']	['C1C(C(C(O)O1)(C(CO)O)O)O']	Hemiacetal Formation for 5 membered rings	-7.42
+2113_0	['C(C(CCO)=O)=O']	['C1(C(O)OCC1)=O']	Hemiacetal Formation for 5 membered rings	-12.28
+2114_0	['C(CC(CO)=O)=O']	['C1(COC(C1)O)=O']	Hemiacetal Formation for 5 membered rings	-4.09
+2116_0	['C(C(C(CO)NCC=O)O)=O']	['C(CNC1COC(C1O)O)=O']	Hemiacetal Formation for 5 membered rings	0.9
+2118_0	['C(C(C(CO)N)O)=O']	['C1C(C(C(O)O1)O)N']	Hemiacetal Formation for 5 membered rings	0.9
+2120_0	['C(C(C(C(CO)O)O)N)=O']	['C1C(C(C(C(O)O1)N)O)O']	Hemiacetal Formation for 6 membered rings	-29.37
+2122_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['C(C1C(C(C(C(O)O1)N)O)O)O']	Hemiacetal Formation for 6 membered rings	-29.22
+2124_0	['C(C(C(C(CO)O)O)O)=O']	['C1C(C(C(C(O)O1)O)O)O']	Hemiacetal Formation for 6 membered rings	-4.31
+2126_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(C1C(C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 6 membered rings	-4.15
+2128_0	['C(C(CO)(C(C(CO)O)O)O)=O']	['C1C(C(C(C(O)O1)(CO)O)O)O']	Hemiacetal Formation for 6 membered rings	-10.12
+2130_0	['C(C(C(C(C(CO)O)O)O)N)=O']	['C1C(C(C(C(C(O)O1)N)O)O)O']	Hemiacetal Formation for 7 membered rings	-32.08
+2132_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C1C(C(C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 7 membered rings	-7.01
+2133_0	['C1C(C(C(O)O1)O)O']	['C(C(C(CO)O)O)=O']	Hemiacetal Formation for 5 membered rings, inverse	1.6
+2135_0	['C(C(C(C(CO)O)O)N)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(C(CN)N)O)O)O']	Transamination (inverse)	7.61
+2137_0	['C(C(C(C(C(CO)O)O)O)N)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(C(C(CN)N)O)O)O)O']	Transamination (inverse)	7.61
+2139_0	['C(C(C(CN)O)N)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)O)N)N']	Transamination (inverse)	7.61
+2141_0	['C(C(CO)N)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(CN)N)O']	Transamination (inverse)	35.19
+2143_0	['C(C(C(C(CO)O)O)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(C(CN)O)O)O)O']	Transamination (inverse)	7.61
+2145_0	['C(C(C(C(C(CO)O)O)O)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(C(C(CN)O)O)O)O)O']	Transamination (inverse)	7.61
+2147_0	['C(C(C(CN)O)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)O)O)N']	Transamination (inverse)	7.61
+2149_0	['C(C(C(CO)O)N)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)N)O)O']	Transamination (inverse)	35.19
+2150_0	['C(C=O)=O', 'C(CN)(O)=O']	['C(CN)=O', 'C(C(O)=O)=O']	Transamination (inverse)	7.61
+2151_0	['C(CO)(CO)=O', 'C(CN)(O)=O']	['C(C(CO)N)O', 'C(C(O)=O)=O']	Transamination (inverse)	16.52
+2152_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(C(CO)O)N)O', 'C(C(O)=O)=O']	Transamination (inverse)	16.34
+2154_0	['C(CNCC(CO)=O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CNCC(CO)N)=O']	Transamination (inverse)	16.34
+2156_0	['C(CNCC(CO)=O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CO)(CNCCN)=O']	Transamination (inverse)	7.61
+2158_0	['C(CNCC=O)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CNCC(C(CO)O)N)=O']	Transamination (inverse)	16.34
+2160_0	['C(CNCC=O)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CNCCN)(C(CO)O)=O']	Transamination (inverse)	7.61
+2161_0	['C(CO)(CN)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(CN)N)O']	Transamination (inverse)	43.92
+2162_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)N)O)O']	Transamination (inverse)	43.92
+2164_0	['C(CNCC=O)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CNCCN)=O']	Transamination (inverse)	7.61
+2166_0	['C(CN)(O)=O', 'C(C(CO)(C(C(CO)O)O)O)=O']	['C(C(O)=O)=O', 'C(C(CN)(C(C(CO)O)O)O)O']	Transamination (inverse)	7.61
+2168_0	['C(CN)(O)=O', 'C(C(CO)(C(CN)O)O)=O']	['C(C(O)=O)=O', 'C(C(CN)(C(CN)O)O)O']	Transamination (inverse)	7.61
+2170_0	['C(CN)(O)=O', 'C(C(C(CO)O)(C(CN)O)O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)(C(CN)O)O)O)O']	Transamination (inverse)	7.61
+2172_0	['C(CN)(O)=O', 'C(C(CO)(CO)O)=O']	['C(C(O)=O)=O', 'C(C(CO)(CN)O)O']	Transamination (inverse)	7.61
+2174_0	['C(CN)(O)=O', 'C(C(CO)(C(CO)O)O)=O']	['C(C(O)=O)=O', 'C(C(CN)(C(CO)O)O)O']	Transamination (inverse)	7.61
+2176_0	['C(CN)(O)=O', 'C(C(C(CO)O)(C(CO)O)O)=O']	['C(C(O)=O)=O', 'C(C(C(CN)(C(CO)O)O)O)O']	Transamination (inverse)	7.61
+2178_0	['C(CN)(O)=O', 'C(CC=O)=O']	['C(C(O)=O)=O', 'C(CCN)=O']	Transamination (inverse)	19.27
+2179_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C(C(O)=O)=O', 'C(C(C)N)=O']	Transamination (inverse)	17.98
+2180_0	['C(CN)(O)=O', 'C(C(C)=O)=O']	['C(C(O)=O)=O', 'C(C)(CN)=O']	Transamination (inverse)	9.26
+2181_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C(C(O)=O)=O', 'C(C(CCO)N)=O']	Transamination (inverse)	16.34
+2182_0	['C(CN)(O)=O', 'C(C(CCO)=O)=O']	['C(C(O)=O)=O', 'C(CN)(CCO)=O']	Transamination (inverse)	7.61
+2183_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C(CC(CN)O)=O', 'C(C(O)=O)=O']	Transamination (inverse)	7.61
+2185_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C(C(O)=O)=O', 'C(C(CCN)O)=O']	Transamination (inverse)	7.61
+2187_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C(C(O)=O)=O', 'C(CO)(CCN)=O']	Transamination (inverse)	15.8
+2189_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C(C(O)=O)=O', 'C(CC(CO)N)=O']	Transamination (inverse)	24.53
+2191_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(O)=O)=O', 'C(C)(C(CN)O)=O']	Transamination (inverse)	64.56
+2193_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C(C(O)=O)=O', 'C(C(C(C)N)O)=O']	Transamination (inverse)	73.29
+2195_0	['C(CN)(O)=O', 'C(C)=O']	['C(C(O)=O)=O', 'CCN']	Transamination (inverse)	7.44
+2197_0	['C(CN)(O)=O', 'C(C(CNCC=O)O)=O']	['C(C(O)=O)=O', 'C(CNCC(CN)O)=O']	Transamination (inverse)	38.25
+2199_0	['C(CN)(O)=O', 'C(C(CNCC=O)O)=O']	['C(C(O)=O)=O', 'C(C(CNCCN)O)=O']	Transamination (inverse)	38.25
+2201_0	['C(CN)(O)=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(O)=O)=O', 'C(CNC(CO)C(CN)O)=O']	Transamination (inverse)	7.61
+2203_0	['C(CN)(O)=O', 'C(C(C(CO)NCC=O)O)=O']	['C(C(O)=O)=O', 'C(C(C(CO)NCCN)O)=O']	Transamination (inverse)	7.61
+2205_0	['C(CN)(O)=O', 'C(C(CN)O)=O']	['C(C(O)=O)=O', 'C(C(CN)O)N']	Transamination (inverse)	7.61
+2206_0	['C(CN)(O)=O', 'C(C(C(CO)N)O)=O']	['C(C(C(CN)O)N)O', 'C(C(O)=O)=O']	Transamination (inverse)	7.61
+2207_0	['C(C(CO)O)=O', 'C(CN)(O)=O']	['C(C(CN)O)O', 'C(C(O)=O)=O']	Transamination (inverse)	7.61
+2208_0	['C(C(C(CO)O)O)=O', 'C(CN)(O)=O']	['C(C(C(CN)O)O)O', 'C(C(O)=O)=O']	Transamination (inverse)	7.61
+2210_0	['C(CN)=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'C(CN)N']	Transamination (inverse)	7.61
+2211_0	['C=O', 'C(CN)(O)=O']	['C(C(O)=O)=O', 'CN']	Transamination (inverse)	-7.75
+2212_0	['C(CO)=O', 'C(CN)(O)=O']	['C(CN)O', 'C(C(O)=O)=O']	Transamination (inverse)	15.55
+2214_0	['C(C(C(CO)O)O)(O)=O']	['O', 'C1(C(C(CO1)O)O)=O']	Ring Closure 5 membered O, O	-20.28
+2216_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C1(C(C(C(CO)O1)O)O)=O']	Ring Closure 5 membered O, O	-20.13
+2218_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C1(C(C(C(C(CO)O)O1)O)O)=O']	Ring Closure 5 membered O, O	-20.13
+2220_0	['C(C(C(CN)O)O)(O)=O']	['O', 'C1(C(C(CN1)O)O)=O']	Ring Closure 5 membered O, N	-41.32
+2222_0	['C(C(C(C(CO)O)O)O)(O)=O']	['O', 'C1(C(C(C(CO1)O)O)O)=O']	Ring Closure 6 membered O, O	-22.98
+2224_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C1(C(C(C(C(CO)O1)O)O)O)=O']	Ring Closure 6 membered O, O	-22.83
+2226_0	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	['O', 'C1(C(C(C(C(CO1)O)O)O)O)=O']	Ring Closure 7 membered O, O	-25.68
+2228_0	['C(C(C(CN)O)N)=O']	['O', 'C1C(C(CN=1)O)N']	Amine Carbonyl Ring Closure, H, 5	-29.01
+2230_0	['C(C(C(CN)O)O)=O']	['O', 'C1C(C(CN=1)O)O']	Amine Carbonyl Ring Closure, H, 5	-3.94
+2232_0	['C(C(CO)(C(CN)O)O)=O']	['O', 'C1C(CO)(C(CN=1)O)O']	Amine Carbonyl Ring Closure, H, 5	-9.76
+2234_0	['C(C(C(CO)O)(C(CN)O)O)=O']	['O', 'C1C(C(CO)O)(C(CN=1)O)O']	Amine Carbonyl Ring Closure, H, 5	-9.76
+2235_0	['C=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'CN']	Strecker Degradation, HH	-46.78
+2236_0	['C(C(C(C(CO)O)O)N)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(C(CN)N)O)O)O']	Strecker Degradation, HC	-31.42
+2237_0	['C(C(C(C(C(CO)O)O)O)N)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(C(C(CN)N)O)O)O)O']	Strecker Degradation, HC	-31.42
+2238_0	['C(C(C(CN)O)N)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)O)N)N']	Strecker Degradation, HC	-31.42
+2239_0	['C(C(CO)N)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)N)O']	Strecker Degradation, HC	-3.84
+2240_0	['C(C(C(C(CO)O)O)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(C(CN)O)O)O)O']	Strecker Degradation, HC	-31.42
+2241_0	['C(C(C(C(C(CO)O)O)O)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(C(C(CN)O)O)O)O)O']	Strecker Degradation, HC	-31.42
+2242_0	['C(C(C(CN)O)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)O)O)N']	Strecker Degradation, HC	-31.42
+2243_0	['C(C(C(CO)O)N)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)N)O)O']	Strecker Degradation, HC	-3.84
+2244_0	['C(CNCC(CO)=O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CO)(CNCCN)=O']	Strecker Degradation, HC	-31.42
+2245_0	['C(CNCC=O)(C(CO)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CNCCN)(C(CO)O)=O']	Strecker Degradation, HC	-31.42
+2246_0	['C(CNCC=O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CNCCN)=O']	Strecker Degradation, HC	-31.42
+2247_0	['C(CN)(O)=O', 'C(C(CO)(C(C(CO)O)O)O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)(C(C(CO)O)O)O)O']	Strecker Degradation, HC	-31.42
+2248_0	['C(CN)(O)=O', 'C(C(CO)(C(CN)O)O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)(C(CN)O)O)O']	Strecker Degradation, HC	-31.42
+2249_0	['C(CN)(O)=O', 'C(C(C(CO)O)(C(CN)O)O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)(C(CN)O)O)O)O']	Strecker Degradation, HC	-31.42
+2250_0	['C(CN)(O)=O', 'C(C(CO)(CO)O)=O']	['C=O', 'C(=O)=O', 'C(C(CO)(CN)O)O']	Strecker Degradation, HC	-31.42
+2251_0	['C(CN)(O)=O', 'C(C(CO)(C(CO)O)O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)(C(CO)O)O)O']	Strecker Degradation, HC	-31.42
+2252_0	['C(CN)(O)=O', 'C(C(C(CO)O)(C(CO)O)O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)(C(CO)O)O)O)O']	Strecker Degradation, HC	-31.42
+2253_0	['C(CN)(O)=O', 'C(CC=O)=O']	['C=O', 'C(=O)=O', 'C(CCN)=O']	Strecker Degradation, HC	-19.76
+2254_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C=O', 'C(CC(CN)O)=O', 'C(=O)=O']	Strecker Degradation, HC	-31.42
+2255_0	['C(CN)(O)=O', 'C(CC(C=O)O)=O']	['C=O', 'C(=O)=O', 'C(C(CCN)O)=O']	Strecker Degradation, HC	-31.42
+2256_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C=O', 'C(=O)=O', 'C(CO)(CCN)=O']	Strecker Degradation, HC	-23.23
+2257_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C=O', 'C(=O)=O', 'C(C)(C(CN)O)=O']	Strecker Degradation, HC	25.54
+2258_0	['C(CN)(O)=O', 'C(C)=O']	['C=O', 'C(=O)=O', 'CCN']	Strecker Degradation, HC	-31.58
+2259_0	['C(CN)(O)=O', 'C(C(CNCC=O)O)=O']	['C=O', 'C(=O)=O', 'C(CNCC(CN)O)=O']	Strecker Degradation, HC	-0.77
+2260_0	['C(CN)(O)=O', 'C(C(CNCC=O)O)=O']	['C=O', 'C(=O)=O', 'C(C(CNCCN)O)=O']	Strecker Degradation, HC	-0.77
+2261_0	['C(CN)(O)=O', 'C(C(C(CO)NCC=O)O)=O']	['C=O', 'C(=O)=O', 'C(CNC(CO)C(CN)O)=O']	Strecker Degradation, HC	-31.42
+2262_0	['C(CN)(O)=O', 'C(C(C(CO)NCC=O)O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CO)NCCN)O)=O']	Strecker Degradation, HC	-31.42
+2263_0	['C(CN)(O)=O', 'C(C(CN)O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)O)N']	Strecker Degradation, HC	-31.42
+2264_0	['C(CN)(O)=O', 'C(C(C(CO)N)O)=O']	['C=O', 'C(C(C(CN)O)N)O', 'C(=O)=O']	Strecker Degradation, HC	-31.42
+2265_0	['C(C(CO)O)=O', 'C(CN)(O)=O']	['C=O', 'C(C(CN)O)O', 'C(=O)=O']	Strecker Degradation, HC	-31.42
+2266_0	['C(C(C(CO)O)O)=O', 'C(CN)(O)=O']	['C=O', 'C(C(C(CN)O)O)O', 'C(=O)=O']	Strecker Degradation, HC	-31.42
+2267_0	['C(CN)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CN)N']	Strecker Degradation, HC	-31.42
+2268_0	['C(CO)=O', 'C(CN)(O)=O']	['C=O', 'C(CN)O', 'C(=O)=O']	Strecker Degradation, HC	-23.48
+2269_0	['C(CO)(CO)=O', 'C(CN)(O)=O']	['C=O', 'C(C(CO)N)O', 'C(=O)=O']	Strecker Degradation, CC	-22.51
+2270_0	['C(CO)(C(CO)O)=O', 'C(CN)(O)=O']	['C=O', 'C(C(C(CO)O)N)O', 'C(=O)=O']	Strecker Degradation, CC	-22.69
+2271_0	['C(CNCC(CO)=O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CNCC(CO)N)=O']	Strecker Degradation, CC	-22.69
+2272_0	['C(CNCC=O)(C(CO)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(CNCC(C(CO)O)N)=O']	Strecker Degradation, CC	-22.69
+2273_0	['C(CO)(CN)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(CN)N)O']	Strecker Degradation, CC	4.89
+2274_0	['C(CN)(C(CO)O)=O', 'C(CN)(O)=O']	['C=O', 'C(=O)=O', 'C(C(C(CN)N)O)O']	Strecker Degradation, CC	4.89
+2275_0	['C(CN)(O)=O', 'C(CC(CO)=O)=O']	['C=O', 'C(=O)=O', 'C(CC(CO)N)=O']	Strecker Degradation, CC	-14.5
+2276_0	['C(CN)(O)=O', 'C(C(C(C)=O)O)=O']	['C=O', 'C(=O)=O', 'C(C(C(C)N)O)=O']	Strecker Degradation, CC	34.26

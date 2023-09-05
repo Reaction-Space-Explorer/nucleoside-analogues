@@ -1,3 +1,4 @@
+Index	Reagents	Products	Rule
 3_0	['C(C(C)=O)(O)=O', 'C(C(C)=O)(O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Aldol Condensation
 5_0	['C(C(C)=O)(O)=O', 'O']	['C(C(CO)O)(O)=O']	Hydration of C(=O)C
 8_0	['C(C(C)=O)(O)=O']	['C(C)=O', 'C(=O)=O']	Alpha-Keto Acid Decarboxylation
