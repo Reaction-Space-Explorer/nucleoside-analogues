@@ -1,0 +1,15 @@
+Index	Reagents	Products	Rule
+11_0	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)
+11_1	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (reduction)
+13_0	['N', 'C#CC#N']	['C(C(N)=C)#N']	Alkyne Addition, N, HH
+15_0	['N', 'C#CC#N']	['C(C=CN)#N']	Alkyne Addition, N, HH
+15_1	['N', 'C#CC#N']	['C(C=CN)#N']	Michael Addition 3,0, 
+17_0	['C#N', 'C#CC#N']	['C(C(C#N)=C)#N']	Alkyne Addition, C
+19_0	['C#N', 'C#CC#N']	['C(C=CC#N)#N']	Alkyne Addition, C
+21_0	['N', 'C#N']	['C(N)=N']	Nitrile Amination
+23_0	['N', 'C#CC#N']	['C#CC(N)=N']	Nitrile Amination
+25_0	['C#N', 'C#N']	['C(C=N)#N']	HCN Addition to Nitriles
+27_0	['C=O', 'C#N']	['C(CO)#N']	Cyanohydrin Formation
+29_0	['C=O', 'N', 'C#N']	['O', 'C(CN)#N']	Strecker Synthesis
+31_0	['C#N', 'O']	['C(N)=O']	Nitrile Hydrolysis
+33_0	['C#CC#N', 'O']	['C#CC(N)=O']	Nitrile Hydrolysis

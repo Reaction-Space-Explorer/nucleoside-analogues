@@ -1,0 +1,49 @@
+Index	Reagent	Formed/Produced	Rule
+11_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+11_0	C=O	-1	Cannizarro 2, HCHO (oxidation)
+11_0	O	-1	Cannizarro 2, HCHO (oxidation)
+11_0	CO	1	Cannizarro 2, HCHO (oxidation)
+11_0	C(O)=O	1	Cannizarro 2, HCHO (oxidation)
+11_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+11_1	C=O	-1	Cannizarro 2, HCHO (reduction)
+11_1	O	-1	Cannizarro 2, HCHO (reduction)
+11_1	CO	1	Cannizarro 2, HCHO (reduction)
+11_1	C(O)=O	1	Cannizarro 2, HCHO (reduction)
+13_0	N	-1	Alkyne Addition, N, HH
+13_0	C#CC#N	-1	Alkyne Addition, N, HH
+13_0	C(C(N)=C)#N	1	Alkyne Addition, N, HH
+15_0	N	-1	Alkyne Addition, N, HH
+15_0	C#CC#N	-1	Alkyne Addition, N, HH
+15_0	C(C=CN)#N	1	Alkyne Addition, N, HH
+15_1	N	-1	Michael Addition 3,0, 
+15_1	C#CC#N	-1	Michael Addition 3,0, 
+15_1	C(C=CN)#N	1	Michael Addition 3,0, 
+17_0	C#N	-1	Alkyne Addition, C
+17_0	C#CC#N	-1	Alkyne Addition, C
+17_0	C(C(C#N)=C)#N	1	Alkyne Addition, C
+19_0	C#N	-1	Alkyne Addition, C
+19_0	C#CC#N	-1	Alkyne Addition, C
+19_0	C(C=CC#N)#N	1	Alkyne Addition, C
+21_0	N	-1	Nitrile Amination
+21_0	C#N	-1	Nitrile Amination
+21_0	C(N)=N	1	Nitrile Amination
+23_0	N	-1	Nitrile Amination
+23_0	C#CC#N	-1	Nitrile Amination
+23_0	C#CC(N)=N	1	Nitrile Amination
+25_0	C#N	-1	HCN Addition to Nitriles
+25_0	C#N	-1	HCN Addition to Nitriles
+25_0	C(C=N)#N	1	HCN Addition to Nitriles
+27_0	C=O	-1	Cyanohydrin Formation
+27_0	C#N	-1	Cyanohydrin Formation
+27_0	C(CO)#N	1	Cyanohydrin Formation
+29_0	C=O	-1	Strecker Synthesis
+29_0	N	-1	Strecker Synthesis
+29_0	C#N	-1	Strecker Synthesis
+29_0	O	1	Strecker Synthesis
+29_0	C(CN)#N	1	Strecker Synthesis
+31_0	C#N	-1	Nitrile Hydrolysis
+31_0	O	-1	Nitrile Hydrolysis
+31_0	C(N)=O	1	Nitrile Hydrolysis
+33_0	C#CC#N	-1	Nitrile Hydrolysis
+33_0	O	-1	Nitrile Hydrolysis
+33_0	C#CC(N)=O	1	Nitrile Hydrolysis

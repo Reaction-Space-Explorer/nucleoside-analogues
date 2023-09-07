@@ -1,0 +1,19 @@
+Generation	INCHIKEY	NetworkSmiles	AnalogueSmiles
+3	XLGVHAQDCFITCH	C(C(CO)O)(N)=O	{'C(=O)([C@H](CO)O)N([H])[H]', 'C(=O)([C@@H](CO)O)N([H])[H]'}
+3	MGOGKPMIZGEGOZ	C(C(CO)N)(N)=O	{'C(=O)([C@@H](CO)N)N([H])[H]', 'C(=O)([C@H](CO)N)N([H])[H]'}
+3	LEAQZMXPWIKGQQ	C(C(CN)O)(N)=O	{'C(=O)([C@@H](CN)O)N([H])[H]', 'C(=O)([C@H](CN)O)N([H])[H]'}
+3	FVLOHZJVLFKDNU	C(C(CCO)O)(N)=O	{'C(=O)([C@@H](CCO)O)N([H])[H]', 'C(=O)([C@H](CCO)O)N([H])[H]'}
+3	WPOHUQOEJUSLGO	C(CC(CO)O)(N)=O	{'C(=O)(C[C@@H](CO)O)N([H])[H]', 'C(=O)(C[C@H](CO)O)N([H])[H]'}
+3	DLUNHDFHAREIPQ	C(C(CN)N)(N)=O	{'C(=O)([C@H](CN)N)N([H])[H]', 'C(=O)([C@@H](CN)N)N([H])[H]'}
+3	NWCMORGNUYQHMR	C(C(CCO)NCC(N)=O)(N)=O	{'C(=N)([C@H](CCO)NCC(=O)N([H])[H])O', 'C(=N)(CN[C@@H](C(=O)N([H])[H])CCO)O', 'C(=N)(CN[C@H](C(=O)N([H])[H])CCO)O', 'C(=N)([C@@H](CCO)NCC(=O)N([H])[H])O'}
+3	UKURXXKWSOUARJ	C(CC(CO)NCC(N)=O)(N)=O	{'C(=N)(CN[C@H](CC(=O)N([H])[H])CO)O', 'C(=N)(CN[C@@H](CC(=O)N([H])[H])CO)O', 'C(=N)(C[C@@H](CO)NCC(=O)N([H])[H])O', 'C(=N)(C[C@H](CO)NCC(=O)N([H])[H])O'}
+3	WEAYSODFUHQOTI	C(C(CCO)N)(N)=O	{'C(=O)([C@@H](CCO)N)N([H])[H]', 'C(=O)([C@H](CCO)N)N([H])[H]'}
+3	QCZJFMXMDLPIAN	C(CC(CO)N)(N)=O	{'C(=O)(C[C@H](CO)N)N([H])[H]', 'C(=O)(C[C@@H](CO)N)N([H])[H]'}
+3	NRFCKXMWAUUCIW	C(C(CC(C(N)=O)O)N)(N)=O	{'C(=N)([C@H](C[C@H](C(=O)N([H])[H])N)O)O', 'C(=N)([C@@H](C[C@H](C(=O)N([H])[H])N)O)O', 'C(=N)([C@@H](C[C@@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@@H](C[C@@H](C(=O)N([H])[H])N)O)O', 'C(=N)([C@H](C[C@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@@H](C[C@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@H](C[C@@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@H](C[C@@H](C(=O)N([H])[H])N)O)O'}
+3	BMULSAGBFZHAOE	C(CC(C(C(N)=O)O)N)(N)=O	{'C(=N)(C[C@@H]([C@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@H]([C@H](CC(=O)N([H])[H])N)O)O', 'C(=N)([C@@H]([C@H](CC(=O)N([H])[H])N)O)O', 'C(=N)([C@@H]([C@@H](CC(=O)N([H])[H])N)O)O', 'C(=N)(C[C@H]([C@H](C(=O)N([H])[H])O)N)O', 'C(=N)(C[C@H]([C@@H](C(=O)N([H])[H])O)N)O', 'C(=N)([C@H]([C@@H](CC(=O)N([H])[H])N)O)O', 'C(=N)(C[C@@H]([C@@H](C(=O)N([H])[H])O)N)O'}
+3	MQGOKCQKHGLRBP	C(CC(CO)C(C(N)=O)O)(N)=O	{'C(=N)(C[C@@H](CO)[C@H](C(=O)N([H])[H])O)O', 'C(=N)(C[C@@H](CO)[C@@H](C(=O)N([H])[H])O)O', 'C(=N)([C@H]([C@@H](CC(=O)N([H])[H])CO)O)O', 'C(=N)([C@@H]([C@H](CC(=O)N([H])[H])CO)O)O', 'C(=N)(C[C@H](CO)[C@H](C(=O)N([H])[H])O)O', 'C(=N)([C@H]([C@H](CC(=O)N([H])[H])CO)O)O', 'C(=N)([C@@H]([C@@H](CC(=O)N([H])[H])CO)O)O', 'C(=N)(C[C@H](CO)[C@@H](C(=O)N([H])[H])O)O'}
+3	WTUJBCFMGXSYEY	C(CC(CO)C(C(N)=O)N)(N)=O	{'C(=N)([C@@H]([C@H](CC(=O)N([H])[H])CO)N)O', 'C(=N)(C[C@H](CO)[C@@H](C(=O)N([H])[H])N)O', 'C(=N)(C[C@H](CO)[C@H](C(=O)N([H])[H])N)O', 'C(=N)([C@@H]([C@@H](CC(=O)N([H])[H])CO)N)O', 'C(=N)([C@H]([C@H](CC(=O)N([H])[H])CO)N)O', 'C(=N)(C[C@@H](CO)[C@@H](C(=O)N([H])[H])N)O', 'C(=N)([C@H]([C@@H](CC(=O)N([H])[H])CO)N)O', 'C(=N)(C[C@@H](CO)[C@H](C(=O)N([H])[H])N)O'}
+3	ATLYZVMIRCUXNR	C(CC(CO)CO)(N)=O	{'C(=O)(CC(CO)CO)N([H])[H]'}
+3	OVAXGJQPZDMQDQ	C(C(C=CC(O)=O)O)(N)=O	{'C(=C\\[C@@H](C(=O)N([H])[H])O)\\C(=O)O', 'C(=C\\[C@H](C(=O)N([H])[H])O)/C(=O)O', 'C(=C\\[C@H](C(=O)N([H])[H])O)\\C(=O)O', 'C(=C\\[C@@H](C(=O)N([H])[H])O)/C(=O)O'}
+3	RCYZILKCLGQULW	C(C(C=CC(O)=O)N)(N)=O	{'C(=C\\[C@H](C(=O)N([H])[H])N)\\C(=O)O', 'C(=C\\[C@H](C(=O)N([H])[H])N)/C(=O)O', 'C(=C\\[C@@H](C(=O)N([H])[H])N)/C(=O)O', 'C(=C\\[C@@H](C(=O)N([H])[H])N)\\C(=O)O'}
+3	WCSVZBNBRJDXKY	C(C(C=CC(N)=O)O)=CC(O)=O	{'C(=C\\[C@H](/C=C\\C(=O)O)O)/C(=O)N([H])[H]', 'C(=C\\[C@@H](/C=C\\C(=O)O)O)\\C(=O)N([H])[H]', 'C(=C\\[C@@H](/C=C\\C(=O)O)O)/C(=O)N([H])[H]', 'C(=C\\[C@@H](/C=C/C(=O)O)O)/C(=O)N([H])[H]', 'C(=C\\[C@@H](/C=C/C(=O)O)O)\\C(=O)N([H])[H]', 'C(=C\\[C@H](/C=C/C(=O)O)O)\\C(=O)N([H])[H]', 'C(=C\\[C@H](/C=C\\C(=O)O)O)\\C(=O)N([H])[H]', 'C(=C\\[C@H](/C=C/C(=O)O)O)/C(=O)N([H])[H]'}

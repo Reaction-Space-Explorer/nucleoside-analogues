@@ -135,106 +135,106 @@ Index	Reagents	Products	Rule	Energy Change
 172_0	['C(CC(C(O)=O)=O)(O)=O']	['C(C(C)=O)(O)=O', 'C(=O)=O']	Retro Aldol	-60.3
 172_1	['C(CC(C(O)=O)=O)(O)=O']	['C(C(C)=O)(O)=O', 'C(=O)=O']	Beta Decarboxylation	-60.3
 173_0	['C(C(CO)=O)=O']	['C=O', 'C(C=O)=O']	Retro Aldol	31.6
-175_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['C(C(C)=O)(OC(C(C)=O)=O)=O']	Retro Aldol	251.98
-177_0	['C(C(CO)=O)=O']	['C(C(C=O)O)=O']	Keto-enol migration twice	87.98
-180_0	['O', 'C(CC(C)O)=O', 'C=O']	['CC(CCO)O', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)	-218.32
-182_0	['O', 'C(CC(O)=O)=O', 'C=O']	['C(O)=O', 'C(CCO)(O)=O']	Cannizarro 2, HCHO (oxidation)	-333.42
-184_0	['O', 'C(C(C)(CC=O)O)(O)=O', 'C=O']	['C(O)=O', 'C(C(C)(CCO)O)(O)=O']	Cannizarro 2, HCHO (oxidation)	6.86
-186_0	['O', 'C(C(CO)=O)=O', 'C=O']	['C(O)=O', 'C(CO)(CO)=O']	Cannizarro 2, HCHO (oxidation)	81.21
-188_0	['O', 'C=O', 'C=O']	['C(O)=O', 'CO']	Cannizarro 2, HCHO (oxidation)	-211.93
-188_1	['O', 'C=O', 'C=O']	['C(O)=O', 'CO']	Cannizarro 2, HCHO (reduction)	-211.93
-190_0	['O', 'C(C)=O', 'C=O']	['C(O)=O', 'CCO']	Cannizarro 2, HCHO (oxidation)	-519.65
-192_0	['O', 'C(CC(C)O)=O', 'C=O']	['CO', 'C(CC(C)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-214.93
-194_0	['O', 'C(CC(O)=O)=O', 'C=O']	['CO', 'C(CC(O)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-172.27
-196_0	['O', 'C(C(C)(CC=O)O)(O)=O', 'C=O']	['CO', 'C(C(C)(CC(O)=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	180.66
-198_0	['O', 'C(C(CO)=O)=O', 'C=O']	['CO', 'C(C(CO)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	227.37
-200_0	['O', 'C(C)=O', 'C=O']	['CO', 'C(C)(O)=O']	Cannizarro 2, HCHO (reduction)	-637.74
-202_0	['C(C(CO)O)(O)=O', 'C(CC(C)O)=O']	['C(C(CO)(C(CC(C)O)O)O)(O)=O']	Knoevenagel C	-188.6
-202_1	['C(C(CO)O)(O)=O', 'C(CC(C)O)=O']	['C(C(CO)(C(CC(C)O)O)O)(O)=O']	Knoevenagel H	-188.6
-204_0	['C(C(CO)O)(O)=O', 'C(CC(O)=O)=O']	['C(C(CO)(C(CC(O)=O)O)O)(O)=O']	Knoevenagel C	56.26
-204_1	['C(C(CO)O)(O)=O', 'C(CC(O)=O)=O']	['C(C(CO)(C(CC(O)=O)O)O)(O)=O']	Knoevenagel H	56.26
-206_0	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C(CO)=O)O)O)(O)=O']	Knoevenagel C	-3.06
-206_1	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C(CO)=O)O)O)(O)=O']	Knoevenagel H	-3.06
-208_0	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C=O)(CO)O)O)(O)=O']	Knoevenagel C	262.33
-208_1	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C=O)(CO)O)O)(O)=O']	Knoevenagel H	262.33
-210_0	['C(C(CO)O)(O)=O', 'C=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel C	-19.68
-210_1	['C(C(CO)O)(O)=O', 'C=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel H	-19.68
-212_0	['C(CC(C)O)=O', 'C(CO)(O)=O']	['C(C(C(CC(C)O)O)O)(O)=O']	Knoevenagel H	-171.52
-214_0	['C(CC(O)=O)=O', 'C(CO)(O)=O']	['C(CC(C(C(O)=O)O)O)(O)=O']	Knoevenagel H	73.34
-216_0	['C(C(CO)=O)=O', 'C(CO)(O)=O']	['C(C(C(C(CO)=O)O)O)(O)=O']	Knoevenagel H	14.02
-218_0	['C(C(CO)=O)=O', 'C(CO)(O)=O']	['C(C(CO)(C(C(O)=O)O)O)=O']	Knoevenagel H	282.18
+175_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['C(C(C)=O)(OC(C(C)=O)=O)=O']	Retro Aldol	NaN
+177_0	['C(C(CO)=O)=O']	['C(C(C=O)O)=O']	Keto-enol migration twice	-59.59
+180_0	['O', 'C(CC(C)O)=O', 'C=O']	['CC(CCO)O', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+182_0	['O', 'C(CC(O)=O)=O', 'C=O']	['C(O)=O', 'C(CCO)(O)=O']	Cannizarro 2, HCHO (oxidation)	-27.73
+184_0	['O', 'C(C(C)(CC=O)O)(O)=O', 'C=O']	['C(O)=O', 'C(C(C)(CCO)O)(O)=O']	Cannizarro 2, HCHO (oxidation)	-24.95
+186_0	['O', 'C(C(CO)=O)=O', 'C=O']	['C(O)=O', 'C(CO)(CO)=O']	Cannizarro 2, HCHO (oxidation)	-25.12
+188_0	['O', 'C=O', 'C=O']	['C(O)=O', 'CO']	Cannizarro 2, HCHO (oxidation)	-37.85
+188_1	['O', 'C=O', 'C=O']	['C(O)=O', 'CO']	Cannizarro 2, HCHO (reduction)	-37.85
+190_0	['O', 'C(C)=O', 'C=O']	['C(O)=O', 'CCO']	Cannizarro 2, HCHO (oxidation)	-25.39
+192_0	['O', 'C(CC(C)O)=O', 'C=O']	['CO', 'C(CC(C)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+194_0	['O', 'C(CC(O)=O)=O', 'C=O']	['CO', 'C(CC(O)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-20.49
+196_0	['O', 'C(C(C)(CC=O)O)(O)=O', 'C=O']	['CO', 'C(C(C)(CC(O)=O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+198_0	['O', 'C(C(CO)=O)=O', 'C=O']	['CO', 'C(C(CO)=O)(O)=O']	Cannizarro 2, HCHO (reduction)	-17.7
+200_0	['O', 'C(C)=O', 'C=O']	['CO', 'C(C)(O)=O']	Cannizarro 2, HCHO (reduction)	-41.75
+202_0	['C(C(CO)O)(O)=O', 'C(CC(C)O)=O']	['C(C(CO)(C(CC(C)O)O)O)(O)=O']	Knoevenagel C	-7.7
+202_1	['C(C(CO)O)(O)=O', 'C(CC(C)O)=O']	['C(C(CO)(C(CC(C)O)O)O)(O)=O']	Knoevenagel H	-7.7
+204_0	['C(C(CO)O)(O)=O', 'C(CC(O)=O)=O']	['C(C(CO)(C(CC(O)=O)O)O)(O)=O']	Knoevenagel C	1.98
+204_1	['C(C(CO)O)(O)=O', 'C(CC(O)=O)=O']	['C(C(CO)(C(CC(O)=O)O)O)(O)=O']	Knoevenagel H	1.98
+206_0	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C(CO)=O)O)O)(O)=O']	Knoevenagel C	-7.7
+206_1	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C(CO)=O)O)O)(O)=O']	Knoevenagel H	-7.7
+208_0	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C=O)(CO)O)O)(O)=O']	Knoevenagel C	-3.06
+208_1	['C(C(CO)O)(O)=O', 'C(C(CO)=O)=O']	['C(C(CO)(C(C=O)(CO)O)O)(O)=O']	Knoevenagel H	-3.06
+210_0	['C(C(CO)O)(O)=O', 'C=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel C	-26.95
+210_1	['C(C(CO)O)(O)=O', 'C=O']	['C(C(CO)(CO)O)(O)=O']	Knoevenagel H	-26.95
+212_0	['C(CC(C)O)=O', 'C(CO)(O)=O']	['C(C(C(CC(C)O)O)O)(O)=O']	Knoevenagel H	9.38
+214_0	['C(CC(O)=O)=O', 'C(CO)(O)=O']	['C(CC(C(C(O)=O)O)O)(O)=O']	Knoevenagel H	19.06
+216_0	['C(C(CO)=O)=O', 'C(CO)(O)=O']	['C(C(C(C(CO)=O)O)O)(O)=O']	Knoevenagel H	9.38
+218_0	['C(C(CO)=O)=O', 'C(CO)(O)=O']	['C(C(CO)(C(C(O)=O)O)O)=O']	Knoevenagel H	14.02
 219_0	['C=O', 'C(CO)(O)=O']	['C(C(CO)O)(O)=O']	Knoevenagel H	-9.87
-221_0	['C(C)=O', 'C(CO)(O)=O']	['C(C(C(C)O)O)(O)=O']	Knoevenagel H	-171.69
-223_0	['C(=O)=O', 'C(CO)(O)=O']	['C(C(C(O)=O)O)(O)=O']	Knoevenagel H	-73.67
-225_0	['C(C(C)=O)(O)=O', 'C(CO)(O)=O']	['C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel H	490.4
-226_0	['C(C(CO)(C(C)O)O)(O)=O']	['C=O', 'C(C(C(C)O)O)(O)=O']	Knoevenagel C (inverse)	-153.95
-226_1	['C(C(CO)(C(C)O)O)(O)=O']	['C=O', 'C(C(C(C)O)O)(O)=O']	Knoevenagel H (inv)	-153.95
+221_0	['C(C)=O', 'C(CO)(O)=O']	['C(C(C(C)O)O)(O)=O']	Knoevenagel H	9.21
+223_0	['C(=O)=O', 'C(CO)(O)=O']	['C(C(C(O)=O)O)(O)=O']	Knoevenagel H	74.26
+225_0	['C(C(C)=O)(O)=O', 'C(CO)(O)=O']	['C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel H	8.24
+226_0	['C(C(CO)(C(C)O)O)(O)=O']	['C=O', 'C(C(C(C)O)O)(O)=O']	Knoevenagel C (inverse)	26.95
+226_1	['C(C(CO)(C(C)O)O)(O)=O']	['C=O', 'C(C(C(C)O)O)(O)=O']	Knoevenagel H (inv)	26.95
 227_0	['C(C(CO)(C(C)O)O)(O)=O']	['C(C(CO)O)(O)=O', 'C(C)=O']	Knoevenagel C (inverse)	7.87
 227_1	['C(C(CO)(C(C)O)O)(O)=O']	['C(C(CO)O)(O)=O', 'C(C)=O']	Knoevenagel H (inv)	7.87
-228_0	['C(C(C(O)=O)(CO)O)(O)=O']	['C=O', 'C(C(C(O)=O)O)(O)=O']	Knoevenagel C (inverse)	-120.97
-228_1	['C(C(C(O)=O)(CO)O)(O)=O']	['C=O', 'C(C(C(O)=O)O)(O)=O']	Knoevenagel H (inv)	-120.97
+228_0	['C(C(C(O)=O)(CO)O)(O)=O']	['C=O', 'C(C(C(O)=O)O)(O)=O']	Knoevenagel C (inverse)	26.95
+228_1	['C(C(C(O)=O)(CO)O)(O)=O']	['C=O', 'C(C(C(O)=O)O)(O)=O']	Knoevenagel H (inv)	26.95
 229_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C(C(C)=O)(O)=O', 'C(C(CO)O)(O)=O']	Knoevenagel C (inverse)	8.84
 229_1	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C(C(C)=O)(O)=O', 'C(C(CO)O)(O)=O']	Knoevenagel H (inv)	8.84
-230_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C=O', 'C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel C (inverse)	509.12
-230_1	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C=O', 'C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel H (inv)	509.12
-232_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C(C(CO)=O)(O)=O', 'C(C(C)O)(O)=O']	Knoevenagel H (inv)	152.4
-234_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['C(CO)(O)=O', 'C(C(C=O)(C)O)(O)=O']	Knoevenagel H (inv)	-2.74
-236_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['C(C(C)O)(O)=O', 'C(C(C=O)O)(O)=O']	Knoevenagel H (inv)	-89.71
+230_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C=O', 'C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel C (inverse)	26.95
+230_1	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C=O', 'C(C(C)(C(C(O)=O)O)O)(O)=O']	Knoevenagel H (inv)	26.95
+232_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['C(C(CO)=O)(O)=O', 'C(C(C)O)(O)=O']	Knoevenagel H (inv)	15.54
+234_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['C(CO)(O)=O', 'C(C(C=O)(C)O)(O)=O']	Knoevenagel H (inv)	-9.38
+236_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['C(C(C)O)(O)=O', 'C(C(C=O)O)(O)=O']	Knoevenagel H (inv)	19.75
 237_0	['C(C(CO)(C(C)O)O)(O)=O']	['O', 'C(C(C=O)C(C)O)(O)=O']	Elimination + enol to keto	-34.93
-239_0	['C(C(CO)(C(C)O)O)(O)=O']	['O', 'C(C(C(C)=O)CO)(O)=O']	Elimination + enol to keto	-372.48
+239_0	['C(C(CO)(C(C)O)O)(O)=O']	['O', 'C(C(C(C)=O)CO)(O)=O']	Elimination + enol to keto	-36.93
 240_0	['C(C(C(O)=O)(CO)O)(O)=O']	['O', 'C(C(C(O)=O)C(O)=O)=O']	Elimination + enol to keto	-34.93
 241_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C(C(C=O)C(C(O)=O)(C)O)(O)=O']	Elimination + enol to keto	-34.93
-243_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(CC(O)=O)=O)(C)O)(O)=O']	Elimination + enol to keto	-36.93
-245_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(O)=O)O)=O)C)(O)=O']	Elimination + enol to keto	858.99
+243_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(CC(O)=O)=O)(C)O)(O)=O']	Elimination + enol to keto	-41.01
+245_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(O)=O)O)=O)C)(O)=O']	Elimination + enol to keto	-36.93
 246_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Elimination + enol to keto	-41.01
 247_0	['C(CO)O']	['O', 'C(C)=O']	Elimination + enol to keto	-43.23
-249_0	['C(CC(C)O)=O']	['O', 'C(C)=CC=O']	Elimination2	2.09
-251_0	['C(CC(C)O)=O']	['O', 'C(CC=C)=O']	Elimination2	-333.9
+249_0	['C(CC(C)O)=O']	['O', 'C(C)=CC=O']	Elimination2	-0.43
+251_0	['C(CC(C)O)=O']	['O', 'C(CC=C)=O']	Elimination2	2.09
 253_0	['C(C(CC(C)O)=O)(O)=O']	['O', 'C(C)=CC(C(O)=O)=O']	Elimination2	-0.43
-255_0	['C(C(CC(C)O)=O)(O)=O']	['O', 'C=CCC(C(O)=O)=O']	Elimination2	7.57
-257_0	['C(C(C)(CC=O)O)(O)=O']	['O', 'C(CC(C(O)=O)=C)=O']	Elimination2	0.4
-259_0	['C(C(C)(CC=O)O)(O)=O']	['O', 'C(C=C(C(O)=O)C)=O']	Elimination2	-197.03
-261_0	['C(C(CO)(C(C)O)O)(O)=O']	['O', 'C(C(C=C)(CO)O)(O)=O']	Elimination2	-325.9
-263_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C(C(C(C(O)=O)=C)(CO)O)(O)=O']	Elimination2	0.28
-265_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(O)=O)=C)O)O)(O)=O']	Elimination2	160.85
+255_0	['C(C(CC(C)O)=O)(O)=O']	['O', 'C=CCC(C(O)=O)=O']	Elimination2	-0.43
+257_0	['C(C(C)(CC=O)O)(O)=O']	['O', 'C(CC(C(O)=O)=C)=O']	Elimination2	2.92
+259_0	['C(C(C)(CC=O)O)(O)=O']	['O', 'C(C=C(C(O)=O)C)=O']	Elimination2	0.4
+261_0	['C(C(CO)(C(C)O)O)(O)=O']	['O', 'C(C(C=C)(CO)O)(O)=O']	Elimination2	2.09
+263_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C(C(C(C(O)=O)=C)(CO)O)(O)=O']	Elimination2	2.92
+265_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C(C(C(C(O)=O)=C)O)O)(O)=O']	Elimination2	2.92
 267_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C1(C(C=C(C(O)=O)O1)(C)O)=O']	Elimination2	-48.02
-269_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C(C1(C=C(C(O1)=O)C)O)(O)=O']	Elimination2	-27.94
-271_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C(C1(CC(C(O1)=O)=C)O)(O)=O']	Elimination2	164.35
-273_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['O', 'C1(C(C)=CC(C(O1)=O)=O)=O']	Elimination2	-27.94
-275_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['O', 'C=C1C(OC(C(C1)=O)=O)=O']	Elimination2	0.93
-277_0	['O', 'C(CC(C)O)=O']	['CC(C(CO)O)O']	Hydration of C(=O)C	-292.46
+269_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C(C1(C=C(C(O1)=O)C)O)(O)=O']	Elimination2	-48.02
+271_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C(C1(CC(C(O1)=O)=C)O)(O)=O']	Elimination2	-27.94
+273_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['O', 'C1(C(C)=CC(C(O1)=O)=O)=O']	Elimination2	-48.02
+275_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['O', 'C=C1C(OC(C(C1)=O)=O)=O']	Elimination2	-27.94
+277_0	['O', 'C(CC(C)O)=O']	['CC(C(CO)O)O']	Hydration of C(=O)C	39.01
 278_0	['O', 'C(CC(O)=O)=O']	['C(C(CO)O)(O)=O']	Hydration of C(=O)C	48.7
-280_0	['O', 'C(C(CC(C)O)=O)(O)=O']	['C(C(C(C(C)O)O)O)(O)=O']	Hydration of C(=O)C	43.66
-282_0	['O', 'C(C(C)(CC=O)O)(O)=O']	['C(C(C)(C(CO)O)O)(O)=O']	Hydration of C(=O)C	-144.53
-284_0	['O', 'C(CC(C(O)=O)=O)(O)=O']	['C(C(C(C(O)=O)O)O)(O)=O']	Hydration of C(=O)C	139.07
+280_0	['O', 'C(C(CC(C)O)=O)(O)=O']	['C(C(C(C(C)O)O)O)(O)=O']	Hydration of C(=O)C	41.01
+282_0	['O', 'C(C(C)(CC=O)O)(O)=O']	['C(C(C)(C(CO)O)O)(O)=O']	Hydration of C(=O)C	39.01
+284_0	['O', 'C(CC(C(O)=O)=O)(O)=O']	['C(C(C(C(O)=O)O)O)(O)=O']	Hydration of C(=O)C	33.85
 285_0	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C(C(C(C(C)=O)=O)O)O)(O)=O']	Hydration of C(=O)C	49.2
-287_0	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C(CO)O)(CC(C(O)=O)=O)=O']	Hydration of C(=O)C	49.2
-289_0	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C)(C(C(C(C(O)=O)=O)O)O)=O']	Hydration of C(=O)C	25.63
-290_0	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	['C(C(C(C(C(O)=O)=C)O)O)(O)=O']	Hydration of C(=O)C	201.46
-292_0	['O', 'C(C1(C)CC(C(O1)=O)=O)(O)=O']	['C(C1(C)C(C(C(O1)=O)O)O)(O)=O']	Hydration of C(=O)C	61.28
-294_0	['O', 'C1(C(C)(CC(C(O1)=O)=O)O)=O']	['C1(C(C)(C(C(C(O1)=O)O)O)O)=O']	Hydration of C(=O)C	18.12
+287_0	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C(CO)O)(CC(C(O)=O)=O)=O']	Hydration of C(=O)C	53.59
+289_0	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C)(C(C(C(C(O)=O)=O)O)O)=O']	Hydration of C(=O)C	49.2
+290_0	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	['C(C(C(C(C(O)=O)=C)O)O)(O)=O']	Hydration of C(=O)C	43.54
+292_0	['O', 'C(C1(C)CC(C(O1)=O)=O)(O)=O']	['C(C1(C)C(C(C(O1)=O)O)O)(O)=O']	Hydration of C(=O)C	51.69
+294_0	['O', 'C1(C(C)(CC(C(O1)=O)=O)O)=O']	['C1(C(C)(C(C(C(O1)=O)O)O)O)=O']	Hydration of C(=O)C	51.69
 295_0	['O', 'C(C(C)=CC(C(O)=O)=O)(O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Hydration of C=C(O)	-0.4
-297_0	['O', 'C(C(C)=CC(C(O)=O)=O)(O)=O']	['C(C(C)C(C(C(O)=O)=O)O)(O)=O']	Hydration of C=C(O)	8.08
+297_0	['O', 'C(C(C)=CC(C(O)=O)=O)(O)=O']	['C(C(C)C(C(C(O)=O)=O)O)(O)=O']	Hydration of C=C(O)	3.69
 298_0	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Hydration of C=C(O)	-0.4
-300_0	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	['C(C(CO)CC(C(O)=O)=O)(O)=O']	Hydration of C=C(O)	345.99
-302_0	['C(C(C)(CC=O)O)(O)=O']	['C1(C(C)(CC(O)O1)O)=O']	Hemiacetal Formation for 5 membered rings	-86.91
-304_0	['C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C)(C1(CC(C(O1)=O)=O)O)=O']	Hemiacetal Formation for 5 membered rings	-1.17
-305_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['C(C1(CC(C(O1)=O)=C)O)(O)=O']	Hemiacetal Formation for 5 membered rings	175.69
-307_0	['C(C1(C)CC(C(O1)=O)=O)(O)=O']	['C1(C2(C)CC(C(O2)=O)(O)O1)=O']	Hemiacetal Formation for 5 membered rings	9.59
-309_0	['C(C(O)=O)(CC(C(C)=O)=O)=O']	['C1(C(C)(O)OC(C(C1)=O)=O)=O']	Hemiacetal Formation for 6 membered rings	295.58
+300_0	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	['C(C(CO)CC(C(O)=O)=O)(O)=O']	Hydration of C=C(O)	8.08
+302_0	['C(C(C)(CC=O)O)(O)=O']	['C1(C(C)(CC(O)O1)O)=O']	Hemiacetal Formation for 5 membered rings	12.92
+304_0	['C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(C)(C1(CC(C(O1)=O)=O)O)=O']	Hemiacetal Formation for 5 membered rings	5.99
+305_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['C(C1(CC(C(O1)=O)=C)O)(O)=O']	Hemiacetal Formation for 5 membered rings	-16.6
+307_0	['C(C1(C)CC(C(O1)=O)=O)(O)=O']	['C1(C2(C)CC(C(O2)=O)(O)O1)=O']	Hemiacetal Formation for 5 membered rings	24.89
+309_0	['C(C(O)=O)(CC(C(C)=O)=O)=O']	['C1(C(C)(O)OC(C(C1)=O)=O)=O']	Hemiacetal Formation for 6 membered rings	-16.47
 310_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Hemiacetal Formation for 5 membered rings, inverse	-11.74
 311_0	['C(C(CC(C)O)=O)(O)=O']	['C(=O)=O', 'C(CC(C)O)=O']	Alpha-Keto Acid Decarboxylation	-52.53
 312_0	['C(CC(C(O)=O)=O)(O)=O']	['C(=O)=O', 'C(CC(O)=O)=O']	Alpha-Keto Acid Decarboxylation	-69.38
 313_0	['C(C(O)=O)(CC(C(C)=O)=O)=O']	['C(=O)=O', 'C(CC(C(C)=O)=O)=O']	Alpha-Keto Acid Decarboxylation	-52.53
-314_0	['C(C(C)=CC(C(O)=O)=O)(O)=O']	['C(=O)=O', 'C(C=C(C(O)=O)C)=O']	Alpha-Keto Acid Decarboxylation	-249.96
-315_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['C(=O)=O', 'C(CC(C(O)=O)=C)=O']	Alpha-Keto Acid Decarboxylation	-52.53
-317_0	['C(C(CC(C)O)=O)(O)=O']	['O', 'C1(C(OC(C)C1)=O)=O']	Ring Closure 5 membered O, O	-555.22
-319_0	['C(CC(C(O)=O)=O)(O)=O']	['O', 'C1(CC(C(O1)=O)=O)=O']	Ring Closure 5 membered O, O	-356.05
-321_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C1(C(C)(C(C(O)=O)(CO1)O)O)=O']	Ring Closure 5 membered O, O	-28.59
+314_0	['C(C(C)=CC(C(O)=O)=O)(O)=O']	['C(=O)=O', 'C(C=C(C(O)=O)C)=O']	Alpha-Keto Acid Decarboxylation	-52.53
+315_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['C(=O)=O', 'C(CC(C(O)=O)=C)=O']	Alpha-Keto Acid Decarboxylation	-50.0
+317_0	['C(C(CC(C)O)=O)(O)=O']	['O', 'C1(C(OC(C)C1)=O)=O']	Ring Closure 5 membered O, O	-30.81
+319_0	['C(CC(C(O)=O)=O)(O)=O']	['O', 'C1(CC(C(O1)=O)=O)=O']	Ring Closure 5 membered O, O	-12.68
+321_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C1(C(C)(C(C(O)=O)(CO1)O)O)=O']	Ring Closure 5 membered O, O	-31.91
 323_0	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	['O', 'C1(C(CO)(C(C(O1)=O)(C)O)O)=O']	Ring Closure 5 membered O, O	-6.47
-324_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C1(C)C(C(C(O1)=O)O)O)(O)=O']	Ring Closure 5 membered O, O	-3.35
+324_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C(C1(C)C(C(C(O1)=O)O)O)(O)=O']	Ring Closure 5 membered O, O	-12.95
 326_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C1(C(C)(C(C(C(O)=O)O1)O)O)=O']	Ring Closure 5 membered O, O	-25.95
-327_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C1(C2(C)CC(C(O2)=O)(O)O1)=O']	Ring Closure 5 membered O, O	-25.77
+327_0	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	['O', 'C1(C2(C)CC(C(O2)=O)(O)O1)=O']	Ring Closure 5 membered O, O	-10.47
 328_0	['C1(C(C)(CC(C(O1)=O)=O)O)=O']	['C(C1(C)CC(C(O1)=O)=O)(O)=O']	Ring Closure 5 membered O, O	-9.59
-329_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['O', 'C=C1C(OC(C(C1)=O)=O)=O']	Ring Closure 6 membered O, O	-13.5
-330_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C1(C(C)(C(C(C(O1)=O)O)O)O)=O']	Ring Closure 6 membered O, O	-36.93
+329_0	['C=C(C(O)=O)CC(C(O)=O)=O']	['O', 'C=C1C(OC(C(C1)=O)=O)=O']	Ring Closure 6 membered O, O	-42.37
+330_0	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	['O', 'C1(C(C)(C(C(C(O1)=O)O)O)O)=O']	Ring Closure 6 membered O, O	-3.35

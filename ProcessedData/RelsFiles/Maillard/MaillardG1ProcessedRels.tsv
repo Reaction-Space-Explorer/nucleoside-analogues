@@ -1,0 +1,20 @@
+Index	Reagents	Products	Rule
+5_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Retro Aldol
+5_1	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)=O', 'C(C(C(CO)O)O)=O']	Knoevenagel H (inv)
+7_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(CO)(C(C(C(CO)O)O)O)=O']	Keto-enol migration twice
+10_0	['C(C(C(C(C(CO)O)O)O)O)=O', 'C(C(C(C(C(CO)O)O)O)O)=O', 'O']	['C(C(C(C(C(CO)O)O)O)O)(O)=O', 'C(C(C(C(C(CO)O)O)O)O)O']	Cannizarro 2, glucose (oxidation)
+10_1	['C(C(C(C(C(CO)O)O)O)O)=O', 'C(C(C(C(C(CO)O)O)O)O)=O', 'O']	['C(C(C(C(C(CO)O)O)O)O)(O)=O', 'C(C(C(C(C(CO)O)O)O)O)O']	Cannizarro 2, glucose (reduction)
+13_0	['C(CN)(O)=O']	['CN', 'C(=O)=O']	Ketone-Catalyzed Decarboxylation
+15_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(CC(C(CO)O)O)=O)=O']	Elimination + enol to keto
+17_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C(C(CO)O)O)=O)=O']	Elimination + enol to keto
+19_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(CC(CO)O)=O)O)=O']	Elimination + enol to keto
+21_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C=O)O)(C(CO)O)=O']	Elimination + enol to keto
+23_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(C=O)O)O)(CCO)=O']	Elimination + enol to keto
+25_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(CC(CO)=O)O)O)=O']	Elimination + enol to keto
+27_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(C(C(C(C(C)=O)O)O)O)=O']	Elimination + enol to keto
+29_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['O', 'C(CC(C(C(C=O)O)O)O)=O']	Elimination + enol to keto
+31_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(C(C1C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 5 membered rings
+33_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C(C1C(C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 6 membered rings
+35_0	['C(C(C(C(C(CO)O)O)O)O)=O']	['C1C(C(C(C(C(O)O1)O)O)O)O']	Hemiacetal Formation for 7 membered rings
+38_0	['C(CN)(O)=O', 'C(C(C(C(C(CO)O)O)O)O)=O']	['C(C(C(C(C(CN)O)O)O)O)O', 'C(C(O)=O)=O']	Transamination (inverse)
+40_0	['C(CN)(O)=O', 'C(C(C(C(C(CO)O)O)O)O)=O']	['C(=O)=O', 'C(C(C(C(C(CN)O)O)O)O)O', 'C=O']	Strecker Degradation, HC

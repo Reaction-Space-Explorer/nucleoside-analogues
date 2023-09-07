@@ -1,0 +1,61 @@
+Index	Reagent	Formed/Produced	Rule
+5_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Retro Aldol
+5_0	C(CO)=O	1	Retro Aldol
+5_0	C(C(C(CO)O)O)=O	1	Retro Aldol
+5_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Knoevenagel H (inv)
+5_1	C(CO)=O	1	Knoevenagel H (inv)
+5_1	C(C(C(CO)O)O)=O	1	Knoevenagel H (inv)
+7_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Keto-enol migration twice
+7_0	C(CO)(C(C(C(CO)O)O)O)=O	1	Keto-enol migration twice
+10_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+10_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (oxidation)
+10_0	O	-1	Cannizarro 2, glucose (oxidation)
+10_0	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (oxidation)
+10_0	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (oxidation)
+10_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+10_1	C(C(C(C(C(CO)O)O)O)O)=O	-1	Cannizarro 2, glucose (reduction)
+10_1	O	-1	Cannizarro 2, glucose (reduction)
+10_1	C(C(C(C(C(CO)O)O)O)O)(O)=O	1	Cannizarro 2, glucose (reduction)
+10_1	C(C(C(C(C(CO)O)O)O)O)O	1	Cannizarro 2, glucose (reduction)
+13_0	C(CN)(O)=O	-1	Ketone-Catalyzed Decarboxylation
+13_0	CN	1	Ketone-Catalyzed Decarboxylation
+13_0	C(=O)=O	1	Ketone-Catalyzed Decarboxylation
+15_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+15_0	O	1	Elimination + enol to keto
+15_0	C(C(CC(C(CO)O)O)=O)=O	1	Elimination + enol to keto
+17_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+17_0	O	1	Elimination + enol to keto
+17_0	C(CC(C(C(CO)O)O)=O)=O	1	Elimination + enol to keto
+19_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+19_0	O	1	Elimination + enol to keto
+19_0	C(C(C(CC(CO)O)=O)O)=O	1	Elimination + enol to keto
+21_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+21_0	O	1	Elimination + enol to keto
+21_0	C(CC(C=O)O)(C(CO)O)=O	1	Elimination + enol to keto
+23_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+23_0	O	1	Elimination + enol to keto
+23_0	C(C(C(C=O)O)O)(CCO)=O	1	Elimination + enol to keto
+25_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+25_0	O	1	Elimination + enol to keto
+25_0	C(C(C(CC(CO)=O)O)O)=O	1	Elimination + enol to keto
+27_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+27_0	O	1	Elimination + enol to keto
+27_0	C(C(C(C(C(C)=O)O)O)O)=O	1	Elimination + enol to keto
+29_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Elimination + enol to keto
+29_0	O	1	Elimination + enol to keto
+29_0	C(CC(C(C(C=O)O)O)O)=O	1	Elimination + enol to keto
+31_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 5 membered rings
+31_0	C(C(C1C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 5 membered rings
+33_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 6 membered rings
+33_0	C(C1C(C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 6 membered rings
+35_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Hemiacetal Formation for 7 membered rings
+35_0	C1C(C(C(C(C(O)O1)O)O)O)O	1	Hemiacetal Formation for 7 membered rings
+38_0	C(CN)(O)=O	-1	Transamination (inverse)
+38_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Transamination (inverse)
+38_0	C(C(C(C(C(CN)O)O)O)O)O	1	Transamination (inverse)
+38_0	C(C(O)=O)=O	1	Transamination (inverse)
+40_0	C(CN)(O)=O	-1	Strecker Degradation, HC
+40_0	C(C(C(C(C(CO)O)O)O)O)=O	-1	Strecker Degradation, HC
+40_0	C(=O)=O	1	Strecker Degradation, HC
+40_0	C(C(C(C(C(CN)O)O)O)O)O	1	Strecker Degradation, HC
+40_0	C=O	1	Strecker Degradation, HC
