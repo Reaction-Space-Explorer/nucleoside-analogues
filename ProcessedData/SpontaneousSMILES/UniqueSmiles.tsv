@@ -1,0 +1,609 @@
+Smiles	Generation	Network
+C(C(C(C(C(C)=O)N)O)O)(O)=O	G3	GlucoseAmm
+C(C(C(C(C(C)=O)O)N)O)(O)=O	G3	GlucoseAmm
+C(C(C(C(C(C)=O)O)N)O)=O	G2	GlucoseAmm
+C(C(C(C(C(C)=O)O)O)O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(C(C(CN)O)O)O)O)=O	G3	FormoseAmm
+C(C(C(C(C(CN)O)O)O)O)O	G3	FormoseAmm
+C(C(C(C(C(CO)N)O)O)N)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(C(C(CO)N)O)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(C(C(CO)O)N)O)O)=O	G3	FormoseAmm
+C(C(C(C(C(CO)O)N)O)O)O	G2	GlucoseAmm
+C(C(C(C(C(CO)O)O)N)O)=O	G1, G3	GlucoseAmm, FormoseAmm
+C(C(C(C(C)=O)O)O)(O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(C(C)O)C(C)O)=O)(O)=O	G3	PyruvicAcid
+C(C(C(C(C=C)=O)(CO)O)O)=O	G3	GlucoseAmm
+C(C(C(C(C=C)=O)O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C(C=C)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C(CCN)N)=O)O)=O	G3	GlucoseAmm
+C(C(C(C(CCO)=O)O)N)(O)=O	G3	GlucoseAmm
+C(C(C(C(CCO)=O)O)O)(C)=O	G3	Glucose, GlucoseAmm
+C(C(C(C(CCO)N)=O)O)(O)=O	G3	GlucoseAmm
+C(C(C(C(CCO)N)O)O)=O	G3	GlucoseAmm
+C(C(C(C(CCO)O)N)O)=O	G3	GlucoseAmm
+C(C(C(C(CCO)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C(C(C(CCO)O)O)O)O	G3	Glucose, GlucoseAmm
+C(C(C(C(CN)=O)O)O)=O	G3	GlucoseAmm
+C(C(C(C(CN)O)O)N)=O	G3	FormoseAmm
+C(C(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(C(C(C(CN)O)O)O)O	G3	FormoseAmm
+C(C(C(C(CO)=O)O)O)=O	G3	GlucoseAmm
+C(C(C(C(CO)N)O)O)=O	G3	FormoseAmm
+C(C(C(C(CO)O)=O)CO)=O	G3	Formose, FormoseAmm
+C(C(C(C(CO)O)N)O)(O)=O	G3	FormoseAmm
+C(C(C(C(CO)O)N)O)=O	G3	FormoseAmm
+C(C(C(C(CO)O)O)O)=O	G3, G2	GlucoseAmm, Formose, FormoseAmm
+C(C(C(C(CO)O)O)O)O	G3	Formose, FormoseAmm
+C(C(C(C(O)=O)O)N)(CCO)=O	G3	GlucoseAmm
+C(C(C(C(O)=O)O)O)(CCN)=O	G3	GlucoseAmm
+C(C(C(C)(C(CO)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C)=O)(C(CN)O)O)=O	G3	FormoseAmm
+C(C(C(C)=O)(C(CO)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(C)O)(C(C(C)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C)O)(C(C=O)O)O)=O	G3	GlucoseAmm
+C(C(C(C)O)(C(CN)O)O)(O)=O	G3	FormoseAmm
+C(C(C(C)O)(C(CN)O)O)=O	G3	FormoseAmm
+C(C(C(C)O)(C(CO)N)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(C)O)(CC(CO)=O)O)=O	G3	GlucoseAmm
+C(C(C(C)O)C(C(O)=O)(C)O)=O	G3	PyruvicAcid
+C(C(C(C)O)O)(C(CO)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(C)O)O)(CCO)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=CC(O)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=CC=O)O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=CCO)=O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=CCO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=O)O)N)(CCN)=O	G3	GlucoseAmm
+C(C(C(C=O)O)N)(CCO)=O	G2	GlucoseAmm
+C(C(C(C=O)O)O)(C(C)N)=O	G2	GlucoseAmm
+C(C(C(C=O)O)O)(C(C)O)=O	G2	Glucose, GlucoseAmm
+C(C(C(C=O)O)O)(CC(C)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(C=O)O)O)(CCN)=O	G2	GlucoseAmm
+C(C(C(C=O)O)O)(CCO)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(C=O)O)O)(O)=O	G3	GlucoseAmm
+C(C(C(CC(C=O)O)O)N)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CC(C=O)O)O)O)=O	G2, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CC(CN)=O)O)O)=O	G3	GlucoseAmm
+C(C(C(CC(CN)O)=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CC(CO)(C)O)=O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CC(CO)=O)N)O)(O)=O	G3	GlucoseAmm
+C(C(C(CC(CO)=O)N)O)=O	G2	GlucoseAmm
+C(C(C(CC(CO)=O)O)N)=O	G3	GlucoseAmm
+C(C(C(CC(CO)=O)O)O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CC(CO)N)=O)O)(O)=O	G3	GlucoseAmm
+C(C(C(CC(CO)N)=O)O)=O	G2	GlucoseAmm
+C(C(C(CC(CO)N)O)O)=O	G3	GlucoseAmm
+C(C(C(CC(CO)O)=O)O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CC(CO)O)N)=O)(O)=O	G3	GlucoseAmm
+C(C(C(CC(CO)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CCO)=O)(CO)O)=O	G3	Formose, FormoseAmm
+C(C(C(CCO)=O)O)(O)=O	G3	Formose, FormoseAmm
+C(C(C(CN)(C(CN)O)O)O)O	G3	FormoseAmm
+C(C(C(CN)(C(CO)O)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CN)(C(CO)O)O)O)O	G3	FormoseAmm
+C(C(C(CN)=O)C(CO)O)=O	G3	FormoseAmm
+C(C(C(CN)N)O)O	G3	FormoseAmm
+C(C(C(CN)O)(C(C=O)O)O)=O	G3	GlucoseAmm
+C(C(C(CN)O)(C(CN)O)O)(O)=O	G3	FormoseAmm
+C(C(C(CN)O)(C(CN)O)O)=O	G3	FormoseAmm
+C(C(C(CN)O)(C(CO)N)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CN)O)(CC=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CN)O)=O)(CCO)=O	G3	GlucoseAmm
+C(C(C(CN)O)C(C=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CN)O)N)O	G3	FormoseAmm
+C(C(C(CN)O)O)(C(CO)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CN)O)O)(CCO)=O	G3	GlucoseAmm
+C(C(C(CN)O)O)(O)=O	G2	FormoseAmm
+C(C(C(CN)O)O)=O	G3, G2	GlucoseAmm, FormoseAmm
+C(C(C(CN)O)O)N	G3	FormoseAmm
+C(C(C(CN)O)O)O	G3	FormoseAmm
+C(C(C(CNCC=O)O)O)(O)=O	G3	FormoseAmm
+C(C(C(CNCC=O)O)O)=O	G3	FormoseAmm
+C(C(C(CO)(C)O)(CC=O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)(C)O)O)(CCO)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)(C)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)(CCO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)(CO)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)=O)C(CN)O)=O	G3	FormoseAmm
+C(C(C(CO)=O)C(CO)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)C(CN)O)=O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)C(CO)O)=O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)N)(C(C=O)O)O)=O	G3	GlucoseAmm
+C(C(C(CO)N)O)(C(CN)O)=O	G3	GlucoseAmm
+C(C(C(CO)N)O)(C(CO)O)=O	G3	GlucoseAmm
+C(C(C(CO)N)O)(CCO)=O	G3	GlucoseAmm
+C(C(C(CO)N)O)(O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)N)O)=O	G2	GlucoseAmm, FormoseAmm
+C(C(C(CO)NCC(O)=O)O)=O	G3	FormoseAmm
+C(C(C(CO)NCC=O)O)(O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)NCCO)O)(O)=O	G3	FormoseAmm
+C(C(C(CO)NCCO)O)=O	G3	FormoseAmm
+C(C(C(CO)O)(C(C)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)O)(C(CN)O)O)=O	G3, G2	GlucoseAmm, FormoseAmm
+C(C(C(CO)O)(C(CN)O)O)O	G3	FormoseAmm
+C(C(C(CO)O)(C(CO)N)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)O)(CC=O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)O)=O)(CCO)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)O)C(C=O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)O)N)(CCO)=O	G3	GlucoseAmm
+C(C(C(CO)O)N)(O)=O	G3	FormoseAmm
+C(C(C(CO)O)N)=O	G3, G2	GlucoseAmm, FormoseAmm
+C(C(C(CO)O)N)O	G3	GlucoseAmm, FormoseAmm
+C(C(C(CO)O)NCC(O)=O)=O	G3	FormoseAmm
+C(C(C(CO)O)NCCO)=O	G3	FormoseAmm
+C(C(C(CO)O)O)(C(C)N)=O	G3	GlucoseAmm
+C(C(C(CO)O)O)(C(C)O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)O)O)(C(CN)O)=O	G2	GlucoseAmm
+C(C(C(CO)O)O)(CCN)=O	G3	GlucoseAmm
+C(C(C(CO)O)O)(CCO)=O	G2	Glucose, GlucoseAmm
+C(C(C(CO)O)O)(O)=O	G2	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)O)O)=CC(O)=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)O)O)=CC=O	G3	Glucose, GlucoseAmm
+C(C(C(CO)O)O)=O	G1	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C(CO)O)O)O	G2	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C)(C(C(C)=O)(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C)(C(C(CCO)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C)(C(C(CN)=O)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(C)(C(C(CO)=O)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(C)(C(C=O)(CN)O)O)=O	G3	FormoseAmm
+C(C(C)(CC(C=O)O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C)(CC(CC=O)O)O)(O)=O	G3	PyruvicAcid
+C(C(C)=O)(C(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C)N)(C(C(CO)=O)O)=O	G3	GlucoseAmm
+C(C(C)O)(C(C(CN)=O)O)=O	G3	GlucoseAmm
+C(C(C)O)(C(C(CO)=O)O)=O	G3	Glucose, GlucoseAmm
+C(C(C=CC(C(CO)O)=O)O)=O	G3	GlucoseAmm
+C(C(C=CC(CO)=O)(CO)O)=O	G3	GlucoseAmm
+C(C(C=CC(CO)=O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C=CC(CO)O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(C=O)C(C(CO)O)O)=O	G3	Formose, FormoseAmm
+C(C(CC(C(C(C)=O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CC(C(C(O)=O)O)O)N)=O	G3	GlucoseAmm
+C(C(CC(C(C)=O)O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(CC(C(C=O)O)N)O)=O	G3	GlucoseAmm
+C(C(CC(C(C=O)O)O)N)(O)=O	G3	GlucoseAmm
+C(C(CC(C(C=O)O)O)N)=O	G2	GlucoseAmm
+C(C(CC(C(CN)=O)O)N)=O	G3	GlucoseAmm
+C(C(CC(C(CN)=O)O)O)=O	G3	GlucoseAmm
+C(C(CC(C(CN)O)O)=O)=O	G3	FormoseAmm
+C(C(CC(C(CO)=O)N)O)(O)=O	G3	GlucoseAmm
+C(C(CC(C(CO)=O)O)N)=O	G3	GlucoseAmm
+C(C(CC(C(CO)=O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C(CC(C(CO)N)O)=O)=O	G3	FormoseAmm
+C(C(CC(C(CO)O)N)=O)(O)=O	G3	GlucoseAmm
+C(C(CC(C(CO)O)N)=O)=O	G2	GlucoseAmm
+C(C(CC(C(CO)O)N)O)(O)=O	G3	GlucoseAmm
+C(C(CC(C(CO)O)O)=O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(CC(C(CO)O)O)N)(O)=O	G3	GlucoseAmm
+C(C(CC(C(CO)O)O)N)=O	G3	GlucoseAmm
+C(C(CC(C(CO)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CC(C)O)(CC=O)O)(O)=O	G3	PyruvicAcid
+C(C(CC(CC(C)O)O)=O)(O)=O	G3	PyruvicAcid
+C(C(CC(CC(CO)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CC(CO)=O)O)(O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CC(CO)O)=O)(O)=O	G3	Formose, FormoseAmm
+C(C(CCC(CO)=O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(CCO)(C(C(C)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CCO)(C(C=O)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(CCO)(CC(CO)=O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CCO)(CC=O)O)(O)=O	G3	Glucose, GlucoseAmm
+C(C(CCO)O)(C(CO)O)=O	G3	Glucose, GlucoseAmm
+C(C(CCO)O)(O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C(CN)(C(C(C)=O)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(C(CO)N)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(C(CO)O)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(C(CO)O)O)O)O	G3	FormoseAmm
+C(C(CN)(C(C)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(CN)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(CN)O)O)O	G3	FormoseAmm
+C(C(CN)(C(CO)(CN)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(CO)(CO)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(CO)O)O)=O	G3	FormoseAmm
+C(C(CN)(C(CO)O)O)O	G3	FormoseAmm
+C(C(CN)(CC(CO)O)O)(O)=O	G3	GlucoseAmm
+C(C(CN)=O)(CC(CO)N)=O	G3	GlucoseAmm
+C(C(CN)=O)(CC(CO)O)=O	G2	GlucoseAmm
+C(C(CN)N)O	G3	FormoseAmm
+C(C(CN)O)(C(C(C)=O)O)=O	G3	GlucoseAmm
+C(C(CN)O)(CC(CN)=O)=O	G3	GlucoseAmm
+C(C(CN)O)(CC(CO)=O)=O	G3	GlucoseAmm
+C(C(CN)O)(CC(CO)O)=O	G3	GlucoseAmm
+C(C(CN)O)(O)=O	G3	FormoseAmm
+C(C(CN)O)N	G3	FormoseAmm
+C(C(CN)O)O	G3	FormoseAmm
+C(C(CNCC(C=O)O)O)(O)=O	G3	FormoseAmm
+C(C(CNCC(C=O)O)O)=O	G3	FormoseAmm
+C(C(CNCC(CO)=O)O)(O)=O	G3	FormoseAmm
+C(C(CNCC(CO)=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(CNCC(O)=O)O)(O)=O	G3	FormoseAmm
+C(C(CNCC(O)=O)O)=O	G3	FormoseAmm
+C(C(CNCC=O)O)(O)=O	G3	FormoseAmm
+C(C(CNCCN)O)=O	G3	FormoseAmm
+C(C(CNCCO)N)=O	G3	FormoseAmm
+C(C(CNCCO)O)(O)=O	G3	FormoseAmm
+C(C(CNCCO)O)=O	G3	FormoseAmm
+C(C(CO)(C(C(C)=O)O)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(C(C(C=C)=O)O)O)=O	G3	GlucoseAmm
+C(C(CO)(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(C(CO)(C(C(CO)N)O)O)=O	G3	FormoseAmm
+C(C(CO)(C(C)O)N)=O	G3	FormoseAmm
+C(C(CO)(C(C)O)O)(O)=O	G3	Formose, FormoseAmm
+C(C(CO)(C(C)O)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(C(C=CC=O)O)O)=O	G3	GlucoseAmm
+C(C(CO)(C(C=O)(C)O)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(C(C=O)O)O)=O	G3	GlucoseAmm
+C(C(CO)(C(CC=O)O)O)=O	G3	Formose, FormoseAmm
+C(C(CO)(C(CN)O)O)(O)=O	G3	FormoseAmm
+C(C(CO)(C(CN)O)O)=O	G3, G2	GlucoseAmm, FormoseAmm
+C(C(CO)(C(CN)O)O)O	G3	FormoseAmm
+C(C(CO)(C(CO)(C)O)O)=O	G3	GlucoseAmm
+C(C(CO)(C(CO)(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(CO)(C(CO)N)O)=O	G3	GlucoseAmm, FormoseAmm
+C(C(CO)(C(CO)O)O)=O	G3, G2	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(C(CO)O)O)O	G3	Formose, FormoseAmm
+C(C(CO)(CC(CO)=O)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(CN)O)=O	G3	FormoseAmm
+C(C(CO)(CN)O)O	G3	FormoseAmm
+C(C(CO)(CNCC=O)O)=O	G3	FormoseAmm
+C(C(CO)(CO)N)=O	G3	FormoseAmm
+C(C(CO)(CO)O)(O)=O	G3	Formose, FormoseAmm
+C(C(CO)(CO)O)=O	G3, G2	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)(CO)O)O	G3	Formose, FormoseAmm
+C(C(CO)=O)(CC(CO)N)=O	G3	GlucoseAmm
+C(C(CO)=O)(CC(CO)O)=O	G2	Glucose, GlucoseAmm
+C(C(CO)N)(CC(CO)=O)=O	G3	GlucoseAmm
+C(C(CO)N)(CC(CO)O)=O	G3	GlucoseAmm
+C(C(CO)N)(O)=O	G3	FormoseAmm
+C(C(CO)N)O	G3	FormoseAmm
+C(C(CO)NCC(C(O)=O)O)=O	G3	FormoseAmm
+C(C(CO)NCC(O)=O)=O	G3	FormoseAmm
+C(C(CO)NCCO)=O	G3	FormoseAmm
+C(C(CO)O)(C(C(C)=O)O)=O	G3	Glucose, GlucoseAmm
+C(C(CO)O)(C(CCO)N)=O	G3	GlucoseAmm
+C(C(CO)O)(C(CO)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)O)(CC(C)O)=O	G3	Glucose, GlucoseAmm
+C(C(CO)O)(CC(CN)=O)=O	G2	GlucoseAmm
+C(C(CO)O)(CC(CN)O)=O	G3	GlucoseAmm
+C(C(CO)O)(CC(CO)(C)O)=O	G3	Glucose, GlucoseAmm
+C(C(CO)O)(CC(CO)=O)=O	G2	Glucose, GlucoseAmm
+C(C(CO)O)(CC(CO)N)=O	G3	GlucoseAmm
+C(C(CO)O)(CC(CO)O)=O	G2	Glucose, GlucoseAmm
+C(C(CO)O)(CCO)=O	G3	GlucoseAmm
+C(C(CO)O)(O)=O	G3, G2	GlucoseAmm, Formose, FormoseAmm
+C(C(CO)O)=CC(C(O)=O)=O	G3	Glucose, GlucoseAmm
+C(C(CO)O)=CC(CO)=O	G3	Glucose, GlucoseAmm
+C(C(CO)O)O	G3, G2	GlucoseAmm, Formose, FormoseAmm
+C(C)(C(C(C(CN)=O)O)N)=O	G3	GlucoseAmm
+C(C)(C(C(C(CN)=O)O)O)=O	G2, G3	GlucoseAmm, FormoseAmm
+C(C)(C(C(C(CO)=O)O)N)=O	G3	GlucoseAmm
+C(C)(C(C(C(CO)=O)O)O)=O	G2, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(C)(C(C(C(CO)O)N)O)=O	G3	GlucoseAmm
+C(C)(C(C(C(CO)O)O)N)=O	G3	GlucoseAmm
+C(C)(C(C(C(CO)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C)(C(C(C)(C(CO)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(C)O)(C(C=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(CC(CO)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(CN)O)O)=O	G3	GlucoseAmm
+C(C)(C(C(CO)(C)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(CO)(CCO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(CO)(CN)O)O)=O	G3	GlucoseAmm
+C(C)(C(C(CO)(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(CO)(C(C(C)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(CO)(C(C)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(CO)(C(C=O)O)O)=O	G3	GlucoseAmm
+C(C)(C(CO)(C(CN)O)O)=O	G3	GlucoseAmm
+C(C)(C(CO)(C(CO)(C)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(CO)(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(C)(C(CO)(CO)O)=O	G3	GlucoseAmm
+C(C)(C1C(C(C(O1)O)O)N)=O	G3	GlucoseAmm
+C(C)(C1C(C(C(O1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C1(C(C(C(C1)O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C1(C(C(C(CO)O1)N)O)O)O	G3	GlucoseAmm
+C(C1(C(C(CC1O)N)O)O)=O	G3	GlucoseAmm
+C(C1(C(C(CC1O)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C1(C(C(CC1O)O)O)O)O	G3	Glucose, GlucoseAmm
+C(C1(C(C=CC1O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C1(C(CC(C1N)O)O)O)=O	G3	GlucoseAmm
+C(C1(C=CC(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C1(CC(C(C1O)O)O)N)=O	G3	GlucoseAmm
+C(C1(CNCC1O)O)=O	G3	FormoseAmm
+C(C1C(C(C(C(O)O1)O)N)O)O	G2	GlucoseAmm
+C(C1C(C(C(C)(O1)O)O)N)=O	G3	GlucoseAmm
+C(C1C(C(C(C)(O1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C1C(C(C(C1N)O)O)O)=O	G3	GlucoseAmm
+C(C1C(C(C(C1O)O)N)O)=O	G3	GlucoseAmm
+C(C1C(C(C(C1O)O)O)O)=O	G2	Glucose, GlucoseAmm
+C(C1C(C(C(C1O)O)O)O)O	G3	Glucose, GlucoseAmm
+C(C1C(C(C(CN)(O)O1)O)N)O	G3	GlucoseAmm
+C(C1C(C(C(CN)(O)O1)O)O)O	G2	GlucoseAmm
+C(C1C(C(C(CO)O1)O)O)=O	G3	Glucose, GlucoseAmm
+C(C1C(C(C(CO1)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(C1C(C(C(O)O1)O)O)O	G3	Formose, FormoseAmm
+C(C1C(C(CN1)O)O)=O	G3	FormoseAmm
+C(C=CC(C(CO)(CO)O)=O)=O	G3	GlucoseAmm
+C(C=CC(C(CO)O)=O)(O)=O	G3	Glucose, GlucoseAmm
+C(CC(C(C(C(C)=O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(CC(C(C(C(O)=O)O)N)O)=O	G3	GlucoseAmm
+C(CC(C(C(C(O)=O)O)O)N)=O	G3	GlucoseAmm
+C(CC(C(C(C=O)N)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(C(C(C=O)O)N)O)(O)=O	G3	GlucoseAmm
+C(CC(C(C(C=O)O)N)O)=O	G2	GlucoseAmm
+C(CC(C(C(C=O)O)O)N)(O)=O	G3	GlucoseAmm
+C(CC(C(C(C=O)O)O)N)=O	G2	GlucoseAmm
+C(CC(C(C(C=O)O)O)O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(C(C(CN)=O)O)N)=O	G3	GlucoseAmm
+C(CC(C(C(CN)=O)O)O)(O)=O	G3	GlucoseAmm
+C(CC(C(C(CN)=O)O)O)=O	G2	GlucoseAmm
+C(CC(C(C(CN)O)=O)O)=O	G3	GlucoseAmm
+C(CC(C(C(CN)O)O)=O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(CC(C(C(CO)(C)O)O)=O)=O	G3	Glucose, GlucoseAmm
+C(CC(C(C(CO)=O)O)N)=O	G3	GlucoseAmm
+C(CC(C(C(CO)=O)O)O)=O	G2	Glucose, GlucoseAmm
+C(CC(C(C(CO)N)=O)O)=O	G3	GlucoseAmm
+C(CC(C(C(CO)N)O)=O)(O)=O	G3	GlucoseAmm
+C(CC(C(C(CO)N)O)=O)=O	G2	GlucoseAmm
+C(CC(C(C(CO)N)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(C(C(CO)O)=O)N)(O)=O	G3	GlucoseAmm
+C(CC(C(C(CO)O)=O)O)=O	G2	Glucose, GlucoseAmm
+C(CC(C(C(CO)O)N)=O)(O)=O	G3	GlucoseAmm
+C(CC(C(C(CO)O)N)=O)=O	G2	GlucoseAmm
+C(CC(C(C(CO)O)N)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(C(C(CO)O)O)=O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(C(C(CO)O)O)N)=O	G3	GlucoseAmm
+C(CC(C(C(CO)O)O)O)=O	G2, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(C(C(O)=O)O)O)=O	G3	Formose, FormoseAmm
+C(CC(C(C)=O)O)(C(CO)O)=O	G3	Glucose, GlucoseAmm
+C(CC(C(CC(CO)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(CC(C(CCO)=O)O)(CO)=O	G3	Glucose, GlucoseAmm
+C(CC(C(CN)O)O)=O	G3	FormoseAmm
+C(CC(C(CO)(CO)O)O)=O	G3	Formose, FormoseAmm
+C(CC(C(CO)N)O)=O	G3	FormoseAmm
+C(CC(C(CO)O)=O)(O)=O	G3	Formose, FormoseAmm
+C(CC(C(CO)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(C(O)=O)N)(C(CO)O)=O	G3	GlucoseAmm
+C(CC(C(O)=O)O)(C(CN)O)=O	G3	GlucoseAmm
+C(CC(C(O)=O)O)(C(CO)N)=O	G3	GlucoseAmm
+C(CC(C(O)=O)O)(CCO)=O	G3	Glucose, GlucoseAmm
+C(CC(C)(C(C(C=O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C(CC(C)(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(CC(C=O)N)(C(CN)O)=O	G3	GlucoseAmm
+C(CC(C=O)N)(C(CO)N)=O	G3	GlucoseAmm
+C(CC(C=O)N)(C(CO)O)=O	G2	GlucoseAmm
+C(CC(C=O)O)(C(C(C)O)O)=O	G3	GlucoseAmm
+C(CC(C=O)O)(C(CN)O)=O	G2	GlucoseAmm
+C(CC(C=O)O)(C(CO)N)=O	G2	GlucoseAmm
+C(CC(C=O)O)(C(CO)O)=O	G1, G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(CC(C(O)=O)O)O)=O	G3	Glucose, GlucoseAmm
+C(CC(CN)(C(CO)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(CO)(C(C=O)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(CO)(C(CO)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC(CO)(CC(C=O)O)O)=O	G3	GlucoseAmm
+C(CC(CO)(CCO)O)=O	G3	Glucose, GlucoseAmm
+C(CC(CO)(CN)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CC(CO)(CO)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CC1C(C(C(O)O1)O)O)=O	G2	Glucose, GlucoseAmm
+C(CC1C(C(C(O)O1)O)O)O	G3	Glucose, GlucoseAmm
+C(CCN)(C(C(CN)=O)O)=O	G3	GlucoseAmm
+C(CCN)(C(C(CO)=O)O)=O	G3	GlucoseAmm
+C(CCO)(C(C(CN)=O)N)=O	G3	GlucoseAmm
+C(CCO)(C(C(CN)=O)O)=O	G2	GlucoseAmm
+C(CCO)(C(C(CO)=O)N)=O	G3	GlucoseAmm
+C(CCO)(C(C(CO)=O)O)=O	G2	Glucose, GlucoseAmm
+C(CN)(C(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(CN)(C(C(C(CO)N)O)O)=O	G3	FormoseAmm
+C(CN)(C(C(C(CO)O)N)O)=O	G2	GlucoseAmm
+C(CN)(C(C(C(CO)O)O)O)=O	G1, G3	GlucoseAmm, FormoseAmm
+C(CN)(C(C(C)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(C(CCO)O)O)=O	G3	GlucoseAmm
+C(CN)(C(C(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(C(CO)(C)O)O)=O	G3	GlucoseAmm
+C(CN)(C(C(CO)(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(C(CO)(CO)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(C(CO)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(CC(CO)=O)O)=O	G2	GlucoseAmm
+C(CN)(C(CN)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(CNCC(O)=O)O)=O	G3	FormoseAmm
+C(CN)(C(CNCC=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CN)(C(CNCCO)O)=O	G3	FormoseAmm
+C(CN)(C(CO)O)=O	G2	GlucoseAmm, FormoseAmm
+C(CNC(C(CO)=O)CO)(O)=O	G3	FormoseAmm
+C(CNCC(C(CO)=O)O)(O)=O	G3	FormoseAmm
+C(CNCC(C(CO)=O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CNCC(CN)O)=O	G3	FormoseAmm
+C(CNCC(CO)=O)(O)=O	G3	FormoseAmm
+C(CNCC(CO)O)=O	G3	FormoseAmm
+C(CNCC(O)=O)(C(CN)O)=O	G3	FormoseAmm
+C(CNCC(O)=O)(C(CO)O)=O	G3	FormoseAmm
+C(CNCCO)(C(CN)O)=O	G3	FormoseAmm
+C(CNCCO)(C(CO)N)=O	G3	FormoseAmm
+C(CNCCO)(C(CO)O)=O	G3	FormoseAmm
+C(CNCCO)(CN)=O	G3	FormoseAmm
+C(CO)(C(C(C(CN)O)O)O)=O	G3	FormoseAmm
+C(CO)(C(C(C(CO)N)O)O)=O	G3	FormoseAmm
+C(CO)(C(C(C(CO)O)N)O)=O	G2	GlucoseAmm
+C(CO)(C(C(C)O)C(C=O)O)=O	G3	GlucoseAmm
+C(CO)(C(C(C)O)N)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(C(C)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CO)(C(C(CCO)O)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(C(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(C(CO)(C)O)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(C(CO)(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(C(CO)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CO)(C(CC(CN)=O)N)=O	G3	GlucoseAmm
+C(CO)(C(CC(CN)=O)O)=O	G3	GlucoseAmm
+C(CO)(C(CC(CO)=O)O)=O	G2	Glucose, GlucoseAmm
+C(CO)(C(CC(CO)O)N)=O	G3	GlucoseAmm
+C(CO)(C(CC(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(CN)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(CNCCO)O)=O	G3	FormoseAmm
+C(CO)(C(CO)(C(C)O)O)=O	G3	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CO)(C(CO)(C(CN)O)O)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(CO)(CO)O)=O	G3	GlucoseAmm, Formose, FormoseAmm
+C(CO)(C(CO)C(C(C)=O)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(CO)C(C)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(CO)C(C=O)O)=O	G3	GlucoseAmm
+C(CO)(C(CO)C(CN)O)=O	G3	GlucoseAmm
+C(CO)(C(CO)C(CO)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(C(CO)CO)=O	G3	GlucoseAmm
+C(CO)(C(CO)N)=O	G3	GlucoseAmm, FormoseAmm
+C(CO)(C(CO)NCCO)=O	G3	FormoseAmm
+C(CO)(C(CO)O)=O	G2	Glucose, GlucoseAmm, Formose, FormoseAmm
+C(CO)(CC(C(CO)O)N)=O	G3	GlucoseAmm
+C(CO)(CC(C(CO)O)O)=O	G2	Glucose, GlucoseAmm
+C(CO)(CC(C)(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(CC(CN)O)=O	G3	GlucoseAmm
+C(CO)(CC(CO)(C)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(CC(CO)(CCO)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(CC(CO)(CN)O)=O	G3	GlucoseAmm
+C(CO)(CC(CO)(CO)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(CC(CO)O)=O	G3	Glucose, GlucoseAmm
+C(CO)(CNCCO)=O	G3	FormoseAmm
+C(CO)=CC(C(CO)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(C(C1)N)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C(C1)O)O)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(C(C1)O)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(C(C(CO)O)O1)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(C(CO)O1)O)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(C(CO1)O)O)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(C)(C1N)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C)(C1O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(C1(C)N)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C1(C)O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(C1)O)(CN)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C1)O)(CO)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(C1)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(C1CN)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C1CO)N)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(C1CO)O)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(C1CO)O)O)N)=O	G3	GlucoseAmm
+C1(C(C(C(C1CO)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(C(CC1N)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(CC1O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(CN)(C1)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(CO)(C1)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(C(CO)C1N)O)O)=O	G3	GlucoseAmm
+C1(C(C(C(CO)O1)O)O)=CN	G3	GlucoseAmm
+C1(C(C(C(CO)O1)O)O)=O	G3	Formose, FormoseAmm
+C1(C(C(C(CO1)O)O)O)=CN	G3	GlucoseAmm
+C1(C(C(C(CO1)O)O)O)=O	G3	Formose, FormoseAmm
+C1(C(C(C(O)OCC1)N)O)=O	G3	GlucoseAmm
+C1(C(C(C(O)OCC1)O)N)=O	G3	GlucoseAmm
+C1(C(C(C(O)OCC1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(CC(C1N)O)O)O)=O	G3	GlucoseAmm
+C1(C(C(CC(C1O)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(CN)(O)OCC1)O)=O	G3	GlucoseAmm
+C1(C(C(CO)(O)OCC1)O)=O	G3	Glucose, GlucoseAmm
+C1(C(C(CO)N)OC(C1)O)=O	G3	GlucoseAmm
+C1(C(C(CO)NCC1O)O)=O	G3	GlucoseAmm
+C1(C(C(CO)O)OC(C1)N)=O	G3	GlucoseAmm
+C1(C(C(CO)O)OC(C1)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(CO)OC(C1)N)O)=O	G3	GlucoseAmm
+C1(C(C(CO)OC(C1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(COC(C1)N)O)O)=O	G3	GlucoseAmm
+C1(C(C(COC(C1)O)N)O)=O	G3	GlucoseAmm
+C1(C(C(COC(C1)O)O)N)=O	G3	GlucoseAmm
+C1(C(C(COC(C1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(N)OC(CO)C1)O)=O	G3	GlucoseAmm
+C1(C(C(N)OCC(C1)O)O)=O	G3	GlucoseAmm
+C1(C(C(O)OC(CO)C1)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(O)OCC(C1)N)O)=O	G3	GlucoseAmm
+C1(C(C(O)OCC(C1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(C(O)OCCC1N)O)=O	G3	GlucoseAmm
+C1(C(C)OC(C(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(C(CO)O)O1)N)=O	G3	GlucoseAmm
+C1(C(CC(C(CO)O)O1)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(C(CO)O1)O)N)=O	G3	GlucoseAmm
+C1(C(CC(C(CO)O1)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(C(CO1)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(C1(CO)O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(CO)(C1N)O)O)=O	G3	GlucoseAmm
+C1(C(CC(CO)(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CC(O)OCC1O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CN)(O)OC(CO)C1)=O	G3	GlucoseAmm
+C1(C(CN)(O)OCC(C1)O)=O	G3	GlucoseAmm
+C1(C(CN)OC(C(C1)O)O)=O	G3	GlucoseAmm
+C1(C(CN)OC(CO)C1O)=O	G3	GlucoseAmm
+C1(C(CN)OCC(C1O)O)=O	G3	GlucoseAmm
+C1(C(CNC1C(CO)O)O)=O	G3	GlucoseAmm
+C1(C(CO)(O)OC(CO)C1)=O	G3	Glucose, GlucoseAmm
+C1(C(CO)(O)OCC(C1)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CO)OC(C(C1)N)O)=O	G3	GlucoseAmm
+C1(C(CO)OC(C(C1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(CO)OC(CC1N)O)=O	G3	GlucoseAmm
+C1(C(CO)OC(CC1O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CO)OC(CN)(C1)O)=O	G3	GlucoseAmm
+C1(C(CO)OC(CO)(C1)O)=O	G3	Glucose, GlucoseAmm
+C1(C(CO)OC(CO)C1O)=O	G3	Glucose, GlucoseAmm
+C1(C(CO)OCC(C1O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(COC(C(C1)N)O)O)=O	G3	GlucoseAmm
+C1(C(COC(C(C1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(COC(CC1N)O)O)=O	G3	GlucoseAmm
+C1(C(COC(CN)(C1)O)O)=O	G3	GlucoseAmm
+C1(C(COC(CO)(C1)O)O)=O	G3	Glucose, GlucoseAmm
+C1(C(O)OC(C(CO)O)C1)=O	G2	Glucose, GlucoseAmm
+C1(C(O)OC(CO)C(C1)N)=O	G3	GlucoseAmm
+C1(C(O)OC(CO)C(C1)O)=O	G2	Glucose, GlucoseAmm
+C1(C(O)OC(CO)CC1N)=O	G3	GlucoseAmm
+C1(C(O)OCC(C(C1)N)O)=O	G3	GlucoseAmm
+C1(C(O)OCC(C(C1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(C(O)OCC(CC1N)O)=O	G3	GlucoseAmm
+C1(C2(C(C(CC2O)O1)O)O)O	G3	Glucose, GlucoseAmm
+C1(C2C(C(C(C2O)O1)O)O)O	G3	Glucose, GlucoseAmm
+C1(CC(C(C(CO)O)O1)N)=O	G3	GlucoseAmm
+C1(CC(C(C(CO)O)O1)O)=O	G2	Glucose, GlucoseAmm
+C1(CC(C(C(CO)O1)O)N)=O	G3	GlucoseAmm
+C1(CC(C(C(CO)O1)O)O)=O	G2	Glucose, GlucoseAmm
+C1(CC(C(C(CO1)O)O)N)=O	G3	GlucoseAmm
+C1(CC(C(C(CO1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(CC(C(C1(CN)O)O)O)=O	G3	GlucoseAmm
+C1(CC(C(C1(CO)N)O)O)=O	G3	GlucoseAmm
+C1(CC(C(C1(CO)O)O)N)=O	G3	GlucoseAmm
+C1(CC(C(C1(CO)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(COC(C(C(C1)N)O)O)=O	G3	GlucoseAmm
+C1(COC(C(C(C1)O)O)O)=O	G2	Glucose, GlucoseAmm
+C1(COC(C(C1)O)(CN)O)=O	G3	GlucoseAmm
+C1(COC(C(CC1N)O)O)=O	G3	GlucoseAmm
+C1(COC(C(CC1O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(C(CO)O)(C1)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(C(CO)O)C1O)=O	G2	Glucose, GlucoseAmm
+C1(COC(C)(C(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(CC(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(CCO)(C1O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(CO)(C(C1)O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(CO)(CC1O)O)=O	G3	Glucose, GlucoseAmm
+C1(COC(CO)C(C1N)O)=O	G3	GlucoseAmm
+C1(COC(CO)C(C1O)N)=O	G3	GlucoseAmm
+C1(COC(CO)C(C1O)O)=O	G2	Glucose, GlucoseAmm
+C1(COCC(C(C1N)O)O)=O	G3	GlucoseAmm
+C1(COCC(C(C1O)N)O)=O	G3	GlucoseAmm
+C1(COCC(C(C1O)O)O)=O	G2	Glucose, GlucoseAmm
+C12C(C(C(CC1O)(O)O2)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(C(C(O)O1)O)N)O)O	G2	GlucoseAmm
+C1C(C(C(C(C=1)=O)O)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(C(CN)(O)O1)O)N)O	G3	GlucoseAmm
+C1C(C(C(C(CN)(O)O1)O)O)O	G2	GlucoseAmm
+C1C(C(C(C(CN)O)(O)O1)O)O	G3	GlucoseAmm
+C1C(C(C(C(CO)(O)O1)O)N)O	G3	GlucoseAmm
+C1C(C(C(C(O)O1)O)O)O	G3	Formose, FormoseAmm
+C1C(C(C(C=1)=O)(CO)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(C=1C=O)O)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(C=1CO)=O)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(CCO)(O)O1)O)O	G3	Glucose, GlucoseAmm
+C1C(C(C(O)O1)(C(CN)O)O)O	G3	FormoseAmm
+C1C(C(C(O)O1)(CO)O)O	G3	Formose, FormoseAmm
+C1C(C(C(O)O1)O)O	G2	Glucose, GlucoseAmm, Formose, FormoseAmm
+C1C(CO)OC(C(C=1N)O)O	G3	GlucoseAmm
+C1C(COC(C(C=1N)O)O)O	G3	GlucoseAmm
+C1C(O)OC(CO)C(C=1N)O	G3	GlucoseAmm
+C1C(O)OCC(C(C=1N)O)O	G3	GlucoseAmm
+C1C2(C(C(C(CO)O2)O1)O)O	G3	Glucose, GlucoseAmm
+C1C2(C(C(C(CO1)O2)O)O)O	G3	Glucose, GlucoseAmm
+C1C2(C(C(C(CO2)O)O1)O)O	G3	Glucose, GlucoseAmm
+C1C2(C(C(C(CO2)O1)O)O)O	G3	Glucose, GlucoseAmm
+C=C1C(C(C(C1O)O)O)=O	G3	Glucose, GlucoseAmm
+C=CC(C(C(CO)O)O)=O	G3	Glucose, GlucoseAmm
+CC1(C(C(C(CO)O1)O)O)O	G3	Glucose, GlucoseAmm
+CC1(C(C(C(CO1)O)O)O)O	G3	Glucose, GlucoseAmm
