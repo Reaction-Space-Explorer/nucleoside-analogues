@@ -1,0 +1,18 @@
+Network Smiles: C(CNCC(O)=O)(C(CO)O)=O
+Generation: G3
+INCHIKEY: DITRGZRJMYHJGN
+Analogue Smiles: {'C(=O)(CNCC(=O)O[H])[C@@H](CO)O', 'C(=O)(CNCC(=O)O[H])[C@H](CO)O', 'C(=O)(CNCC(=O)O)[C@@H](CO[H])O', 'C(=O)(CNCC(=O)O)[C@H](CO[H])O', 'C(=O)(CNCC(=O)O)[C@H](CO)O[H]', 'C(=O)(CNCC(=O)O)[C@@H](CO)O[H]'}
+
+ Pathway 0 
+C(CNCC(O)=O)(C(CO)O)=O
+├── C(C(C(CO)O)O)=O
+│   ├── C(CO)=O
+│   └── C(CO)=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   ├── C(CO)=O
+    │   └── N
+    ├── C=O
+    └── O
+Energy Change: -91.48
+Reaction IDs: ['1078_0', '7_0', '63_0', '10_0']

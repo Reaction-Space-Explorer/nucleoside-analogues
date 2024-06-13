@@ -1,0 +1,108 @@
+Network Smiles: C(CNCC(CO)=O)(O)=O
+Generation: G3
+INCHIKEY: WKMZZYMHPNDCQD
+Analogue Smiles: {'C(=O)(CO[H])CNCC(=O)O', 'C(=O)(CNCC(=O)O[H])CO'}
+
+ Pathway 0 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   ├── C(CO)=O
+    │   └── N
+    ├── C=O
+    └── O
+Energy Change: -107.71
+Reaction IDs: ['1068_0', '5_0', '63_0', '10_0']
+
+ Pathway 1 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   ├── C(CO)=O
+    │   └── N
+    ├── C=O
+    └── O
+Energy Change: -107.71
+Reaction IDs: ['1068_0', '5_1', '63_0', '10_0']
+
+ Pathway 2 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   └── C(C(CNCC=O)O)=O
+    │       ├── C(C(CN)O)=O
+    │       │   ├── C(C(CO)O)=O
+    │       │   │   ├── C(CO)=O
+    │       │   │   └── C=O
+    │       │   └── N
+    │       └── C(CO)=O
+    ├── C=O
+    └── O
+Energy Change: -187.38
+Reaction IDs: ['1068_0', '5_0', '63_0', '1901_0', '1127_0', '104_0', '5_0']
+
+ Pathway 3 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   └── C(C(CNCC=O)O)=O
+    │       ├── C(C(CN)O)=O
+    │       │   ├── C(C(CO)O)=O
+    │       │   │   ├── C(CO)=O
+    │       │   │   └── C=O
+    │       │   └── N
+    │       └── C(CO)=O
+    ├── C=O
+    └── O
+Energy Change: -187.38
+Reaction IDs: ['1068_0', '5_1', '63_0', '1901_0', '1127_0', '104_0', '5_0']
+
+ Pathway 4 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   └── C(C(CNCC=O)O)=O
+    │       ├── C(C(CN)O)=O
+    │       │   ├── C(C(CO)O)=O
+    │       │   │   ├── C(CO)=O
+    │       │   │   └── C=O
+    │       │   └── N
+    │       └── C(CO)=O
+    ├── C=O
+    └── O
+Energy Change: -187.38
+Reaction IDs: ['1068_0', '5_0', '63_0', '1901_0', '1127_0', '104_0', '5_1']
+
+ Pathway 5 
+C(CNCC(CO)=O)(O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   └── C(C(CNCC=O)O)=O
+    │       ├── C(C(CN)O)=O
+    │       │   ├── C(C(CO)O)=O
+    │       │   │   ├── C(CO)=O
+    │       │   │   └── C=O
+    │       │   └── N
+    │       └── C(CO)=O
+    ├── C=O
+    └── O
+Energy Change: -187.38
+Reaction IDs: ['1068_0', '5_1', '63_0', '1901_0', '1127_0', '104_0', '5_1']

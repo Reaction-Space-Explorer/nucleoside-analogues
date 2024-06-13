@@ -1,0 +1,2616 @@
+Network Smiles: C(C(C(CO)O)O)=O
+Generation: G1
+INCHIKEY: YTBSYETUWUMLBZ
+Analogue Smiles: {'C(=O)[C@@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO)O)O[H]', 'C(=O)[C@H]([C@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO)O[H])O', 'C(=O)[C@@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@H](CO)O)O[H]'}
+
+ Pathway 0 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_0', '71_0', '71_0', '23_0', '23_0']
+
+ Pathway 1 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_1', '71_0', '71_0', '23_0', '23_0']
+
+ Pathway 2 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -26.65
+Reaction IDs: ['155_0', '9_0']
+
+ Pathway 3 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_0', '71_1', '71_0', '23_0', '23_0']
+
+ Pathway 4 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_0', '71_0', '71_1', '23_0', '23_0']
+
+ Pathway 5 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_1', '71_1', '71_0', '23_0', '23_0']
+
+ Pathway 6 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_1', '71_0', '71_1', '23_0', '23_0']
+
+ Pathway 7 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -26.65
+Reaction IDs: ['155_0', '9_1']
+
+ Pathway 8 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CO)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -118.65
+Reaction IDs: ['155_0', '109_0', '71_0', '23_0']
+
+ Pathway 9 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(CO)O)O)=O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '113_0', '11_0']
+
+ Pathway 10 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '115_0', '13_0']
+
+ Pathway 11 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C=O)O)(C(CO)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '118_0', '17_0']
+
+ Pathway 12 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=O)O)O)(CCO)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '119_0', '19_0']
+
+ Pathway 13 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(CO)=O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '120_0', '21_0']
+
+ Pathway 14 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(C)=O)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -72.05
+Reaction IDs: ['155_0', '122_0', '23_0']
+
+ Pathway 15 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(C=O)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -65.66
+Reaction IDs: ['155_0', '124_0', '25_0']
+
+ Pathway 16 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(C=O)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -65.66
+Reaction IDs: ['155_0', '126_0', '25_0']
+
+ Pathway 17 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1C(C(C(C1O)O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -134.17
+Reaction IDs: ['155_0', '1436_0', '38_0', '25_0']
+
+ Pathway 18 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C)=O)=O
+    │   └── C(CC(CC(C=O)=O)O)=O
+    │       └── C(C(CC(C(CO)O)O)=O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.53999999999999
+Reaction IDs: ['155_0', '1440_0', '1223_0', '186_0', '11_0']
+
+ Pathway 19 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)=O
+    │   └── C(CC(CC(C=O)=O)O)=O
+    │       └── C(C(CC(C(CO)O)O)=O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -109.16999999999999
+Reaction IDs: ['155_0', '1454_0', '1225_0', '186_0', '11_0']
+
+ Pathway 20 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=O)O)O)(C(C)O)=O
+    │   ├── C(C(C(C(C=C)=O)O)O)=O
+    │   │   └── C(C(C(C=O)O)O)(CCO)=O
+    │   │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── O
+    └── O
+Energy Change: -72.05
+Reaction IDs: ['155_0', '1462_0', '2563_0', '262_0', '19_0']
+
+ Pathway 21 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)=O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '1463_0', '107_0', '25_0']
+
+ Pathway 22 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── O
+    └── O
+Energy Change: -82.93
+Reaction IDs: ['155_0', '1465_0', '124_0', '25_0']
+
+ Pathway 23 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(CCO)O)O)O)=O
+    │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── O
+    └── O
+Energy Change: -82.93
+Reaction IDs: ['155_0', '1466_0', '126_0', '25_0']
+
+ Pathway 24 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── O
+    └── O
+Energy Change: -82.93
+Reaction IDs: ['155_0', '1468_0', '146_0', '25_0']
+
+ Pathway 25 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(C=O)O)O)O)(O)=O
+    │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── O
+    └── O
+Energy Change: -82.93
+Reaction IDs: ['155_0', '1470_0', '148_0', '25_0']
+
+ Pathway 26 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1(C(C(CC1O)O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -137.5
+Reaction IDs: ['155_0', '1472_0', '152_0', '25_0']
+
+ Pathway 27 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CCO)(CC(C=O)=O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1476_0', '180_0', '11_0']
+
+ Pathway 28 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CO)(CCC(C=O)=O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -108.66999999999999
+Reaction IDs: ['155_0', '1478_0', '182_0', '11_0']
+
+ Pathway 29 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)(C(CC(C=O)=O)O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.06
+Reaction IDs: ['155_0', '1479_0', '184_0', '11_0']
+
+ Pathway 30 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)=O)O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1480_0', '186_0', '11_0']
+
+ Pathway 31 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)=O)O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1482_0', '186_0', '11_0']
+
+ Pathway 32 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -108.67
+Reaction IDs: ['155_0', '1484_0', '188_0', '13_0']
+
+ Pathway 33 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.86
+Reaction IDs: ['155_0', '1485_0', '190_0', '13_0']
+
+ Pathway 34 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.67
+Reaction IDs: ['155_0', '1488_0', '194_0', '13_0']
+
+ Pathway 35 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -119.5
+Reaction IDs: ['155_0', '1490_0', '194_0', '13_0']
+
+ Pathway 36 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=O)O)(CC(C)=O)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -121.24000000000001
+Reaction IDs: ['155_0', '1492_0', '209_0', '23_0']
+
+ Pathway 37 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CCC=O)=O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1494_0', '213_0', '25_0']
+
+ Pathway 38 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CCC=O)=O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -163.61999999999998
+Reaction IDs: ['155_0', '1496_0', '213_0', '25_0']
+
+ Pathway 39 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(C)=O)=O)O)=O
+    │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.06
+Reaction IDs: ['155_0', '1498_0', '200_0', '17_0']
+
+ Pathway 40 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -114.85999999999999
+Reaction IDs: ['155_0', '1500_0', '202_0', '17_0']
+
+ Pathway 41 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1502_0', '202_0', '17_0']
+
+ Pathway 42 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC1C(C(C(O)O1)O)O)=O
+    │   └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.11
+Reaction IDs: ['155_0', '1504_0', '226_0', '27_0']
+
+ Pathway 43 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CO)O)=CC(C=O)=O
+    │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -68.09
+Reaction IDs: ['155_0', '1506_0', '256_0', '11_0']
+
+ Pathway 44 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C=CC(C(CO)O)=O)=O
+    │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -68.09
+Reaction IDs: ['155_0', '1509_0', '260_0', '17_0']
+
+ Pathway 45 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C=C)=O)O)O)=O
+    │   └── C(C(C(C=O)O)O)(CCO)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -69.96
+Reaction IDs: ['155_0', '1511_0', '262_0', '19_0']
+
+ Pathway 46 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=CC(CO)=O)O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -68.09
+Reaction IDs: ['155_0', '1512_0', '264_0', '21_0']
+
+ Pathway 47 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=CC=O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -66.09
+Reaction IDs: ['155_0', '1514_0', '266_0', '25_0']
+
+ Pathway 48 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=CC=O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -66.09
+Reaction IDs: ['155_0', '1516_0', '266_0', '25_0']
+
+ Pathway 49 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1C(C(C(C)(O1)O)O)O)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -74.67999999999999
+Reaction IDs: ['155_0', '1525_0', '291_0', '23_0']
+
+ Pathway 50 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_0', '71_1', '71_1', '23_0', '23_0']
+
+ Pathway 51 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+│   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -194.35
+Reaction IDs: ['39_1', '71_1', '71_1', '23_0', '23_0']
+
+ Pathway 52 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CO)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -118.65
+Reaction IDs: ['155_0', '109_0', '71_1', '23_0']
+
+ Pathway 53 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   └── C1(C(C(CO)O)OC(C1)O)=O
+    │       └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '115_0', '2735_0', '222_0', '27_0']
+
+ Pathway 54 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1C(C(C(C1O)O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -134.17
+Reaction IDs: ['155_0', '1436_0', '38_1', '25_0']
+
+ Pathway 55 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C)=O)=O
+    │   └── C(CC(CC(C=O)=O)O)=O
+    │       └── C(CC(C(C(C=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.53999999999999
+Reaction IDs: ['155_0', '1440_0', '1223_0', '211_0', '25_0']
+
+ Pathway 56 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CO)=O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -94.29999999999998
+Reaction IDs: ['155_0', '1441_0', '2056_0', '142_0', '21_0']
+
+ Pathway 57 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CO)=O)=O
+    │   └── C(CC(C=O)O)=O
+    │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │           └── O
+    └── O
+Energy Change: -94.31
+Reaction IDs: ['155_0', '1441_0', '1307_0', '2058_0', '146_0', '25_0']
+
+ Pathway 58 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CCO)=O)=O
+    │   └── C(C(C(C(O)=O)O)O)(CCO)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C=O)O)O)(CCO)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -94.31
+Reaction IDs: ['155_0', '1447_0', '2055_0', '140_0', '19_0']
+
+ Pathway 59 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_0', '71_0', '1223_0', '23_0', '186_0', '11_0']
+
+ Pathway 60 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_1', '71_0', '1223_0', '23_0', '186_0', '11_0']
+
+ Pathway 61 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C=O)O)=O
+    │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -92.31
+Reaction IDs: ['155_0', '1450_0', '2058_0', '146_0', '25_0']
+
+ Pathway 62 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C=O)O)=O
+    │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -92.31
+Reaction IDs: ['155_0', '1451_0', '2058_0', '146_0', '25_0']
+
+ Pathway 63 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)=O
+    │   └── C(CO)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CO)=O
+    │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -179.59
+Reaction IDs: ['155_0', '1454_0', '2121_0', '109_0', '71_0', '23_0']
+
+ Pathway 64 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)=O
+    │   └── C(CC(CC(C=O)=O)O)=O
+    │       └── C(CC(C(C(C=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -109.16999999999999
+Reaction IDs: ['155_0', '1454_0', '1225_0', '211_0', '25_0']
+
+ Pathway 65 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(CO)=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '1457_0', '1334_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 66 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1459_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 67 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1461_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 68 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)=O)O)O)=O
+    │   └── C(CO)(C(C(C(CO)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.66
+Reaction IDs: ['155_0', '1463_0', '165_0', '6_0']
+
+ Pathway 69 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -82.92999999999999
+Reaction IDs: ['155_0', '1465_0', '174_0', '9_0']
+
+ Pathway 70 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1(C(C(CC1O)O)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -137.5
+Reaction IDs: ['155_0', '1472_0', '152_1', '25_0']
+
+ Pathway 71 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CCO)(CC(C=O)=O)=O
+    │   └── C(C(C(C=O)O)O)(CCO)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1476_0', '203_0', '19_0']
+
+ Pathway 72 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CO)(CCC(C=O)=O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -108.66999999999999
+Reaction IDs: ['155_0', '1478_0', '205_0', '21_0']
+
+ Pathway 73 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)(C(CC(C=O)=O)O)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.06
+Reaction IDs: ['155_0', '1479_0', '207_0', '23_0']
+
+ Pathway 74 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)(C(CC(C=O)=O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(C(C)=O)=O
+    │       └── C(CC(CC(C=O)=O)O)=O
+    │           └── C(C(CC(C(CO)O)O)=O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -206.37999999999997
+Reaction IDs: ['155_0', '1479_0', '448_0', '1223_0', '1223_0', '186_0', '186_0', '11_0', '11_0']
+
+ Pathway 75 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)=O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1480_0', '211_0', '25_0']
+
+ Pathway 76 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)=O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1482_0', '211_0', '25_0']
+
+ Pathway 77 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(C(C(C=O)O)O)(CCO)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -108.66999999999999
+Reaction IDs: ['155_0', '1484_0', '204_0', '19_0']
+
+ Pathway 78 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C1(C(C(CO)O)OC(C1)O)=O
+    │           └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -108.67
+Reaction IDs: ['155_0', '1484_0', '188_0', '2735_0', '222_0', '27_0']
+
+ Pathway 79 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '206_0', '21_0']
+
+ Pathway 80 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(CC(C=O)O)=O)=O
+    │       └── C(CC(C=O)O)(C(CO)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '1391_0', '202_0', '17_0']
+
+ Pathway 81 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(C(CO)O)(CC(CO)=O)=O
+    │       └── C(CC(C=O)O)(C(CO)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '2112_0', '91_0', '17_0']
+
+ Pathway 82 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)=O)O)O)=O
+    │       └── C(CC(C(C(C=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '2120_0', '107_0', '25_0']
+
+ Pathway 83 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C1(C(C(CO)O)OC(C1)O)=O
+    │           └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.86
+Reaction IDs: ['155_0', '1485_0', '190_0', '2735_0', '222_0', '27_0']
+
+ Pathway 84 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1488_0', '212_0', '25_0']
+
+ Pathway 85 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C1(C(C(CO)O)OC(C1)O)=O
+    │           └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.67
+Reaction IDs: ['155_0', '1488_0', '194_0', '2735_0', '222_0', '27_0']
+
+ Pathway 86 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -119.5
+Reaction IDs: ['155_0', '1490_0', '212_0', '25_0']
+
+ Pathway 87 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       └── C1(C(C(CO)O)OC(C1)O)=O
+    │           └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -119.5
+Reaction IDs: ['155_0', '1490_0', '194_0', '2735_0', '222_0', '27_0']
+
+ Pathway 88 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(C)=O)=O)O)=O
+    │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -113.06
+Reaction IDs: ['155_0', '1498_0', '210_0', '23_0']
+
+ Pathway 89 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -114.85999999999999
+Reaction IDs: ['155_0', '1500_0', '214_0', '25_0']
+
+ Pathway 90 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -106.66999999999999
+Reaction IDs: ['155_0', '1502_0', '214_0', '25_0']
+
+ Pathway 91 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC1C(C(C(O)O1)O)O)=O
+    │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -67.11
+Reaction IDs: ['155_0', '1504_0', '295_0', '25_0']
+
+ Pathway 92 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.65
+Reaction IDs: ['155_0', '115_0', '1023_0', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 93 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(CC(C=O)O)=O
+    │   │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '115_0', '1023_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 94 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.65
+Reaction IDs: ['155_0', '115_0', '1023_1', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 95 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)=O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(CC(C=O)O)=O
+    │   │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '115_0', '1023_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 96 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(CO)=O)O)O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(CC(C=O)O)=O
+    │   │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '120_0', '1018_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 97 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(CO)=O)O)O)=O
+    │   ├── C(CC(CO)=O)=O
+    │   │   └── C(CC(C=O)O)=O
+    │   │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │           └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '120_0', '1018_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 98 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(CO)=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '120_0', '1335_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 99 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_0', '71_1', '1223_0', '23_0', '186_0', '11_0']
+
+ Pathway 100 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(CC(C(C(C=O)O)O)O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_0', '71_0', '1223_0', '23_0', '211_0', '25_0']
+
+ Pathway 101 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_1', '71_1', '1223_0', '23_0', '186_0', '11_0']
+
+ Pathway 102 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C)=O)O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(CC(C(C(C=O)O)O)O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -215.89
+Reaction IDs: ['155_0', '1448_0', '1013_1', '71_0', '1223_0', '23_0', '211_0', '25_0']
+
+ Pathway 103 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)=O
+    │   └── C(CO)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CO)=O
+    │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -179.59
+Reaction IDs: ['155_0', '1454_0', '2121_0', '109_0', '71_1', '23_0']
+
+ Pathway 104 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(CO)=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '1457_0', '1334_0', '1064_1', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 105 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(CO)=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -196.66
+Reaction IDs: ['155_0', '1457_0', '1334_0', '1064_0', '71_1', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 106 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1459_0', '1064_1', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 107 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1459_0', '1064_0', '71_1', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 108 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1461_0', '1064_1', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 109 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(CC(C=O)O)O)O)=O
+    │   ├── C(CC(C=O)O)=O
+    │   │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │   │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │   │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   │       └── O
+    │   └── C(CO)=O
+    │       └── C(C(C(C(C(C)=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1461_0', '1064_0', '71_1', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 110 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -82.92999999999999
+Reaction IDs: ['155_0', '1465_0', '174_0', '9_1']
+
+ Pathway 111 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CO)=O
+    │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -194.66
+Reaction IDs: ['155_0', '1465_0', '174_0', '128_0', '71_0', '23_0']
+
+ Pathway 112 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(CC(C(CO)O)O)=O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '132_0', '11_0']
+
+ Pathway 113 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(CO)O)O)=O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '134_0', '13_0']
+
+ Pathway 114 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C=O)O)(C(CO)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '138_0', '17_0']
+
+ Pathway 115 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C=O)O)O)(CCO)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '140_0', '19_0']
+
+ Pathway 116 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '142_0', '21_0']
+
+ Pathway 117 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -128.32999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '144_0', '23_0']
+
+ Pathway 118 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -121.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '146_0', '25_0']
+
+ Pathway 119 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -121.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '148_0', '25_0']
+
+ Pathway 120 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C1C(C(C(C1O)O)O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -190.45
+Reaction IDs: ['155_0', '1465_0', '174_0', '1533_0', '38_0', '25_0']
+
+ Pathway 121 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C)=O)=O
+    │       │   └── C(CC(CC(C=O)=O)O)=O
+    │       │       └── C(C(CC(C(CO)O)O)=O)=O
+    │       │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.04
+Reaction IDs: ['155_0', '1465_0', '174_0', '1538_0', '1223_0', '186_0', '11_0']
+
+ Pathway 122 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C)=O
+    │       │   └── C(CC(CC(C=O)=O)O)=O
+    │       │       └── C(C(CC(C(CO)O)O)=O)=O
+    │       │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -176.57999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1554_0', '1225_0', '186_0', '11_0']
+
+ Pathway 123 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C=O)O)O)(C(C)O)=O
+    │       │   ├── C(C(C(C(C=C)=O)O)O)=O
+    │       │   │   └── C(C(C(C=O)O)O)(CCO)=O
+    │       │   │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   └── O
+    │       └── O
+    └── O
+Energy Change: -128.32999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1562_0', '2563_0', '262_0', '19_0']
+
+ Pathway 124 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(CO)=O)O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.94
+Reaction IDs: ['155_0', '1465_0', '174_0', '1563_0', '107_0', '25_0']
+
+ Pathway 125 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C(CCO)O)O)O)=O
+    │       │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   └── O
+    │       └── O
+    └── O
+Energy Change: -139.20999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1565_0', '126_0', '25_0']
+
+ Pathway 126 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   └── O
+    │       └── O
+    └── O
+Energy Change: -139.20999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1567_0', '146_0', '25_0']
+
+ Pathway 127 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(C(C=O)O)O)O)(O)=O
+    │       │   ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │   │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │   └── O
+    │       └── O
+    └── O
+Energy Change: -139.20999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1568_0', '148_0', '25_0']
+
+ Pathway 128 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C1(C(C(CC1O)O)O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -193.77999999999997
+Reaction IDs: ['155_0', '1465_0', '174_0', '1570_0', '152_0', '25_0']
+
+ Pathway 129 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CCO)(CC(C=O)=O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1574_0', '180_0', '11_0']
+
+ Pathway 130 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CO)(CCC(C=O)=O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1576_0', '182_0', '11_0']
+
+ Pathway 131 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C)(C(CC(C=O)=O)O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -169.33999999999997
+Reaction IDs: ['155_0', '1465_0', '174_0', '1578_0', '184_0', '11_0']
+
+ Pathway 132 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(CC(C=O)=O)O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1580_0', '186_0', '11_0']
+
+ Pathway 133 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(CC(C=O)=O)O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1582_0', '186_0', '11_0']
+
+ Pathway 134 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(CCO)=O)=O)=O
+    │       │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1584_0', '188_0', '13_0']
+
+ Pathway 135 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(CC(CO)=O)=O)=O
+    │       │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1586_0', '190_0', '13_0']
+
+ Pathway 136 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(CC=O)O)=O)=O
+    │       │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1590_0', '194_0', '13_0']
+
+ Pathway 137 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(C(CC=O)O)=O)=O
+    │       │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -175.78
+Reaction IDs: ['155_0', '1465_0', '174_0', '1592_0', '194_0', '13_0']
+
+ Pathway 138 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C=O)O)(CC(C)=O)=O
+    │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -177.52
+Reaction IDs: ['155_0', '1465_0', '174_0', '1594_0', '209_0', '23_0']
+
+ Pathway 139 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(CCC=O)=O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1596_0', '213_0', '25_0']
+
+ Pathway 140 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(CCC=O)=O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1598_0', '213_0', '25_0']
+
+ Pathway 141 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(CC(C(C)=O)=O)O)=O
+    │       │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -169.33999999999997
+Reaction IDs: ['155_0', '1465_0', '174_0', '1600_0', '200_0', '17_0']
+
+ Pathway 142 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(CC(C=O)O)=O)=O
+    │       │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -171.14
+Reaction IDs: ['155_0', '1465_0', '174_0', '1602_0', '202_0', '17_0']
+
+ Pathway 143 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC(CC(C=O)O)=O)=O
+    │       │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -162.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1604_0', '202_0', '17_0']
+
+ Pathway 144 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(CC1C(C(C(O)O1)O)O)=O
+    │       │   └── C(C(C1C(C(C(O)O1)O)O)O)O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -123.39
+Reaction IDs: ['155_0', '1465_0', '174_0', '1606_0', '226_0', '27_0']
+
+ Pathway 145 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(CO)O)=CC(C=O)=O
+    │       │   └── C(C(CC(C(CO)O)O)=O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -124.37
+Reaction IDs: ['155_0', '1465_0', '174_0', '1608_0', '256_0', '11_0']
+
+ Pathway 146 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C=CC(C(CO)O)=O)=O
+    │       │   └── C(CC(C=O)O)(C(CO)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -124.37
+Reaction IDs: ['155_0', '1465_0', '174_0', '1612_0', '260_0', '17_0']
+
+ Pathway 147 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C(C=C)=O)O)O)=O
+    │       │   └── C(C(C(C=O)O)O)(CCO)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -126.23999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1614_0', '262_0', '19_0']
+
+ Pathway 148 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C=CC(CO)=O)O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -164.95
+Reaction IDs: ['155_0', '1465_0', '174_0', '1616_0', '264_0', '21_0']
+
+ Pathway 149 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C=CC=O)O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -122.37
+Reaction IDs: ['155_0', '1465_0', '174_0', '1618_0', '266_0', '25_0']
+
+ Pathway 150 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C(C(C=CC=O)O)O)=O
+    │       │   └── C(CC(C(C(C=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -122.37
+Reaction IDs: ['155_0', '1465_0', '174_0', '1620_0', '266_0', '25_0']
+
+ Pathway 151 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(C(CO)O)O)O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)O
+    │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       ├── C(C1C(C(C(C)(O1)O)O)O)=O
+    │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+    │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       └── O
+    └── O
+Energy Change: -130.95999999999998
+Reaction IDs: ['155_0', '1465_0', '174_0', '1630_0', '291_0', '23_0']
+
+ Pathway 152 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1(C(C(CC1O)O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -266.5
+Reaction IDs: ['155_0', '1472_0', '1639_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 153 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C1(C(C(CC1O)O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -266.5
+Reaction IDs: ['155_0', '1472_0', '1639_1', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 154 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)(C(CC(C=O)=O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(CC(C(C(C=O)O)O)O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(C(C)=O)=O
+    │       └── C(CC(CC(C=O)=O)O)=O
+    │           └── C(C(CC(C(CO)O)O)=O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -206.37999999999997
+Reaction IDs: ['155_0', '1479_0', '448_0', '1223_0', '1223_0', '211_0', '186_0', '25_0', '11_0']
+
+ Pathway 155 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C)(C(CC(C=O)=O)O)=O
+    │   ├── C(C(C)=O)=O
+    │   │   └── C(CC(CC(C=O)=O)O)=O
+    │   │       └── C(C(CC(C(CO)O)O)=O)=O
+    │   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    │   └── C(C(C)=O)=O
+    │       └── C(CC(CC(C=O)=O)O)=O
+    │           └── C(CC(C(C(C=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -206.37999999999997
+Reaction IDs: ['155_0', '1479_0', '448_0', '1223_0', '1223_0', '186_0', '211_0', '11_0', '25_0']
+
+ Pathway 156 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -237.66
+Reaction IDs: ['155_0', '1484_0', '188_0', '1023_0', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 157 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -237.67
+Reaction IDs: ['155_0', '1484_0', '188_0', '1023_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 158 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -237.66
+Reaction IDs: ['155_0', '1484_0', '188_0', '1023_1', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 159 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CCO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -237.67
+Reaction IDs: ['155_0', '1484_0', '188_0', '1023_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 160 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(CC(C=O)O)=O)=O
+    │       └── C(CC(C(C(C=O)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '1391_0', '214_0', '25_0']
+
+ Pathway 161 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(C(CO)O)(CC(CO)=O)=O
+    │       └── C(CO)(C(C(C(CO)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '2112_0', '161_0', '6_0']
+
+ Pathway 162 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)=O)O)O)=O
+    │       └── C(CO)(C(C(C(CO)O)O)O)=O
+    │           └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -116.85999999999999
+Reaction IDs: ['155_0', '1485_0', '2120_0', '165_0', '6_0']
+
+ Pathway 163 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -245.85
+Reaction IDs: ['155_0', '1485_0', '190_0', '1023_0', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 164 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -245.86
+Reaction IDs: ['155_0', '1485_0', '190_0', '1023_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 165 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -245.85
+Reaction IDs: ['155_0', '1485_0', '190_0', '1023_1', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 166 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(CO)=O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -245.86
+Reaction IDs: ['155_0', '1485_0', '190_0', '1023_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 167 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -235.66
+Reaction IDs: ['155_0', '1488_0', '194_0', '1023_0', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 168 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -235.67
+Reaction IDs: ['155_0', '1488_0', '194_0', '1023_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 169 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -235.66
+Reaction IDs: ['155_0', '1488_0', '194_0', '1023_1', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 170 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -235.67
+Reaction IDs: ['155_0', '1488_0', '194_0', '1023_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 171 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -248.49
+Reaction IDs: ['155_0', '1490_0', '194_0', '1023_0', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 172 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -248.5
+Reaction IDs: ['155_0', '1490_0', '194_0', '1023_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 173 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(C(C(CC(CO)=O)O)O)(O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(C(C(CC(CO)=O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -248.49
+Reaction IDs: ['155_0', '1490_0', '194_0', '1023_1', '71_0', '2056_0', '23_0', '142_0', '21_0']
+
+ Pathway 174 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(C(CC=O)O)=O)=O
+    │   └── C(CC(C(C(CO)O)O)=O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -248.5
+Reaction IDs: ['155_0', '1490_0', '194_0', '1023_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 175 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -243.86
+Reaction IDs: ['155_0', '1500_0', '2114_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 176 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(CC(CC(C=O)O)=O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -235.67000000000002
+Reaction IDs: ['155_0', '1502_0', '2114_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 177 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=CC(CO)=O)O)=O
+    │   └── C(C(CC(C(CO)=O)O)O)=O
+    │       └── C(C(C(CC(C=O)O)O)O)=O
+    │           ├── C(CC(C=O)O)=O
+    │           │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │           │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │           │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │           │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │           │       └── O
+    │           └── C(CO)=O
+    │               └── C(C(C(C(C(C)=O)O)O)O)=O
+    │                   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -197.09
+Reaction IDs: ['155_0', '1512_0', '2382_0', '1334_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 178 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=CC(CO)=O)O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -197.09
+Reaction IDs: ['155_0', '1512_0', '264_0', '1018_0', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 179 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=CC(CO)=O)O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       ├── C(CC(CO)=O)=O
+    │       │   └── C(CC(C=O)O)=O
+    │       │       └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │           ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │           │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │           └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -197.09
+Reaction IDs: ['155_0', '1512_0', '264_0', '1018_1', '71_0', '1307_0', '23_0', '2058_0', '146_0', '25_0']
+
+ Pathway 180 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C=CC(CO)=O)O)=O
+    │   └── C(C(C(CC(CO)=O)O)O)=O
+    │       └── C(C(C(CC(C=O)O)O)O)=O
+    │           ├── C(CC(C=O)O)=O
+    │           │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │           │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │           │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │           │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │           │       └── O
+    │           └── C(CO)=O
+    │               └── C(C(C(C(C(C)=O)O)O)O)=O
+    │                   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -197.09
+Reaction IDs: ['155_0', '1512_0', '264_0', '1335_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 181 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=CC=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -195.09
+Reaction IDs: ['155_0', '1514_0', '2388_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']
+
+ Pathway 182 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C=CC=O)O)O)=O
+    │   └── C(C(C(CC(C=O)O)O)O)=O
+    │       ├── C(CC(C=O)O)=O
+    │       │   └── C(CC(C(C(C(O)=O)O)O)O)=O
+    │       │       ├── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       ├── C(CC(C(C(C=O)O)O)O)=O
+    │       │       │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    │       │       └── O
+    │       └── C(CO)=O
+    │           └── C(C(C(C(C(C)=O)O)O)O)=O
+    │               └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Energy Change: -195.09
+Reaction IDs: ['155_0', '1516_0', '2388_0', '1064_0', '71_0', '2058_0', '23_0', '146_0', '25_0']

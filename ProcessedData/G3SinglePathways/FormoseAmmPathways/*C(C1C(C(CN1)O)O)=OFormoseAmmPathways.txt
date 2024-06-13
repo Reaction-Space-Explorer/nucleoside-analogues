@@ -1,0 +1,16 @@
+Network Smiles: C(C1C(C(CN1)O)O)=O
+Generation: G3
+INCHIKEY: OGYDNRAJWUFKAN
+Analogue Smiles: {'C(=O)[C@@H]1[C@@H]([C@H](CN1)O)O[H]', 'C(=O)[C@H]1[C@H]([C@H](CN1)O[H])O', 'C(=O)[C@H]1[C@@H]([C@H](CN1)O)O[H]', 'C(=O)[C@H]1[C@@H]([C@@H](CN1)O[H])O', 'C(=O)[C@H]1[C@@H]([C@@H](CN1)O)O[H]', 'C(=O)[C@H]1[C@@H]([C@H](CN1)O[H])O', 'C(=O)[C@H]1[C@H]([C@@H](CN1)O)O[H]', 'C(=O)[C@@H]1[C@H]([C@@H](CN1)O[H])O', 'C(=O)[C@@H]1[C@@H]([C@@H](CN1)O[H])O', 'C(=O)[C@@H]1[C@H]([C@H](CN1)O)O[H]', 'C(=O)[C@@H]1[C@H]([C@@H](CN1)O)O[H]', 'C(=O)[C@@H]1[C@H]([C@H](CN1)O[H])O', 'C(=O)[C@@H]1[C@@H]([C@H](CN1)O[H])O', 'C(=O)[C@H]1[C@H]([C@H](CN1)O)O[H]', 'C(=O)[C@H]1[C@H]([C@@H](CN1)O[H])O', 'C(=O)[C@@H]1[C@@H]([C@@H](CN1)O)O[H]'}
+
+ Pathway 0 
+C(C1C(C(CN1)O)O)=O
+└── C(C(CNCC=O)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── C(CN)=O
+        ├── C(CO)=O
+        └── N
+Energy Change: -139.12
+Reaction IDs: ['112_0', '100_0', '5_0', '10_0']

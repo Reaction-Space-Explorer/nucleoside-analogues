@@ -1,0 +1,13 @@
+Network Smiles: C1C(O)OCC(C(C=1N)O)O
+Generation: G3
+INCHIKEY: CIGCNJMOGPIAGY
+Analogue Smiles: {'C1=C([C@@H]([C@H](CO[C@@H]1O)O)O)N([H])[H]', 'C1=C([C@@H]([C@H](CO[C@H]1O)O)O)N([H])[H]', 'C1=C([C@H]([C@@H](CO[C@H]1O)O)O)N([H])[H]', 'C1=C([C@@H]([C@@H](CO[C@H]1O)O)O)N([H])[H]', 'C1=C([C@H]([C@H](CO[C@@H]1O)O)O)N([H])[H]', 'C1=C([C@H]([C@@H](CO[C@@H]1O)O)O)N([H])[H]', 'C1=C([C@@H]([C@@H](CO[C@@H]1O)O)O)N([H])[H]', 'C1=C([C@H]([C@H](CO[C@H]1O)O)O)N([H])[H]'}
+
+ Pathway 0 
+C1C(O)OCC(C(C=1N)O)O
+└── C1C(C(C(C(C(O)O1)O)N)O)O
+    └── C(C(C(C(C(CO)O)O)N)O)=O
+        ├── C(C(C(C(C(CO)O)O)O)O)=O
+        └── N
+Energy Change: -39.879999999999995
+Reaction IDs: ['4108_0', '430_0', '30_0']

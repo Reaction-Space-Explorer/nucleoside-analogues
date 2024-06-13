@@ -1,0 +1,5 @@
+Network Smiles: C(C(CNCC(CN)=O)O)=O
+Generation: G3
+INCHIKEY: CSXVHWQAIQUYCR
+Analogue Smiles: {'C(=O)[C@@H](CNCC(=O)CN)O[H]', 'C(=O)[C@H](CNCC(=O)CN([H])[H])O', 'C(=O)[C@@H](CNCC(=O)CN([H])[H])O', 'C(=O)[C@H](CNCC(=O)CN)O[H]'}
+No spontaneous pathways

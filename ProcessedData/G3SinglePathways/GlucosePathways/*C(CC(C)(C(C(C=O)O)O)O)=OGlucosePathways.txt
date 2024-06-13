@@ -1,0 +1,38 @@
+Network Smiles: C(CC(C)(C(C(C=O)O)O)O)=O
+Generation: G3
+INCHIKEY: ZHKXGIAQAXTAMP
+Analogue Smiles: {'C(=O)C[C@](C)([C@@H]([C@H](C=O)O)O[H])O', 'C(=O)C[C@@](C)([C@@H]([C@@H](C=O)O)O)O[H]', 'C(=O)C[C@@](C)([C@@H]([C@H](C=O)O[H])O)O', 'C(=O)C[C@@](C)([C@H]([C@H](C=O)O)O[H])O', 'C(=O)C[C@@](C)([C@H]([C@H](C=O)O)O)O[H]', 'C(=O)C[C@@](C)([C@@H]([C@H](C=O)O)O)O[H]', 'C(=O)C[C@](C)([C@H]([C@H](C=O)O[H])O)O', 'C(=O)C[C@](C)([C@H]([C@@H](C=O)O)O)O[H]', 'C(=O)C[C@](C)([C@@H]([C@H](C=O)O)O)O[H]', 'C(=O)C[C@](C)([C@@H]([C@@H](C=O)O)O)O[H]', 'C(=O)C[C@](C)([C@H]([C@@H](C=O)O[H])O)O', 'C(=O)C[C@](C)([C@H]([C@@H](C=O)O)O[H])O', 'C(=O)C[C@](C)([C@@H]([C@H](C=O)O[H])O)O', 'C(=O)C[C@@](C)([C@H]([C@@H](C=O)O[H])O)O', 'C(=O)C[C@@](C)([C@H]([C@H](C=O)O[H])O)O', 'C(=O)C[C@](C)([C@H]([C@H](C=O)O)O[H])O', 'C(=O)C[C@@](C)([C@H]([C@@H](C=O)O)O)O[H]', 'C(=O)C[C@@](C)([C@H]([C@@H](C=O)O)O[H])O', 'C(=O)C[C@](C)([C@H]([C@H](C=O)O)O)O[H]', 'C(=O)C[C@](C)([C@@H]([C@@H](C=O)O)O[H])O', 'C(=O)C[C@@](C)([C@@H]([C@@H](C=O)O[H])O)O', 'C(=O)C[C@](C)([C@@H]([C@@H](C=O)O[H])O)O', 'C(=O)C[C@@](C)([C@@H]([C@H](C=O)O)O[H])O', 'C(=O)C[C@@](C)([C@@H]([C@@H](C=O)O)O[H])O'}
+
+ Pathway 0 
+C(CC(C)(C(C(C=O)O)O)O)=O
+├── C(C(C(C(C)=O)O)O)=O
+│   ├── C(C(C)=O)=O
+│   │   └── C(CC(CC(C=O)=O)O)=O
+│   │       └── C(C(CC(C(CO)O)O)=O)=O
+│   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── C(CO)=O
+│       └── C(C(C(C(C(C)=O)O)O)O)=O
+│           └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(C)=O
+    └── C(CC(CC(C=O)=O)O)=O
+        └── C(C(CC(C(CO)O)O)=O)=O
+            └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -272.8
+Reaction IDs: ['810_0', '1013_0', '1225_0', '71_0', '1223_0', '186_0', '23_0', '186_0', '11_0', '11_0']
+
+ Pathway 1 
+C(CC(C)(C(C(C=O)O)O)O)=O
+├── C(C(C(C(C)=O)O)O)=O
+│   ├── C(C(C)=O)=O
+│   │   └── C(CC(CC(C=O)=O)O)=O
+│   │       └── C(C(CC(C(CO)O)O)=O)=O
+│   │           └── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── C(CO)=O
+│       └── C(C(C(C(C(C)=O)O)O)O)=O
+│           └── C(C(C(C(C(CO)O)O)O)O)=O
+└── C(C)=O
+    └── C(CC(CC(C=O)=O)O)=O
+        └── C(C(CC(C(CO)O)O)=O)=O
+            └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -272.8
+Reaction IDs: ['810_0', '1013_1', '1225_0', '71_0', '1223_0', '186_0', '23_0', '186_0', '11_0', '11_0']

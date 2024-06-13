@@ -1,0 +1,14 @@
+Network Smiles: C(CC(CO)(C(C=O)O)O)=O
+Generation: G3
+INCHIKEY: IEHDXMKHICIRFU
+Analogue Smiles: {'C(=O)C[C@](CO)([C@@H](C=O)O[H])O', 'C(=O)C[C@@](CO)([C@H](C=O)O[H])O', 'C(=O)C[C@@](CO)([C@H](C=O)O)O[H]', 'C(=O)C[C@](CO)([C@H](C=O)O)O[H]', 'C(=O)C[C@@](CO[H])([C@@H](C=O)O)O', 'C(=O)C[C@@](CO[H])([C@H](C=O)O)O', 'C(=O)C[C@](CO[H])([C@@H](C=O)O)O', 'C(=O)C[C@](CO)([C@H](C=O)O[H])O', 'C(=O)C[C@@](CO)([C@@H](C=O)O[H])O', 'C(=O)C[C@@](CO)([C@@H](C=O)O)O[H]', 'C(=O)C[C@](CO)([C@@H](C=O)O)O[H]', 'C(=O)C[C@](CO[H])([C@H](C=O)O)O'}
+
+ Pathway 0 
+C(CC(CO)(C(C=O)O)O)=O
+├── C(CC(CO)=O)=O
+│   └── C(C(C(CO)O)O)=O
+│       ├── C(CO)=O
+│       └── C(CO)=O
+└── C(CO)=O
+Energy Change: -66.13
+Reaction IDs: ['763_0', '94_0', '7_0']

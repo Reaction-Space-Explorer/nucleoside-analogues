@@ -1,0 +1,13 @@
+Network Smiles: C(CN)(C(C(C(CO)O)N)O)=O
+Generation: G2
+INCHIKEY: KTLZNQVCIYBNIW
+Analogue Smiles: {'C(=O)(CN)[C@H]([C@@H]([C@@H](CO)O[H])N)O', 'C(=O)(CN)[C@@H]([C@H]([C@@H](CO)O)N([H])[H])O', 'C(=O)(CN([H])[H])[C@@H]([C@H]([C@@H](CO)O)N)O', 'C(=O)(CN)[C@H]([C@@H]([C@H](CO)O)N)O[H]', 'C(=O)(CN)[C@H]([C@@H]([C@H](CO[H])O)N)O', 'C(=O)(CN)[C@H]([C@H]([C@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@H]([C@H]([C@@H](CO)O[H])N)O', 'C(=O)(CN)[C@H]([C@@H]([C@H](CO)O[H])N)O', 'C(=O)(CN)[C@@H]([C@H]([C@@H](CO)O)N)O[H]', 'C(=O)(CN([H])[H])[C@H]([C@@H]([C@H](CO)O)N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@H](CO)O)N)O[H]', 'C(=O)(CN)[C@H]([C@H]([C@@H](CO[H])O)N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@H]([C@@H]([C@@H](CO[H])O)N)O', 'C(=O)(CN)[C@H]([C@@H]([C@@H](CO)O)N)O[H]', 'C(=O)(CN([H])[H])[C@H]([C@H]([C@H](CO)O)N)O', 'C(=O)(CN)[C@H]([C@@H]([C@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@@H]([C@H]([C@@H](CO)O[H])N)O', 'C(=O)(CN)[C@@H]([C@H]([C@H](CO)O)N)O[H]', 'C(=O)(CN)[C@H]([C@H]([C@@H](CO)O)N)O[H]', 'C(=O)(CN)[C@@H]([C@H]([C@@H](CO[H])O)N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@@H](CO[H])O)N)O', 'C(=O)(CN([H])[H])[C@@H]([C@@H]([C@@H](CO)O)N)O', 'C(=O)(CN([H])[H])[C@H]([C@@H]([C@@H](CO)O)N)O', 'C(=O)(CN)[C@H]([C@@H]([C@@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@@H]([C@H]([C@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@H]([C@H]([C@@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@@H]([C@@H]([C@@H](CO)O)N)O[H]', 'C(=O)(CN)[C@@H]([C@@H]([C@H](CO[H])O)N)O', 'C(=O)(CN)[C@H]([C@H]([C@H](CO[H])O)N)O', 'C(=O)(CN)[C@H]([C@H]([C@H](CO)O[H])N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@@H](CO)O)N([H])[H])O', 'C(=O)(CN)[C@@H]([C@H]([C@H](CO[H])O)N)O', 'C(=O)(CN([H])[H])[C@@H]([C@@H]([C@H](CO)O)N)O', 'C(=O)(CN)[C@@H]([C@H]([C@H](CO)O[H])N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@H](CO)O[H])N)O', 'C(=O)(CN([H])[H])[C@@H]([C@H]([C@H](CO)O)N)O', 'C(=O)(CN)[C@H]([C@H]([C@H](CO)O)N)O[H]', 'C(=O)(CN([H])[H])[C@H]([C@H]([C@@H](CO)O)N)O', 'C(=O)(CN)[C@@H]([C@@H]([C@@H](CO)O[H])N)O'}
+
+ Pathway 0 
+C(CN)(C(C(C(CO)O)N)O)=O
+├── C(CN)(C(C(C(CO)O)O)O)=O
+│   ├── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── N
+└── N
+Energy Change: -31.95
+Reaction IDs: ['363_0', '9_0']

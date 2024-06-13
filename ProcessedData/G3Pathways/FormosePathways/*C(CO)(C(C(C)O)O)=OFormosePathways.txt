@@ -1,0 +1,60 @@
+Network Smiles: C(CO)(C(C(C)O)O)=O
+Generation: G3
+INCHIKEY: MRKRITSFTIHTAQ
+Analogue Smiles: {'C(=O)(CO)[C@@H]([C@@H](C)O)O[H]', 'C(=O)(CO[H])[C@H]([C@@H](C)O)O', 'C(=O)(CO)[C@@H]([C@H](C)O[H])O', 'C(=O)(CO[H])[C@@H]([C@H](C)O)O', 'C(=O)(CO)[C@@H]([C@H](C)O)O[H]', 'C(=O)(CO)[C@H]([C@H](C)O[H])O', 'C(=O)(CO[H])[C@H]([C@H](C)O)O', 'C(=O)(CO)[C@H]([C@@H](C)O[H])O', 'C(=O)(CO)[C@@H]([C@@H](C)O[H])O', 'C(=O)(CO)[C@H]([C@H](C)O)O[H]', 'C(=O)(CO[H])[C@@H]([C@@H](C)O)O', 'C(=O)(CO)[C@H]([C@@H](C)O)O[H]'}
+
+ Pathway 0 
+C(CO)(C(C(C)O)O)=O
+├── C(C)=O
+│   └── C(CO)O
+│       ├── C(CO)=O
+│       ├── C=O
+│       └── O
+└── C(CO)(CO)=O
+    └── C(C(CO)O)=O
+        ├── C(CO)=O
+        └── C=O
+Energy Change: -116.34
+Reaction IDs: ['126_0', '24_0', '63_0', '4_0', '12_0']
+
+ Pathway 1 
+C(CO)(C(C(C)O)O)=O
+├── C(C)=O
+│   └── C(CO)O
+│       ├── C(CO)=O
+│       ├── C=O
+│       └── O
+└── C(CO)(CO)=O
+    └── C(C(CO)O)=O
+        ├── C(CO)=O
+        └── C=O
+Energy Change: -116.34
+Reaction IDs: ['126_1', '24_0', '63_0', '4_0', '12_0']
+
+ Pathway 2 
+C(CO)(C(C(C)O)O)=O
+├── C(C)=O
+│   └── C(CO)O
+│       ├── C(CO)=O
+│       ├── C=O
+│       └── O
+└── C(CO)(CO)=O
+    └── C(C(CO)O)=O
+        ├── C(CO)=O
+        └── C=O
+Energy Change: -116.34
+Reaction IDs: ['126_0', '24_0', '63_0', '4_1', '12_0']
+
+ Pathway 3 
+C(CO)(C(C(C)O)O)=O
+├── C(C)=O
+│   └── C(CO)O
+│       ├── C(CO)=O
+│       ├── C=O
+│       └── O
+└── C(CO)(CO)=O
+    └── C(C(CO)O)=O
+        ├── C(CO)=O
+        └── C=O
+Energy Change: -116.34
+Reaction IDs: ['126_1', '24_0', '63_0', '4_1', '12_0']

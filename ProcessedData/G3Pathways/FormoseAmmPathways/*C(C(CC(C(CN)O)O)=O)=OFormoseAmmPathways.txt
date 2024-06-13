@@ -1,0 +1,268 @@
+Network Smiles: C(C(CC(C(CN)O)O)=O)=O
+Generation: G3
+INCHIKEY: KEZKOUJRKCLMLA
+Analogue Smiles: {'C(=O)C(=O)C[C@H]([C@H](CN)O[H])O', 'C(=O)C(=O)C[C@@H]([C@@H](CN)O)O[H]', 'C(=O)C(=O)C[C@@H]([C@@H](CN([H])[H])O)O', 'C(=O)C(=O)C[C@@H]([C@H](CN)O)O[H]', 'C(=O)C(=O)C[C@@H]([C@H](CN)O[H])O', 'C(=O)C(=O)C[C@H]([C@@H](CN([H])[H])O)O', 'C(=O)C(=O)C[C@@H]([C@@H](CN)O[H])O', 'C(=O)C(=O)C[C@H]([C@@H](CN)O[H])O', 'C(=O)C(=O)C[C@H]([C@@H](CN)O)O[H]', 'C(=O)C(=O)C[C@@H]([C@H](CN([H])[H])O)O', 'C(=O)C(=O)C[C@H]([C@H](CN([H])[H])O)O', 'C(=O)C(=O)C[C@H]([C@H](CN)O)O[H]'}
+
+ Pathway 0 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CO)O)=O
+│       ├── C(CO)=O
+│       └── C=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '88_0', '104_0', '5_0', '5_0']
+
+ Pathway 1 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── C(CN)=O
+│           ├── C(CO)=O
+│           └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '100_0', '5_0', '5_0', '10_0']
+
+ Pathway 2 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '1904_0', '104_0', '104_0', '5_0', '5_0']
+
+ Pathway 3 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CO)O)=O
+│       ├── C(CO)=O
+│       └── C=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '88_0', '104_0', '5_1', '5_0']
+
+ Pathway 4 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CO)O)=O
+│       ├── C(CO)=O
+│       └── C=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '88_0', '104_0', '5_0', '5_1']
+
+ Pathway 5 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CN)O)=O
+│       │   ├── C(C(CO)O)=O
+│       │   │   ├── C(CO)=O
+│       │   │   └── C=O
+│       │   └── N
+│       └── C(CO)=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '1127_0', '5_0', '104_0', '5_0']
+
+ Pathway 6 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── C(CN)=O
+│           ├── C(CO)=O
+│           └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '100_0', '5_1', '5_0', '10_0']
+
+ Pathway 7 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── C(CN)=O
+│           ├── C(CO)=O
+│           └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '100_0', '5_0', '5_1', '10_0']
+
+ Pathway 8 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '1904_0', '104_0', '104_0', '5_1', '5_0']
+
+ Pathway 9 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '1904_0', '104_0', '104_0', '5_0', '5_1']
+
+ Pathway 10 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CO)O)=O
+│       ├── C(CO)=O
+│       └── C=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '88_0', '104_0', '5_1', '5_1']
+
+ Pathway 11 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CN)O)=O
+│       │   ├── C(C(CO)O)=O
+│       │   │   ├── C(CO)=O
+│       │   │   └── C=O
+│       │   └── N
+│       └── C(CO)=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '1127_0', '5_1', '104_0', '5_0']
+
+ Pathway 12 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CN)O)=O
+│       │   ├── C(C(CO)O)=O
+│       │   │   ├── C(CO)=O
+│       │   │   └── C=O
+│       │   └── N
+│       └── C(CO)=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '1127_0', '5_0', '104_0', '5_1']
+
+ Pathway 13 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── C(CN)=O
+│           ├── C(CO)=O
+│           └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '100_0', '5_1', '5_1', '10_0']
+
+ Pathway 14 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -134.94
+Reaction IDs: ['481_0', '1904_0', '104_0', '104_0', '5_1', '5_1']
+
+ Pathway 15 
+C(C(CC(C(CN)O)O)=O)=O
+├── C(C(C)=O)=O
+│   └── C(C(CNCC=O)O)=O
+│       ├── C(C(CN)O)=O
+│       │   ├── C(C(CO)O)=O
+│       │   │   ├── C(CO)=O
+│       │   │   └── C=O
+│       │   └── N
+│       └── C(CO)=O
+└── C(C(CN)O)=O
+    ├── C(C(CO)O)=O
+    │   ├── C(CO)=O
+    │   └── C=O
+    └── N
+Energy Change: -156.3
+Reaction IDs: ['481_0', '1901_0', '104_0', '1127_0', '5_1', '104_0', '5_1']

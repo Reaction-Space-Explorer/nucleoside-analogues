@@ -1,0 +1,114 @@
+Network Smiles: C(CN)(C(CO)O)=O
+Generation: G2
+INCHIKEY: WZDHWMRAASHPBX
+Analogue Smiles: {'C(=O)(CN)[C@@H](CO)O[H]', 'C(=O)(CN)[C@H](CO[H])O', 'C(=O)(CN)[C@@H](CO[H])O', 'C(=O)(CN([H])[H])[C@@H](CO)O', 'C(=O)(CN)[C@H](CO)O[H]', 'C(=O)(CN([H])[H])[C@H](CO)O'}
+
+ Pathway 0 
+C(CN)(C(CO)O)=O
+├── C(C(C(CO)O)O)=O
+│   ├── C(CO)=O
+│   └── C(CO)=O
+└── N
+Energy Change: -36.730000000000004
+Reaction IDs: ['49_0', '7_0']
+
+ Pathway 1 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   ├── C(C(CO)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C=O
+│   └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_0', '47_0', '5_0']
+
+ Pathway 2 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   ├── C(C(CO)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C=O
+│   └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_1', '47_0', '5_0']
+
+ Pathway 3 
+C(CN)(C(CO)O)=O
+├── C(C(C(CO)O)O)=O
+│   ├── C(CO)=O
+│   └── C(CO)=O
+└── N
+Energy Change: -36.730000000000004
+Reaction IDs: ['49_0', '7_1']
+
+ Pathway 4 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_0', '846_0', '104_0', '5_0']
+
+ Pathway 5 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   ├── C(C(CO)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C=O
+│   └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_0', '47_0', '5_1']
+
+ Pathway 6 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_1', '846_0', '104_0', '5_0']
+
+ Pathway 7 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   ├── C(C(CO)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C=O
+│   └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_1', '47_0', '5_1']
+
+ Pathway 8 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_0', '846_0', '104_0', '5_1']
+
+ Pathway 9 
+C(CN)(C(CO)O)=O
+├── C(CO)(CN)=O
+│   └── C(C(CN)O)=O
+│       ├── C(C(CO)O)=O
+│       │   ├── C(CO)=O
+│       │   └── C=O
+│       └── N
+└── C=O
+Energy Change: -82.56
+Reaction IDs: ['668_1', '846_0', '104_0', '5_1']

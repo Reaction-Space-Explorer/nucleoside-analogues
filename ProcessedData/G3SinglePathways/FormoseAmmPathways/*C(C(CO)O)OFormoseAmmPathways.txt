@@ -1,0 +1,14 @@
+Network Smiles: C(C(CO)O)O
+Generation: G2
+INCHIKEY: PEDCQBHIVMGVHV
+Analogue Smiles: {'C([C@H](CO)O)O[H]', 'C([C@@H](CO)O)O[H]', 'C(C(CO)O[H])O'}
+
+ Pathway 0 
+C(C(CO)O)O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   └── C=O
+├── C=O
+└── O
+Energy Change: -63.01
+Reaction IDs: ['53_0', '5_0']

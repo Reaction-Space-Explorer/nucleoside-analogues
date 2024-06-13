@@ -1,0 +1,22 @@
+Network Smiles: C1(C(CC(C1(CO)O)O)O)=O
+Generation: G3
+INCHIKEY: HKXCKZVYORVQST
+Analogue Smiles: {'C1(=O)[C@H](C[C@H]([C@]1(CO[H])O)O)O', 'C1(=O)[C@@H](C[C@H]([C@]1(CO)O)O)O[H]', 'C1(=O)[C@@H](C[C@@H]([C@@]1(CO)O)O[H])O', 'C1(=O)[C@@H](C[C@@H]([C@]1(CO)O)O[H])O', 'C1(=O)[C@@H](C[C@@H]([C@@]1(CO[H])O)O)O', 'C1(=O)[C@@H](C[C@H]([C@@]1(CO)O)O)O[H]', 'C1(=O)[C@H](C[C@H]([C@]1(CO)O)O)O[H]', 'C1(=O)[C@H](C[C@@H]([C@@]1(CO)O)O[H])O', 'C1(=O)[C@H](C[C@H]([C@]1(CO)O)O[H])O', 'C1(=O)[C@H](C[C@@H]([C@@]1(CO)O[H])O)O', 'C1(=O)[C@H](C[C@H]([C@@]1(CO)O)O)O[H]', 'C1(=O)[C@@H](C[C@@H]([C@]1(CO)O[H])O)O', 'C1(=O)[C@H](C[C@@H]([C@]1(CO)O[H])O)O', 'C1(=O)[C@@H](C[C@H]([C@]1(CO)O[H])O)O', 'C1(=O)[C@@H](C[C@@H]([C@@]1(CO)O)O)O[H]', 'C1(=O)[C@@H](C[C@H]([C@@]1(CO)O[H])O)O', 'C1(=O)[C@H](C[C@H]([C@@]1(CO[H])O)O)O', 'C1(=O)[C@H](C[C@@H]([C@@]1(CO[H])O)O)O', 'C1(=O)[C@H](C[C@@H]([C@]1(CO)O)O)O[H]', 'C1(=O)[C@@H](C[C@@H]([C@]1(CO[H])O)O)O', 'C1(=O)[C@@H](C[C@@H]([C@]1(CO)O)O)O[H]', 'C1(=O)[C@@H](C[C@H]([C@@]1(CO[H])O)O)O', 'C1(=O)[C@H](C[C@@H]([C@]1(CO)O)O[H])O', 'C1(=O)[C@H](C[C@H]([C@@]1(CO)O[H])O)O', 'C1(=O)[C@H](C[C@H]([C@]1(CO)O[H])O)O', 'C1(=O)[C@@H](C[C@H]([C@@]1(CO)O)O[H])O', 'C1(=O)[C@@H](C[C@@H]([C@@]1(CO)O[H])O)O', 'C1(=O)[C@@H](C[C@H]([C@]1(CO[H])O)O)O', 'C1(=O)[C@@H](C[C@H]([C@]1(CO)O)O[H])O', 'C1(=O)[C@H](C[C@H]([C@@]1(CO)O)O[H])O', 'C1(=O)[C@H](C[C@@H]([C@]1(CO[H])O)O)O', 'C1(=O)[C@H](C[C@@H]([C@@]1(CO)O)O)O[H]'}
+
+ Pathway 0 
+C1(C(CC(C1(CO)O)O)O)=O
+└── C(CC(C(C(CO)O)=O)O)=O
+    └── C(C(C(CO)O)O)(C(CO)O)=O
+        ├── C(CO)(C(CO)O)=O
+        │   └── C(C(C(CO)O)O)=O
+        │       ├── C(CO)=O
+        │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+        │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+        │       └── C(CO)=O
+        │           └── C(C(C(C(C(C)=O)O)O)O)=O
+        │               └── C(C(C(C(C(CO)O)O)O)O)=O
+        └── C(CO)=O
+            └── C(C(C(C(C(C)=O)O)O)O)=O
+                └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -429.29999999999995
+Reaction IDs: ['1638_0', '2104_0', '1075_0', '71_0', '80_0', '23_0', '39_0', '71_0', '71_0', '23_0', '23_0']

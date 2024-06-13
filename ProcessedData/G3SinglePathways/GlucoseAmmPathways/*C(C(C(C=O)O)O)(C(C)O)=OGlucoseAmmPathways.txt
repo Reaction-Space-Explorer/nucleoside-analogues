@@ -1,0 +1,13 @@
+Network Smiles: C(C(C(C=O)O)O)(C(C)O)=O
+Generation: G2
+INCHIKEY: LLJOTQMGGPLNOO
+Analogue Smiles: {'C(=O)[C@@H]([C@H](C(=O)[C@@H](C)O)O[H])O', 'C(=O)[C@H]([C@@H](C(=O)[C@@H](C)O[H])O)O', 'C(=O)[C@@H]([C@@H](C(=O)[C@@H](C)O)O[H])O', 'C(=O)[C@@H]([C@H](C(=O)[C@@H](C)O)O)O[H]', 'C(=O)[C@@H]([C@@H](C(=O)[C@H](C)O[H])O)O', 'C(=O)[C@@H]([C@H](C(=O)[C@H](C)O)O[H])O', 'C(=O)[C@H]([C@@H](C(=O)[C@@H](C)O)O[H])O', 'C(=O)[C@@H]([C@@H](C(=O)[C@@H](C)O[H])O)O', 'C(=O)[C@H]([C@@H](C(=O)[C@H](C)O)O[H])O', 'C(=O)[C@@H]([C@H](C(=O)[C@H](C)O[H])O)O', 'C(=O)[C@@H]([C@H](C(=O)[C@@H](C)O[H])O)O', 'C(=O)[C@@H]([C@@H](C(=O)[C@@H](C)O)O)O[H]', 'C(=O)[C@H]([C@H](C(=O)[C@H](C)O)O)O[H]', 'C(=O)[C@H]([C@H](C(=O)[C@H](C)O)O[H])O', 'C(=O)[C@@H]([C@@H](C(=O)[C@H](C)O)O[H])O', 'C(=O)[C@H]([C@@H](C(=O)[C@H](C)O)O)O[H]', 'C(=O)[C@H]([C@@H](C(=O)[C@H](C)O[H])O)O', 'C(=O)[C@H]([C@H](C(=O)[C@@H](C)O)O[H])O', 'C(=O)[C@@H]([C@H](C(=O)[C@H](C)O)O)O[H]', 'C(=O)[C@H]([C@H](C(=O)[C@@H](C)O)O)O[H]', 'C(=O)[C@H]([C@H](C(=O)[C@@H](C)O[H])O)O', 'C(=O)[C@H]([C@@H](C(=O)[C@@H](C)O)O)O[H]', 'C(=O)[C@H]([C@H](C(=O)[C@H](C)O[H])O)O', 'C(=O)[C@@H]([C@@H](C(=O)[C@H](C)O)O)O[H]'}
+
+ Pathway 0 
+C(C(C(C=O)O)O)(C(C)O)=O
+├── C(C(C(C(C=C)=O)O)O)=O
+│   └── C(C(C(C=O)O)O)(CCO)=O
+│       └── C(C(C(C(C(CO)O)O)O)O)=O
+└── O
+Energy Change: -45.4
+Reaction IDs: ['4234_0', '338_0', '22_0']

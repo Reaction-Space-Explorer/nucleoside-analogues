@@ -1,0 +1,18 @@
+Network Smiles: C(C(C(CO)O)(C(CN)O)O)O
+Generation: G3
+INCHIKEY: KQAJPNNQNURMRU
+Analogue Smiles: {'C([C@@]([C@@H](CN)O)([C@@H](CO)O)O)O[H]', 'C([C@H]([C@](CO)([C@H](CN)O)O)O)O[H]', 'C([C@@H]([C@](CO)([C@H](CO)O[H])O)O)N', 'C([C@@H]([C@@](CO)([C@@H](CO)O[H])O)O)N', 'C([C@H]([C@](CO)([C@H](CO)O)O)O[H])N', 'C([C@H]([C@](CO)([C@@H](CO)O)O)O[H])N', 'C([C@H]([C@](CO)([C@H](CO)O)O[H])O)N', 'C([C@@H]([C@](CO)([C@H](CO)O)O)O[H])N', 'C([C@]([C@H](CN)O)([C@H](CO)O)O)O[H]', 'C([C@]([C@H](CN)O)([C@@H](CO)O)O)O[H]', 'C([C@H]([C@@](CO)([C@H](CO)O)O)O[H])N', 'C([C@@H]([C@@](CO)([C@H](CN)O)O)O)O[H]', 'C([C@@H]([C@@](CO)([C@H](CO)O)O)O[H])N', 'C([C@H]([C@@](CO)([C@@H](CN)O)O)O)O[H]', 'C([C@@H]([C@](CO)([C@@H](CO)O)O[H])O)N', 'C([C@@H]([C@](CO)([C@@H](CN)O)O)O)O[H]', 'C([C@H]([C@](CO)([C@@H](CN)O)O)O)O[H]', 'C([C@@H]([C@@](CO)([C@H](CO)O)O[H])O)N', 'C([C@H]([C@@](CO)([C@H](CN)O)O)O)O[H]', 'C([C@@H]([C@@](CO)([C@@H](CO)O)O)O[H])N', 'C([C@H]([C@@](CO)([C@H](CO)O[H])O)O)N', 'C([C@@H]([C@](CO)([C@@H](CO)O)O)O[H])N', 'C([C@H]([C@@](CO)([C@@H](CO)O)O)O[H])N', 'C([C@@H]([C@@](CO)([C@@H](CO)O)O[H])O)N', 'C([C@H]([C@](CO)([C@@H](CO)O)O[H])O)N', 'C([C@@]([C@@H](CN)O)([C@H](CO)O)O)O[H]', 'C([C@@H]([C@](CO)([C@@H](CO)O[H])O)O)N', 'C([C@@H]([C@](CO)([C@H](CO)O)O[H])O)N', 'C([C@H]([C@@](CO)([C@H](CO)O)O[H])O)N', 'C([C@]([C@@H](CN)O)([C@H](CO)O)O)O[H]', 'C([C@@]([C@H](CN)O)([C@H](CO)O)O)O[H]', 'C([C@H]([C@](CO)([C@@H](CO)O[H])O)O)N', 'C([C@@H]([C@](CO)([C@H](CN)O)O)O)O[H]', 'C([C@H]([C@](CO)([C@H](CO)O[H])O)O)N', 'C([C@]([C@@H](CN)O)([C@@H](CO)O)O)O[H]', 'C([C@@H]([C@@](CO)([C@@H](CN)O)O)O)O[H]', 'C([C@@]([C@H](CN)O)([C@@H](CO)O)O)O[H]', 'C([C@H]([C@@](CO)([C@@H](CO)O[H])O)O)N', 'C([C@@H]([C@@](CO)([C@H](CO)O[H])O)O)N', 'C([C@H]([C@@](CO)([C@@H](CO)O)O[H])O)N'}
+
+ Pathway 0 
+C(C(C(CO)O)(C(CN)O)O)O
+├── C(C(C(CO)O)(C(CN)O)O)=O
+│   ├── C(C(C(CO)O)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C(CO)=O
+│   └── C(CN)=O
+│       ├── C(CO)=O
+│       └── N
+├── C=O
+└── O
+Energy Change: -70.4
+Reaction IDs: ['1154_0', '69_0', '7_0', '10_0']

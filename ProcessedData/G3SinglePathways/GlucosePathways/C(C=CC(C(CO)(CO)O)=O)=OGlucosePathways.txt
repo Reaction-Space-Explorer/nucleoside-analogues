@@ -1,0 +1,5 @@
+Network Smiles: C(C=CC(C(CO)(CO)O)=O)=O
+Generation: G3
+INCHIKEY: FDRNHHBGRYBJAX
+Analogue Smiles: {'C(=C\\C(=O)[C@@](CO[H])(CO)O)/C=O', 'C(=C\\C(=O)C(CO)(CO)O[H])/C=O', 'C(=C\\C(=O)[C@](CO[H])(CO)O)\\C=O', 'C(=C\\C(=O)[C@@](CO[H])(CO)O)\\C=O', 'C(=C\\C(=O)[C@](CO[H])(CO)O)/C=O', 'C(=C\\C(=O)C(CO)(CO)O[H])\\C=O'}
+No spontaneous pathways

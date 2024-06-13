@@ -1,0 +1,22 @@
+Network Smiles: C(C(C(CO)N)O)(C(CO)O)=O
+Generation: G3
+INCHIKEY: OSPBCQWDZALLTM
+Analogue Smiles: {'C(=O)([C@H](CO)O)[C@@H]([C@H](CO[H])N)O', 'C(=O)([C@@H](CO)O[H])[C@H]([C@@H](CO)N)O', 'C(=O)([C@H](CO)O[H])[C@H]([C@@H](CO)N)O', 'C(=O)([C@H](CO)O)[C@H]([C@@H](CO[H])N)O', 'C(=O)([C@@H](CO)O)[C@H]([C@@H](CO[H])N)O', 'C(=O)([C@@H](CO)O[H])[C@H]([C@H](CO)N)O', 'C(=O)([C@@H](CO)O)[C@@H]([C@@H](CO[H])N)O', 'C(=O)([C@@H](CO[H])O)[C@@H]([C@@H](CO)N)O', 'C(=O)([C@H](CO)O)[C@@H]([C@@H](CO[H])N)O', 'C(=O)([C@@H]([C@H](CO)N)O[H])[C@@H](CO)O', 'C(=O)([C@@H]([C@H](CO)N)O[H])[C@H](CO)O', 'C(=O)([C@@H]([C@@H](CO)N)O[H])[C@H](CO)O', 'C(=O)([C@@H](CO[H])O)[C@@H]([C@H](CO)N)O', 'C(=O)([C@H](CO[H])O)[C@H]([C@@H](CO)N)O', 'C(=O)([C@H]([C@H](CO)N)O[H])[C@H](CO)O', 'C(=O)([C@@H](CO)O)[C@H]([C@H](CO[H])N)O', 'C(=O)([C@H]([C@@H](CO)N)O[H])[C@H](CO)O', 'C(=O)([C@H]([C@H](CO)N)O[H])[C@@H](CO)O', 'C(=O)([C@@H](CO)O)[C@@H]([C@H](CO[H])N)O', 'C(=O)([C@H](CO[H])O)[C@@H]([C@@H](CO)N)O', 'C(=O)([C@@H]([C@@H](CO)N)O[H])[C@@H](CO)O', 'C(=O)([C@@H](CO)O[H])[C@@H]([C@@H](CO)N)O', 'C(=O)([C@H](CO)O[H])[C@@H]([C@H](CO)N)O', 'C(=O)([C@H](CO)O[H])[C@@H]([C@@H](CO)N)O', 'C(=O)([C@H](CO)O[H])[C@H]([C@H](CO)N)O', 'C(=O)([C@H](CO[H])O)[C@H]([C@H](CO)N)O', 'C(=O)([C@H](CO)O)[C@H]([C@H](CO[H])N)O', 'C(=O)([C@H](CO[H])O)[C@@H]([C@H](CO)N)O', 'C(=O)([C@@H](CO[H])O)[C@H]([C@@H](CO)N)O', 'C(=O)([C@@H](CO[H])O)[C@H]([C@H](CO)N)O', 'C(=O)([C@H]([C@@H](CO)N)O[H])[C@@H](CO)O', 'C(=O)([C@@H](CO)O[H])[C@@H]([C@H](CO)N)O'}
+
+ Pathway 0 
+C(C(C(CO)N)O)(C(CO)O)=O
+├── C(C(C(CO)O)O)(C(CO)O)=O
+│   ├── C(CO)(C(CO)O)=O
+│   │   └── C(C(C(CO)O)O)=O
+│   │       ├── C(CO)=O
+│   │       │   └── C(C(C(C(C(C)=O)O)O)O)=O
+│   │       │       └── C(C(C(C(C(CO)O)O)O)O)=O
+│   │       └── C(CO)=O
+│   │           └── C(C(C(C(C(C)=O)O)O)O)=O
+│   │               └── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── C(CO)=O
+│       └── C(C(C(C(C(C)=O)O)O)O)=O
+│           └── C(C(C(C(C(CO)O)O)O)O)=O
+└── N
+Energy Change: -310.30999999999995
+Reaction IDs: ['4395_0', '1518_0', '78_0', '87_0', '26_0', '44_0', '78_0', '78_0', '26_0', '26_0']

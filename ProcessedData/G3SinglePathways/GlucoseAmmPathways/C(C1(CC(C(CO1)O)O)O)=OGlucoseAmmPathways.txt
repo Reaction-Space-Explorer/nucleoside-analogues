@@ -1,0 +1,5 @@
+Network Smiles: C(C1(CC(C(CO1)O)O)O)=O
+Generation: G2
+INCHIKEY: LBJWYRASHSNTEP
+Analogue Smiles: {'C(=O)[C@@]1(C[C@H]([C@H](CO1)O)O)O[H]', 'C(=O)[C@@]1(C[C@@H]([C@@H](CO1)O)O)O[H]', 'C(=O)[C@]1(C[C@@H]([C@H](CO1)O)O)O[H]', 'C(=O)[C@@]1(C[C@H]([C@@H](CO1)O)O)O[H]', 'C(=O)[C@]1(C[C@H]([C@H](CO1)O)O)O[H]', 'C(=O)[C@@]1(C[C@@H]([C@H](CO1)O)O)O[H]', 'C(=O)[C@]1(C[C@@H]([C@@H](CO1)O)O)O[H]', 'C(=O)[C@]1(C[C@H]([C@@H](CO1)O)O)O[H]'}
+No spontaneous pathways

@@ -1,0 +1,22 @@
+Network Smiles: C(C(CN)(C(C(CO)O)O)O)O
+Generation: G3
+INCHIKEY: UORKMVDIGPIQER
+Analogue Smiles: {'C([C@](CO)([C@@H]([C@@H](CO)O[H])O)O)N', 'C([C@](CO)([C@H]([C@H](CO)O)O[H])O)N', 'C([C@@](CO)([C@H]([C@@H](CO)O)O)O[H])N', 'C([C@H]([C@@H]([C@](CN)(CO)O)O)O)O[H]', 'C([C@](CO)([C@H]([C@@H](CO)O[H])O)O)N', 'C([C@@H]([C@H]([C@](CN)(CO)O)O)O)O[H]', 'C([C@@](CO)([C@H]([C@H](CO)O[H])O)O)N', 'C([C@@](CO)([C@@H]([C@@H](CO)O)O[H])O)N', 'C([C@@](CO)([C@@H]([C@H](CO)O)O)O[H])N', 'C([C@](CN)([C@H]([C@H](CO)O)O)O)O[H]', 'C([C@@](CO)([C@H]([C@@H](CO)O)O[H])O)N', 'C([C@@](CN)([C@H]([C@H](CO)O)O)O)O[H]', 'C([C@@](CN)([C@H]([C@@H](CO)O)O)O)O[H]', 'C([C@@H]([C@H]([C@@](CN)(CO)O)O)O)O[H]', 'C([C@](CO)([C@@H]([C@@H](CO)O)O)O[H])N', 'C([C@@](CO)([C@H]([C@H](CO)O)O)O[H])N', 'C([C@@H]([C@@H]([C@](CN)(CO)O)O)O)O[H]', 'C([C@](CO)([C@@H]([C@H](CO)O)O)O[H])N', 'C([C@](CO)([C@@H]([C@H](CO)O[H])O)O)N', 'C([C@](CO)([C@H]([C@@H](CO)O)O)O[H])N', 'C([C@@](CO)([C@H]([C@@H](CO)O[H])O)O)N', 'C([C@H]([C@@H]([C@@](CN)(CO)O)O)O)O[H]', 'C([C@](CN)([C@@H]([C@H](CO)O)O)O)O[H]', 'C([C@](CO)([C@H]([C@@H](CO)O)O[H])O)N', 'C([C@@](CO)([C@@H]([C@H](CO)O)O[H])O)N', 'C([C@@](CN)([C@@H]([C@@H](CO)O)O)O)O[H]', 'C([C@@H]([C@@H]([C@@](CN)(CO)O)O)O)O[H]', 'C([C@@](CO)([C@H]([C@H](CO)O)O[H])O)N', 'C([C@@](CN)([C@@H]([C@H](CO)O)O)O)O[H]', 'C([C@H]([C@H]([C@@](CN)(CO)O)O)O)O[H]', 'C([C@@](CO)([C@@H]([C@@H](CO)O)O)O[H])N', 'C([C@](CN)([C@H]([C@@H](CO)O)O)O)O[H]', 'C([C@](CN)([C@@H]([C@@H](CO)O)O)O)O[H]', 'C([C@](CO)([C@H]([C@H](CO)O)O)O[H])N', 'C([C@](CO)([C@H]([C@H](CO)O[H])O)O)N', 'C([C@H]([C@H]([C@](CN)(CO)O)O)O)O[H]', 'C([C@](CO)([C@@H]([C@H](CO)O)O[H])O)N', 'C([C@@](CO)([C@@H]([C@@H](CO)O[H])O)O)N', 'C([C@](CO)([C@@H]([C@@H](CO)O)O[H])O)N', 'C([C@@](CO)([C@@H]([C@H](CO)O[H])O)O)N'}
+
+ Pathway 0 
+C(C(CN)(C(C(CO)O)O)O)O
+├── C(C(CO)(C(C(CO)O)O)O)=O
+│   ├── C(C(CO)O)=O
+│   │   ├── C(CO)=O
+│   │   └── C=O
+│   └── C(C(CO)O)=O
+│       ├── C(CO)=O
+│       └── C=O
+└── C(CN)(O)=O
+    ├── C(CN)=O
+    │   ├── C(CO)=O
+    │   └── N
+    ├── C=O
+    └── O
+Energy Change: -159.76000000000002
+Reaction IDs: ['2247_0', '63_0', '65_0', '10_0', '5_0', '5_0']

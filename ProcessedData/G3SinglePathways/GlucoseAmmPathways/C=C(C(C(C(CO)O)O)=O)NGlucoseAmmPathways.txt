@@ -1,0 +1,5 @@
+Network Smiles: C=C(C(C(C(CO)O)O)=O)N
+Generation: G3
+INCHIKEY: BMSAFUWEDYKIMZ
+Analogue Smiles: {'C=C(C(=O)[C@H]([C@H](CO)O)O)N([H])[H]', 'C=C(C(=O)[C@H]([C@@H](CO)O)O)N([H])[H]', 'C=C(C(=O)[C@@H]([C@@H](CO)O)O)N([H])[H]', 'C=C(C(=O)[C@@H]([C@H](CO)O)O)N([H])[H]'}
+No spontaneous pathways

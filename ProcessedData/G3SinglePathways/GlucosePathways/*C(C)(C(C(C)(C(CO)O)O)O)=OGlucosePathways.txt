@@ -1,0 +1,23 @@
+Network Smiles: C(C)(C(C(C)(C(CO)O)O)O)=O
+Generation: G3
+INCHIKEY: MJEDKJVEWJDYHU
+Analogue Smiles: {'C(=O)(C)[C@@H]([C@](C)([C@@H](CO)O)O[H])O', 'C(=O)(C)[C@H]([C@@](C)([C@@H](CO)O[H])O)O', 'C(=O)(C)[C@@H]([C@](C)([C@H](CO)O)O[H])O', 'C(=O)(C)[C@@H]([C@@](C)([C@@H](CO)O[H])O)O', 'C(=O)(C)[C@H]([C@@](C)([C@@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@@](C)([C@@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@@](C)([C@H](CO)O[H])O)O', 'C(=O)(C)[C@@H]([C@@](C)([C@@H](CO)O)O)O[H]', 'C(=O)(C)[C@@H]([C@@](C)([C@H](CO)O)O[H])O', 'C(=O)(C)[C@H]([C@](C)([C@@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@@](C)([C@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@](C)([C@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@](C)([C@@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@](C)([C@H](CO)O)O[H])O', 'C(=O)(C)[C@@H]([C@](C)([C@@H](CO)O)O)O[H]', 'C(=O)(C)[C@@H]([C@@](C)([C@@H](CO)O)O[H])O', 'C(=O)(C)[C@H]([C@](C)([C@@H](CO)O[H])O)O', 'C(=O)(C)[C@@H]([C@](C)([C@@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@](C)([C@H](CO)O[H])O)O', 'C(=O)(C)[C@H]([C@](C)([C@@H](CO)O)O[H])O', 'C(=O)(C)[C@H]([C@@](C)([C@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@@](C)([C@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@](C)([C@@H](CO)O[H])O)O', 'C(=O)(C)[C@H]([C@@](C)([C@H](CO)O[H])O)O', 'C(=O)(C)[C@H]([C@](C)([C@H](CO)O[H])O)O', 'C(=O)(C)[C@@H]([C@@](C)([C@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@@](C)([C@@H](CO)O)O[H])O', 'C(=O)(C)[C@H]([C@](C)([C@H](CO[H])O)O)O', 'C(=O)(C)[C@@H]([C@](C)([C@H](CO[H])O)O)O', 'C(=O)(C)[C@H]([C@@](C)([C@@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@](C)([C@H](CO)O)O)O[H]', 'C(=O)(C)[C@H]([C@@](C)([C@H](CO)O)O[H])O'}
+
+ Pathway 0 
+C(C)(C(C(C)(C(CO)O)O)O)=O
+├── C(C)(C(CO)O)=O
+│   └── C(C(C(CO)O)O)O
+│       ├── C(C(C(C(C(CO)O)O)O)O)=O
+│       ├── C(C(C(CO)O)O)=O
+│       │   ├── C(CO)=O
+│       │   │   └── C(C(C(C(C(C)=O)O)O)O)=O
+│       │   │       └── C(C(C(C(C(CO)O)O)O)O)=O
+│       │   └── C(CO)=O
+│       │       └── C(C(C(C(C(C)=O)O)O)O)=O
+│       │           └── C(C(C(C(C(CO)O)O)O)O)=O
+│       └── O
+└── C(C)(CO)=O
+    └── C(C(C(CC(CO)=O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Energy Change: -359.36999999999995
+Reaction IDs: ['612_0', '2123_0', '70_0', '111_0', '21_0', '39_0', '71_0', '71_0', '23_0', '23_0']
