@@ -2,3 +2,4 @@ Generation	NetworkSmiles	PathwayFound?
 G1	C(C(C(CO)O)O)=O	True
 G3	C(CC(C(CO)O)O)=O	True
 G3	C(C(C(C(CO)O)O)O)=O	True
+G3	C(C(CO)O)O	True
