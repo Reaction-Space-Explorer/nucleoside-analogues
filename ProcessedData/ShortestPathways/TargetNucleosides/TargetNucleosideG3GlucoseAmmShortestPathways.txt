@@ -1,0 +1,76 @@
+Molecule: Threose
+Network Smiles: C(C(C(CO)O)O)=O
+Generation: G1
+INCHIKEY: YTBSYETUWUMLBZ
+Analogue Smiles: {'C(=O)[C@@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO)O)O[H]', 'C(=O)[C@H]([C@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO)O[H])O', 'C(=O)[C@@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@H](CO)O)O[H]'}
+Shortest Pathway 
+C(C(C(CO)O)O)=O
+└── C(C(C(C(C(CO)O)O)O)O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Pathway Length: 2
+Energy Change: -26.65
+Reaction IDs: ['206_0', '12_0']
+---------------------
+Molecule: Ribose
+Network Smiles: C(C(C(C(CO)O)O)O)=O
+Generation: G3
+INCHIKEY: PYMYPHUHKUWMLA
+Analogue Smiles: {'C(=O)[C@@H]([C@@H]([C@@H](CO)O)O)O[H]', 'C(=O)[C@H]([C@@H]([C@@H](CO)O)O[H])O', 'C(=O)[C@@H]([C@@H]([C@@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@H]([C@@H](CO)O)O)O[H]', 'C(=O)[C@@H]([C@@H]([C@H](CO)O)O)O[H]', 'C(=O)[C@H]([C@H]([C@H](CO)O)O[H])O', 'C(=O)[C@H]([C@H]([C@@H](CO)O)O[H])O', 'C(=O)[C@@H]([C@@H]([C@H](CO)O[H])O)O', 'C(=O)[C@H]([C@@H]([C@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@@H]([C@H](CO)O)O[H])O', 'C(=O)[C@H]([C@@H]([C@H](CO)O)O)O[H]', 'C(=O)[C@H]([C@H]([C@@H](CO)O)O)O[H]', 'C(=O)[C@H]([C@@H]([C@H](CO)O)O[H])O', 'C(=O)[C@H]([C@@H]([C@@H](CO)O)O)O[H]', 'C(=O)[C@H]([C@H]([C@H](CO)O[H])O)O', 'C(=O)[C@H]([C@H]([C@H](CO)O)O)O[H]', 'C(=O)[C@@H]([C@H]([C@H](CO)O[H])O)O', 'C(=O)[C@@H]([C@H]([C@@H](CO)O[H])O)O', 'C(=O)[C@H]([C@@H]([C@H](CO)O[H])O)O', 'C(=O)[C@@H]([C@@H]([C@@H](CO)O[H])O)O', 'C(=O)[C@H]([C@H]([C@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@H]([C@@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@H]([C@@H](CO)O)O[H])O', 'C(=O)[C@H]([C@H]([C@@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@H]([C@H](CO)O)O)O[H]', 'C(=O)[C@@H]([C@@H]([C@H](CO[H])O)O)O', 'C(=O)[C@@H]([C@H]([C@H](CO)O)O[H])O', 'C(=O)[C@H]([C@H]([C@@H](CO)O[H])O)O', 'C(=O)[C@H]([C@@H]([C@@H](CO[H])O)O)O', 'C(=O)[C@H]([C@@H]([C@@H](CO)O[H])O)O', 'C(=O)[C@@H]([C@@H]([C@@H](CO)O)O[H])O', 'C(=O)[C@@H]([C@H]([C@H](CO[H])O)O)O'}
+Shortest Pathway 
+C(C(C(C(CO)O)O)O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   │   └── C(C(C(C(C(C)=O)O)O)O)=O
+│   │       └── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── C=O
+│       └── C(C(C(C=O)O)N)(CCO)=O
+│           └── C(C(C(C(C(CO)O)O)N)O)=O
+│               ├── C(C(C(C(C(CO)O)O)O)O)=O
+│               └── N
+└── C(CO)=O
+    └── C(C(C(C(C(C)=O)O)O)O)=O
+        └── C(C(C(C(C(CO)O)O)O)O)=O
+Pathway Length: 5
+Energy Change: -251.37
+Reaction IDs: ['1449_0', '78_0', '1482_0', '26_0', '78_0', '1725_0', '26_0', '284_0', '30_0']
+---------------------
+Molecule: Glycerol
+Network Smiles: C(C(CO)O)O
+Generation: G3
+INCHIKEY: PEDCQBHIVMGVHV
+Analogue Smiles: {'C([C@H](CO)O)O[H]', 'C([C@@H](CO)O)O[H]', 'C(C(CO)O[H])O'}
+Shortest Pathway 
+C(C(CO)O)O
+├── C(C(C(C(C(CO)O)O)O)O)=O
+├── C(C(CO)O)=O
+│   ├── C(CO)=O
+│   │   └── C(C(C(C(C(C)=O)O)O)O)=O
+│   │       └── C(C(C(C(C(CO)O)O)O)O)=O
+│   └── C=O
+│       └── C(C(C(C=O)O)N)(CCO)=O
+│           └── C(C(C(C(C(CO)O)O)N)O)=O
+│               ├── C(C(C(C(C(CO)O)O)O)O)=O
+│               └── N
+└── O
+Pathway Length: 5
+Energy Change: -171.73000000000002
+Reaction IDs: ['2442_0', '1482_0', '78_0', '1725_0', '26_0', '284_0', '30_0']
+---------------------
+Molecule: Deoxyribose
+Network Smiles: C(CC(C(CO)O)O)=O
+Generation: G3
+INCHIKEY: ASJSAQIRZKANQN
+Analogue Smiles: {'C(=O)C[C@H]([C@H](CO[H])O)O', 'C(=O)C[C@H]([C@H](CO)O)O[H]', 'C(=O)C[C@H]([C@H](CO)O[H])O', 'C(=O)C[C@@H]([C@@H](CO)O[H])O', 'C(=O)C[C@H]([C@@H](CO[H])O)O', 'C(=O)C[C@H]([C@@H](CO)O[H])O', 'C(=O)C[C@@H]([C@@H](CO[H])O)O', 'C(=O)C[C@@H]([C@H](CO)O)O[H]', 'C(=O)C[C@@H]([C@H](CO)O[H])O', 'C(=O)C[C@@H]([C@H](CO[H])O)O', 'C(=O)C[C@H]([C@@H](CO)O)O[H]', 'C(=O)C[C@@H]([C@@H](CO)O)O[H]'}
+Shortest Pathway 
+C(CC(C(CO)O)O)=O
+└── C(C(CC(C(CO)O)O)=O)(O)=O
+    ├── C(C(C(C(C(CO)O)O)O)O)=O
+    ├── C(C(CC(C(CO)O)O)=O)=O
+    │   └── C(C(C(C(C(CO)O)O)O)O)=O
+    └── O
+Pathway Length: 3
+Energy Change: -110.81
+Reaction IDs: ['4900_0', '181_0', '14_0']
+---------------------

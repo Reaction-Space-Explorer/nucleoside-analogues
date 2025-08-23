@@ -1,0 +1,12 @@
+Network Smiles: C(C(C(CO)O)O)=O
+Generation: G1
+INCHIKEY: YTBSYETUWUMLBZ
+Analogue Smiles: {'C(=O)[C@@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO)O)O[H]', 'C(=O)[C@H]([C@H](CO)O[H])O', 'C(=O)[C@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@@H](CO)O[H])O', 'C(=O)[C@H]([C@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@@H](CO)O)O[H]', 'C(=O)[C@@H]([C@H](CO)O[H])O', 'C(=O)[C@@H]([C@@H](CO[H])O)O', 'C(=O)[C@H]([C@H](CO[H])O)O', 'C(=O)[C@@H]([C@H](CO)O)O[H]'}
+Shortest Pathway 
+C(C(C(CO)O)O)=O
+├── C(CO)=O
+└── C(CO)=O
+Pathway Length: 1
+Energy Change: -16.39
+Reaction IDs: ['6_0']
+---------------------
