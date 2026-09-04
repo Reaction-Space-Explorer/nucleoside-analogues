@@ -75,7 +75,7 @@ def test_descriptor_panel_matches_rdkit() -> None:
     aspirin. The name now says which it is.
     """
     from rdkit import Chem
-    from rdkit.Chem import QED, Crippen, Descriptors, rdMolDescriptors
+    from rdkit.Chem import QED, Crippen, Descriptors, rdMolDescriptors  # noqa: F401
 
     from nucleoside_analogues.descriptors import calc_descriptors
 
@@ -91,9 +91,9 @@ def test_descriptor_panel_matches_rdkit() -> None:
         "HBA": rdMolDescriptors.CalcNumHBA,
         "HBD": rdMolDescriptors.CalcNumHBD,
         "TPSA": rdMolDescriptors.CalcTPSA,
-        "logP": Crippen.MolLogP,
-        "MR": Crippen.MolMR,
-        "exact_mass": Descriptors.ExactMolWt,
+        "logP": Crippen.MolLogP,  # pyright: ignore[reportAttributeAccessIssue]
+        "MR": Crippen.MolMR,  # pyright: ignore[reportAttributeAccessIssue]
+        "exact_mass": Descriptors.ExactMolWt,  # pyright: ignore[reportAttributeAccessIssue]
         "RTB": rdMolDescriptors.CalcNumRotatableBonds,
         "NumRings": rdMolDescriptors.CalcNumRings,
         "NumAmideBonds": rdMolDescriptors.CalcNumAmideBonds,
@@ -107,8 +107,10 @@ def test_descriptor_panel_matches_rdkit() -> None:
             expected = function(Chem.MolFromSmiles(smiles))
             assert abs(float(frame.loc[name, column]) - expected) < 1e-6, f"{column}/{name}"
 
-    assert (frame["HBA"] + frame["HBD"] == frame["HBA+HBD"]).all()
-    assert (frame["formal_charge"].abs() == frame["abs_charge"]).all()
+    assert [a + b for a, b in zip(frame["HBA"], frame["HBD"], strict=True)] == list(
+        frame["HBA+HBD"]
+    )
+    assert [abs(v) for v in frame["formal_charge"]] == list(frame["abs_charge"])
 
 
 def test_ring_and_stereo_descriptors() -> None:
