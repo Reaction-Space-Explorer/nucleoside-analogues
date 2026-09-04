@@ -61,13 +61,17 @@ molecules) solves in about 0.25 s.
 |---|---|
 | `src/nucleoside_analogues/` | The supported pipeline (see below) |
 | `tests/` | Chemistry invariants, experimental recall, pathway regression |
+| `scripts/` | Regenerate the deposited tables and energies |
 | `OriginalData/OriginalNetworkData/` | Raw MØD output: product listings and `Rels_N.tsv` reaction files |
 | `OriginalData/OriginalNucleosideAnalogueData/` | CHO and CHNO analogue libraries |
-| `ProcessedData/` | Matches, reshaped reactions, thermodynamics, traced pathways |
-| `ProcessedData/manifests/` | Filename → SMILES map for the pathway outputs |
-| `figures/` | 173 plots, salvaged from the archived working repository |
+| `ProcessedData/` | Everything derived from the above — see [`ProcessedData/README.md`](ProcessedData/README.md) |
+| `figures/` | 173 plots salvaged from the archived working repository, plus `acs_style.py` and the figure scripts |
 | `notebooks/pipeline/` | The generation-3 analysis as originally run |
 | `notebooks/analysis/` | Descriptor, plotting and database notebooks, salvaged from the archive |
+
+`ProcessedData/` mixes current outputs with superseded ones kept for
+provenance; its README says which is which. Directory names there are load
+bearing — the SI cites `SpontaneousSMILES/` by URL.
 
 The notebooks are a record of how the published results were produced, not a
 runnable pipeline: none of their data paths resolve from a clone, and most
@@ -78,7 +82,8 @@ address Google Colab mount points. See [`notebooks/README.md`](notebooks/README.
 | Module | Role |
 |---|---|
 | `rels` | Read and reshape MØD output; build reaction indices |
-| `hyperpath` | Exact shortest pathways as minimum-weight hyperpaths |
+| `hyperpath` | Exact shortest pathways as minimum-weight hyperpaths; route counts and critical reactions |
+| `chemaxon_bypass` | Lets eQuilibrator build compounds without a ChemAxon licence |
 | `matching` | Stereochemistry-flattened InChIKey matching |
 | `invariants` | Atom/charge balance, generation monotonicity, motif screens |
 | `descriptors` | Physicochemical descriptor panel |
