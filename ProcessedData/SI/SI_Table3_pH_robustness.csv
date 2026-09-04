@@ -1,0 +1,5 @@
+pH,reactions,estimable,unestimable,spontaneous,confident_95,median_sigma_kJ_mol,identical_to_pH7
+7.0,582,527,55,392,357,1.67,yes
+7.4,582,527,55,392,357,1.67,yes
+9.0,582,527,55,392,359,1.67,yes
+11.0,582,527,55,392,358,1.67,yes

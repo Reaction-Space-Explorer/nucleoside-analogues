@@ -123,6 +123,7 @@ def compound_cache(
     smiles: Sequence[str],
     cc: ComponentContribution | None = None,
     bypass_chemaxon: bool = True,
+    uniform_pka: bool = True,
 ) -> tuple[dict[str, object], list[str]]:
     """Resolve SMILES to eQuilibrator compounds.
 
@@ -130,28 +131,43 @@ def compound_cache(
     so the caller can report coverage instead of discovering gaps as silent
     ``NaN`` values later.
 
-    ``bypass_chemaxon`` skips the licensed ChemAxon pKa determination, as the
-    original pipeline did. Protonation states are then assumed rather than
-    computed, which is a real caveat for the pH 7.4 transform and should be
-    stated wherever these numbers appear.
+    Compounds already in the cache are taken from it -- water, formaldehyde,
+    methanol and formic acid have measured values there and fail de novo group
+    decomposition. Compounds created here get pKa values from
+    :mod:`nucleoside_analogues.pka` when ``uniform_pka`` is set.
     """
-    from equilibrator_api import ComponentContribution
-    from equilibrator_assets.generate_compound import get_or_create_compound
+    from equilibrator_assets.generate_compound import get_or_create_compounds
 
-    engine = ComponentContribution() if cc is None else cc
+    from .pka import assign
+
+    engine = _engine(cc)
     unique = list(dict.fromkeys(smiles))
-    compounds = get_or_create_compound(
-        engine.ccache, unique, mol_format="smiles", bypass_chemaxon=bypass_chemaxon
+    specified = None
+    if uniform_pka:
+        specified = {s: v for s in unique if (v := assign(s))}
+    compounds = get_or_create_compounds(
+        engine.ccache,
+        unique,
+        mol_format="smiles",
+        bypass_chemaxon=bypass_chemaxon,
+        specified_pkas=specified,
     )
 
     resolved: dict[str, object] = {}
     missing: list[str] = []
-    for entry, compound in zip(unique, compounds, strict=True):
-        if compound is None or getattr(compound, "inchi_key", None) is None:
+    for entry, result in zip(unique, compounds, strict=True):
+        compound = getattr(result, "compound", result)
+        if compound is None or getattr(compound, "group_vector", None) is None:
             missing.append(entry)
         else:
             resolved[entry] = compound
     return resolved, missing
+
+
+def _engine(cc: ComponentContribution | None) -> ComponentContribution:
+    from equilibrator_api import ComponentContribution as CC
+
+    return CC() if cc is None else cc
 
 
 def reaction_energies(
@@ -176,9 +192,9 @@ def reaction_energies(
         One entry per input reaction, in order, always. Failures carry a status
         rather than being omitted.
     """
-    from equilibrator_api import ComponentContribution, Reaction
+    from equilibrator_api import Reaction
 
-    engine = ComponentContribution() if cc is None else cc
+    engine = _engine(cc)
     rows = list(reactions)
 
     every_smiles = [s for _, reagents, products in rows for s in (*reagents, *products)]
