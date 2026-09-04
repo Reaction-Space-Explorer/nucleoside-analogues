@@ -138,7 +138,11 @@ def compound_cache(
     """
     from equilibrator_assets.generate_compound import get_or_create_compounds
 
+    from .chemaxon_bypass import enable
     from .pka import assign
+
+    if bypass_chemaxon:
+        enable()  # no-op where a licensed cxcalc is installed
 
     engine = _engine(cc)
     unique = list(dict.fromkeys(smiles))
@@ -174,6 +178,7 @@ def reaction_energies(
     reactions: Iterable[tuple[str, Sequence[str], Sequence[str]]],
     cc: ComponentContribution | None = None,
     bypass_chemaxon: bool = True,
+    compounds: tuple[dict[str, object], list[str]] | None = None,
 ) -> list[ReactionEnergy]:
     """Estimate ΔrG′° with uncertainty for each reaction.
 
@@ -185,6 +190,11 @@ def reaction_energies(
     cc
         An existing :class:`ComponentContribution`; one is built if omitted.
         Constructing it downloads a ~1.3 GB compound cache on first use.
+    compounds
+        An already-resolved ``(resolved, missing)`` pair from
+        :func:`compound_cache`. Supplying it lets a caller resolve a whole
+        network once and then score reactions in chunks, which is what makes a
+        long run resumable. Resolved here when omitted.
 
     Returns
     -------
@@ -197,8 +207,10 @@ def reaction_energies(
     engine = _engine(cc)
     rows = list(reactions)
 
-    every_smiles = [s for _, reagents, products in rows for s in (*reagents, *products)]
-    resolved, missing = compound_cache(every_smiles, cc=engine, bypass_chemaxon=bypass_chemaxon)
+    if compounds is None:
+        every_smiles = [s for _, reagents, products in rows for s in (*reagents, *products)]
+        compounds = compound_cache(every_smiles, cc=engine, bypass_chemaxon=bypass_chemaxon)
+    resolved, missing = compounds
     unresolved = set(missing)
 
     out: list[ReactionEnergy] = []
