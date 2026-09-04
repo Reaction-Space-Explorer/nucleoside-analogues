@@ -22,7 +22,7 @@ Two objectives are supported, and they measure different things:
 ``"chain"`` (``f = max``)
     Longest chain of consecutive reactions from a seed to the target.  This is
     what the original ``map_tree`` reported as "Pathway Length": it is the depth
-    of the derivation tree.  Reproduces all 974 deposited generation-3 values.
+    of the derivation tree.  Reproduces all 1,181 deposited generation-3 values.
 
 ``"reactions"`` (``f = sum``)
     Total reactions in the derivation, counting a shared intermediate once per

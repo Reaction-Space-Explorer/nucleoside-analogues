@@ -128,7 +128,7 @@ Two objectives, measuring different things:
 
 - **`chain`** (`f = max`) — longest chain of consecutive reactions. This is the
   derivation-tree depth, and is what the original notebooks reported as
-  "Pathway Length". Reproduces all 974 deposited generation-3 values.
+  "Pathway Length". Reproduces all 1,181 deposited generation-3 values.
 - **`reactions`** (`f = sum`) — total reactions, counting a shared intermediate
   once per use. An upper bound on the number of *distinct* reactions; minimising
   distinct reactions permits re-use of a sub-derivation, is not a superior
@@ -150,7 +150,7 @@ conventions disagree by many orders of magnitude on the same network.
 ## Testing
 
 ```bash
-uv run pytest -q          # 67 tests against the deposited data
+uv run pytest -q          # 87 tests against the deposited data
 uv run ruff check src tests
 uv run pyright
 ```
