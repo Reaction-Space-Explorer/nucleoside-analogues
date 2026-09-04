@@ -179,7 +179,9 @@ CI additionally rejects any filename Windows cannot check out.
   pH-independent over that span. Formose/NH₃ and Glucose/NH₃ do (86% and 57% of
   compounds carry amines, pKa ~9-11); for those, results are quoted at pH 7-8
   where the amines are >99% protonated, or with pKa values assigned by
-  `nucleoside_analogues.pka` and cross-checked against dimorphite-dl.
+  `nucleoside_analogues.pka`. That assignment was cross-checked once against
+  dimorphite-dl, which agreed on which compounds change protonation between pH 7
+  and 11; the check is not automated and dimorphite-dl is not a dependency.
 - **Free energies carry no uncertainty.** ΔrG′° comes from group contribution
   via eQuilibrator, and the spontaneity filter is a hard `ΔrG′° < 0` threshold on
   a point estimate. Roughly half of all reactions classified spontaneous sit

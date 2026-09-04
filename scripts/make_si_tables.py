@@ -32,6 +32,12 @@ TARGETS = {
 }
 
 
+#: A reaction counts as spontaneous only where the whole 95% interval is
+#: below zero, matching the Methods. The tables are identical on the point
+#: estimate, so nothing here depends on the choice.
+SPONTANEITY = "spontaneous_95"
+
+
 def admitted(network: str, rels: pd.DataFrame, basis: str) -> set[str]:
     """Reaction ids allowed under a basis. Reactions with no energy row could
     not be built at all, and count as unestimable rather than vanishing."""
@@ -43,7 +49,7 @@ def admitted(network: str, rels: pd.DataFrame, basis: str) -> set[str]:
     for identifier in rels["Index"].astype(str):
         row = energies.get(identifier)
         estimable = row is not None and row["estimable"] == "True"
-        spontaneous = estimable and row["spontaneous_point"] == "True"
+        spontaneous = estimable and row[SPONTANEITY] == "True"
         if spontaneous or (not estimable and basis == "with_unestimable"):
             keep.add(identifier)
     return keep
