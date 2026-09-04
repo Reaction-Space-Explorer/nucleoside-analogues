@@ -1,9 +1,9 @@
-"""Mass-spectrometry validation figure.
+"""Mass-spectrometry validation figure, all five networks.
 
     uv run --extra figures python figures/make_ms_figure.py
 
-Convention follows the Chem. Sci. ESI for this workflow: experimental in blue,
-model in magenta.
+Experimental in blue, recovered by the network in magenta, following the
+Chem. Sci. ESI for this workflow. One representative spectrum per network.
 """
 
 import re
@@ -31,9 +31,12 @@ from nucleoside_analogues.rels import read_products  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 OUT = REPO / "figures" / "workflow"
-CUTOFF = 200.0          # the networks' own mass ceiling
-BLUE, MAGENTA, GREY = "#1f5fa8", "#c2258a", "#b9bfc7"
-SHOWCASE = "50"         # formose 85 C
+CUTOFF = 200.0        # the networks build nothing heavier
+FLOOR = 160.0         # no sample has an assigned CHNO peak much below this
+BLUE, MAGENTA, GREY, BAND = "#1f5fa8", "#c2258a", "#b9bfc7", "#f2e6ef"
+#: One representative spectrum per network, best-matching where there is a choice.
+PANELS = [("50", "Formose (F)"), ("40", "Formose Ammonia (FA)"), ("38", "Glucose (G)"),
+          ("37", "Glucose Ammonia (GA)"), ("46", "Pyruvic Acid (PA)")]
 
 
 def counts(formula: str) -> dict[str, int]:
@@ -41,85 +44,75 @@ def counts(formula: str) -> dict[str, int]:
 
 
 use()
-fig, axes = plt.subplots(1, 3, figsize=(DOUBLE, 2.4))
+fig, axes = plt.subplots(2, len(PANELS), figsize=(DOUBLE, 3.9))
 
-# ---------------------------------------------------------------- A: mirror
-network, products_file, label = SAMPLES[SHOWCASE]
-peaks = [p for p in read_midas(next(MS.glob(f"*_{SHOWCASE}_*"))) if p["organic"]]
-peaks = [p for p in peaks if p["mass"] < CUTOFF]
-top = max(p["abundance"] for p in peaks)
-net = network_formulas(products_file)
-frame = read_products(PRODUCTS / products_file)
-model = sorted({round(ExactMolWt(m), 4) for s in frame["Smiles"]
-                if (m := Chem.MolFromSmiles(str(s))) and ExactMolWt(m) < CUTOFF})
+for column, (number, title) in enumerate(PANELS):
+    network, products_file, _ = SAMPLES[number]
+    peaks = [p for p in read_midas(next(MS.glob(f"*_{number}_*")))
+             if p["organic"] and p["mass"] < CUTOFF]
+    net = network_formulas(products_file)
+    frame = read_products(PRODUCTS / products_file)
+    model = [ExactMolWt(m) for s in frame["Smiles"]
+             if (m := Chem.MolFromSmiles(str(s))) and ExactMolWt(m) < CUTOFF]
 
-ax = axes[0]
-for p in peaks:
-    matched = neutral_formula(p["ion"]) in net
-    ax.vlines(p["mass"], 0, 100 * p["abundance"] / top,
-              color=MAGENTA if matched else BLUE, linewidth=0.5,
-              zorder=3 if matched else 2)
-hist, edges = np.histogram(model, bins=np.arange(0, CUTOFF + 4, 4))
-ax.bar(edges[:-1], -100 * hist / hist.max(), width=3.4, align="edge",
-       color=GREY, edgecolor="none")
-ax.axvspan(160, CUTOFF, color="#f0e4ee", zorder=0, linewidth=0)
-ax.axhline(0, color="#1a1a1a", linewidth=0.6)
-ax.text(180, 108, "overlap", ha="center", fontsize=5.4, color="#8a5878", va="top")
-ax.set_xlim(50, CUTOFF)
-ax.set_ylim(-115, 115)
-ax.set_yticks([-100, -50, 0, 50, 100])
-ax.set_yticklabels(["100", "50", "0", "50", "100"])
-ax.set_xlabel("neutral mass (Da)")
-ax.set_ylabel("relative abundance")
-ax.text(0.03, 0.95, "experimental", transform=ax.transAxes, fontsize=5.8,
-        color=BLUE, va="top")
-ax.text(0.03, 0.05, "network products", transform=ax.transAxes, fontsize=5.8,
-        color="#6b7280", va="bottom")
-ax.set_title(label, fontsize=7, pad=3)
+    # ---- top row: mirror of experiment against the network's product masses
+    ax = axes[0, column]
+    ax.axvspan(FLOOR, CUTOFF, color=BAND, zorder=0, linewidth=0)
+    if peaks:
+        top = max(p["abundance"] for p in peaks)
+        for p in peaks:
+            hit = neutral_formula(p["ion"]) in net
+            ax.vlines(p["mass"], 0, 100 * p["abundance"] / top,
+                      color=MAGENTA if hit else BLUE, linewidth=0.5,
+                      zorder=3 if hit else 2)
+    else:
+        ax.text(125, 55, "no assigned peak\nbelow 200 Da", ha="center", va="center",
+                fontsize=5.4, color="#8a5878")
+    hist, edges = np.histogram(model, bins=np.arange(0, CUTOFF + 5, 5))
+    ax.bar(edges[:-1], -100 * hist / hist.max(), width=4.3, align="edge",
+           color=GREY, edgecolor="none")
+    ax.axhline(0, color="#1a1a1a", linewidth=0.6)
+    ax.set_xlim(50, CUTOFF)
+    ax.set_ylim(-118, 118)
+    ax.set_yticks([-100, 0, 100])
+    ax.set_yticklabels(["100", "0", "100"])
+    ax.set_title(title, fontsize=7, pad=3)
+    if column == 0:
+        ax.set_ylabel("relative abundance")
+        ax.text(0.04, 0.96, "experimental", transform=ax.transAxes, fontsize=5.2,
+                color=BLUE, va="top")
+        ax.text(0.04, 0.04, "network", transform=ax.transAxes, fontsize=5.2,
+                color="#6b7280", va="bottom")
 
-# ---------------------------------------------------------------- B: van Krevelen
-ax = axes[1]
-for p in peaks:
-    c = counts(neutral_formula(p["ion"]))
-    if not c.get("C"):
-        continue
-    matched = neutral_formula(p["ion"]) in net
-    ax.scatter(c.get("O", 0) / c["C"], c.get("H", 0) / c["C"], s=3.5,
-               color=MAGENTA if matched else GREY, linewidths=0,
-               zorder=3 if matched else 2, alpha=0.9 if matched else 0.55)
-ax.set_xlabel("O/C"); ax.set_ylabel("H/C")
-ax.set_xlim(0, 1.6); ax.set_ylim(0, 2.6)
-ax.set_title("van Krevelen, < 200 Da", fontsize=7, pad=3)
+    # ---- bottom row: van Krevelen of the assigned formulas
+    ax = axes[1, column]
+    hits = 0
+    for p in peaks:
+        formula = neutral_formula(p["ion"])
+        c = counts(formula)
+        if not c.get("C"):
+            continue
+        hit = formula in net
+        hits += hit
+        ax.scatter(c.get("O", 0) / c["C"], c.get("H", 0) / c["C"], s=4,
+                   color=MAGENTA if hit else GREY, linewidths=0,
+                   zorder=3 if hit else 2, alpha=0.9 if hit else 0.5)
+    ax.set_xlim(0, 1.5)
+    ax.set_ylim(0.4, 2.7)
+    ax.set_xlabel("O/C")
+    if column == 0:
+        ax.set_ylabel("H/C")
+    pct = f"{100 * hits / len(peaks):.0f}%" if peaks else "n/a"
+    ax.text(0.96, 0.95, f"{hits}/{len(peaks)}\n{pct}", transform=ax.transAxes,
+            ha="right", va="top", fontsize=5.8, color=MAGENTA if peaks else "#8a8f98")
 
-# ---------------------------------------------------------------- C: recovery
-ax = axes[2]
-bars = []
-for number, (net_name, pfile, lab) in SAMPLES.items():
-    ps = [p for p in read_midas(next(MS.glob(f"*_{number}_*")))
-          if p["organic"] and p["mass"] < CUTOFF]
-    formulas = {neutral_formula(p["ion"]) for p in ps}
-    if len(formulas) < 10:
-        bars.append((lab, None, len(formulas)))
-        continue
-    hit = formulas & set(network_formulas(pfile))
-    bars.append((lab, 100 * len(hit) / len(formulas), len(formulas)))
-bars.sort(key=lambda b: (b[1] is None, -(b[1] or 0)))
-ypos = range(len(bars))
-ax.barh(list(ypos), [b[1] or 0 for b in bars],
-        color=[GREY if b[1] is None else MAGENTA for b in bars], height=0.62)
-for y, (lab, pct, n) in zip(ypos, bars, strict=True):
-    ax.text(2, y, f"{lab}  (n={n})" if pct is not None else f"{lab}  (n={n}, too few)",
-            va="center", fontsize=5.3, color="white" if pct and pct > 25 else "#333333")
-ax.set_yticks([]); ax.invert_yaxis()
-ax.set_xlabel("% of experimental formulas\nrecovered by the network")
-ax.set_xlim(0, 80)
-ax.set_title("recovery below 200 Da", fontsize=7, pad=3)
-
-for ax, letter in zip(axes, "ABC", strict=True):
-    ax.text(-0.20, 1.06, letter, transform=ax.transAxes, fontsize=8,
-            fontweight="bold", va="top")
-
-fig.tight_layout(pad=0.4, w_pad=1.0)
+for ax in axes[0]:
+    ax.set_xlabel("neutral mass (Da)", fontsize=6.5)
+axes[0, 0].text(-0.34, 1.12, "A", transform=axes[0, 0].transAxes, fontsize=8,
+                fontweight="bold", va="top")
+axes[1, 0].text(-0.34, 1.10, "B", transform=axes[1, 0].transAxes, fontsize=8,
+                fontweight="bold", va="top")
+fig.tight_layout(pad=0.4, w_pad=0.7, h_pad=1.0)
 OUT.mkdir(parents=True, exist_ok=True)
 save(fig, str(OUT / "Figure_MS_validation"))
 print("wrote", OUT / "Figure_MS_validation.png")
