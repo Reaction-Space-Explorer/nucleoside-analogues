@@ -64,3 +64,68 @@ def test_no_implausible_motifs_beyond_known_trace_levels(network: str) -> None:
         assert hits[motif] == 0, f"{network}: {hits[motif]} molecules contain {motif}"
     for motif, count in hits.items():
         assert count / total < 0.01, f"{network}: {motif} in {count}/{total} molecules"
+
+
+#: Independent RDKit calls, deliberately not routed through descriptors.py.
+def test_descriptor_panel_matches_rdkit() -> None:
+    """Every descriptor checked against a separate RDKit call.
+
+    ``exact_mass`` is monoisotopic, not average molecular weight: it was
+    called ``MW``, which reads as the latter and differs by 0.12 Da on
+    aspirin. The name now says which it is.
+    """
+    from rdkit import Chem
+    from rdkit.Chem import QED, Crippen, Descriptors, rdMolDescriptors
+
+    from nucleoside_analogues.descriptors import calc_descriptors
+
+    molecules = {
+        "aspirin": "CC(=O)Oc1ccccc1C(=O)O",
+        "caffeine": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",
+        "ribose": "C(C(C(C(CO)O)O)O)=O",
+        "glycine": "NCC(=O)O",
+    }
+    frame = calc_descriptors(list(molecules.values()))
+    frame.index = list(molecules)
+    reference = {
+        "HBA": rdMolDescriptors.CalcNumHBA,
+        "HBD": rdMolDescriptors.CalcNumHBD,
+        "TPSA": rdMolDescriptors.CalcTPSA,
+        "logP": Crippen.MolLogP,
+        "MR": Crippen.MolMR,
+        "exact_mass": Descriptors.ExactMolWt,
+        "RTB": rdMolDescriptors.CalcNumRotatableBonds,
+        "NumRings": rdMolDescriptors.CalcNumRings,
+        "NumAmideBonds": rdMolDescriptors.CalcNumAmideBonds,
+        "Csp3": rdMolDescriptors.CalcFractionCSP3,
+        "QED": QED.qed,
+        "HAC": lambda m: m.GetNumHeavyAtoms(),
+        "formal_charge": Chem.GetFormalCharge,
+    }
+    for column, function in reference.items():
+        for name, smiles in molecules.items():
+            expected = function(Chem.MolFromSmiles(smiles))
+            assert abs(float(frame.loc[name, column]) - expected) < 1e-6, f"{column}/{name}"
+
+    assert (frame["HBA"] + frame["HBD"] == frame["HBA+HBD"]).all()
+    assert (frame["formal_charge"].abs() == frame["abs_charge"]).all()
+
+
+def test_ring_and_stereo_descriptors() -> None:
+    """Fused rings, ring size and stereocentres on molecules with known answers."""
+    from nucleoside_analogues.descriptors import calc_descriptors
+
+    cases = {
+        "naphthalene": "c1ccc2ccccc2c1",
+        "biphenyl": "c1ccc(-c2ccccc2)cc1",
+        "cyclopropane": "C1CC1",
+        "L-alanine": "C[C@@H](N)C(=O)O",
+        "glycine": "NCC(=O)O",
+    }
+    frame = calc_descriptors(list(cases.values()))
+    frame.index = list(cases)
+    assert frame.loc["naphthalene", "NumRingsFused"] == 1
+    assert frame.loc["biphenyl", "NumRingsFused"] == 0  # linked, not fused
+    assert frame.loc["cyclopropane", "max_ring_size"] == 3
+    assert frame.loc["L-alanine", "n_chiral_centers"] == 1
+    assert frame.loc["glycine", "n_chiral_centers"] == 0

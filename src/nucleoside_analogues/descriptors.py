@@ -58,7 +58,7 @@ DESCRIPTOR_COLUMNS: tuple[str, ...] = (
     "TPSA",
     "logP",
     "MR",
-    "MW",
+    "exact_mass",
     "Csp3",
     "fmf",
     "QED",
@@ -175,7 +175,7 @@ def calc_descriptors(
             rdMolDescriptors.CalcTPSA(mol),
             logp,
             mr,
-            rdMolDescriptors.CalcExactMolWt(mol),
+            rdMolDescriptors.CalcExactMolWt(mol),  # monoisotopic, not average
             rdMolDescriptors.CalcFractionCSP3(mol),
             (scaffold.GetNumHeavyAtoms() / heavy) if scaffold is not None and heavy else 0.0,
             QED.qed(mol),

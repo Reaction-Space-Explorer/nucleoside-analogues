@@ -207,6 +207,10 @@ CI additionally rejects any filename Windows cannot check out.
 - **Stereochemistry is discarded** throughout. Descriptors that depend on it —
   `n_chiral_centers`, `fcsp3_bm`, and the optional 3D shape pair — are computed
   on an arbitrary stereoisomer.
+- **`exact_mass` is monoisotopic**, not average molecular weight. It was called
+  `MW`, which reads as the latter and differs by 0.12 Da on aspirin. The
+  monoisotopic value is what mass-spectrometry matching needs; the name now
+  says which one it is.
 - **Deposited pathways were optimised for chain length, not reaction count**, so
   their reaction counts are incidental rather than minimal.
 - The Urey-Miller and HCN networks in `OriginalData/` are **not used in the
