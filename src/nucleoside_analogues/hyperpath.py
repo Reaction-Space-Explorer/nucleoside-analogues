@@ -49,7 +49,14 @@ from typing import Literal
 
 from .rels import ReactionIndex
 
-__all__ = ["Objective", "PathwayResult", "shortest_pathways", "trace"]
+__all__ = [
+    "Objective",
+    "PathwayResult",
+    "count_minimal_routes",
+    "critical_reactions",
+    "shortest_pathways",
+    "trace",
+]
 
 Objective = Literal["chain", "reactions"]
 
@@ -91,6 +98,7 @@ def shortest_pathways(
     index: ReactionIndex,
     seeds: Iterable[str],
     objective: Objective = "chain",
+    exclude: Iterable[str] = (),
 ) -> PathwayResult:
     """Compute exact minimum-cost pathways to every reachable species.
 
@@ -107,11 +115,14 @@ def shortest_pathways(
     objective
         ``"chain"`` for longest precursor chain, ``"reactions"`` for total
         reaction count with multiplicity.
+    exclude
+        Reaction identifiers to leave out, for deletion experiments.
     """
     if objective not in ("chain", "reactions"):
         raise ValueError(f"unknown objective {objective!r}")
 
     combine = max if objective == "chain" else sum
+    excluded = frozenset(exclude)
 
     cost: dict[str, int] = {seed: 0 for seed in seeds}
     via: dict[str, str] = {}
@@ -121,6 +132,8 @@ def shortest_pathways(
     outstanding: dict[str, int] = {}
     blocked_on: dict[str, list[str]] = defaultdict(list)
     for identifier, reagents in index.reagents.items():
+        if identifier in excluded:
+            continue
         pending = {r for r in reagents if r not in cost}
         outstanding[identifier] = len(pending)
         for species in pending:
@@ -230,3 +243,54 @@ def count_minimal_routes(
         return total
 
     return routes(target)
+
+
+def _contributing(
+    result: PathwayResult,
+    index: ReactionIndex,
+    target: str,
+) -> list[str]:
+    """Every reaction that could take part in some derivation of *target*."""
+    reactions: set[str] = set()
+    seen = {target}
+    stack = [target]
+    while stack:
+        species = stack.pop()
+        for identifier in index.producers.get(species, ()):
+            reagents = index.reagents[identifier]
+            if any(r not in result.cost for r in reagents):
+                continue
+            reactions.add(identifier)
+            for reagent in reagents:
+                if reagent not in seen:
+                    seen.add(reagent)
+                    stack.append(reagent)
+    return sorted(reactions)
+
+
+def critical_reactions(
+    index: ReactionIndex,
+    seeds: Iterable[str],
+    target: str,
+    objective: Objective = "chain",
+) -> list[str]:
+    """Reactions whose removal leaves *target* unreachable at any length.
+
+    This is robustness in the sense of network expansion: a target that depends
+    on a critical reaction has no alternative route at all, not merely no
+    equally short one, so the count says something the route count cannot.  A
+    target reachable by several independent routes has none.
+
+    Only reactions that could take part in a derivation are tested; the rest
+    cannot change reachability.
+    """
+    seeds = tuple(seeds)
+    base = shortest_pathways(index, seeds, objective=objective)
+    if target not in base.cost:
+        return []
+    return [
+        identifier
+        for identifier in _contributing(base, index, target)
+        if target
+        not in shortest_pathways(index, seeds, objective=objective, exclude=(identifier,)).cost
+    ]

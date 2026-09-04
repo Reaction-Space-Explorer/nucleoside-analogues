@@ -10,12 +10,14 @@ from __future__ import annotations
 
 import csv
 
+import pandas as pd
 import pytest
 from helpers import REPO, products_path, requires, spontaneous_rels_path
 
 from nucleoside_analogues.hyperpath import (
     Objective,
     count_minimal_routes,
+    critical_reactions,
     shortest_pathways,
     trace,
 )
@@ -85,3 +87,46 @@ def test_minimal_route_count_is_positive_for_reachable_species(network: str) -> 
     reachable = [s for s, c in result.cost.items() if c > 0]
     for species in reachable[:100]:
         assert count_minimal_routes(result, index, species) >= 1
+
+
+def test_exclude_removes_only_the_named_reaction() -> None:
+    index = build_index(
+        pd.DataFrame(
+            {
+                "Index": ["r1", "r2"],
+                "Reagents": [("A",), ("A",)],
+                "Products": [("B",), ("B",)],
+            }
+        )
+    )
+    assert "B" in shortest_pathways(index, ["A"], exclude=("r1",)).cost
+    assert "B" not in shortest_pathways(index, ["A"], exclude=("r1", "r2")).cost
+
+
+def test_critical_reactions_on_a_known_topology() -> None:
+    """B is made two ways so nothing is critical for it; C hangs off one edge."""
+    index = build_index(
+        pd.DataFrame(
+            {
+                "Index": ["r1", "r2", "r3"],
+                "Reagents": [("A",), ("A",), ("B",)],
+                "Products": [("B",), ("B",), ("C",)],
+            }
+        )
+    )
+    assert critical_reactions(index, ["A"], "B") == []
+    assert critical_reactions(index, ["A"], "C") == ["r3"]
+    assert critical_reactions(index, ["A"], "A") == []
+
+
+def test_critical_reactions_lie_on_the_traced_route(network: str) -> None:
+    """A reaction in every derivation must appear in the one trace returns."""
+    result, index = _result(network)
+    for smiles in ("C(C(C(CO)O)O)=O", "C(C(CO)O)O"):  # threose, glycerol
+        if smiles not in result.cost:
+            continue
+        critical = critical_reactions(index, _seeds(network), smiles)
+        assert set(critical) <= set(trace(result, index, smiles))
+        for identifier in critical:
+            excluded = shortest_pathways(index, _seeds(network), exclude=(identifier,))
+            assert smiles not in excluded.cost
