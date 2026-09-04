@@ -114,15 +114,16 @@ def literal(value):
     return tuple(ast.literal_eval(value)) if isinstance(value, str) else tuple(value)
 
 
-def run(network: str, workers: int) -> None:
-    generation = max(int(f.stem.split("_")[-1]) for f in (RELS / network).glob("*Rels_*.tsv"))
+def run(network: str, workers: int, generation: int | None = None, out: Path = OUT) -> None:
+    if generation is None:
+        generation = max(int(f.stem.split("_")[-1]) for f in (RELS / network).glob("*Rels_*.tsv"))
     frame = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
     rows = [
         (str(i), literal(a), literal(b))
         for i, a, b in zip(frame["Index"], frame["Reagents"], frame["Products"], strict=True)
     ]
 
-    target = OUT / f"{network}_G{generation}_energies_pH7.4.csv"
+    target = out / f"{network}_G{generation}_energies_pH7.4.csv"
     target.parent.mkdir(parents=True, exist_ok=True)
     done: set[str] = set()
     if target.exists():
@@ -160,10 +161,13 @@ def run(network: str, workers: int) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--generation", type=int, default=None,
+                        help="fix the generation instead of using the deepest available")
+    parser.add_argument("--out", type=Path, default=OUT)
     parser.add_argument("networks", nargs="*", default=list(NETWORKS))
     args = parser.parse_args()
     for network in args.networks or NETWORKS:
-        run(network, args.workers)
+        run(network, args.workers, args.generation, args.out)
 
 
 if __name__ == "__main__":
