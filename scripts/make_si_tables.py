@@ -1,6 +1,6 @@
 """Regenerate SI Tables 1 and 2 from the recomputed generation-3 energies.
 
-    uv run python scripts/make_si_tables.py
+uv run python scripts/make_si_tables.py
 """
 
 import csv
@@ -74,20 +74,28 @@ def main() -> None:
             count = shortest_pathways(index, seeds, objective="reactions")
             for name, smiles in TARGETS.items():
                 ok = smiles in depth.cost
-                t2.append({
-                    "network": network, "basis": basis, "target": name,
-                    "reachable": "yes" if ok else "no",
-                    "chain_depth": depth.cost.get(smiles, ""),
-                    "reactions": count.cost.get(smiles, ""),
-                })
-                t1.append({
-                    "network": network, "basis": basis, "target": name,
-                    "reachable": "yes" if ok else "no",
-                    "minimal_routes": count_minimal_routes(depth, index, smiles) if ok else "",
-                    "critical_reactions": (
-                        len(critical_reactions(index, seeds, smiles)) if ok else ""
-                    ),
-                })
+                t2.append(
+                    {
+                        "network": network,
+                        "basis": basis,
+                        "target": name,
+                        "reachable": "yes" if ok else "no",
+                        "chain_depth": depth.cost.get(smiles, ""),
+                        "reactions": count.cost.get(smiles, ""),
+                    }
+                )
+                t1.append(
+                    {
+                        "network": network,
+                        "basis": basis,
+                        "target": name,
+                        "reachable": "yes" if ok else "no",
+                        "minimal_routes": count_minimal_routes(depth, index, smiles) if ok else "",
+                        "critical_reactions": (
+                            len(critical_reactions(index, seeds, smiles)) if ok else ""
+                        ),
+                    }
+                )
             print(f"  {network:12s} {basis:16s} reactions admitted {len(keep):5,d}")
 
     for rows, name in ((t1, "SI_Table1_routes.csv"), (t2, "SI_Table2_steps.csv")):

@@ -78,15 +78,23 @@ def main() -> None:
         only_mine = set(mine) - set(deposited)
         only_dep = set(deposited) - set(mine)
         gen_diff = {k for k in set(mine) & set(deposited) if mine[k] != deposited[k]}
-        rows.append({
-            "network": network, "regenerated": len(mine), "deposited": len(deposited),
-            "only_regenerated": len(only_mine), "only_deposited": len(only_dep),
-            "generation_differs": len(gen_diff),
-            "agree": len(only_mine) == 0 and len(only_dep) == 0 and len(gen_diff) == 0,
-        })
-        print(f"{network:12s} regenerated {len(mine):5,d} | deposited {len(deposited):5,d} | "
-              f"only-new {len(only_mine):4,d} | only-dep {len(only_dep):4,d} | "
-              f"gen differs {len(gen_diff):4,d}", flush=True)
+        rows.append(
+            {
+                "network": network,
+                "regenerated": len(mine),
+                "deposited": len(deposited),
+                "only_regenerated": len(only_mine),
+                "only_deposited": len(only_dep),
+                "generation_differs": len(gen_diff),
+                "agree": len(only_mine) == 0 and len(only_dep) == 0 and len(gen_diff) == 0,
+            }
+        )
+        print(
+            f"{network:12s} regenerated {len(mine):5,d} | deposited {len(deposited):5,d} | "
+            f"only-new {len(only_mine):4,d} | only-dep {len(only_dep):4,d} | "
+            f"gen differs {len(gen_diff):4,d}",
+            flush=True,
+        )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", newline="") as handle:
