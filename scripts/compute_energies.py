@@ -161,8 +161,12 @@ def run(network: str, workers: int, generation: int | None = None, out: Path = O
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workers", type=int, default=8)
-    parser.add_argument("--generation", type=int, default=None,
-                        help="fix the generation instead of using the deepest available")
+    parser.add_argument(
+        "--generation",
+        type=int,
+        default=None,
+        help="fix the generation instead of using the deepest available",
+    )
     parser.add_argument("--out", type=Path, default=OUT)
     parser.add_argument("networks", nargs="*", default=list(NETWORKS))
     args = parser.parse_args()
