@@ -1,0 +1,9 @@
+sample,label,network,peaks_assigned,peaks_CHNO,formulas_lt150,matched_lt150,percent_lt150,formulas_lt200,matched_lt200,percent_lt200,formulas_lt250,matched_lt250,percent_lt250,formulas_lt300,matched_lt300,percent_lt300
+39,Formose 150 C,Formose,3264,1571,0,0,0.0,51,23,45.1,174,23,13.2,335,23,6.9
+50,Formose 85 C,Formose,4461,1414,0,0,0.0,53,29,54.7,174,29,16.7,251,29,11.6
+40,Formose + NH3 150 C,FormoseAmm,5053,3129,0,0,0.0,0,0,0.0,98,5,5.1,390,14,3.6
+34,Glucose dry 150 C,Glucose,1457,1025,0,0,0.0,31,18,58.1,115,18,15.7,227,18,7.9
+38,Dextrose wet 150 C,Glucose,1937,1633,0,0,0.0,32,19,59.4,107,19,17.8,175,19,10.9
+37,Glucose + NH4OH wet,GlucoseAmm,2028,1485,0,0,0.0,35,17,48.6,126,17,13.5,263,17,6.5
+46,"Pyruvic acid, neat",PyruvicAcid,1141,753,0,0,0.0,30,21,70.0,88,21,23.9,157,21,13.4
+47,Pyruvic acid in water,PyruvicAcid,1293,402,1,0,0.0,4,2,50.0,55,2,3.6,93,2,2.2
