@@ -41,7 +41,7 @@ from __future__ import annotations
 
 from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Literal
+from typing import TYPE_CHECKING, Any, Literal
 
 if TYPE_CHECKING:  # pragma: no cover - import cost only matters at runtime
     from equilibrator_api import ComponentContribution
@@ -142,7 +142,7 @@ def compound_cache(
 
     engine = _engine(cc)
     unique = list(dict.fromkeys(smiles))
-    specified = None
+    specified: dict[str, list[float]] = {}
     if uniform_pka:
         specified = {s: v for s in unique if (v := assign(s))}
     compounds = get_or_create_compounds(
@@ -210,13 +210,13 @@ def reaction_energies(
             )
             continue
 
-        stoichiometry: dict[object, int] = {}
+        stoichiometry: dict[Any, float] = {}
         for smiles in reagents:
             compound = resolved[smiles]
-            stoichiometry[compound] = stoichiometry.get(compound, 0) - 1
+            stoichiometry[compound] = stoichiometry.get(compound, 0.0) - 1.0
         for smiles in products:
             compound = resolved[smiles]
-            stoichiometry[compound] = stoichiometry.get(compound, 0) + 1
+            stoichiometry[compound] = stoichiometry.get(compound, 0.0) + 1.0
 
         try:
             estimate = engine.standard_dg_prime(Reaction(stoichiometry))
