@@ -13,28 +13,23 @@ LOW = ["Formose", "Glucose", "PyruvicAcid"]
 AMINE = ["FormoseAmm", "GlucoseAmm"]
 
 
-def test_glycine_gets_both_constants() -> None:
-    assert assign("NCC(=O)O") == [9.60, 3.80]
+#: (SMILES, expected constants, titrates between pH 7 and 11, name).
+MOLECULES = [
+    ("NCC(=O)O", [9.60, 3.80], True, "glycine"),
+    ("NCCO", [10.60], True, "ethanolamine"),
+    ("O=C=O", [10.33, 6.35], True, "carbon dioxide"),
+    ("C(CO)(O)=O", [3.80], False, "glycolic acid"),
+    ("C(C(C(CO)O)O)=O", [], False, "threose"),
+    ("C(C(C(C(C(CO)O)O)O)O)=O", [], False, "hexose"),
+    ("OCC=O", [], False, "glycolaldehyde"),
+]
 
 
-def test_carbon_dioxide_is_the_only_titratable_species_in_sugar_chemistry() -> None:
-    assert assign("O=C=O") == [10.33, 6.35]
-    assert titrates_in_range("O=C=O")
-
-
-def test_sugars_do_not_titrate_in_range() -> None:
-    for s in ("C(C(C(CO)O)O)=O", "C(C(C(C(C(CO)O)O)O)O)=O", "OCC=O"):
-        assert not titrates_in_range(s)
-
-
-def test_carboxylic_acid_is_flat_above_ph_5() -> None:
-    assert assign("C(CO)(O)=O") == [3.80]
-    assert not titrates_in_range("C(CO)(O)=O")
-
-
-def test_amines_titrate_in_range() -> None:
-    assert titrates_in_range("NCC(=O)O")
-    assert titrates_in_range("NCCO")
+def test_assignments_and_range() -> None:
+    """Constants and in-range behaviour, one molecule per class."""
+    for smiles, constants, titrates, name in MOLECULES:
+        assert assign(smiles) == constants, name
+        assert titrates_in_range(smiles) is titrates, name
 
 
 @pytest.mark.parametrize("network", LOW)
@@ -83,14 +78,8 @@ def test_si_table3_titratable_column_matches_pka(network: str) -> None:
         assert int(row["titratable_7_11"]) == expected
 
 
-#: Species where an independent predictor should agree with ASSIGNMENTS.
-CROSS_CHECK = (
-    ("NCC(=O)O", True, "glycine"),
-    ("CCN", True, "ethylamine"),
-    ("OCC(O)CO", False, "glycerol"),
-    ("CC(=O)O", False, "acetic acid"),
-    ("OCC(O)C(O)C=O", False, "threose"),
-)
+#: Species an independent predictor should agree on. CO2 is excluded: see below.
+CROSS_CHECK = tuple((s, t, n) for s, _, t, n in MOLECULES if s != "O=C=O")
 
 
 def test_assignments_agree_with_dimorphite_dl() -> None:
