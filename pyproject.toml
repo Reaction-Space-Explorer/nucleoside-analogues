@@ -27,7 +27,7 @@ figures = ["matplotlib>=3.8", "seaborn>=0.13"]
 ml = ["scikit-learn>=1.4", "xgboost>=2.0", "shap>=0.45"]
 
 [dependency-groups]
-dev = ["pytest>=8.0", "pytest-cov>=5.0", "ruff>=0.6", "pyright>=1.1.380"]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "ruff>=0.6", "pyright>=1.1.380", "dimorphite-dl>=2.0"]
 
 [build-system]
 requires = ["hatchling"]

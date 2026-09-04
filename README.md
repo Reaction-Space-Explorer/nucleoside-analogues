@@ -174,21 +174,31 @@ CI additionally rejects any filename Windows cannot check out.
 
 ## Known limitations
 
-- **pH range.** Formose, Glucose and Pyruvic acid contain no group that
-  titrates between pH 7 and 11, so a single microspecies is exact and ΔrG′° is
-  pH-independent over that span. Formose/NH₃ and Glucose/NH₃ do (86% and 57% of
-  compounds carry amines, pKa ~9-11); for those, results are quoted at pH 7-8
-  where the amines are >99% protonated, or with pKa values assigned by
-  `nucleoside_analogues.pka`. That assignment was cross-checked once against
-  dimorphite-dl, which agreed on which compounds change protonation between pH 7
-  and 11; the check is not automated and dimorphite-dl is not a dependency.
-- **Free energies carry no uncertainty.** ΔrG′° comes from group contribution
-  via eQuilibrator, and the spontaneity filter is a hard `ΔrG′° < 0` threshold on
-  a point estimate. Roughly half of all reactions classified spontaneous sit
-  within ±20 kJ/mol of zero — within one plausible error bar. Values are in
-  **kJ/mol**.
-- **Protonation states are assumed.** `bypass_chemaxon=True` skips the
-  per-compound pKa determination.
+- **pH range.** The two ammonia-seeded networks titrate broadly: 86% of all
+  compounds in Formose/NH₃ and 57% in Glucose/NH₃ change protonation between
+  pH 7 and 11 (65% and 39% over the generation-3 subset the reported energies
+  cover), through aliphatic amines with pKa ~9-11. The carbon-only networks are
+  nearly flat, but not entirely: Glucose and Pyruvic acid each contain **one**
+  titratable species, CO₂, whose second carbonate constant (10.33) falls in
+  range. That is enough to move Pyruvic acid — 11 of its reactions change
+  classification by pH 11 — so it is wrong to call those networks
+  pH-independent. Formose alone has no titratable species at all. See
+  `ProcessedData/SI/SI_Table3_pH_robustness.csv`; constants come from
+  `nucleoside_analogues.pka` and are cross-checked against dimorphite-dl in the
+  test suite.
+- **Uncertainty is carried, but coverage is the real limit.** Every ΔrG′° has a
+  standard error attached, and a reaction counts as spontaneous only where the
+  whole 95% interval lies below zero. The errors are small — median σ is
+  1.6-2.4 kJ/mol — so that criterion and a bare `ΔrG′° < 0` agree on every
+  number reported here. What does bite is coverage: 9-12% of reactions per
+  network, and **47% in Pyruvic acid**, fall outside the span of both the
+  reactant- and group-contribution bases and have no estimate at all. Those are
+  reported as unestimable, never as zero. Values are in **kJ/mol**.
+- **Protonation states are assigned, not computed.** `bypass_chemaxon=True`
+  skips ChemAxon's per-compound pKa determination, so the calculation needs no
+  licence. Compounds already in the eQuilibrator cache keep their measured
+  constants; the rest are matched against a small SMARTS table of literature
+  values in `nucleoside_analogues.pka`.
 - **Stereochemistry is discarded** throughout. Descriptors that depend on it —
   `n_chiral_centers`, `fcsp3_bm`, and the optional 3D shape pair — are computed
   on an arbitrary stereoisomer.

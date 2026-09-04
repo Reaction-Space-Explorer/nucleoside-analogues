@@ -24,6 +24,14 @@ given a value.
 `identical_to_pH7` compares the *membership* of the spontaneous set, not its
 size.
 
+`titratable_7_11` counts species whose protonation changes between pH 7 and 11
+according to `nucleoside_analogues.pka`. CO2 counts: eQuilibrator's CO2 is
+total dissolved inorganic carbon and its second carbonate constant (10.33) is
+in range, which is why Glucose and PyruvicAcid show one titratable species
+rather than none. `tests/test_pka.py` recomputes this column, so it cannot
+drift from `pka.py` again -- it did once, having been written before the
+carbonate constants were added.
+
 It is identical at every pH for Formose and Glucose. It changes for the two
 ammonia-seeded networks, whose products carry aliphatic amines (pKa ~9-11), and
 for PyruvicAcid, where decarboxylation is common and the carbonic acid constants
