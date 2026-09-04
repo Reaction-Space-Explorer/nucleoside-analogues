@@ -15,6 +15,7 @@ chemistry relative to what ``bypass_chemaxon=True`` already means -- protonation
 states are assumed rather than computed, which must be stated wherever the
 resulting energies are reported.
 """
+
 # equilibrator-assets ships no type information and is an optional extra.
 # pyright: reportMissingImports=false, reportMissingTypeStubs=false
 from equilibrator_assets import chemaxon, generate_compound, thermodynamics
@@ -24,13 +25,13 @@ _ORIGINAL = generate_compound._populate_compound_information
 
 def _bypass_only(row):
     if getattr(row, "compound_dict", None) is None and row.method == "chemaxon":
-        return None                       # fall through to the bypass method
+        return None  # fall through to the bypass method
     return _ORIGINAL(row)
 
 
 def enable() -> None:
     if chemaxon.get_chemaxon_status() == 0:
-        return                            # a licensed install is present; use it
+        return  # a licensed install is present; use it
     # generate_compound reaches this through the thermodynamics module, so one
     # patch covers both call sites.
     thermodynamics.get_compound_mappings = lambda molecules, *a, **k: [None] * len(molecules)
