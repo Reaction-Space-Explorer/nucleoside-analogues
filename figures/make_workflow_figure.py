@@ -5,21 +5,15 @@
 
 from pathlib import Path
 
-import matplotlib
 import matplotlib.pyplot as plt
+from acs_style import DOUBLE, save, use
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
-
-matplotlib.use("Agg")
 
 OUT = Path(__file__).parent / "workflow"
 INK = "#1a1a1a"
 FILL = {"in": "#eef1f5", "mid": "#ffffff", "out": "#e4ebe3"}
 
-matplotlib.rcParams.update({
-    "font.family": "sans-serif",
-    "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
-    "font.size": 7.5,
-})
+use()
 
 
 def box(ax, x, y, w, h, text, kind="mid", bold_first=True):
@@ -46,7 +40,7 @@ def arrow(ax, start, end, label=None):
                 ha="left", va="center", fontsize=6.3, color="#4a4a4a", zorder=3)
 
 
-fig, ax = plt.subplots(figsize=(7.0, 4.3))
+fig, ax = plt.subplots(figsize=(DOUBLE, 4.3))
 ax.set_xlim(0, 1); ax.set_ylim(-0.015, 1.015); ax.axis("off")
 
 W, H, C = 0.40, 0.10, 0.70
@@ -73,6 +67,5 @@ arrow(ax, (0.5, e[1]), (0.5, f[2]), "spontaneous reactions only")
 
 fig.tight_layout(pad=0.3)
 OUT.mkdir(exist_ok=True)
-for ext in ("png", "pdf"):
-    fig.savefig(OUT / f"Figure_S1_workflow.{ext}", dpi=600, bbox_inches="tight")
+save(fig, str(OUT / "Figure_S1_workflow"))
 print("wrote", *(OUT / f"Figure_S1_workflow.{e}" for e in ("png", "pdf")))
