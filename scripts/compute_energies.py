@@ -152,7 +152,7 @@ def run(network: str, workers: int, generation: int | None = None, out: Path = O
                 elapsed = (time.perf_counter() - start) / 60
                 print(f"[{network}] block {n}/{workers} written, {elapsed:.1f} min", flush=True)
     print(
-        f"[{network}] wrote {target.relative_to(REPO)} "
+        f"[{network}] wrote {target} "
         f"in {(time.perf_counter() - start) / 60:.1f} min",
         flush=True,
     )
