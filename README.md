@@ -66,8 +66,12 @@ molecules) solves in about 0.25 s.
 | `ProcessedData/` | Matches, reshaped reactions, thermodynamics, traced pathways |
 | `ProcessedData/manifests/` | Filename → SMILES map for the pathway outputs |
 | `figures/` | 173 plots, salvaged from the archived working repository |
-| `notebooks/legacy/` | Original analysis notebooks, kept for provenance |
-| `*.ipynb` (root) | The generation-3 pipeline as originally run |
+| `notebooks/pipeline/` | The generation-3 analysis as originally run |
+| `notebooks/analysis/` | Descriptor, plotting and database notebooks, salvaged from the archive |
+
+The notebooks are a record of how the published results were produced, not a
+runnable pipeline: none of their data paths resolve from a clone, and most
+address Google Colab mount points. See [`notebooks/README.md`](notebooks/README.md).
 
 ### The package
 
