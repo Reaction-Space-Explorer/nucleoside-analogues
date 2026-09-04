@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main, modernise]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: lint · types · tests (py${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Sync environment
+        run: uv sync --group dev --python ${{ matrix.python }}
+
+      - name: Ruff (lint)
+        run: uv run ruff check src tests
+
+      - name: Ruff (format)
+        run: uv run ruff format --check src tests
+
+      - name: Pyright
+        run: uv run pyright
+
+      - name: Pytest
+        run: uv run pytest -q --cov=nucleoside_analogues --cov-report=term-missing
+
+  filenames:
+    name: filenames are portable
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject characters Windows cannot check out
+        run: |
+          bad=$(git ls-files | grep -E '[*?<>|":\\]' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::filenames unusable on Windows:"; echo "$bad" | head -50
+            echo "$bad" | wc -l; exit 1
+          fi
+          echo "all $(git ls-files | wc -l) tracked paths are portable"
