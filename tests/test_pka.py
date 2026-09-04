@@ -6,12 +6,20 @@ from helpers import products_path, requires
 from nucleoside_analogues.pka import assign, titratable, titrates_in_range
 from nucleoside_analogues.rels import read_products
 
-CLEAN = ["Formose", "Glucose", "PyruvicAcid"]
+# Every network contains CO2, whose carbonic acid constants (6.35, 10.33) fall in
+# range, so no network is free of titratable species. What separates them is how
+# many: the ammonia-seeded ones carry aliphatic amines throughout.
+LOW = ["Formose", "Glucose", "PyruvicAcid"]
 AMINE = ["FormoseAmm", "GlucoseAmm"]
 
 
 def test_glycine_gets_both_constants() -> None:
     assert assign("NCC(=O)O") == [9.60, 3.80]
+
+
+def test_carbon_dioxide_is_the_only_titratable_species_in_sugar_chemistry() -> None:
+    assert assign("O=C=O") == [10.33, 6.35]
+    assert titrates_in_range("O=C=O")
 
 
 def test_sugars_do_not_titrate_in_range() -> None:
@@ -29,15 +37,17 @@ def test_amines_titrate_in_range() -> None:
     assert titrates_in_range("NCCO")
 
 
-@pytest.mark.parametrize("network", CLEAN)
-def test_clean_networks_have_no_titratable_compounds(network: str) -> None:
+@pytest.mark.parametrize("network", LOW)
+def test_carbon_networks_titrate_only_through_co2(network: str) -> None:
     requires(products_path(network))
     smiles = read_products(products_path(network))["Smiles"]
-    assert titratable(smiles) == set()
+    found = titratable(smiles)
+    assert {s for s in found if assign(s) != [10.33, 6.35]} == set()
 
 
 @pytest.mark.parametrize("network", AMINE)
-def test_amine_networks_do_have_them(network: str) -> None:
+def test_amine_networks_titrate_broadly(network: str) -> None:
     requires(products_path(network))
     smiles = read_products(products_path(network))["Smiles"]
-    assert titratable(smiles), f"{network} was expected to contain amines"
+    found = titratable(smiles)
+    assert len(found) > 0.5 * len(smiles), f"{network} was expected to be amine-rich"

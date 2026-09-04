@@ -21,6 +21,10 @@ ASSIGNMENTS: tuple[tuple[str, str, float, str], ...] = (
     ("amine", "[NX3;H1;!$(NC=O)]([CX4])[CX4]", 10.80, "secondary aliphatic amine"),
     ("amine", "[NX3;H2;!$(NC=O)][CX4]", 10.60, "primary aliphatic amine"),
     ("acid", "[CX3](=O)[OX2H1]", 3.80, "carboxylic acid"),
+    # CO2 hydrates to carbonic acid; both constants lie inside pH 7-11, which is
+    # why decarboxylations are pH-dependent.
+    ("carbonate", "[CX2H0](=[OX1])=[OX1]", 10.33, "carbonic acid, second"),
+    ("carbonate2", "[CX2H0](=[OX1])=[OX1]", 6.35, "carbonic acid, first"),
 )
 
 _PATTERNS = tuple(
