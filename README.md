@@ -82,6 +82,8 @@ address Google Colab mount points. See [`notebooks/README.md`](notebooks/README.
 | `matching` | Stereochemistry-flattened InChIKey matching |
 | `invariants` | Atom/charge balance, generation monotonicity, motif screens |
 | `descriptors` | Physicochemical descriptor panel |
+| `pka` | pKa assignment and titratability classification |
+| `thermo` | ΔrG′° with propagated uncertainty (optional `thermo` extra) |
 
 ---
 
@@ -172,6 +174,12 @@ CI additionally rejects any filename Windows cannot check out.
 
 ## Known limitations
 
+- **pH range.** Formose, Glucose and Pyruvic acid contain no group that
+  titrates between pH 7 and 11, so a single microspecies is exact and ΔrG′° is
+  pH-independent over that span. Formose/NH₃ and Glucose/NH₃ do (86% and 57% of
+  compounds carry amines, pKa ~9-11); for those, results are quoted at pH 7-8
+  where the amines are >99% protonated, or with pKa values assigned by
+  `nucleoside_analogues.pka` and cross-checked against dimorphite-dl.
 - **Free energies carry no uncertainty.** ΔrG′° comes from group contribution
   via eQuilibrator, and the spontaneity filter is a hard `ΔrG′° < 0` threshold on
   a point estimate. Roughly half of all reactions classified spontaneous sit

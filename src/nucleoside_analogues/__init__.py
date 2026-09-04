@@ -20,14 +20,14 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from . import descriptors, hyperpath, invariants, matching, rels
+from . import descriptors, hyperpath, invariants, matching, pka, rels
 
 if TYPE_CHECKING:
     from . import thermo
 
 __version__ = "0.2.0"
 
-__all__ = ["descriptors", "hyperpath", "invariants", "matching", "rels", "thermo"]
+__all__ = ["descriptors", "hyperpath", "invariants", "matching", "pka", "rels", "thermo"]
 
 
 def __getattr__(name: str):
