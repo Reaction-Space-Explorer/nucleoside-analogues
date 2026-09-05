@@ -164,8 +164,8 @@ Two companion repositories in the same organisation:
 
 | Repository | Role |
 |---|---|
-| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD graph-grammar workflow that generated the networks used here ([project site](https://rse-ysp.netlify.app/)) |
-| [autocycle](https://github.com/Reaction-Space-Explorer/autocycle) | Publication figures for reaction cycles and synthetic routes, with 2D structures drawn inline at one constant bond length |
+| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD graph-grammar workflow that generated the networks used here. |
+| [autocycle](https://github.com/Reaction-Space-Explorer/autocycle) | Publication figures for reaction cycles and synthetic routes, with 2D structures drawn inline at one constant bond length. |
 
 [ssiddhantsharma/nucleoside-analogues](https://github.com/ssiddhantsharma/nucleoside-analogues)
 is the archived 2021–2023 working repository, and the source of `figures/` and
