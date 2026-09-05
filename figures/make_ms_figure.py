@@ -31,7 +31,7 @@ from ms_validation import MS, PRODUCTS, SAMPLES, neutral_formula, read_midas  # 
 from nucleoside_analogues.rels import read_products  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
-OUT = REPO / "figures" / "workflow"
+OUT = REPO / "figures" / "output"
 LOW, HIGH = 155.0, 205.0
 EXP, MODEL = "cornflowerblue", "deeppink"
 PANELS = [("50", "Formose (F)"), ("40", "Formose Ammonia (FA)"), ("38", "Glucose (G)"),

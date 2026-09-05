@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from acs_style import DOUBLE, save, use
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 
-OUT = Path(__file__).parent / "workflow"
+OUT = Path(__file__).parent / "output"
 INK = "#1a1a1a"
 FILL = {"in": "#eef1f5", "mid": "#ffffff", "out": "#e4ebe3"}
 

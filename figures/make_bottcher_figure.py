@@ -14,7 +14,7 @@ from acs_style import DOUBLE, save, use
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "ProcessedData" / "ComplexityData"
-OUT = REPO / "figures" / "workflow"
+OUT = REPO / "figures" / "output"
 NETWORKS = [
     ("Formose", "Formose (F)"),
     ("FormoseAmm", "Formose Ammonia (FA)"),

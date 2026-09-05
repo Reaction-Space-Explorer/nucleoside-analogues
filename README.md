@@ -34,6 +34,36 @@ docker build -t nucleoside-analogues .
 docker run --rm nucleoside-analogues pytest -q
 ```
 
+### Reproducing the reported results
+
+Each script writes to `ProcessedData/SI/` and is safe to re-run.
+
+```bash
+# free energies, one pass per network at its deepest generation (needs the
+# thermo extra; ~2.5 h on 8 cores, resumable if interrupted)
+uv sync --extra thermo
+uv run --extra thermo python scripts/compute_energies.py --workers 8
+
+# SI Tables 1 and 2: routes, critical reactions, steps
+uv run python scripts/make_si_tables.py
+
+# re-derive the analogue/network matches and diff against the deposited files
+uv run python scripts/verify_matches.py
+
+# FT-ICR MS formulas recovered per network
+uv run python scripts/ms_validation.py
+
+# figures, into figures/output/ as 600 dpi PNG and PDF
+uv sync --extra figures
+uv run --extra figures python figures/make_workflow_figure.py
+uv run --extra figures python figures/make_bottcher_figure.py
+uv run --extra figures python figures/make_ms_figure.py
+```
+
+`compute_energies.py` downloads eQuilibrator's ~1.3 GB compound cache on first
+use. No ChemAxon licence is needed: `chemaxon_bypass` supplies the protonation
+handling, and dissociation constants come from `pka`.
+
 ### Shortest pathways to every reachable molecule
 
 ```python
@@ -50,8 +80,8 @@ result.cost["C(C(C(CO)O)O)=O"]   # threose: 1 step
 ```
 
 One pass returns the exact optimum for *every* reachable species at once. The
-largest network here (FormoseAmm at generation 4 — 145,820 reactions, 35,318
-molecules) solves in about 0.25 s.
+largest network here (Formose at generation 6 -- 306,244 reactions, 117,874
+molecules) solves in about 1 s.
 
 ---
 
