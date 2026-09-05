@@ -71,7 +71,7 @@ speed.
 | `scripts/` | Regenerate the deposited tables, energies and validations |
 | `figures/` | `acs_style.py`, figure scripts, output in `figures/output/` |
 | `tests/` | Chemistry invariants, experimental recall, pathway regression |
-| `OriginalData/` | Raw MØD output and the CHO/CHNO analogue libraries |
+| `OriginalData/` | Raw MØD output and the CHO/CHNO analogue libraries. Five networks are used in the manuscript; HCN, Maillard and Urey-Miller are included for completeness |
 | `ProcessedData/` | Everything derived — see [`ProcessedData/README.md`](ProcessedData/README.md) |
 | `notebooks/` | How the published results were produced — see [`notebooks/README.md`](notebooks/README.md) |
 
