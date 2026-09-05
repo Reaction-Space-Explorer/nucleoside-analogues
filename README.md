@@ -40,7 +40,9 @@ Each script writes to `ProcessedData/SI/` and is safe to re-run.
 
 ```bash
 # free energies, one pass per network at its deepest generation (needs the
-# thermo extra; ~2.5 h on 8 cores, resumable if interrupted)
+# thermo extra). This is the slow step: about 40 core-hours in total, roughly
+# 7 h wall clock on 8 cores. Resumable -- reactions already written are skipped,
+# so an interrupted run picks up where it stopped.
 uv sync --extra thermo
 uv run --extra thermo python scripts/compute_energies.py --workers 8
 
@@ -63,6 +65,13 @@ uv run --extra figures python figures/make_ms_figure.py
 `compute_energies.py` downloads eQuilibrator's ~1.3 GB compound cache on first
 use. No ChemAxon licence is needed: `chemaxon_bypass` supplies the protonation
 handling, and dissociation constants come from `pka`.
+
+Most of that time is compound resolution, not the energies themselves: the
+energies come from `standard_dg_prime_multi`, which is about twelve times
+faster than scoring reactions one at a time. Each worker resolves the species
+in its own block, so species shared between blocks are resolved more than
+once; measured throughput is 76-126 ms per species against 148 single-core,
+so the eight workers buy rather less than eight times the speed.
 
 ### Shortest pathways to every reachable molecule
 
