@@ -32,7 +32,14 @@ from nucleoside_analogues.rels import read_products  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 OUT = REPO / "figures" / "output"
-LOW, HIGH = 155.0, 205.0
+#: Upper bound per network. Four were generated under a 200 amu cutoff on
+#: product mass; the ammonia-seeded formose network was not, and reaches 312 Da,
+#: so comparing it at 200 would manufacture a gap that is not there.
+CEILING = {"Formose": 200.0, "FormoseAmm": 315.0, "Glucose": 200.0,
+           "GlucoseAmm": 200.0, "PyruvicAcid": 201.0}
+#: Peak lists were exported from m/z 150 upward, so nothing below this is seen.
+FLOOR = 155.0
+
 EXP, MODEL = "cornflowerblue", "deeppink"
 PANELS = [("50", "Formose (F)"), ("40", "Formose Ammonia (FA)"), ("38", "Glucose (G)"),
           ("37", "Glucose Ammonia (GA)"), ("46", "Pyruvic Acid (PA)")]
@@ -53,8 +60,10 @@ axes = [[fig.add_subplot(mirror[0, c]) for c in range(len(PANELS))],
         [fig.add_subplot(lower[0, c]) for c in range(len(PANELS))]]
 
 for column, (number, title) in enumerate(PANELS):
-    _, products_file, _ = SAMPLES[number]
-    peaks = [p for p in read_midas(next(MS.glob(f"*_{number}_*"))) if p["organic"]]
+    network, products_file, _ = SAMPLES[number]
+    LOW, HIGH = FLOOR, CEILING[network]
+    peaks = [p for p in read_midas(next(MS.glob(f"*_{number}_*")))
+             if p["organic"] and FLOOR <= p["mass"] <= HIGH]
     frame = read_products(PRODUCTS / products_file)
 
     masses, generations = [], []
@@ -68,7 +77,7 @@ for column, (number, title) in enumerate(PANELS):
 
     # ---- experimental, above
     ax = axes[0][column]
-    window = [p for p in peaks if LOW <= p["mass"] <= HIGH]
+    window = peaks
     if window:
         top = max(p["abundance"] for p in window)
         ax.vlines([p["mass"] for p in window], 0.875,
