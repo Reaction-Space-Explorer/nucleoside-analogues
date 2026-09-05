@@ -166,26 +166,28 @@ three. CI also rejects filenames Windows cannot check out.
 
 | Repository | Role |
 |---|---|
-| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD workflow that generated these networks (Arya et al., *Chem. Sci.* 2022) |
-| [ssiddhantsharma/nucleoside-analogues](https://github.com/ssiddhantsharma/nucleoside-analogues) | Archived 2021–2023 working repository; source of `figures/` and `notebooks/analysis/` |
-| [match-viz](https://github.com/Reaction-Space-Explorer/match-viz) | Interactive viewer for matched structures |
+| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD workflow that generated these networks |
+| [match-viz](https://github.com/Reaction-Space-Explorer/match-viz) | Interactive viewer for the matched structures |
+| [ssiddhantsharma/nucleoside-analogues](https://github.com/ssiddhantsharma/nucleoside-analogues) | Archived 2021–2023 working repository, and the source of `figures/` and `notebooks/analysis/` |
 
 ## Licence
 
 Code under [BSD-3-Clause](LICENSE), data and figures under [CC BY 4.0](LICENSE-DATA).
-`descriptors.py` adapts the panel from the
-[MycoPermeNet project](https://github.com/Nevbarunegbe/Mycomembrane-permeability-project) (MIT).
+`descriptors.py` adapts the panel from
+[MycoPermeNet](https://github.com/Nevbarunegbe/Mycomembrane-permeability-project) (MIT).
 
 ## References
 
-- Arya, A. *et al.* An open source computational workflow for the discovery of
-  autocatalytic networks in abiotic reactions. *Chem. Sci.* **2022**, *13*, 4838–4853.
-  <https://doi.org/10.1039/d2sc00256f>
-- Cleaves, H. J. *et al.* One Among Millions: The Chemical Space of Nucleic
-  Acid-Like Molecules. *J. Chem. Inf. Model.* **2019**, *59*, 4266–4277.
-- Knuth, D. E. A generalization of Dijkstra's algorithm. *Inf. Process. Lett.*
-  **1977**, *6*, 1–5.
-- Gallo, G. *et al.* Directed hypergraphs and applications. *Discrete Appl. Math.*
-  **1993**, *42*, 177–201.
-- Noor, E. *et al.* Consistent Estimation of Gibbs Energy Using Component
-  Contributions. *PLoS Comput. Biol.* **2013**, *9*, e1003098.
+The manuscript carries the full bibliography. These five are the ones a reader
+of this code will want:
+
+- **The networks** — Arya *et al.*, *Chem. Sci.* **2022**, *13*, 4838.
+  [10.1039/d2sc00256f](https://doi.org/10.1039/d2sc00256f)
+- **The analogue space** — Cleaves *et al.*, *J. Chem. Inf. Model.* **2019**, *59*, 4266.
+  [10.1021/acs.jcim.9b00632](https://doi.org/10.1021/acs.jcim.9b00632)
+- **The shortest-path algorithm** — Knuth, *Inf. Process. Lett.* **1977**, *6*, 1.
+  [10.1016/0020-0190(77)90002-3](https://doi.org/10.1016/0020-0190(77)90002-3)
+- **Reaction networks as hypergraphs** — Gallo *et al.*, *Discrete Appl. Math.* **1993**, *42*, 177.
+  [10.1016/0166-218X(93)90045-P](https://doi.org/10.1016/0166-218X(93)90045-P)
+- **The free energies** — Noor *et al.*, *PLoS Comput. Biol.* **2013**, *9*, e1003098.
+  [10.1371/journal.pcbi.1003098](https://doi.org/10.1371/journal.pcbi.1003098)
