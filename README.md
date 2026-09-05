@@ -157,18 +157,19 @@ three. CI also rejects filenames Windows cannot check out.
   180.159 for aspirin. It was called `MW`, which reads as the latter.
 - **Deposited pathways were optimised for chain length**, so their reaction counts
   are incidental rather than minimal.
-- **The Urey-Miller and HCN networks are not used in the manuscript.** The one
-  labelled Urey-Miller is seeded with HCN, cyanoacetylene, formaldehyde and
-  ammonia rather than a CH₄/NH₃/H₂ spark mixture, and recovers none of the amino
-  acids that define that experiment.
 
 ## Related repositories
 
+Two companion repositories in the same organisation:
+
 | Repository | Role |
 |---|---|
-| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD workflow that generated these networks |
-| [match-viz](https://github.com/Reaction-Space-Explorer/match-viz) | Interactive viewer for the matched structures |
-| [ssiddhantsharma/nucleoside-analogues](https://github.com/ssiddhantsharma/nucleoside-analogues) | Archived 2021–2023 working repository, and the source of `figures/` and `notebooks/analysis/` |
+| [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) | The MØD graph-grammar workflow that generated the networks used here ([project site](https://rse-ysp.netlify.app/)) |
+| [autocycle](https://github.com/Reaction-Space-Explorer/autocycle) | Publication figures for reaction cycles and synthetic routes, with 2D structures drawn inline at one constant bond length |
+
+[ssiddhantsharma/nucleoside-analogues](https://github.com/ssiddhantsharma/nucleoside-analogues)
+is the archived 2021–2023 working repository, and the source of `figures/` and
+`notebooks/analysis/`.
 
 ## Licence
 
