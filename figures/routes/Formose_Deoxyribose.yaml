@@ -27,6 +27,7 @@ target:
       seed: true
   - mol:
       smiles: C(C)=O
+      label: acetaldehyde
     reaction:
       id: '63_0'
       rule: Elimination + enol to keto
@@ -36,6 +37,7 @@ target:
     from:
     - mol:
         smiles: C(CO)O
+        label: ethylene glycol
       reaction:
         id: '12_0'
         rule: Cannizarro 2, HCHO (oxidation)

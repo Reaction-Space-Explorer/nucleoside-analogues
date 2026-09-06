@@ -1406,6 +1406,7 @@ L 228.3 172.9
 L 228.3 157.3
 ' fill='#FF0000'/>
 </svg>
+<text x='-3.5000' y='-5.1485' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glyceraldehyde</text>
 <path d='M-5.1897,-6.4353 L-5.3103,-6.4353 L-5.3103,-6.3147 L-5.1897,-6.3147 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-4.7436' y='-6.7250' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:57924_0</text>
 <text x='-4.7436' y='-6.5750' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-25.10 kJ/mol</text>
@@ -2387,6 +2388,7 @@ Q 94.8 148.2, 96.1 149.8
 Q 97.4 151.4, 99.7 151.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-24.5000' y='1.2265' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glycolaldehyde</text>
 <path d='M-26.1897,-0.0603 L-26.3103,-0.0603 L-26.3103,0.0603 L-26.1897,0.0603 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-25.7436' y='-0.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:71_0</text>
 <text x='-25.7436' y='-0.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-43.90 kJ/mol</text>
@@ -3060,6 +3062,7 @@ Q 94.8 148.2, 96.1 149.8
 Q 97.4 151.4, 99.7 151.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-28.0000' y='-1.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glycolaldehyde</text>
 <path d='M-29.6897,-3.0603 L-29.8103,-3.0603 L-29.8103,-2.9397 L-29.6897,-2.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-29.2436' y='-3.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:71_0</text>
 <text x='-29.2436' y='-3.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-43.90 kJ/mol</text>
@@ -3593,6 +3596,7 @@ Q 194.2 159.3, 195.4 160.9
 Q 196.7 162.4, 199.1 162.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-28.0000' y='-4.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>acetaldehyde</text>
 <path d='M-29.6897,-6.0603 L-29.8103,-6.0603 L-29.8103,-5.9397 L-29.6897,-5.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-29.2436' y='-6.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:1277_0</text>
 <text x='-29.2436' y='-6.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-26.60 kJ/mol</text>
@@ -4465,6 +4469,7 @@ Q 56.7 158.1, 58.0 159.7
 Q 59.3 161.2, 61.6 161.2
 ' fill='#FF0000'/>
 </svg>
+<text x='-17.5000' y='-9.2735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>aldotetrose</text>
 <path d='M-19.1897,-10.5603 L-19.3103,-10.5603 L-19.3103,-10.4397 L-19.1897,-10.4397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-18.7436' y='-10.8500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:39_0</text>
 <text x='-18.7436' y='-10.7000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-16.40 kJ/mol</text>
@@ -4533,6 +4538,7 @@ Q 94.8 148.2, 96.1 149.8
 Q 97.4 151.4, 99.7 151.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-21.0000' y='-7.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glycolaldehyde</text>
 <path d='M-22.6897,-9.0603 L-22.8103,-9.0603 L-22.8103,-8.9397 L-22.6897,-8.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-22.2436' y='-9.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:71_0</text>
 <text x='-22.2436' y='-9.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-43.90 kJ/mol</text>
@@ -5039,6 +5045,7 @@ Q 94.8 148.2, 96.1 149.8
 Q 97.4 151.4, 99.7 151.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-21.0000' y='-10.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glycolaldehyde</text>
 <path d='M-22.6897,-12.0603 L-22.8103,-12.0603 L-22.8103,-11.9397 L-22.6897,-11.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-22.2436' y='-12.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:71_0</text>
 <text x='-22.2436' y='-12.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-43.90 kJ/mol</text>
@@ -5572,6 +5579,7 @@ Q 194.2 159.3, 195.4 160.9
 Q 196.7 162.4, 199.1 162.4
 ' fill='#FF0000'/>
 </svg>
+<text x='-3.5000' y='-13.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>acetaldehyde</text>
 <path d='M-5.1897,-15.0603 L-5.3103,-15.0603 L-5.3103,-14.9397 L-5.1897,-14.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-4.7436' y='-15.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:1277_0</text>
 <text x='-4.7436' y='-15.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-26.60 kJ/mol</text>

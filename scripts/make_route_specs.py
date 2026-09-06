@@ -37,6 +37,8 @@ NAMES = {
     "OCC=O": "glycolaldehyde",
     "OCC(O)C=O": "glyceraldehyde",
     "OCC(=O)CO": "dihydroxyacetone",
+    "OCCO": "ethylene glycol",
+    "CC=O": "acetaldehyde",
     "OCC(O)C(O)C=O": "aldotetrose",
     "OCC(O)C(O)C(O)C=O": "aldopentose",
     "OCC(O)C(O)CC=O": "2-deoxyaldopentose",

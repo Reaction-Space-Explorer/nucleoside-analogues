@@ -136,6 +136,7 @@ target:
                       seed: true
                 - mol:
                     smiles: C(C)=O
+                    label: acetaldehyde
                   reaction:
                     id: '1277_0'
                     rule: Retro Aldol

@@ -321,6 +321,7 @@ L 239.6 174.6
 L 239.6 159.0
 ' fill='#FF0000'/>
 </svg>
+<text x='-3.5000' y='-0.2735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glyceraldehyde</text>
 <path d='M-5.1897,-1.5603 L-5.3103,-1.5603 L-5.3103,-1.4397 L-5.1897,-1.4397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-4.7436' y='-1.8500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:5_0</text>
 <text x='-4.7436' y='-1.7000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-32.60 kJ/mol</text>
@@ -561,6 +562,7 @@ Q 199.8 161.3, 201.0 162.9
 Q 202.3 164.5, 204.7 164.5
 ' fill='#FF0000'/>
 </svg>
+<text x='-3.5000' y='-7.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>acetaldehyde</text>
 <path d='M-5.1897,-9.0603 L-5.3103,-9.0603 L-5.3103,-8.9397 L-5.1897,-8.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-4.7436' y='-9.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:98_0</text>
 <text x='-4.7436' y='-9.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-43.20 kJ/mol</text>
@@ -641,6 +643,7 @@ Q 78.1 148.5, 79.4 150.1
 Q 80.7 151.7, 83.1 151.7
 ' fill='#FF0000'/>
 </svg>
+<text x='-7.0000' y='-7.7735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>ethylene glycol</text>
 <path d='M-8.6897,-9.0603 L-8.8103,-9.0603 L-8.8103,-8.9397 L-8.6897,-8.9397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-8.2436' y='-9.3500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:15_0</text>
 <text x='-8.2436' y='-9.2000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-71.80 kJ/mol</text>

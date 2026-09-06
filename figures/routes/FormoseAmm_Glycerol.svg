@@ -427,6 +427,7 @@ L 239.6 174.6
 L 239.6 159.0
 ' fill='#FF0000'/>
 </svg>
+<text x='-3.5000' y='-6.2735' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#333' font-weight='normal'>glyceraldehyde</text>
 <path d='M-5.1897,-7.5603 L-5.3103,-7.5603 L-5.3103,-7.4397 L-5.1897,-7.4397 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
 <text x='-4.7436' y='-7.8500' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>r:5_0</text>
 <text x='-4.7436' y='-7.7000' font-family='Helvetica, Arial, sans-serif' font-size='0.125' text-anchor='middle' fill='#222' font-weight='normal'>-32.60 kJ/mol</text>
