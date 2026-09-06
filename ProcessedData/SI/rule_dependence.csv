@@ -1,26 +1,76 @@
-network,generation,target,depth_all_rules,depth_without_migration,survives,migration_reactions,spontaneous_reactions
-Formose,6,Deoxyribose,3,,no,21278,139386
-Formose,6,Ribose,2,2,yes,21278,139386
-Formose,6,Threose,1,1,yes,21278,139386
-Formose,6,Glycerol,2,2,yes,21278,139386
-Formose,6,Glyoxylate,6,,no,21278,139386
-FormoseAmm,4,Deoxyribose,3,4,yes,1511,54665
-FormoseAmm,4,Ribose,2,2,yes,1511,54665
-FormoseAmm,4,Threose,1,1,yes,1511,54665
-FormoseAmm,4,Glycerol,2,2,yes,1511,54665
-FormoseAmm,4,Glyoxylate,3,3,yes,1511,54665
-Glucose,5,Deoxyribose,11,,no,10018,50815
-Glucose,5,Ribose,11,,no,10018,50815
-Glucose,5,Threose,3,,no,10018,50815
-Glucose,5,Glycerol,,,n/a,10018,50815
-Glucose,5,Glyoxylate,11,,no,10018,50815
-GlucoseAmm,4,Deoxyribose,,,n/a,2993,44155
-GlucoseAmm,4,Ribose,,,n/a,2993,44155
-GlucoseAmm,4,Threose,3,,no,2993,44155
-GlucoseAmm,4,Glycerol,,,n/a,2993,44155
-GlucoseAmm,4,Glyoxylate,5,,no,2993,44155
-PyruvicAcid,6,Deoxyribose,,,n/a,6511,56504
-PyruvicAcid,6,Ribose,,,n/a,6511,56504
-PyruvicAcid,6,Threose,,,n/a,6511,56504
-PyruvicAcid,6,Glycerol,,,n/a,6511,56504
-PyruvicAcid,6,Glyoxylate,,,n/a,6511,56504
+network,generation,removed,target,depth_all_rules,depth_after_removal,survives,reactions_removed,spontaneous_reactions
+Formose,6,carbonyl migration,Deoxyribose,3,,no,21278,139386
+Formose,6,carbonyl migration,Ribose,2,2,yes,21278,139386
+Formose,6,carbonyl migration,Threose,1,1,yes,21278,139386
+Formose,6,carbonyl migration,Glycerol,2,2,yes,21278,139386
+Formose,6,carbonyl migration,Glyoxylate,6,,no,21278,139386
+Formose,6,Cannizzaro,Deoxyribose,3,5,yes,21138,139386
+Formose,6,Cannizzaro,Ribose,2,2,yes,21138,139386
+Formose,6,Cannizzaro,Threose,1,1,yes,21138,139386
+Formose,6,Cannizzaro,Glycerol,2,,no,21138,139386
+Formose,6,Cannizzaro,Glyoxylate,6,6,yes,21138,139386
+Formose,6,both,Deoxyribose,3,,no,42416,139386
+Formose,6,both,Ribose,2,2,yes,42416,139386
+Formose,6,both,Threose,1,1,yes,42416,139386
+Formose,6,both,Glycerol,2,,no,42416,139386
+Formose,6,both,Glyoxylate,6,,no,42416,139386
+FormoseAmm,4,carbonyl migration,Deoxyribose,3,4,yes,1511,54665
+FormoseAmm,4,carbonyl migration,Ribose,2,2,yes,1511,54665
+FormoseAmm,4,carbonyl migration,Threose,1,1,yes,1511,54665
+FormoseAmm,4,carbonyl migration,Glycerol,2,2,yes,1511,54665
+FormoseAmm,4,carbonyl migration,Glyoxylate,3,3,yes,1511,54665
+FormoseAmm,4,Cannizzaro,Deoxyribose,3,5,yes,1026,54665
+FormoseAmm,4,Cannizzaro,Ribose,2,2,yes,1026,54665
+FormoseAmm,4,Cannizzaro,Threose,1,1,yes,1026,54665
+FormoseAmm,4,Cannizzaro,Glycerol,2,,no,1026,54665
+FormoseAmm,4,Cannizzaro,Glyoxylate,3,,no,1026,54665
+FormoseAmm,4,both,Deoxyribose,3,6,yes,2537,54665
+FormoseAmm,4,both,Ribose,2,2,yes,2537,54665
+FormoseAmm,4,both,Threose,1,1,yes,2537,54665
+FormoseAmm,4,both,Glycerol,2,,no,2537,54665
+FormoseAmm,4,both,Glyoxylate,3,,no,2537,54665
+Glucose,5,carbonyl migration,Deoxyribose,11,,no,10018,50815
+Glucose,5,carbonyl migration,Ribose,11,,no,10018,50815
+Glucose,5,carbonyl migration,Threose,3,,no,10018,50815
+Glucose,5,carbonyl migration,Glycerol,,,n/a,10018,50815
+Glucose,5,carbonyl migration,Glyoxylate,11,,no,10018,50815
+Glucose,5,Cannizzaro,Deoxyribose,11,11,yes,318,50815
+Glucose,5,Cannizzaro,Ribose,11,11,yes,318,50815
+Glucose,5,Cannizzaro,Threose,3,3,yes,318,50815
+Glucose,5,Cannizzaro,Glycerol,,,n/a,318,50815
+Glucose,5,Cannizzaro,Glyoxylate,11,12,yes,318,50815
+Glucose,5,both,Deoxyribose,11,,no,10336,50815
+Glucose,5,both,Ribose,11,,no,10336,50815
+Glucose,5,both,Threose,3,,no,10336,50815
+Glucose,5,both,Glycerol,,,n/a,10336,50815
+Glucose,5,both,Glyoxylate,11,,no,10336,50815
+GlucoseAmm,4,carbonyl migration,Deoxyribose,,,n/a,2993,44155
+GlucoseAmm,4,carbonyl migration,Ribose,,,n/a,2993,44155
+GlucoseAmm,4,carbonyl migration,Threose,3,,no,2993,44155
+GlucoseAmm,4,carbonyl migration,Glycerol,,,n/a,2993,44155
+GlucoseAmm,4,carbonyl migration,Glyoxylate,5,,no,2993,44155
+GlucoseAmm,4,Cannizzaro,Deoxyribose,,,n/a,114,44155
+GlucoseAmm,4,Cannizzaro,Ribose,,,n/a,114,44155
+GlucoseAmm,4,Cannizzaro,Threose,3,3,yes,114,44155
+GlucoseAmm,4,Cannizzaro,Glycerol,,,n/a,114,44155
+GlucoseAmm,4,Cannizzaro,Glyoxylate,5,,no,114,44155
+GlucoseAmm,4,both,Deoxyribose,,,n/a,3107,44155
+GlucoseAmm,4,both,Ribose,,,n/a,3107,44155
+GlucoseAmm,4,both,Threose,3,,no,3107,44155
+GlucoseAmm,4,both,Glycerol,,,n/a,3107,44155
+GlucoseAmm,4,both,Glyoxylate,5,,no,3107,44155
+PyruvicAcid,6,carbonyl migration,Deoxyribose,,,n/a,6511,56504
+PyruvicAcid,6,carbonyl migration,Ribose,,,n/a,6511,56504
+PyruvicAcid,6,carbonyl migration,Threose,,,n/a,6511,56504
+PyruvicAcid,6,carbonyl migration,Glycerol,,,n/a,6511,56504
+PyruvicAcid,6,carbonyl migration,Glyoxylate,,,n/a,6511,56504
+PyruvicAcid,6,Cannizzaro,Deoxyribose,,,n/a,6928,56504
+PyruvicAcid,6,Cannizzaro,Ribose,,,n/a,6928,56504
+PyruvicAcid,6,Cannizzaro,Threose,,,n/a,6928,56504
+PyruvicAcid,6,Cannizzaro,Glycerol,,,n/a,6928,56504
+PyruvicAcid,6,Cannizzaro,Glyoxylate,,,n/a,6928,56504
+PyruvicAcid,6,both,Deoxyribose,,,n/a,13439,56504
+PyruvicAcid,6,both,Ribose,,,n/a,13439,56504
+PyruvicAcid,6,both,Threose,,,n/a,13439,56504
+PyruvicAcid,6,both,Glycerol,,,n/a,13439,56504
+PyruvicAcid,6,both,Glyoxylate,,,n/a,13439,56504

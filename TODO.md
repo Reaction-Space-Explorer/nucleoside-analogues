@@ -59,32 +59,13 @@ Kept here so it cannot drift. Everything else found this round has been written 
   complexity percentile, a poor fit for a backbone target.
 - **Figure S2** is now redundant with the numbers written into the discussion, and could be cut.
 
-## Krishnamurthy glyoxylate papers, all verified against Crossref
+## Done: the Krishnamurthy papers are cited and the analysis is written up
 
-Supplied 2026-09-07. Not yet cited; each would need renumbering, so they are held together.
-
-- Krishnamurthy, R.; Liotta, C. L. The potential of glyoxylate as a prebiotic source molecule and
-  a reactant in protometabolic pathways - the glyoxylose reaction. *Chem* **2023**, 9, 784-797.
-  10.1016/j.chempr.2023.03.007. Proposes glyoxylate as an alternative source molecule to
-  formaldehyde. Supports the new glyoxylate target far better than ref 81 alone.
-- Sutton, Pulletikurti, Lin, Krishnamurthy, Liotta. Abiotic aldol reactions of formaldehyde with
-  ketoses and aldoses. *Chem* **2025**, 11, 102553. 10.1016/j.chempr.2025.102553. By 13C NMR:
-  formaldehyde aldol dominates, tetroses and pentoses are not observed, carbonyl migration is
-  absent, and the Breslow autocatalytic pathway is doubted. **This bears directly on p98, which
-  currently says our traced routes are the chain-growth steps "as Breslow described it".**
-- Cruz, H.; Krishnamurthy, R. Selection of ribofuranose-isomer among pentoses by phosphorylation
-  with diamidophosphate. *Angew. Chem. Int. Ed.* **2025**, 64. 10.1002/anie.202509810. Furanose
-  against pyranose selection, a distinction this representation cannot make.
-- Clay, Cooke, Kumar, Yadav, Krishnamurthy, Springsteen. A plausible prebiotic one-pot synthesis
-  of orotate and pyruvate. *Angew. Chem. Int. Ed.* **2022**, 61. 10.1002/anie.202112572.
-  Hydantoin plus glyoxylate; hydantoin is absent from all five CRNRs.
-
-**Carbonyl-migration robustness is computed** (`scripts/rule_dependence.py`,
-`ProcessedData/SI/rule_dependence.csv`) but not yet written into the manuscript. Removing the two
-migration rules from the spontaneous network: the formose routes to ribose (2), threose (1) and
-glycerol (2) are unchanged, so the headline result does not rest on carbonyl migration at all.
-Formose deoxyribose and glyoxylate are lost, and every target in G, GA and PA is lost. FA keeps
-all five, deoxyribose lengthening from 3 to 4.
+Four references added (96 total, first-citation order preserved): Krishnamurthy & Liotta 82,
+Sutton 85, Tabata 88 in the list, Cruz 89. The robustness result is a new paragraph after p98 and
+SI Table 5. The Breslow attribution in p98 is qualified. Cruz supports the furanose/pyranose
+limitation in the stereochemistry paragraph. Clay et al. 2022 is not cited: hydantoin is absent
+from all five CRNRs, so it bears on nothing computed here.
 
 ## Author-side
 
