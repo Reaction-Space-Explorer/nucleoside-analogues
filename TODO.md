@@ -26,9 +26,15 @@
 - Sinks and hills as a table, not a figure. Only 9-77% of species classify, which a
   figure would hide.
 - SI figure: chain depth against reaction count, worked on one convergent route.
-- Confirm the Oro reference for the acetaldehyde + glyceraldehyde aldol to 2-deoxyribose
-  from the primary source. The traced route recovers it unprompted, which is worth
-  stating, but ref 64 has not been checked against the paper itself.
+
+## Done since the last update
+
+- Oro citation checked and corrected. Ref 64 is Oro's 1961 adenine-from-HCN paper and
+  said nothing about deoxyribose; the claim now cites ref 79, Teichert, Kruse & Trapp,
+  Angew. Chem. Int. Ed. 2019, 58, 9944-9947, already in the reference list and verified
+  against PubMed 31131499, whose abstract states the acetaldehyde condensation. All 92
+  references remain cited.
+- autocycle draws intermediate labels (upstream commit 195883d).
 
 ## Author-side
 
