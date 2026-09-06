@@ -46,6 +46,8 @@ select = ["F", "I", "B", "SIM", "UP"]
 
 [tool.pyright]
 include = ["src", "tests"]
+# tests/conftest.py puts scripts/ on sys.path so the analysis entry points are covered
+extraPaths = ["scripts"]
 pythonVersion = "3.11"
 typeCheckingMode = "standard"
 reportMissingTypeStubs = false
