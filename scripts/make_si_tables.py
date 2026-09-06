@@ -1,4 +1,4 @@
-"""Regenerate SI Tables 1 and 2 from the recomputed generation-3 energies.
+"""Regenerate SI Tables 1 and 2, at each network's deepest generation.
 
 uv run python scripts/make_si_tables.py
 """
