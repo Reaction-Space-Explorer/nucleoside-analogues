@@ -22,3 +22,10 @@ htmlcov/
 .vscode/
 .idea/
 *.swp
+
+# Reference databases: freely available but not redistributable.
+# ChEBI is fetched by scripts/database_matches.py; HMDB must be downloaded by
+# hand from https://www.hmdb.ca/downloads (the "Structures" SDF).
+OriginalData/reference_databases/**
+!OriginalData/reference_databases/
+!OriginalData/reference_databases/README.md
