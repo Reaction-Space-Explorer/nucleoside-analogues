@@ -5,9 +5,11 @@
 One YAML per network and target, at the network's deepest generation, over the
 spontaneous-only network -- the same basis as SI Table 1. Draw them with
 
-    autocycle route figures/routes/Formose_Ribose.yaml -o ribose.pdf
+    autocycle route figures/routes/Formose_Ribose.yaml --style rich --drop O -o ribose.pdf
 
-autocycle is not a dependency here; it reads the YAML this writes.
+The rich style scales each arrow by the magnitude of its free energy and
+colours it by sign, and prints the route total. autocycle is not a dependency
+here; it reads the YAML this writes.
 """
 
 import csv
