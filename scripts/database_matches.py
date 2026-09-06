@@ -17,12 +17,11 @@ import sys
 import urllib.request
 from pathlib import Path
 
-import pandas as pd
 from rdkit import Chem, RDLogger
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from make_si_tables import PRODUCTS, SI
+from make_si_tables import PRODUCTS, SI, species_generations
 
 RDLogger.DisableLog("rdApp.*")
 REPO = Path(__file__).resolve().parent.parent
@@ -68,17 +67,13 @@ def main() -> None:
         print(f"  {name}: {len(reference[name]):,} distinct skeletons", flush=True)
 
     rows = []
-    for network, products_file in PRODUCTS.items():
-        products = pd.read_csv(
-            REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file, sep="\t"
-        )
+    for network in PRODUCTS:
         seen: dict[int, set[str]] = {}
-        for smiles, generation in zip(products["Smiles"], products["Generation"], strict=True):
+        for smiles, generation in species_generations(network).items():
             mol = Chem.MolFromSmiles(str(smiles))
             if mol is None:
                 continue
-            g = int(str(generation).lstrip("Gg"))
-            seen.setdefault(g, set()).add(Chem.MolToInchiKey(mol)[:14])
+            seen.setdefault(int(generation), set()).add(Chem.MolToInchiKey(mol)[:14])
         cumulative: set[str] = set()
         for g in sorted(seen):
             cumulative |= seen[g]

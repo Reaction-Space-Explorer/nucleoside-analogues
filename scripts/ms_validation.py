@@ -16,10 +16,9 @@ import csv
 import json
 from pathlib import Path
 
+from make_si_tables import species_generations
 from rdkit import Chem, RDLogger
 from rdkit.Chem.rdMolDescriptors import CalcMolFormula
-
-from nucleoside_analogues.rels import read_products
 
 RDLogger.DisableLog("rdApp.*")
 REPO = Path(__file__).resolve().parent.parent
@@ -90,11 +89,10 @@ def neutral_formula(ion: dict[str, int]) -> str:
     return "".join(f"{k}{counts[k]}" for k in order if counts.get(k))
 
 
-def network_formulas(products_file: str) -> dict[str, int]:
+def network_formulas(network: str) -> dict[str, int]:
     """Molecular formula -> earliest generation it appears in."""
-    frame = read_products(PRODUCTS / products_file)
     first: dict[str, int] = {}
-    for smiles, generation in zip(frame["Smiles"], frame["Generation"], strict=True):
+    for smiles, generation in species_generations(network).items():
         mol = Chem.MolFromSmiles(str(smiles))
         if mol is None:
             continue
@@ -107,14 +105,14 @@ def network_formulas(products_file: str) -> dict[str, int]:
 def main() -> None:
     rows = []
     detail = {}
-    for number, (network, products_file, label) in SAMPLES.items():
+    for number, (network, _products_file, label) in SAMPLES.items():
         matches = list(MS.glob(f"*_{number}_*"))
         if not matches:
             print(f"sample {number}: FILE MISSING")
             continue
         peaks = read_midas(matches[0])
         organic = [p for p in peaks if p["organic"]]
-        net = network_formulas(products_file)
+        net = network_formulas(network)
         row = {
             "sample": number,
             "label": label,

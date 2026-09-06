@@ -68,6 +68,29 @@ def is_spontaneous(row: dict) -> bool:
         return False
 
 
+def species_generations(network: str) -> dict[str, int]:
+    """Every species in the network, and the generation it first appears in.
+
+    Taken from the rels rather than the product listing: Formose's listing
+    stops at generation five while its reactions run to six, so the 94,415
+    species of that last tranche are absent from it. They take the deepest
+    generation, which is where they appear.
+    """
+    generation = deepest(network)
+    products = read_products(
+        REPO / "OriginalData" / "OriginalNetworkData" / "Products" / PRODUCTS[network]
+    )
+    known = {
+        str(s): int(g) for s, g in zip(products["Smiles"], products["Generation"], strict=True)
+    }
+    rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
+    for column in ("Reagents", "Products"):
+        for row in rels[column]:
+            for smiles in row:
+                known.setdefault(str(smiles), generation)
+    return known
+
+
 def deepest(network: str) -> int:
     return max(int(f.stem.split("_")[-1]) for f in (RELS / network).glob("*Rels_*.tsv"))
 

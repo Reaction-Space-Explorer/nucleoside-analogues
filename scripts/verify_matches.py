@@ -13,12 +13,15 @@ stereochemistry.
 """
 
 import csv
+import sys
 from pathlib import Path
 
 import pandas as pd
 from rdkit import Chem, RDLogger
 
-from nucleoside_analogues.rels import read_products
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from make_si_tables import species_generations  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 REPO = Path(__file__).resolve().parent.parent
@@ -61,10 +64,9 @@ def main() -> None:
     keys = library_keys()
 
     rows = []
-    for network, products_file in NETWORKS.items():
-        products = read_products(PRODUCTS / products_file)
+    for network in NETWORKS:
         first: dict[str, int] = {}
-        for smiles, generation in zip(products["Smiles"], products["Generation"], strict=True):
+        for smiles, generation in species_generations(network).items():
             k = key(str(smiles))
             if k is not None and (k not in first or generation < first[k]):
                 first[k] = int(generation)
