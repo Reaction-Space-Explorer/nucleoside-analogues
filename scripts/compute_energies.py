@@ -89,19 +89,33 @@ def _score(block: list[tuple[str, tuple[str, ...], tuple[str, ...]]]) -> dict[fl
             _CC.p_h = Q_(p_h)
             try:
                 values, sqrt_factor = _CC.standard_dg_prime_multi(
-                    reactions, uncertainty_representation="sqrt")
+                    reactions, uncertainty_representation="sqrt"
+                )
                 dg = np.asarray(values.m_as("kJ/mol"), dtype=float)
                 sigma = np.sqrt(
-                    (np.asarray(sqrt_factor.m_as("kJ/mol"), dtype=float) ** 2).sum(axis=1))
+                    (np.asarray(sqrt_factor.m_as("kJ/mol"), dtype=float) ** 2).sum(axis=1)
+                )
                 for identifier, value, error in zip(scorable, dg, sigma, strict=True):
-                    rows.append({"Index": identifier, "dG_prime_kJ_mol": float(value),
-                                 "sigma_kJ_mol": float(error),
-                                 "estimable": bool(error < INFINITE_VARIANCE), "status": "ok"})
+                    rows.append(
+                        {
+                            "Index": identifier,
+                            "dG_prime_kJ_mol": float(value),
+                            "sigma_kJ_mol": float(error),
+                            "estimable": bool(error < INFINITE_VARIANCE),
+                            "status": "ok",
+                        }
+                    )
             except Exception as error:  # noqa: BLE001 - reported, never swallowed
                 for identifier in scorable:
-                    rows.append({"Index": identifier, "dG_prime_kJ_mol": "", "sigma_kJ_mol": "",
-                                 "estimable": False,
-                                 "status": f"estimation_failed: {str(error)[:80]}"})
+                    rows.append(
+                        {
+                            "Index": identifier,
+                            "dG_prime_kJ_mol": "",
+                            "sigma_kJ_mol": "",
+                            "estimable": False,
+                            "status": f"estimation_failed: {str(error)[:80]}",
+                        }
+                    )
         out[p_h] = rows
     return out
 

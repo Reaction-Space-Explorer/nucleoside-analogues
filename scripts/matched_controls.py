@@ -48,8 +48,9 @@ def main() -> None:
         )
         depth = shortest_pathways(index, seeds).cost
 
-        matches = pd.read_csv(REPO / "ProcessedData" / "MatchesFiles" / f"{network}Matches.tsv",
-                              sep="\t")
+        matches = pd.read_csv(
+            REPO / "ProcessedData" / "MatchesFiles" / f"{network}Matches.tsv", sep="\t"
+        )
         pool = []
         for smiles in dict.fromkeys(matches["NetworkSmiles"].astype(str)):
             mol = Chem.MolFromSmiles(smiles)
@@ -70,24 +71,35 @@ def main() -> None:
             depths = sorted(p[3] for p in controls.values())
             target_depth = depth[target]
             rank = sum(1 for d in depths if d < target_depth)
-            rows.append({
-                "network": network, "target": name, "target_steps": target_depth,
-                "controls": len(controls),
-                "control_median_steps": depths[len(depths) // 2],
-                "control_min_steps": depths[0], "control_max_steps": depths[-1],
-                "controls_strictly_faster": rank,
-                "percentile": round(100 * rank / len(depths), 1),
-                "mean_tanimoto_of_controls": round(
-                    sum(DataStructs.TanimotoSimilarity(fp, p[1]) for p in controls.values())
-                    / len(controls), 3),
-            })
-            print(f"  {network:12s} {name:12s} target {target_depth} steps | controls "
-                  f"n={len(controls)} median {depths[len(depths)//2]} "
-                  f"[{depths[0]}-{depths[-1]}] | {rank} faster ({rows[-1]['percentile']}%)",
-                  flush=True)
+            rows.append(
+                {
+                    "network": network,
+                    "target": name,
+                    "target_steps": target_depth,
+                    "controls": len(controls),
+                    "control_median_steps": depths[len(depths) // 2],
+                    "control_min_steps": depths[0],
+                    "control_max_steps": depths[-1],
+                    "controls_strictly_faster": rank,
+                    "percentile": round(100 * rank / len(depths), 1),
+                    "mean_tanimoto_of_controls": round(
+                        sum(DataStructs.TanimotoSimilarity(fp, p[1]) for p in controls.values())
+                        / len(controls),
+                        3,
+                    ),
+                }
+            )
+            print(
+                f"  {network:12s} {name:12s} target {target_depth} steps | controls "
+                f"n={len(controls)} median {depths[len(depths) // 2]} "
+                f"[{depths[0]}-{depths[-1]}] | {rank} faster ({rows[-1]['percentile']}%)",
+                flush=True,
+            )
 
     with (SI / "matched_controls.csv").open("w", newline="") as h:
-        w = csv.DictWriter(h, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(h, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
     print("wrote ProcessedData/SI/matched_controls.csv")
 
 

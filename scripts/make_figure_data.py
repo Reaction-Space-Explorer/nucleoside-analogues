@@ -38,23 +38,32 @@ def main() -> None:
         seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
         species = set(products["Smiles"].astype(str))
         matched = set(
-            pd.read_csv(
-                SI.parent / "MatchesFiles" / f"{network}Matches.tsv", sep="\t"
-            )["NetworkSmiles"].astype(str)
+            pd.read_csv(SI.parent / "MatchesFiles" / f"{network}Matches.tsv", sep="\t")[
+                "NetworkSmiles"
+            ].astype(str)
         )
 
-        row = {"network": network, "generation": generation,
-               "products": len(species), "matched": len(matched & species)}
+        row = {
+            "network": network,
+            "generation": generation,
+            "products": len(species),
+            "matched": len(matched & species),
+        }
         reach = {}
         for basis in ("with_unestimable", "estimable_only"):
-            index = build_index(rels[rels["Index"].isin(admitted(network, rels, basis, generation))])
+            index = build_index(
+                rels[rels["Index"].isin(admitted(network, rels, basis, generation))]
+            )
             result = shortest_pathways(index, seeds)
             reach[basis] = result
             row[f"reachable_{basis}"] = len(matched & set(result.cost))
         funnel.append(row)
-        print(f"  {network:12s} G{generation} products {row['products']:7,d} | matched {row['matched']:6,d} "
-              f"| spontaneous {row['reachable_with_unestimable']:6,d} | estimable-only "
-              f"{row['reachable_estimable_only']:6,d}", flush=True)
+        print(
+            f"  {network:12s} G{generation} products {row['products']:7,d} | matched {row['matched']:6,d} "
+            f"| spontaneous {row['reachable_with_unestimable']:6,d} | estimable-only "
+            f"{row['reachable_estimable_only']:6,d}",
+            flush=True,
+        )
 
         # sinks and hills, after Wolos et al. every incoming exothermic and every
         # outgoing endothermic is a sink; the reverse is a hill
@@ -82,13 +91,26 @@ def main() -> None:
                 hill += 1
             else:
                 neither += 1
-        thermo.append({"network": network, "generation": generation, "sinks": sink,
-                       "hills": hill, "neither": neither, "classified": sink + hill + neither})
-        print(f"               sinks {sink:5,d} | hills {hill:5,d} | neither {neither:6,d}", flush=True)
+        thermo.append(
+            {
+                "network": network,
+                "generation": generation,
+                "sinks": sink,
+                "hills": hill,
+                "neither": neither,
+                "classified": sink + hill + neither,
+            }
+        )
+        print(
+            f"               sinks {sink:5,d} | hills {hill:5,d} | neither {neither:6,d}",
+            flush=True,
+        )
 
     for rows, name in ((funnel, "figure_funnel.csv"), (thermo, "figure_sinks_hills.csv")):
         with (SI / name).open("w", newline="") as h:
-            w = csv.DictWriter(h, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+            w = csv.DictWriter(h, fieldnames=list(rows[0]))
+            w.writeheader()
+            w.writerows(rows)
         print("wrote", name)
 
 
