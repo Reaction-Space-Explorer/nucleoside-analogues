@@ -1,0 +1,94 @@
+title: Glyoxylate from GlucoseAmm, G4, spontaneous reactions only. Structures are constitutional; the
+  network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(O)=O)=O
+    label: Glyoxylate
+  reaction:
+    id: '76130_0'
+    rule: Transamination (inverse)
+    dg: -8.6
+    produces:
+    - C1(C(C(CC1)(CN)O)O)=O
+  from:
+  - mol:
+      smiles: C(C1(CCC(C1O)=O)O)=O
+    reaction:
+      id: '476_0'
+      rule: Aldol Condensation
+      dg: -80.5
+    from:
+    - mol:
+        smiles: C(CO)(CCC(C=O)=O)=O
+      reaction:
+        id: '274_0'
+        rule: Elimination + enol to keto
+        dg: -41.0
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(CC(CO)=O)O)O)=O
+        reaction:
+          id: '24_0'
+          rule: Elimination + enol to keto
+          dg: -41.0
+          produces:
+          - O
+        from:
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true
+  - mol:
+      smiles: C(CN)(O)=O
+    reaction:
+      id: '2618_0'
+      rule: Cannizarro 2, glucose (reduction)
+      dg: -62.6
+      produces:
+      - C(C(C(C(C(CO)O)O)O)O)O
+    from:
+    - mol:
+        smiles: O
+        label: water
+      seed: true
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)=O
+        label: aldohexose
+      seed: true
+    - mol:
+        smiles: C(CN)=O
+      reaction:
+        id: '120_0'
+        rule: Amadori/Heyns Rearrangement
+        dg: -22.1
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: N
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        reaction:
+          id: '78_0'
+          rule: Retro Aldol
+          dg: -43.9
+          produces:
+          - C(C(C(C)=O)O)=O
+        from:
+        - mol:
+            smiles: C(C(C(C(C(C)=O)O)O)O)=O
+          reaction:
+            id: '26_0'
+            rule: Elimination + enol to keto
+            dg: -45.4
+            produces:
+            - O
+          from:
+          - mol:
+              smiles: C(C(C(C(C(CO)O)O)O)O)=O
+              label: aldohexose
+            seed: true

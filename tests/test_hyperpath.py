@@ -98,3 +98,27 @@ def test_critical_reactions_lie_on_the_traced_route(network: str) -> None:
         for identifier in critical:
             excluded = shortest_pathways(index, _seeds(network), exclude=(identifier,))
             assert smiles not in excluded.cost
+
+
+def test_every_target_is_spelled_as_the_networks_spell_it(network: str) -> None:
+    """Targets are looked up by exact SMILES string, so a target written in a
+    different but equivalent form reads as unreachable instead of failing."""
+    import pandas as pd
+    from make_si_tables import RELS, TARGETS, deepest
+    from rdkit import Chem
+
+    from nucleoside_analogues.rels import pivot_rels
+
+    rels = pivot_rels(
+        pd.read_csv(RELS / network / f"{network}Rels_{deepest(network)}.tsv", sep="\t")
+    )
+    species = set()
+    for column in ("Reagents", "Products"):
+        for row in rels[column]:
+            species.update(row)
+    canonical = {Chem.MolToSmiles(Chem.MolFromSmiles(s)) for s in species}
+    for name, smiles in TARGETS.items():
+        assert Chem.MolToSmiles(Chem.MolFromSmiles(smiles)) in canonical, f"{name} absent"
+        assert smiles in species, (
+            f"{name} is in {network} but written differently; use the network's own SMILES"
+        )

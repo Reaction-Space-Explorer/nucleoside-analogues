@@ -1,0 +1,85 @@
+title: Glyoxylate from FormoseAmm, G4, spontaneous reactions only. Structures are constitutional; the
+  network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(O)=O)=O
+    label: Glyoxylate
+  reaction:
+    id: '2135_0'
+    rule: Transamination (inverse)
+    dg: -8.6
+    produces:
+    - C(C(C(C(CN)N)O)O)O
+  from:
+  - mol:
+      smiles: C(C(C(C(CO)O)O)N)=O
+    reaction:
+      id: '19_0'
+      rule: Aldol Condensation
+      dg: -17.5
+    from:
+    - mol:
+        smiles: C(C(CO)O)=O
+        label: glyceraldehyde
+      reaction:
+        id: '5_0'
+        rule: Aldol Condensation
+        dg: -32.6
+      from:
+      - mol:
+          smiles: C=O
+          label: formaldehyde
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true
+    - mol:
+        smiles: C(CN)=O
+      reaction:
+        id: '10_0'
+        rule: Amadori/Heyns Rearrangement
+        dg: -22.1
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: N
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true
+  - mol:
+      smiles: C(CN)(O)=O
+    reaction:
+      id: '63_0'
+      rule: Cannizarro 2, HCHO (reduction)
+      dg: -75.5
+      produces:
+      - CO
+    from:
+    - mol:
+        smiles: C=O
+        label: formaldehyde
+      seed: true
+    - mol:
+        smiles: O
+        label: water
+      seed: true
+    - mol:
+        smiles: C(CN)=O
+      reaction:
+        id: '10_0'
+        rule: Amadori/Heyns Rearrangement
+        dg: -22.1
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: N
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true

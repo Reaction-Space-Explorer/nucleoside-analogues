@@ -32,6 +32,10 @@ TARGETS = {
     "Ribose": "C(C(C(C(CO)O)O)O)=O",
     "Threose": "C(C(C(CO)O)O)=O",
     "Glycerol": "C(C(CO)O)O",
+    # Bean et al. 2006: glyoxylate as an acetal backbone linkage for a prebiotic
+    # ancestor of RNA. Present in every CRNR but absent from the analogue library,
+    # so it is traced as a target rather than reached through a match.
+    "Glyoxylate": "C(C(O)=O)=O",
 }
 
 

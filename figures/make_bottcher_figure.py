@@ -23,7 +23,8 @@ NETWORKS = [
     ("PyruvicAcid", "Pyruvic Acid (PA)"),
 ]
 #: Bottcher Cm of the four target nucleosides, from the same data.
-TARGETS = {"Glycerol": 36.68, "Threose": 92.04, "Deoxyribose": 98.04, "Ribose": 111.55}
+TARGETS = {"Glycerol": 36.68, "Glyoxylate": 49.85, "Threose": 92.04,
+           "Deoxyribose": 98.04, "Ribose": 111.55}
 INK, BAND = "#1a1a1a", "#cfd8e3"
 
 use()

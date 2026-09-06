@@ -49,6 +49,7 @@ NAMES = {
     "O": "water",
     "OC=O": "formic acid",
     "CC(=O)C(=O)O": "pyruvic acid",
+    "O=CC(=O)O": "glyoxylic acid",
     "OCC(O)C(O)C(O)C(O)C=O": "aldohexose",
 }
 
