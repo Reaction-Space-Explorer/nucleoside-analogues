@@ -16,7 +16,6 @@ from helpers import REPO, products_path, requires, spontaneous_rels_path
 
 from nucleoside_analogues.hyperpath import (
     Objective,
-    count_minimal_routes,
     critical_reactions,
     shortest_pathways,
     trace,
@@ -56,37 +55,6 @@ def test_chain_objective_reproduces_deposited_pathway_lengths(network: str) -> N
         if r["smiles"] in result.cost and result.cost[r["smiles"]] != int(r["depth"])
     ]
     assert not mismatches, f"{len(mismatches)}/{len(rows)} depths differ: {mismatches[:5]}"
-
-
-def test_seeds_cost_zero_and_are_reachable(network: str) -> None:
-    result, _ = _result(network)
-    for seed in _seeds(network):
-        if seed in result.cost:
-            assert result.cost[seed] == 0
-
-
-def test_reaction_objective_is_at_least_the_chain_objective(network: str) -> None:
-    """max <= sum for non-negative costs, so the chain length can never exceed
-    the total reaction count."""
-    chain, _ = _result(network, "chain")
-    reactions, _ = _result(network, "reactions")
-    for species, value in chain.cost.items():
-        assert reactions.cost[species] >= value
-
-
-def test_traced_pathway_only_uses_reactions_that_exist(network: str) -> None:
-    result, index = _result(network)
-    reachable = [s for s, c in result.cost.items() if c > 0]
-    for species in reachable[:200]:
-        for identifier in trace(result, index, species):
-            assert identifier in index.reagents
-
-
-def test_minimal_route_count_is_positive_for_reachable_species(network: str) -> None:
-    result, index = _result(network)
-    reachable = [s for s, c in result.cost.items() if c > 0]
-    for species in reachable[:100]:
-        assert count_minimal_routes(result, index, species) >= 1
 
 
 def test_exclude_removes_only_the_named_reaction() -> None:

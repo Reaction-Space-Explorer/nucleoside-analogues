@@ -61,7 +61,9 @@ def main() -> None:
     products = read_products(
         REPO / "OriginalData" / "OriginalNetworkData" / "Products" / "formose_output.tsv"
     )
-    known = {str(s): int(g) for s, g in zip(products["Smiles"], products["Generation"], strict=True)}
+    known = {
+        str(s): int(g) for s, g in zip(products["Smiles"], products["Generation"], strict=True)
+    }
 
     rels = pivot_rels(pd.read_csv(RELS / "Formose" / "FormoseRels_6.tsv", sep="\t"))
     in_rels = set()
@@ -80,12 +82,15 @@ def main() -> None:
 
     # verify the method against the deposited matches before extending anything
     deposited = pd.read_csv(OUT / "FormoseMatches.tsv", sep="\t")
-    want = set(zip(deposited["INCHIKEY"].astype(str), deposited["NetworkSmiles"].astype(str),
-                   strict=True))
+    want = set(
+        zip(deposited["INCHIKEY"].astype(str), deposited["NetworkSmiles"].astype(str), strict=True)
+    )
     got = {(k, s) for k, s, _ in match(sorted(known))}
     if got != want:
-        print(f"  ABORT: reproduced {len(got):,} of the deposited {len(want):,} matches; "
-              f"missing {len(want - got):,}, extra {len(got - want):,}")
+        print(
+            f"  ABORT: reproduced {len(got):,} of the deposited {len(want):,} matches; "
+            f"missing {len(want - got):,}, extra {len(got - want):,}"
+        )
         raise SystemExit(1)
     print(f"  method verified: reproduces all {len(want):,} deposited G1-G5 matches", flush=True)
 

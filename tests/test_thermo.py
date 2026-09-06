@@ -12,27 +12,22 @@ import pytest
 from nucleoside_analogues.thermo import DEFAULT_Z, ReactionEnergy, classify, summarise
 
 
-def test_confidently_negative_is_spontaneous() -> None:
-    assert classify(-100.0, 5.0) == "spontaneous"
-
-
-def test_confidently_positive_is_not_spontaneous() -> None:
-    assert classify(100.0, 5.0) == "non_spontaneous"
-
-
-def test_interval_spanning_zero_is_undetermined() -> None:
-    """The case the original binary filter silently called spontaneous."""
-    assert classify(-10.0, 20.0) == "undetermined"
-
-
-@pytest.mark.parametrize("dg", [-0.4, -5.0, -19.0])
-def test_small_negative_values_are_undetermined_at_realistic_error(dg: float) -> None:
-    """Component contribution routinely carries ~10-40 kJ/mol on exotic compounds.
-
-    Roughly half the deposited generation-3 reactions classified spontaneous sit
-    in this regime.
-    """
-    assert classify(dg, 20.0) == "undetermined"
+@pytest.mark.parametrize(
+    ("dg", "sigma", "expected"),
+    [
+        (-100.0, 5.0, "spontaneous"),
+        (100.0, 5.0, "non_spontaneous"),
+        # the case the original binary filter silently called spontaneous;
+        # component contribution routinely carries 10-40 kJ/mol on exotic
+        # compounds, and roughly half the deposited generation-3 reactions it
+        # called spontaneous sit in this regime
+        (-10.0, 20.0, "undetermined"),
+        (-0.4, 20.0, "undetermined"),
+        (-19.0, 20.0, "undetermined"),
+    ],
+)
+def test_classify_uses_the_whole_interval(dg: float, sigma: float, expected: str) -> None:
+    assert classify(dg, sigma) == expected
 
 
 def test_without_uncertainty_it_degrades_to_the_sign() -> None:
@@ -77,3 +72,17 @@ def test_failures_stay_countable_rather_than_vanishing() -> None:
 def test_reaction_energy_reports_its_own_call() -> None:
     assert ReactionEnergy("r", -100.0, 5.0, "ok").spontaneity() == "spontaneous"
     assert ReactionEnergy("r", None, None, "compound_missing").spontaneity() is None
+
+
+def test_null_estimates_are_not_spontaneous():
+    """Component contribution returns 0 +/- 0 where reagents and products share
+    a decomposition. A point value of -1e-05 must not pass the 95% test on
+    rounding, so such reactions count as unestimable."""
+    from make_si_tables import is_null
+
+    assert is_null({"dG_prime_kJ_mol": "-1.018336507740969e-05", "sigma_kJ_mol": "0.0"})
+    assert is_null({"dG_prime_kJ_mol": "0.0", "sigma_kJ_mol": "0.0"})
+    # a real estimate that happens to be small keeps its uncertainty
+    assert not is_null({"dG_prime_kJ_mol": "-0.0001", "sigma_kJ_mol": "1.4"})
+    # a real estimate that is large and certain is not null
+    assert not is_null({"dG_prime_kJ_mol": "-13.4", "sigma_kJ_mol": "0.0"})

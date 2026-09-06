@@ -6,11 +6,15 @@ set change, a re-run, or a reformatting silently alters the chemistry.
 
 from __future__ import annotations
 
+import pandas as pd
 import pytest
-from helpers import processed_rels_path, products_path, requires
+from helpers import ORIGINAL, processed_rels_path, products_path, requires
 
 from nucleoside_analogues.invariants import atom_balance, generation_monotonic, screen_motifs
-from nucleoside_analogues.rels import build_index, load_processed_rels, read_products
+from nucleoside_analogues.rels import (
+    load_processed_rels,
+    read_products,
+)
 
 
 @pytest.mark.parametrize("generation", [1, 2, 3])
@@ -24,15 +28,25 @@ def test_reactions_conserve_atoms_and_charge(network: str, generation: int) -> N
     assert report.balanced == report.checked
 
 
+#: Formose's reactions run to generation six but its deposited product list stops
+#: at five, leaving these species in the rels alone. The other four networks have
+#: no such gap. Pinned so that a new gap fails rather than passing unnoticed.
+KNOWN_PRODUCT_GAP = {"Formose": 94_415}
+
+
 def test_every_species_appears_in_the_product_listing(network: str) -> None:
-    rels_path = processed_rels_path(network, 3)
-    requires(rels_path)
+    """Against the original rels at their deepest generation. The processed rels
+    stop at generation three, where this gap is invisible."""
+    rels_dir = ORIGINAL / "Rels" / network
+    requires(rels_dir)
     requires(products_path(network))
-    rels = load_processed_rels(rels_path)
+    generation = max(int(f.stem.split("_")[-1]) for f in rels_dir.glob("*Rels_*.tsv"))
+    raw = pd.read_csv(rels_dir / f"{network}Rels_{generation}.tsv", sep="\t")
     known = set(read_products(products_path(network))["Smiles"])
-    index = build_index(rels)
-    orphans = index.species - known
-    assert not orphans, f"{len(orphans)} species absent from the product listing"
+    orphans = set(raw["Reagent"].astype(str)) - known
+    assert len(orphans) == KNOWN_PRODUCT_GAP.get(network, 0), (
+        f"{network} G{generation}: {len(orphans)} species absent from the product listing"
+    )
 
 
 @pytest.mark.parametrize("generation", [1, 2, 3])
