@@ -23,11 +23,17 @@
   automatically and is otherwise finished. ChEBI is already re-derived at full depth.
 - KEGG cannot be re-derived; its bulk data is licensed. The deposited counts in
   `ProcessedData/DatabaseMatches/` stay as they are, flagged in the SI.
-- Sinks and hills as a table, not a figure. Only 9-77% of species classify, which a
-  figure would hide.
-- SI figure: chain depth against reaction count, worked on one convergent route.
 
 ## Done since the last update
+
+- SI Table 4, sinks and hills, with the share of species classified alongside. That share
+  runs from 9% to 96%, so the counts cannot be read without it.
+- Figure S4, chain depth against reaction count, worked through the formose route to
+  deoxyribose: longest chain three, whole derivation four.
+- Two miscitations corrected. The SI methods cited Robertson & Miller for component
+  contribution; it now cites Noor and Beber, 69 and 70, as the main text already did.
+  Figure S2 cited Rogers & Hahn for Bottcher complexity; it now cites 86. Both were
+  introduced by earlier insertion shifts. All 92 references remain cited.
 
 - Oro citation checked and corrected. Ref 64 is Oro's 1961 adenine-from-HCN paper and
   said nothing about deoxyribose; the claim now cites ref 79, Teichert, Kruse & Trapp,
