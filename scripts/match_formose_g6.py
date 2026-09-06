@@ -1,18 +1,18 @@
-"""Match the Formose G6 species against the nucleoside analogue libraries.
+"""Match the Formose G6 species against the nucleoside analogue library.
 
-    uv run python scripts/match_formose_g6.py
+    uv run python scripts/match_formose_g6.py [workers]
 
 The Formose network's reactions run to generation six, but its deposited
 product list stops at five, so the analogue matching stopped there too. This
 matches the 94,415 species that appear only in FormoseRels_6.
 
-The method is verified before it is used: it must reproduce the deposited
-G1-G5 matches exactly, or the run aborts. Matching is on the first 14
-characters of the InChIKey, as everywhere else here.
+The library is ProcessedData/Nucleoside_Stereoisomers.tsv, which already
+carries the InChIKey first block against the enumerated stereoisomers; that
+first block is what a match is. The method is verified before it is used: it
+must reproduce the deposited G1-G5 matches exactly, or the run aborts.
 """
 
 import sys
-from collections import defaultdict
 from multiprocessing import Pool
 from pathlib import Path
 
@@ -26,8 +26,8 @@ from make_si_tables import RELS, REPO
 from nucleoside_analogues.rels import pivot_rels, read_products
 
 RDLogger.DisableLog("rdApp.*")
-LIB = REPO / "OriginalData" / "OriginalNucleosideAnalogueData"
 OUT = REPO / "ProcessedData" / "MatchesFiles"
+LIBRARY = REPO / "ProcessedData" / "Nucleoside_Stereoisomers.tsv"
 
 
 def key14(smiles: str) -> tuple[str, str] | None:
@@ -36,67 +36,52 @@ def key14(smiles: str) -> tuple[str, str] | None:
         return None
     try:
         return smiles, Chem.MolToInchiKey(mol)[:14]
-    except Exception:  # noqa: BLE001 - one bad structure must not stop the library
+    except Exception:  # noqa: BLE001 - one bad structure must not stop the run
         return None
-
-
-def keys(smiles, workers: int, chunk: int = 2000):
-    with Pool(workers) as pool:
-        for r in pool.imap_unordered(key14, smiles, chunksize=chunk):
-            if r is not None:
-                yield r
 
 
 def main() -> None:
     workers = int(sys.argv[1]) if len(sys.argv) > 1 else 8
-
-    analogues: dict[str, set[str]] = defaultdict(set)
-    for name in ("CHO_Smiles.tsv", "CHNO_Smiles.tsv"):
-        smiles = pd.read_csv(LIB / name, sep="\t")["SMILES"].astype(str).tolist()
-        print(f"  {name}: {len(smiles):,} structures", flush=True)
-        for smi, k in keys(smiles, workers):
-            analogues[k].add(smi)
-    print(f"  analogue library: {len(analogues):,} distinct skeletons", flush=True)
+    library = pd.read_csv(LIBRARY, sep="\t")
+    analogues = dict(
+        zip(library["INCHIKEY"].astype(str), library["SMILES"].astype(str), strict=True)
+    )
+    print(f"  analogue library: {len(analogues):,} skeletons", flush=True)
 
     products = read_products(
         REPO / "OriginalData" / "OriginalNetworkData" / "Products" / "formose_output.tsv"
     )
-    known = {
-        str(s): int(g) for s, g in zip(products["Smiles"], products["Generation"], strict=True)
-    }
+    known = set(products["Smiles"].astype(str))
 
     rels = pivot_rels(pd.read_csv(RELS / "Formose" / "FormoseRels_6.tsv", sep="\t"))
     in_rels = set()
     for column in ("Reagents", "Products"):
         for row in rels[column]:
             in_rels.update(row)
-    g6 = sorted(in_rels - set(known))
+    g6 = sorted(in_rels - known)
     print(f"  species only in Rels_6: {len(g6):,}", flush=True)
 
-    def match(smiles_list):
-        out = []
-        for smi, k in keys(smiles_list, workers):
-            if k in analogues:
-                out.append((k, smi, analogues[k]))
-        return out
+    def match(species):
+        with Pool(workers) as pool:
+            done = pool.map(key14, sorted(species), chunksize=500)
+        return [(k, s) for r in done if r for s, k in [r] if k in analogues]
 
-    # verify the method against the deposited matches before extending anything
     deposited = pd.read_csv(OUT / "FormoseMatches.tsv", sep="\t")
     want = set(
         zip(deposited["INCHIKEY"].astype(str), deposited["NetworkSmiles"].astype(str), strict=True)
     )
-    got = {(k, s) for k, s, _ in match(sorted(known))}
+    got = set(match(known))
     if got != want:
         print(
-            f"  ABORT: reproduced {len(got):,} of the deposited {len(want):,} matches; "
+            f"  ABORT: reproduced {len(got):,} of the deposited {len(want):,}; "
             f"missing {len(want - got):,}, extra {len(got - want):,}"
         )
         raise SystemExit(1)
     print(f"  method verified: reproduces all {len(want):,} deposited G1-G5 matches", flush=True)
 
     rows = [
-        {"Generation": "G6", "INCHIKEY": k, "NetworkSmiles": s, "AnalogueSmiles": str(a)}
-        for k, s, a in match(g6)
+        {"Generation": "G6", "INCHIKEY": k, "NetworkSmiles": s, "AnalogueSmiles": analogues[k]}
+        for k, s in sorted(match(g6))
     ]
     print(f"  new G6 matches: {len(rows):,}", flush=True)
     frame = pd.concat([deposited, pd.DataFrame(rows)], ignore_index=True)
