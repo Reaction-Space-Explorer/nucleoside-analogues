@@ -37,7 +37,11 @@ def main() -> None:
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
         seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
-        species = set(products["Smiles"].astype(str))
+        # from the rels, not the product listing, which is short for Formose
+        species = set()
+        for column in ("Reagents", "Products"):
+            for row in rels[column]:
+                species.update(row)
         matched = set(
             pd.read_csv(
                 REPO / "ProcessedData" / "MatchesFiles" / f"{network}Matches.tsv", sep="\t"
