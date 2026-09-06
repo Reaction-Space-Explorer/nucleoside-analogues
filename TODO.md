@@ -42,6 +42,24 @@
   references remain cited.
 - autocycle draws intermediate labels (upstream commit 195883d).
 
+## Computed but NOT yet in the manuscript
+
+Kept here so it cannot drift. Everything else found this round has been written in.
+
+- **Reachability funnel figure** (`figures/output/Figure_reachability_funnel.png`). Exists and is
+  current; not placed. It is a candidate to replace or accompany Figure 4, which is a placement
+  decision rather than a writing one.
+- **The twelve autocycle route figures** (`figures/routes/`). Current; not placed. Candidate
+  replacement for the hand-drawn Figure 6, which would change that figure's panel structure.
+- **Candidate additional targets.** Glyoxylic acid is reachable spontaneously in all four CHO and
+  CHNO CRNRs (F 6, FA 3, G 11, GA 5 steps) and sits at the 0.2nd complexity percentile, and ref 85
+  already supports it; p106 currently says only that it is present but unmatched. Apiose is
+  reachable at 7, 5, 11 and 11 steps and would need a citation. Ribulose and fructose are
+  supported by refs 31 and 74 but fructose sits at the 70th complexity percentile and is a poor
+  fit for a backbone target. Adding any target changes SI Tables 1 and 2, the route figures, and
+  every statistic in the matched-controls paragraph (20 pairs to 25 for one target).
+- **Figure S2** is now redundant with the numbers written into the discussion, and could be cut.
+
 ## Author-side
 
 - ORCIDs (8 comments outstanding).
