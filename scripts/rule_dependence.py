@@ -42,9 +42,7 @@ def main() -> None:
     rows = []
     for network in PRODUCTS:
         generation = deepest(network)
-        rels = pivot_rels(
-            pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t")
-        )
+        rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
         rels["Index"] = rels["Index"].astype(str)
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / PRODUCTS[network]
