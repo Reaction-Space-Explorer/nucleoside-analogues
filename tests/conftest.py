@@ -2,8 +2,14 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 import pytest
 from helpers import NETWORKS
+
+# Tests cover the analysis entry points in scripts/, which is not a package.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 
 @pytest.fixture(scope="session", params=sorted(NETWORKS))

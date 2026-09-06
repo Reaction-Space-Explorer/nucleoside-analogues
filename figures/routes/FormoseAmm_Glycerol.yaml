@@ -1,0 +1,37 @@
+title: Glycerol from FormoseAmm, G4, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(CO)O)O
+    label: Glycerol
+  reaction:
+    id: '53_0'
+    rule: Cannizarro 2, HCHO (oxidation)
+    dg: -74.2
+    produces:
+    - C(O)=O
+  from:
+  - mol:
+      smiles: C=O
+      label: formaldehyde
+    seed: true
+  - mol:
+      smiles: O
+      label: water
+    seed: true
+  - mol:
+      smiles: C(C(CO)O)=O
+      label: glyceraldehyde
+    reaction:
+      id: '5_0'
+      rule: Aldol Condensation
+      dg: -32.6
+    from:
+    - mol:
+        smiles: C=O
+        label: formaldehyde
+      seed: true
+    - mol:
+        smiles: C(CO)=O
+        label: glycolaldehyde
+      seed: true

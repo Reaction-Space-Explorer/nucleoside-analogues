@@ -1,0 +1,19 @@
+title: Threose from Formose, G6, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(CO)O)O)=O
+    label: Threose
+  reaction:
+    id: '6_0'
+    rule: Aldol Condensation
+    dg: -16.4
+  from:
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    seed: true
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    seed: true

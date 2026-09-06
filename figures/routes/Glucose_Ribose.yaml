@@ -1,0 +1,235 @@
+title: Ribose from Glucose, G5, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(C(CO)O)O)O)=O
+    label: Ribose
+  reaction:
+    id: '1012_0'
+    rule: Aldol Condensation
+    dg: -13.4
+  from:
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    reaction:
+      id: '71_0'
+      rule: Retro Aldol
+      dg: -43.9
+      produces:
+      - C(C(C(C)=O)O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(C)=O)O)O)O)=O
+      reaction:
+        id: '23_0'
+        rule: Elimination + enol to keto
+        dg: -45.4
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true
+  - mol:
+      smiles: C(C(CO)O)=O
+      label: glyceraldehyde
+    reaction:
+      id: '57924_0'
+      rule: Retro Aldol
+      dg: -25.1
+      produces:
+      - C1(C(OCC1)=O)=O
+    from:
+    - mol:
+        smiles: C(C(CO)(C1(C(CCO1)=O)O)O)=O
+      reaction:
+        id: '14265_0'
+        rule: Knoevenagel H
+        dg: -8.9
+      from:
+      - mol:
+          smiles: C(C(CO)=O)=O
+        reaction:
+          id: '56387_0'
+          rule: Retro Aldol
+          dg: -14.7
+          produces:
+          - C(C)(C)=O
+        from:
+        - mol:
+            smiles: C(CO)(C(CC(C)=O)O)=O
+          reaction:
+            id: '61435_0'
+            rule: Keto-enol migration twice
+            dg: -2.0
+          from:
+          - mol:
+              smiles: C(C(C(CC(C)=O)O)O)=O
+            reaction:
+              id: '90007_0'
+              rule: Elimination + enol to keto
+              dg: -41.0
+              produces:
+              - O
+            from:
+            - mol:
+                smiles: C(C(C(C(C(C)O)O)O)O)=O
+              reaction:
+                id: '5168_0'
+                rule: Aldol Condensation
+                dg: -13.4
+              from:
+              - mol:
+                  smiles: C(CO)=O
+                  label: glycolaldehyde
+                reaction:
+                  id: '71_0'
+                  rule: Retro Aldol
+                  dg: -43.9
+                  produces:
+                  - C(C(C(C)=O)O)=O
+                from:
+                - mol:
+                    smiles: C(C(C(C(C(C)=O)O)O)O)=O
+                  reaction:
+                    id: '23_0'
+                    rule: Elimination + enol to keto
+                    dg: -45.4
+                    produces:
+                    - O
+                  from:
+                  - mol:
+                      smiles: C(C(C(C(C(CO)O)O)O)O)=O
+                      label: aldohexose
+                    seed: true
+              - mol:
+                  smiles: C(C(C(C)O)O)=O
+                reaction:
+                  id: '1070_0'
+                  rule: Aldol Condensation
+                  dg: -13.5
+                from:
+                - mol:
+                    smiles: C(CO)=O
+                    label: glycolaldehyde
+                  reaction:
+                    id: '71_0'
+                    rule: Retro Aldol
+                    dg: -43.9
+                    produces:
+                    - C(C(C(C)=O)O)=O
+                  from:
+                  - mol:
+                      smiles: C(C(C(C(C(C)=O)O)O)O)=O
+                    reaction:
+                      id: '23_0'
+                      rule: Elimination + enol to keto
+                      dg: -45.4
+                      produces:
+                      - O
+                    from:
+                    - mol:
+                        smiles: C(C(C(C(C(CO)O)O)O)O)=O
+                        label: aldohexose
+                      seed: true
+                - mol:
+                    smiles: C(C)=O
+                  reaction:
+                    id: '1277_0'
+                    rule: Retro Aldol
+                    dg: -26.6
+                    produces:
+                    - C1(C(C(CO1)O)O)=O
+                  from:
+                  - mol:
+                      smiles: C(CC1(C(C(CO1)O)O)O)=O
+                    reaction:
+                      id: '285_0'
+                      rule: Hemiacetal Formation for 5 membered rings
+                      dg: -2.8
+                    from:
+                    - mol:
+                        smiles: C(CC(C(C(CO)O)O)=O)=O
+                      reaction:
+                        id: '13_0'
+                        rule: Elimination + enol to keto
+                        dg: -41.0
+                        produces:
+                        - O
+                      from:
+                      - mol:
+                          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+                          label: aldohexose
+                        seed: true
+      - mol:
+          smiles: C1(C(O)OCC1)=O
+        reaction:
+          id: '2577_0'
+          rule: Hemiacetal Formation for 5 membered rings
+          dg: -12.3
+        from:
+        - mol:
+            smiles: C(C(CCO)=O)=O
+          reaction:
+            id: '156_0'
+            rule: Elimination + enol to keto
+            dg: -41.0
+            produces:
+            - O
+          from:
+          - mol:
+              smiles: C(C(C(CO)O)O)=O
+              label: aldotetrose
+            reaction:
+              id: '39_0'
+              rule: Aldol Condensation
+              dg: -16.4
+            from:
+            - mol:
+                smiles: C(CO)=O
+                label: glycolaldehyde
+              reaction:
+                id: '71_0'
+                rule: Retro Aldol
+                dg: -43.9
+                produces:
+                - C(C(C(C)=O)O)=O
+              from:
+              - mol:
+                  smiles: C(C(C(C(C(C)=O)O)O)O)=O
+                reaction:
+                  id: '23_0'
+                  rule: Elimination + enol to keto
+                  dg: -45.4
+                  produces:
+                  - O
+                from:
+                - mol:
+                    smiles: C(C(C(C(C(CO)O)O)O)O)=O
+                    label: aldohexose
+                  seed: true
+            - mol:
+                smiles: C(CO)=O
+                label: glycolaldehyde
+              reaction:
+                id: '71_0'
+                rule: Retro Aldol
+                dg: -43.9
+                produces:
+                - C(C(C(C)=O)O)=O
+              from:
+              - mol:
+                  smiles: C(C(C(C(C(C)=O)O)O)O)=O
+                reaction:
+                  id: '23_0'
+                  rule: Elimination + enol to keto
+                  dg: -45.4
+                  produces:
+                  - O
+                from:
+                - mol:
+                    smiles: C(C(C(C(C(CO)O)O)O)O)=O
+                    label: aldohexose
+                  seed: true

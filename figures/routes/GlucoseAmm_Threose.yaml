@@ -1,0 +1,57 @@
+title: Threose from GlucoseAmm, G4, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(CO)O)O)=O
+    label: Threose
+  reaction:
+    id: '44_0'
+    rule: Aldol Condensation
+    dg: -16.4
+  from:
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    reaction:
+      id: '78_0'
+      rule: Retro Aldol
+      dg: -43.9
+      produces:
+      - C(C(C(C)=O)O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(C)=O)O)O)O)=O
+      reaction:
+        id: '26_0'
+        rule: Elimination + enol to keto
+        dg: -45.4
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    reaction:
+      id: '78_0'
+      rule: Retro Aldol
+      dg: -43.9
+      produces:
+      - C(C(C(C)=O)O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(C)=O)O)O)O)=O
+      reaction:
+        id: '26_0'
+        rule: Elimination + enol to keto
+        dg: -45.4
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true

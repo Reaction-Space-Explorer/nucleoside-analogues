@@ -40,6 +40,19 @@ TARGETS = {
 #: estimate, so nothing here depends on the choice.
 Z = 1.96
 
+#: Component contribution returns exactly 0 +/- 0 where reagents and products
+#: share a decomposition, as keto-enol migrations do. That is an unresolved
+#: estimate, not a spontaneous one, and a point value of -1e-05 must not pass
+#: the test on rounding. Such reactions are counted unestimable.
+NULL_DG = 1e-3
+
+
+def is_null(row: dict) -> bool:
+    try:
+        return float(row["sigma_kJ_mol"]) == 0.0 and abs(float(row["dG_prime_kJ_mol"])) < NULL_DG
+    except (ValueError, KeyError):
+        return False
+
 
 def is_spontaneous(row: dict) -> bool:
     """dG + 1.96 sigma < 0, computed rather than read.
@@ -74,7 +87,7 @@ def admitted(network: str, rels: pd.DataFrame, basis: str, generation: int) -> s
     keep = set()
     for identifier in rels["Index"].astype(str):
         row = energies.get(identifier)
-        estimable = row is not None and row["estimable"] == "True"
+        estimable = row is not None and row["estimable"] == "True" and not is_null(row)
         spontaneous = estimable and is_spontaneous(row)
         if spontaneous or (not estimable and basis == "with_unestimable"):
             keep.add(identifier)
@@ -85,9 +98,7 @@ def main() -> None:
     t1, t2 = [], []
     for network, products_file in PRODUCTS.items():
         generation = deepest(network)
-        rels = pivot_rels(
-            pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t")
-        )
+        rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
         rels["Index"] = rels["Index"].astype(str)
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file

@@ -56,8 +56,11 @@ def main() -> None:
     if hmdb.exists():
         databases["HMDB"] = hmdb
     else:
-        print("HMDB not present; download 'Structures' from https://www.hmdb.ca/downloads "
-              f"and unzip to {hmdb}. Continuing without it.", flush=True)
+        print(
+            "HMDB not present; download 'Structures' from https://www.hmdb.ca/downloads "
+            f"and unzip to {hmdb}. Continuing without it.",
+            flush=True,
+        )
 
     reference = {}
     for name, path in databases.items():
@@ -83,8 +86,11 @@ def main() -> None:
             for name, keys in reference.items():
                 row[name] = len(cumulative & keys)
             rows.append(row)
-            print(f"  {network:12s} G{g}  products {len(cumulative):7,d}  "
-                  + "  ".join(f"{n} {row[n]:4,d}" for n in reference), flush=True)
+            print(
+                f"  {network:12s} G{g}  products {len(cumulative):7,d}  "
+                + "  ".join(f"{n} {row[n]:4,d}" for n in reference),
+                flush=True,
+            )
 
     with (SI / "database_matches.csv").open("w", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))

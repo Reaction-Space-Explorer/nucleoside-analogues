@@ -1,0 +1,57 @@
+title: Deoxyribose from Formose, G6, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(CC(C(CO)O)O)=O
+    label: Deoxyribose
+  reaction:
+    id: '280_0'
+    rule: Aldol Condensation
+    dg: -6.1
+  from:
+  - mol:
+      smiles: C(C(CO)O)=O
+      label: glyceraldehyde
+    reaction:
+      id: '4_0'
+      rule: Aldol Condensation
+      dg: -32.6
+    from:
+    - mol:
+        smiles: C=O
+        label: formaldehyde
+      seed: true
+    - mol:
+        smiles: C(CO)=O
+        label: glycolaldehyde
+      seed: true
+  - mol:
+      smiles: C(C)=O
+    reaction:
+      id: '63_0'
+      rule: Elimination + enol to keto
+      dg: -43.2
+      produces:
+      - O
+    from:
+    - mol:
+        smiles: C(CO)O
+      reaction:
+        id: '12_0'
+        rule: Cannizarro 2, HCHO (oxidation)
+        dg: -71.8
+        produces:
+        - C(O)=O
+      from:
+      - mol:
+          smiles: C=O
+          label: formaldehyde
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true
+      - mol:
+          smiles: O
+          label: water
+        seed: true

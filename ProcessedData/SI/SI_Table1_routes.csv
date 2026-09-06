@@ -15,8 +15,8 @@ FormoseAmm,4,with_unestimable,Deoxyribose,yes,2,0
 FormoseAmm,4,with_unestimable,Ribose,yes,4,0
 FormoseAmm,4,with_unestimable,Threose,yes,2,0
 FormoseAmm,4,with_unestimable,Glycerol,yes,2,1
-Glucose,5,estimable_only,Deoxyribose,yes,540,1
-Glucose,5,estimable_only,Ribose,yes,3240,0
+Glucose,5,estimable_only,Deoxyribose,yes,5832,1
+Glucose,5,estimable_only,Ribose,yes,34992,0
 Glucose,5,estimable_only,Threose,yes,18,0
 Glucose,5,estimable_only,Glycerol,no,,
 Glucose,5,with_unestimable,Deoxyribose,yes,3,0
@@ -28,7 +28,7 @@ GlucoseAmm,4,estimable_only,Ribose,no,,
 GlucoseAmm,4,estimable_only,Threose,yes,18,0
 GlucoseAmm,4,estimable_only,Glycerol,no,,
 GlucoseAmm,4,with_unestimable,Deoxyribose,yes,3,0
-GlucoseAmm,4,with_unestimable,Ribose,yes,3153,0
+GlucoseAmm,4,with_unestimable,Ribose,yes,3394,0
 GlucoseAmm,4,with_unestimable,Threose,yes,2,0
 GlucoseAmm,4,with_unestimable,Glycerol,yes,126,0
 PyruvicAcid,6,estimable_only,Deoxyribose,no,,

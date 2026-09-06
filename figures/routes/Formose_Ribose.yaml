@@ -1,0 +1,31 @@
+title: Ribose from Formose, G6, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(C(CO)O)O)O)=O
+    label: Ribose
+  reaction:
+    id: '16_0'
+    rule: Aldol Condensation
+    dg: -13.4
+  from:
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    seed: true
+  - mol:
+      smiles: C(C(CO)O)=O
+      label: glyceraldehyde
+    reaction:
+      id: '4_0'
+      rule: Aldol Condensation
+      dg: -32.6
+    from:
+    - mol:
+        smiles: C=O
+        label: formaldehyde
+      seed: true
+    - mol:
+        smiles: C(CO)=O
+        label: glycolaldehyde
+      seed: true
