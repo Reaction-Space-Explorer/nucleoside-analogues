@@ -1,6 +1,6 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='1257' viewBox='0 0 1100.00 1256.99'>
+<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='1561' viewBox='0 0 1100.00 1561.36'>
 <rect width='100%' height='100%' fill='white'/>
-<g transform='scale(106.7961) translate(8.4500,9.2000)'>
+<g transform='scale(106.7961) translate(8.4500,12.0500)'>
 <text x='-8.3000' y='1.6500' font-family='Helvetica, Arial, sans-serif' font-size='0.11' text-anchor='start' fill='#111' font-weight='bold'>Glycerol from FormoseAmm, G4, spontaneous reactions only. Structures are constitutional; the network carries no stereochemistry.</text>
 <defs><linearGradient id='dgbar'><stop offset='0.00' stop-color='#2166ac'/><stop offset='0.10' stop-color='#4c83ba'/><stop offset='0.20' stop-color='#76a0c9'/><stop offset='0.30' stop-color='#a1bcd7'/><stop offset='0.40' stop-color='#cbd9e6'/><stop offset='0.50' stop-color='#f6f6f4'/><stop offset='0.60' stop-color='#e8cacc'/><stop offset='0.70' stop-color='#db9da4'/><stop offset='0.80' stop-color='#cd717b'/><stop offset='0.90' stop-color='#c04453'/><stop offset='1.00' stop-color='#b2182b'/></linearGradient></defs>
 <rect x='-8.3000' y='1.9600' width='2.4000' height='0.1100' fill='url(#dgbar)' stroke='#999' stroke-width='0.006'/>
@@ -11,16 +11,16 @@
 <text x='-5.4000' y='2.0180' font-family='Helvetica, Arial, sans-serif' font-size='0.058' text-anchor='start' fill='#333' font-weight='normal'>5_0  Aldol Condensation</text>
 <text x='-8.3000' y='2.3100' font-family='Helvetica, Arial, sans-serif' font-size='0.068' text-anchor='start' fill='#222' font-weight='normal'>route dG = -106.8 kJ/mol</text>
 <text x='-2.3000' y='2.3100' font-family='Helvetica, Arial, sans-serif' font-size='0.068' text-anchor='start' fill='#666' font-weight='normal'>width scale: linear</text>
-<path d='M-2.6989,-0.8563 L-1.9683,-2.1219 L-1.8481,-2.0525 L-1.8079,-2.5847 L-2.2487,-2.2838 L-2.1285,-2.2144 L-2.8591,-0.9487 Z' fill='#2166ac' opacity='1.0'/>
-<path d='M-2.3753,-2.5836 L-2.1146,-2.6481 L-2.0813,-2.5134 L-1.9236,-2.7906 L-2.1924,-2.9623 L-2.1591,-2.8276 L-2.4197,-2.7631 Z' fill='#2166ac' opacity='1.0'/>
-<path d='M-2.9267,-5.1808 L-2.0876,-3.5196 L-2.2115,-3.4570 L-1.7882,-3.1319 L-1.7986,-3.6655 L-1.9225,-3.6030 L-2.7616,-5.2642 Z' fill='#2166ac' opacity='1.0'/>
-<path d='M-1.3764,-2.7658 L-1.1158,-2.7658 L-1.1158,-2.6271 L-0.9025,-2.8583 L-1.1158,-3.0896 L-1.1158,-2.9508 L-1.3764,-2.9508 Z' fill='#2166ac' opacity='1.0'/>
-<path d='M-5.6424,-5.4958 L-5.3817,-5.6893 L-5.2990,-5.5779 L-5.2236,-5.9219 L-5.5747,-5.9492 L-5.4920,-5.8378 L-5.7526,-5.6443 Z' fill='#98b7d4' opacity='1.0'/>
-<path d='M-5.7526,-6.6057 L-5.4920,-6.4122 L-5.5747,-6.3008 L-5.2236,-6.3281 L-5.2990,-6.6721 L-5.3817,-6.5607 L-5.6424,-6.7542 Z' fill='#98b7d4' opacity='1.0'/>
-<path d='M-4.6764,-6.0325 L-4.4158,-6.0325 L-4.4158,-5.8937 L-4.2025,-6.1250 L-4.4158,-6.3563 L-4.4158,-6.2175 L-4.6764,-6.2175 Z' fill='#98b7d4' opacity='1.0'/>
-<path d='M-1.6500,-2.8583 Q-1.5524,-2.5193 -1.3896,-2.2063' fill='none' stroke='#c9c9c9' stroke-width='0.026'/>
-<path d='M-1.3896,-2.2063 L-1.4646,-2.2687 L-1.3976,-2.3036 Z' fill='#c9c9c9'/>
-<svg x='-1.7383' y='-2.1936' width='1.1780' height='1.1780' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<path d='M-2.8392,-0.8670 L-1.8631,-3.2134 L-1.7350,-3.1601 L-1.7638,-3.6931 L-2.1621,-3.3378 L-2.0339,-3.2845 L-3.0100,-0.9380 Z' fill='#2166ac' opacity='1.0'/>
+<path d='M-2.3675,-3.6225 L-2.1068,-3.7120 L-2.0617,-3.5808 L-1.9236,-3.8727 L-2.2120,-4.0182 L-2.1669,-3.8869 L-2.4275,-3.7974 Z' fill='#2166ac' opacity='1.0'/>
+<path d='M-3.0584,-7.5659 L-2.0010,-4.6606 L-2.1314,-4.6132 L-1.7496,-4.2403 L-1.6968,-4.7714 L-1.8272,-4.7239 L-2.8846,-7.6291 Z' fill='#2166ac' opacity='1.0'/>
+<path d='M-1.3764,-3.8742 L-1.1158,-3.8742 L-1.1158,-3.7354 L-0.9025,-3.9667 L-1.1158,-4.1979 L-1.1158,-4.0592 L-1.3764,-4.0592 Z' fill='#2166ac' opacity='1.0'/>
+<path d='M-5.6577,-7.6381 L-5.3780,-7.9262 L-5.2784,-7.8296 L-5.2156,-8.2264 L-5.6103,-8.1517 L-5.5108,-8.0551 L-5.7904,-7.7669 Z' fill='#98b7d4' opacity='1.0'/>
+<path d='M-5.7904,-9.2331 L-5.5108,-8.9449 L-5.6103,-8.8483 L-5.2156,-8.7736 L-5.2784,-9.1704 L-5.3780,-9.0738 L-5.6577,-9.3619 Z' fill='#98b7d4' opacity='1.0'/>
+<path d='M-4.6764,-8.4075 L-4.4158,-8.4075 L-4.4158,-8.2688 L-4.2025,-8.5000 L-4.4158,-8.7312 L-4.4158,-8.5925 L-4.6764,-8.5925 Z' fill='#98b7d4' opacity='1.0'/>
+<path d='M-1.6500,-3.9667 Q-1.4449,-3.6796 -1.1870,-3.4388' fill='none' stroke='#c9c9c9' stroke-width='0.026'/>
+<path d='M-1.1870,-3.4388 L-1.2786,-3.4726 L-1.2270,-3.5279 Z' fill='#c9c9c9'/>
+<svg x='-1.3488' y='-3.5407' width='1.1780' height='1.1780' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='bond-0 atom-0 atom-1' d='M 106.4,147.9 L 124.1,158.1' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 <path class='bond-0 atom-0 atom-1' d='M 124.1,158.1 L 141.7,168.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
@@ -82,8 +82,8 @@ L 195.5 150.7
 L 195.5 135.1
 ' fill='#FF0000'/>
 </svg>
-<rect x='-0.9500' y='-3.8083' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#1a7f37' stroke-width='0.022'/>
-<svg x='-0.9500' y='-3.8083' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<rect x='-0.9500' y='-4.9167' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#1a7f37' stroke-width='0.022'/>
+<svg x='-0.9500' y='-4.9167' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='bond-0 atom-0 atom-1' d='M 70.9,171.8 L 88.6,182.0' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 <path class='bond-0 atom-0 atom-1' d='M 88.6,182.0 L 106.2,192.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
@@ -195,10 +195,10 @@ L 248.3 174.6
 L 248.3 159.0
 ' fill='#FF0000'/>
 </svg>
-<text x='0.0000' y='-1.7488' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#111' font-weight='bold'>Glycerol</text>
-<path d='M-1.5450,-2.8583 L-1.7025,-2.9493 L-1.7025,-2.7674 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
-<text x='-1.6500' y='-4.0838' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>53_0</text>
-<text x='-1.6500' y='-3.9098' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>-74.2 kJ/mol</text>
+<text x='0.0000' y='-2.8572' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#111' font-weight='bold'>Glycerol</text>
+<path d='M-1.5450,-3.9667 L-1.7025,-4.0576 L-1.7025,-3.8757 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
+<text x='-1.6500' y='-5.1922' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>53_0</text>
+<text x='-1.6500' y='-5.0182' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>-74.2 kJ/mol</text>
 <rect x='-4.2500' y='-0.9500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
 <svg x='-4.2500' y='-0.9500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
@@ -278,8 +278,8 @@ Q 184.6 152.5, 187.0 152.5
 ' fill='#FF0000'/>
 </svg>
 <text x='-3.3000' y='1.1095' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
-<rect x='-4.2500' y='-3.4000' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
-<svg x='-4.2500' y='-3.4000' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<rect x='-4.2500' y='-4.3500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
+<svg x='-4.2500' y='-4.3500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='atom-0' d='M 130.7 138.4
 L 132.8 138.4
@@ -335,9 +335,9 @@ Q 157.2 149.3, 158.5 150.9
 Q 159.8 152.5, 162.2 152.5
 ' fill='#FF0000'/>
 </svg>
-<text x='-3.3000' y='-1.3405' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
-<rect x='-4.2500' y='-7.0750' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
-<svg x='-4.2500' y='-7.0750' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<text x='-3.3000' y='-2.2905' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
+<rect x='-4.2500' y='-9.4500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
+<svg x='-4.2500' y='-9.4500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='bond-0 atom-0 atom-1' d='M 62.2,171.8 L 79.9,182.0' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 <path class='bond-0 atom-0 atom-1' d='M 79.9,182.0 L 97.6,192.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
@@ -437,12 +437,12 @@ L 239.6 174.6
 L 239.6 159.0
 ' fill='#FF0000'/>
 </svg>
-<text x='-3.3000' y='-5.0155' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#333' font-weight='normal'>glyceraldehyde</text>
-<path d='M-4.8450,-6.1250 L-5.0025,-6.2159 L-5.0025,-6.0341 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
-<text x='-4.9500' y='-7.3505' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>5_0</text>
-<text x='-4.9500' y='-7.1765' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>-32.6 kJ/mol</text>
-<rect x='-7.5500' y='-5.8500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
-<svg x='-7.5500' y='-5.8500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<text x='-3.3000' y='-7.3905' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#333' font-weight='normal'>glyceraldehyde</text>
+<path d='M-4.8450,-8.5000 L-5.0025,-8.5909 L-5.0025,-8.4091 Z' fill='#b8860b' stroke='#7a5c10' stroke-width='0.006'/>
+<text x='-4.9500' y='-9.7255' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>5_0</text>
+<text x='-4.9500' y='-9.5515' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#222' font-weight='normal'>-32.6 kJ/mol</text>
+<rect x='-7.5500' y='-7.7500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
+<svg x='-7.5500' y='-7.7500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='bond-0 atom-0 atom-1' d='M 143.7,142.3 L 160.9,142.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 <path class='bond-0 atom-0 atom-1' d='M 160.9,142.3 L 178.2,142.3' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
@@ -519,9 +519,9 @@ Q 182.1 149.3, 183.3 150.9
 Q 184.6 152.5, 187.0 152.5
 ' fill='#FF0000'/>
 </svg>
-<text x='-6.6000' y='-3.7905' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
-<rect x='-7.5500' y='-8.3000' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
-<svg x='-7.5500' y='-8.3000' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
+<text x='-6.6000' y='-5.6905' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
+<rect x='-7.5500' y='-11.1500' width='1.9000' height='1.9000' rx='0.12' fill='#fdf6e3' fill-opacity='1.0' stroke='#8a8a8a' stroke-width='0.009'/>
+<svg x='-7.5500' y='-11.1500' width='1.9000' height='1.9000' viewBox='0 0 300 300' preserveAspectRatio='xMidYMid meet'>
 <!-- END OF HEADER -->
 <path class='bond-0 atom-0 atom-1' d='M 216.9,150.4 L 197.9,142.3' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
 <path class='bond-0 atom-0 atom-1' d='M 197.9,142.3 L 178.8,134.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
@@ -585,5 +585,5 @@ Q 86.2 148.1, 87.5 149.7
 Q 88.8 151.2, 91.1 151.2
 ' fill='#FF0000'/>
 </svg>
-<text x='-6.6000' y='-6.2405' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
+<text x='-6.6000' y='-9.0905' font-family='Helvetica, Arial, sans-serif' font-size='0.145' text-anchor='middle' fill='#1a7f37' font-weight='normal'>seed</text>
 </g></svg>
