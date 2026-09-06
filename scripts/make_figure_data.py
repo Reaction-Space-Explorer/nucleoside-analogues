@@ -9,10 +9,13 @@ plotting and computation can run on different machines.
 import ast
 import collections
 import csv
+import sys
+from pathlib import Path
 
 import pandas as pd
 
-import sys; sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from make_si_tables import PRODUCTS, RELS, SI, admitted, deepest, energy_file
 
 from nucleoside_analogues.hyperpath import shortest_pathways
