@@ -16,7 +16,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from make_si_tables import PRODUCTS, RELS, SI, admitted, deepest, energy_file
+from make_si_tables import PRODUCTS, RELS, SI, admitted, deepest, energy_file, is_null
 
 from nucleoside_analogues.hyperpath import shortest_pathways
 from nucleoside_analogues.rels import build_index, pivot_rels, read_products
@@ -75,6 +75,8 @@ def main() -> None:
             e = energies.get(str(identifier))
             if e is None or e["estimable"] != "True" or not e["dG_prime_kJ_mol"]:
                 continue
+            if is_null(e):  # 0 +/- 0 carries no sign; see make_si_tables.is_null
+                continue
             dg = float(e["dG_prime_kJ_mol"])
             for s in literal(products_):
                 incoming[s].append(dg)
@@ -91,18 +93,24 @@ def main() -> None:
                 hill += 1
             else:
                 neither += 1
+        classified = sink + hill + neither
+        n_matched = len(matched & species)
         thermo.append(
             {
                 "network": network,
                 "generation": generation,
+                "matched_species": n_matched,
+                "classified": classified,
+                "classified_pct": round(100 * classified / n_matched, 1) if n_matched else 0.0,
                 "sinks": sink,
                 "hills": hill,
                 "neither": neither,
-                "classified": sink + hill + neither,
             }
         )
         print(
-            f"               sinks {sink:5,d} | hills {hill:5,d} | neither {neither:6,d}",
+            f"               sinks {sink:5,d} | hills {hill:5,d} | neither {neither:6,d} "
+            f"| classified {classified:5,d}/{n_matched:,} "
+            f"({100 * classified / n_matched:.0f}%)",
             flush=True,
         )
 

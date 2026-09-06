@@ -1,6 +1,6 @@
-network,generation,sinks,hills,neither,classified
-Formose,6,48,83,3156,3287
-FormoseAmm,4,1,9,380,390
-Glucose,5,21,97,1342,1460
-GlucoseAmm,4,1,31,691,723
-PyruvicAcid,6,21,38,1217,1276
+network,generation,matched_species,classified,classified_pct,sinks,hills,neither
+Formose,6,3404,3278,96.3,62,85,3131
+FormoseAmm,4,4459,388,8.7,1,9,378
+Glucose,5,5424,1456,26.8,24,99,1333
+GlucoseAmm,4,6057,723,11.9,1,31,691
+PyruvicAcid,6,4971,1272,25.6,22,39,1211
