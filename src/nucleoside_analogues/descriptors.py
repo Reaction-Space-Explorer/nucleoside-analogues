@@ -155,7 +155,10 @@ def calc_descriptors(
     rows: list[list[float]] = []
     for entry in entries:
         mol = Chem.MolFromSmiles(entry)
-        if mol is None:
+        # An empty SMILES parses to a molecule with no atoms rather than to
+        # None, and would otherwise yield a row of zeros that reads as a real
+        # result -- QED of an empty molecule is 0.34, not 0.
+        if mol is None or mol.GetNumAtoms() == 0:
             rows.append([float("nan")] * len(columns))
             continue
 

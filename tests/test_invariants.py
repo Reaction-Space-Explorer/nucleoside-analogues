@@ -131,3 +131,22 @@ def test_ring_and_stereo_descriptors() -> None:
     assert frame.loc["cyclopropane", "max_ring_size"] == 3
     assert frame.loc["L-alanine", "n_chiral_centers"] == 1
     assert frame.loc["glycine", "n_chiral_centers"] == 0
+
+
+def test_unparseable_and_empty_smiles_give_nan_not_zeros() -> None:
+    """An empty SMILES must fail loudly, not quietly.
+
+    RDKit parses "" to a molecule with no atoms rather than to None, so without
+    the atom-count guard it produced a full row of plausible numbers: mass 0,
+    no rings, and a QED of 0.34.
+    """
+    import math
+
+    from nucleoside_analogues.descriptors import calc_descriptors
+
+    frame = calc_descriptors(["", "NOT_A_SMILES", "CCO"])
+    assert len(frame) == 3
+    assert frame.iloc[0].isna().all(), "empty SMILES must be all NaN"
+    assert frame.iloc[1].isna().all(), "unparseable SMILES must be all NaN"
+    assert not frame.iloc[2].isna().any(), "a valid SMILES must survive alongside failures"
+    assert math.isclose(float(frame.iloc[2]["exact_mass"]), 46.041865, rel_tol=1e-6)
