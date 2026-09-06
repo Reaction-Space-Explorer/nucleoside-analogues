@@ -281,8 +281,11 @@ def critical_reactions(
     equally short one, so the count says something the route count cannot.  A
     target reachable by several independent routes has none.
 
-    Only reactions that could take part in a derivation are tested; the rest
-    cannot change reachability.
+    Only the reactions on the optimal route need testing. A critical reaction
+    lies on *every* derivation of the target by definition, so it lies on the
+    one :func:`trace` returns; testing the whole contributing set would give the
+    same answer at far greater cost, since that set can run to tens of thousands
+    of reactions in a deep network.
     """
     seeds = tuple(seeds)
     base = shortest_pathways(index, seeds, objective=objective)
@@ -290,7 +293,7 @@ def critical_reactions(
         return []
     return [
         identifier
-        for identifier in _contributing(base, index, target)
+        for identifier in trace(base, index, target)
         if target
         not in shortest_pathways(index, seeds, objective=objective, exclude=(identifier,)).cost
     ]
