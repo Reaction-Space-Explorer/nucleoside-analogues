@@ -103,6 +103,7 @@ def main() -> None:
                 t2.append(
                     {
                         "network": network,
+                        "generation": generation,
                         "basis": basis,
                         "target": name,
                         "reachable": "yes" if ok else "no",
@@ -113,6 +114,7 @@ def main() -> None:
                 t1.append(
                     {
                         "network": network,
+                        "generation": generation,
                         "basis": basis,
                         "target": name,
                         "reachable": "yes" if ok else "no",
