@@ -21,8 +21,13 @@ from make_si_tables import PRODUCTS, species_generations
 
 REPO = Path(__file__).resolve().parent.parent
 OUT = REPO / "figures" / "output"
-SHORT = {"Formose": "F", "FormoseAmm": "FA", "Glucose": "G",
-         "GlucoseAmm": "GA", "PyruvicAcid": "PA"}
+SHORT = {
+    "Formose": "F",
+    "FormoseAmm": "FA",
+    "Glucose": "G",
+    "GlucoseAmm": "GA",
+    "PyruvicAcid": "PA",
+}
 
 
 def main() -> None:
@@ -45,8 +50,15 @@ def main() -> None:
         for j in range(n):
             if i == j:
                 continue
-            ax.text(j, i, f"{m[i, j]:.1f}", ha="center", va="center", fontsize=6.4,
-                    color="white" if m[i, j] > 20 else "#222222")
+            ax.text(
+                j,
+                i,
+                f"{m[i, j]:.1f}",
+                ha="center",
+                va="center",
+                fontsize=6.4,
+                color="white" if m[i, j] > 20 else "#222222",
+            )
     ax.set_xticks(range(n), [SHORT[x] for x in nets], fontsize=7)
     ax.set_yticks(range(n), [SHORT[x] for x in nets], fontsize=7)
     ax.set_xticks(np.arange(-0.5, n, 1), minor=True)

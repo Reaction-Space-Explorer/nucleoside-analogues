@@ -50,9 +50,17 @@ def main() -> None:
             if not pts:
                 continue
             ax.plot(
-                [p[0] for p in pts], [p[col] for p in pts], ls, color=colour, marker=marker,
-                markersize=3.0, linewidth=1.0, label=label, clip_on=False,
-                markerfacecolor="white" if net == "PyruvicAcid" else colour, markeredgewidth=0.8,
+                [p[0] for p in pts],
+                [p[col] for p in pts],
+                ls,
+                color=colour,
+                marker=marker,
+                markersize=3.0,
+                linewidth=1.0,
+                label=label,
+                clip_on=False,
+                markerfacecolor="white" if net == "PyruvicAcid" else colour,
+                markeredgewidth=0.8,
             )
         if logy:
             ax.set_yscale("log")
@@ -65,17 +73,36 @@ def main() -> None:
     axes[1].set_ylim(-45, 2)
     # PA contributes a single spontaneous route; say so rather than let one marker pass
     axes[0].annotate(
-        "PA: 1 route", xy=(3, 1), xytext=(7.5, 1.8), fontsize=6,
+        "PA: 1 route",
+        xy=(3, 1),
+        xytext=(7.5, 1.8),
+        fontsize=6,
         color=STYLE["PyruvicAcid"][1],
-        arrowprops=dict(arrowstyle="-", linewidth=0.5, color=STYLE["PyruvicAcid"][1],
-                        shrinkA=1, shrinkB=2),
+        arrowprops=dict(
+            arrowstyle="-", linewidth=0.5, color=STYLE["PyruvicAcid"][1], shrinkA=1, shrinkB=2
+        ),
     )
     for ax, tag in zip(axes, "ab", strict=True):
-        ax.text(-0.16, 1.03, f"({tag})", transform=ax.transAxes, fontsize=8,
-                fontweight="bold", va="bottom")
+        ax.text(
+            -0.16,
+            1.03,
+            f"({tag})",
+            transform=ax.transAxes,
+            fontsize=8,
+            fontweight="bold",
+            va="bottom",
+        )
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", ncol=5, fontsize=6.5,
-               handlelength=1.8, columnspacing=1.4, bbox_to_anchor=(0.5, -0.02))
+    fig.legend(
+        handles,
+        labels,
+        loc="lower center",
+        ncol=5,
+        fontsize=6.5,
+        handlelength=1.8,
+        columnspacing=1.4,
+        bbox_to_anchor=(0.5, -0.02),
+    )
     fig.tight_layout(w_pad=2.0, rect=(0, 0.07, 1, 1))
     save(fig, str(OUT / "Figure_7_pathway_energetics"))
     print("wrote figures/output/Figure_7_pathway_energetics.png")

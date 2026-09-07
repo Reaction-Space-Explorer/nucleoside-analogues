@@ -32,17 +32,32 @@ from nucleoside_analogues.rels import read_products  # noqa: E402
 
 RDLogger.DisableLog("rdApp.*")
 OUT = REPO / "figures" / "output"
-#: Upper bound per network. Four were generated under a 200 amu cutoff on
-#: product mass; the ammonia-seeded formose network was not, and reaches 312 Da,
-#: so comparing it at 200 would manufacture a gap that is not there.
-CEILING = {"Formose": 200.0, "FormoseAmm": 315.0, "Glucose": 200.0,
-           "GlucoseAmm": 200.0, "PyruvicAcid": 201.0}
-#: Peak lists were exported from m/z 150 upward, so nothing below this is seen.
+#: Display bound per network, with a little headroom so points at the ceiling
+#: are not clipped. Four networks were generated under a 200 amu cutoff on
+#: product mass and top out at 198-200 Da; the ammonia-seeded formose network
+#: was not, and reaches 312.15 Da, so comparing it at 200 would manufacture a
+#: gap that is not there. These are axis limits, not the networks' true maxima:
+#: quote ms_validation.py's ceiling_Da column for those, never these.
+CEILING = {
+    "Formose": 200.0,
+    "FormoseAmm": 315.0,
+    "Glucose": 200.0,
+    "GlucoseAmm": 200.0,
+    "PyruvicAcid": 201.0,
+}
+#: Display floor. The exported peak lists start at m/z 161.05 in six of the
+#: eight samples, 158.02 in pyruvic acid neat and 136.03 in pyruvic acid in
+#: water, so this is a choice made here and not a property of the data.
 FLOOR = 155.0
 
 EXP, MODEL = "cornflowerblue", "deeppink"
-PANELS = [("50", "Formose (F)"), ("40", "Formose Ammonia (FA)"), ("38", "Glucose (G)"),
-          ("37", "Glucose Ammonia (GA)"), ("46", "Pyruvic Acid (PA)")]
+PANELS = [
+    ("50", "Formose (F)"),
+    ("40", "Formose Ammonia (FA)"),
+    ("38", "Glucose (G)"),
+    ("37", "Glucose Ammonia (GA)"),
+    ("46", "Pyruvic Acid (PA)"),
+]
 GEN_COLOURS = plt.get_cmap("Spectral")
 
 
@@ -55,15 +70,20 @@ fig = plt.figure(figsize=(DOUBLE, 4.8))
 outer = fig.add_gridspec(2, 1, height_ratios=[2.0, 1.7], hspace=0.42)
 mirror = outer[0].subgridspec(2, len(PANELS), hspace=0, wspace=0.34)
 lower = outer[1].subgridspec(1, len(PANELS), wspace=0.34)
-axes = [[fig.add_subplot(mirror[0, c]) for c in range(len(PANELS))],
-        [fig.add_subplot(mirror[1, c]) for c in range(len(PANELS))],
-        [fig.add_subplot(lower[0, c]) for c in range(len(PANELS))]]
+axes = [
+    [fig.add_subplot(mirror[0, c]) for c in range(len(PANELS))],
+    [fig.add_subplot(mirror[1, c]) for c in range(len(PANELS))],
+    [fig.add_subplot(lower[0, c]) for c in range(len(PANELS))],
+]
 
 for column, (number, title) in enumerate(PANELS):
     network, products_file, _ = SAMPLES[number]
     LOW, HIGH = FLOOR, CEILING[network]
-    peaks = [p for p in read_midas(next(MS.glob(f"*_{number}_*")))
-             if p["organic"] and FLOOR <= p["mass"] <= HIGH]
+    peaks = [
+        p
+        for p in read_midas(next(MS.glob(f"*_{number}_*")))
+        if p["organic"] and FLOOR <= p["mass"] <= HIGH
+    ]
     frame = read_products(PRODUCTS / products_file)
 
     masses, generations = [], []
@@ -80,23 +100,46 @@ for column, (number, title) in enumerate(PANELS):
     window = peaks
     if window:
         top = max(p["abundance"] for p in window)
-        ax.vlines([p["mass"] for p in window], 0.875,
-                  [100 * p["abundance"] / top for p in window], color=EXP, linewidth=0.6)
+        ax.vlines(
+            [p["mass"] for p in window],
+            0.875,
+            [100 * p["abundance"] / top for p in window],
+            color=EXP,
+            linewidth=0.6,
+        )
     else:
-        ax.text((LOW + HIGH) / 2, 11, "no assigned peak in range",
-                ha="center", va="center", fontsize=6, color="#7a8290")
-    ax.set_yscale("log"); ax.set_ylim(0.875, 125); ax.set_xlim(LOW, HIGH)
-    ax.set_xticklabels([]); ax.set_title(title, fontsize=7, pad=3)
+        ax.text(
+            (LOW + HIGH) / 2,
+            11,
+            "no assigned peak in range",
+            ha="center",
+            va="center",
+            fontsize=6,
+            color="#7a8290",
+        )
+    ax.set_yscale("log")
+    ax.set_ylim(0.875, 125)
+    ax.set_xlim(LOW, HIGH)
+    ax.set_xticklabels([])
+    ax.set_title(title, fontsize=7, pad=3)
     ax.tick_params(labelsize=5.6)
 
     # ---- network, below, inverted
     ax = axes[1][column]
     inside = [(m, f) for m, f in frequency.items() if LOW <= m <= HIGH]
     if inside:
-        ax.vlines([m for m, _ in inside], 0.875,
-                  [100 * f / peak_of for _, f in inside], color=MODEL, linewidth=0.6)
-    ax.set_yscale("log"); ax.set_ylim(0.875, 125); ax.set_xlim(LOW, HIGH)
-    ax.invert_yaxis(); ax.set_xlabel("exact mass (Da)", fontsize=6.2)
+        ax.vlines(
+            [m for m, _ in inside],
+            0.875,
+            [100 * f / peak_of for _, f in inside],
+            color=MODEL,
+            linewidth=0.6,
+        )
+    ax.set_yscale("log")
+    ax.set_ylim(0.875, 125)
+    ax.set_xlim(LOW, HIGH)
+    ax.invert_yaxis()
+    ax.set_xlabel("exact mass (Da)", fontsize=6.2)
     ax.tick_params(labelsize=5.6)
 
     # ---- van Krevelen
@@ -112,29 +155,63 @@ for column, (number, title) in enumerate(PANELS):
             mol = Chem.MolFromSmiles(str(frame["Smiles"].iloc[i]))
             c = counts(Chem.rdMolDescriptors.CalcMolFormula(mol).replace("+", "").replace("-", ""))
             if c.get("C"):
-                xs.append(c.get("O", 0) / c["C"]); ys.append(c.get("H", 0) / c["C"])
-        ax.scatter(xs, ys, s=6, color=GEN_COLOURS(generation / max(generations)),
-                   alpha=0.55, linewidths=0, zorder=2, label=f"G{generation}")
+                xs.append(c.get("O", 0) / c["C"])
+                ys.append(c.get("H", 0) / c["C"])
+        ax.scatter(
+            xs,
+            ys,
+            s=6,
+            color=GEN_COLOURS(generation / max(generations)),
+            alpha=0.55,
+            linewidths=0,
+            zorder=2,
+            label=f"G{generation}",
+        )
     xs, ys = [], []
     for p in peaks:
         c = counts(neutral_formula(p["ion"]))
         if c.get("C"):
-            xs.append(c.get("O", 0) / c["C"]); ys.append(c.get("H", 0) / c["C"])
-    ax.scatter(xs, ys, s=5, facecolors="none", edgecolors="black",
-               linewidths=0.18, alpha=0.12, zorder=3)
-    ax.set_xlim(0, 1.6); ax.set_ylim(0.3, 2.8)
-    ax.set_xlabel("O/C"); ax.tick_params(labelsize=5.6)
+            xs.append(c.get("O", 0) / c["C"])
+            ys.append(c.get("H", 0) / c["C"])
+    ax.scatter(
+        xs, ys, s=5, facecolors="none", edgecolors="black", linewidths=0.18, alpha=0.12, zorder=3
+    )
+    ax.set_xlim(0, 1.6)
+    ax.set_ylim(0.3, 2.8)
+    ax.set_xlabel("O/C")
+    ax.tick_params(labelsize=5.6)
     if column == 0:
         ax.set_ylabel("H/C")
 
-handles = [plt.Line2D([], [], marker="o", linestyle="", markersize=3,
-                      color=GEN_COLOURS(g / 6), label=f"G{g}") for g in range(1, 7)]
-handles.append(plt.Line2D([], [], marker="o", linestyle="", markersize=3,
-                          markerfacecolor="none", markeredgecolor="black",
-                          markeredgewidth=0.4, label="FT-ICR-MS"))
-fig.legend(handles=handles, loc="lower center", ncol=7, fontsize=6.5,
-           frameon=False, bbox_to_anchor=(0.5, -0.015), handletextpad=0.3,
-           columnspacing=1.1)
+handles = [
+    plt.Line2D(
+        [], [], marker="o", linestyle="", markersize=3, color=GEN_COLOURS(g / 6), label=f"G{g}"
+    )
+    for g in range(1, 7)
+]
+handles.append(
+    plt.Line2D(
+        [],
+        [],
+        marker="o",
+        linestyle="",
+        markersize=3,
+        markerfacecolor="none",
+        markeredgecolor="black",
+        markeredgewidth=0.4,
+        label="FT-ICR-MS",
+    )
+)
+fig.legend(
+    handles=handles,
+    loc="lower center",
+    ncol=7,
+    fontsize=6.5,
+    frameon=False,
+    bbox_to_anchor=(0.5, -0.015),
+    handletextpad=0.3,
+    columnspacing=1.1,
+)
 axes[0][0].set_ylabel("experimental", fontsize=6, color=EXP)
 axes[1][0].set_ylabel("network", fontsize=6, color=MODEL)
 for row, letter in ((0, "a"), (2, "b")):

@@ -22,8 +22,10 @@ OUT = REPO / "figures" / "output"
 NETS = ["Formose", "FormoseAmm", "Glucose", "GlucoseAmm", "PyruvicAcid"]
 HEAD = ["F", "FA", "G", "GA", "PA"]
 TARGETS = ["Threose", "Ribose", "Glycerol", "Deoxyribose", "Glyoxylate"]
-PANELS = [("carbonyl migration", "carbonyl migration removed"),
-          ("Cannizzaro", "Cannizzaro reaction removed")]
+PANELS = [
+    ("carbonyl migration", "carbonyl migration removed"),
+    ("Cannizzaro", "Cannizzaro reaction removed"),
+]
 COLOUR = {"unchanged": "#cfe0d2", "longer": "#f6e3bf", "lost": "#f2cdcd", "none": "#f4f4f4"}
 EDGE = "#ffffff"
 
@@ -34,7 +36,8 @@ def main() -> None:
     with (REPO / "ProcessedData" / "SI" / "rule_dependence.csv").open() as handle:
         for r in csv.DictReader(handle):
             data[(r["removed"], r["network"], r["target"])] = (
-                r["depth_all_rules"], r["depth_after_removal"]
+                r["depth_all_rules"],
+                r["depth_after_removal"],
             )
 
     use()
@@ -51,11 +54,22 @@ def main() -> None:
                     kind, text = "longer", f"{before} → {after}"
                 else:
                     kind, text = "unchanged", f"{before} → {after}"
-                ax.add_patch(Rectangle((col, row), 0.94, 0.9, facecolor=COLOUR[kind],
-                                       edgecolor=EDGE, linewidth=1.2))
-                ax.text(col + 0.47, row + 0.45, text, ha="center", va="center",
-                        fontsize=6.2, color="#222222")
-        ax.set_xlim(0, len(NETS)); ax.set_ylim(0, len(TARGETS))
+                ax.add_patch(
+                    Rectangle(
+                        (col, row), 0.94, 0.9, facecolor=COLOUR[kind], edgecolor=EDGE, linewidth=1.2
+                    )
+                )
+                ax.text(
+                    col + 0.47,
+                    row + 0.45,
+                    text,
+                    ha="center",
+                    va="center",
+                    fontsize=6.2,
+                    color="#222222",
+                )
+        ax.set_xlim(0, len(NETS))
+        ax.set_ylim(0, len(TARGETS))
         ax.set_xticks([i + 0.47 for i in range(len(NETS))])
         ax.set_xticklabels(HEAD, fontsize=7)
         ax.set_yticks([i + 0.45 for i in range(len(TARGETS))])
@@ -68,13 +82,23 @@ def main() -> None:
     for ax, tag in zip(axes, "ab", strict=True):
         panel(ax, tag, x=-0.22, y=1.04)
     fig.legend(
-        handles=[Patch(facecolor=COLOUR[k], label=v) for k, v in
-                 (("unchanged", "reached in the same number of steps"),
-                  ("longer", "still reached, but by a longer route"),
-                  ("lost", "no longer reachable"),
-                  ("none", "not reachable with the whole rule set"))],
-        loc="lower center", ncol=4, fontsize=6.5, frameon=False,
-        handlelength=1.3, columnspacing=1.3, bbox_to_anchor=(0.5, -0.04))
+        handles=[
+            Patch(facecolor=COLOUR[k], label=v)
+            for k, v in (
+                ("unchanged", "reached in the same number of steps"),
+                ("longer", "still reached, but by a longer route"),
+                ("lost", "no longer reachable"),
+                ("none", "not reachable with the whole rule set"),
+            )
+        ],
+        loc="lower center",
+        ncol=4,
+        fontsize=6.5,
+        frameon=False,
+        handlelength=1.3,
+        columnspacing=1.3,
+        bbox_to_anchor=(0.5, -0.04),
+    )
     fig.tight_layout(w_pad=3.0, rect=(0, 0.10, 1, 1))
     save(fig, str(OUT / "Figure_S5_robustness"))
     print("wrote figures/output/Figure_S5_robustness.png")

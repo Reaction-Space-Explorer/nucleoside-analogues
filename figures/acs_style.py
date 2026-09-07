@@ -63,8 +63,7 @@ def figure(width: str | float = "single", height: float = 2.4, **kwargs):
 def panel(ax, letter: str, x: float = -0.16, y: float = 1.03) -> None:
     """Mark a panel. One convention across every figure: bold, parenthesised,
     lower case, outside the axes."""
-    ax.text(x, y, f"({letter})", transform=ax.transAxes, fontsize=8,
-            fontweight="bold", va="bottom")
+    ax.text(x, y, f"({letter})", transform=ax.transAxes, fontsize=8, fontweight="bold", va="bottom")
 
 
 def save(fig, stem: str) -> None:

@@ -14,10 +14,12 @@ assignments are counted and excluded, not silently dropped.
 
 import csv
 import json
+from functools import cache
 from pathlib import Path
 
 from make_si_tables import species_generations
 from rdkit import Chem, RDLogger
+from rdkit.Chem.Descriptors import ExactMolWt
 from rdkit.Chem.rdMolDescriptors import CalcMolFormula
 
 RDLogger.DisableLog("rdApp.*")
@@ -89,6 +91,7 @@ def neutral_formula(ion: dict[str, int]) -> str:
     return "".join(f"{k}{counts[k]}" for k in order if counts.get(k))
 
 
+@cache
 def network_formulas(network: str) -> dict[str, int]:
     """Molecular formula -> earliest generation it appears in."""
     first: dict[str, int] = {}
@@ -100,6 +103,24 @@ def network_formulas(network: str) -> dict[str, int]:
         if formula not in first or generation < first[formula]:
             first[formula] = int(generation)
     return first
+
+
+@cache
+def network_ceiling(network: str) -> float:
+    """Heaviest product the network actually builds.
+
+    Four of the five CRNRs were generated under a 200 amu cutoff on product
+    mass; the formose-ammonia CRNR was not, and reaches 312 Da. The comparison
+    against a spectrum is only meaningful up to this mass, above which the
+    network cannot match by construction, so it is computed rather than
+    assumed: a hardcoded ceiling silently drifted from the data once already.
+    """
+    top = 0.0
+    for smiles in species_generations(network):
+        mol = Chem.MolFromSmiles(str(smiles))
+        if mol is not None:
+            top = max(top, ExactMolWt(mol))
+    return top
 
 
 def main() -> None:
@@ -131,6 +152,14 @@ def main() -> None:
             parts.append(f"<{int(cutoff)}: {len(hit):3d}/{len(formulas):4d} ({pct:4.1f}%)")
             if cutoff == 250.0:
                 detail[number] = {"matched": sorted(hit), "unmatched": sorted(formulas - set(net))}
+        ceiling = network_ceiling(network)
+        formulas = {neutral_formula(p["ion"]) for p in organic if p["mass"] < ceiling}
+        hit = formulas & set(net)
+        row["ceiling_Da"] = round(ceiling, 2)
+        row["formulas_lt_ceiling"] = len(formulas)
+        row["matched_lt_ceiling"] = len(hit)
+        row["percent_lt_ceiling"] = round(100 * len(hit) / len(formulas), 1) if formulas else 0.0
+        parts.append(f"ceiling {ceiling:6.1f}: {len(hit):3d}/{len(formulas):4d}")
         rows.append(row)
         print(f"{number:2s} {label:22s} {network:12s} " + "  ".join(parts), flush=True)
 

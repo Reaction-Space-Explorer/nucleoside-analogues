@@ -23,8 +23,13 @@ NETWORKS = [
     ("PyruvicAcid", "Pyruvic Acid (PA)"),
 ]
 #: Bottcher Cm of the four target nucleosides, from the same data.
-TARGETS = {"Glycerol": 36.68, "Glyoxylate": 49.85, "Threose": 92.04,
-           "Deoxyribose": 98.04, "Ribose": 111.55}
+TARGETS = {
+    "Glycerol": 36.68,
+    "Glyoxylate": 49.85,
+    "Threose": 92.04,
+    "Deoxyribose": 98.04,
+    "Ribose": 111.55,
+}
 INK, BAND = "#1a1a1a", "#cfd8e3"
 
 use()
@@ -38,16 +43,19 @@ for ax, (key, label) in zip(axes, NETWORKS, strict=True):
 
     ax.axhspan(lo, hi, color=BAND, zorder=0, linewidth=0)
     parts = ax.boxplot(
-        groups, positions=range(len(gens)), widths=0.62, showfliers=False,
-        patch_artist=True, medianprops={"color": INK, "linewidth": 1.1},
+        groups,
+        positions=range(len(gens)),
+        widths=0.62,
+        showfliers=False,
+        patch_artist=True,
+        medianprops={"color": INK, "linewidth": 1.1},
         boxprops={"facecolor": "white", "edgecolor": INK, "linewidth": 0.6},
         whiskerprops={"color": INK, "linewidth": 0.6},
         capprops={"color": INK, "linewidth": 0.6},
     )
     del parts
     for i, values in enumerate(groups):
-        ax.text(i, 205, f"{len(values):,}", ha="center", va="center", fontsize=6,
-                color="#4a4a4a")
+        ax.text(i, 205, f"{len(values):,}", ha="center", va="center", fontsize=6, color="#4a4a4a")
     ax.set_xticks(range(len(gens)))
     ax.set_xticklabels([g[1:] for g in gens])
     ax.set_title(label, fontsize=7, pad=3)
@@ -57,8 +65,14 @@ for ax, (key, label) in zip(axes, NETWORKS, strict=True):
 axes[0].set_ylabel("Böttcher complexity $C_m$")
 axes[0].set_yticks([40, 60, 80, 100, 120, 140, 160, 180])
 handle = plt.Rectangle((0, 0), 1, 1, facecolor=BAND, edgecolor="none")
-fig.legend([handle], ["range spanned by the four target nucleosides"], loc="lower center",
-           bbox_to_anchor=(0.5, -0.04), fontsize=6, frameon=False)
+fig.legend(
+    [handle],
+    ["range spanned by the four target nucleosides"],
+    loc="lower center",
+    bbox_to_anchor=(0.5, -0.04),
+    fontsize=6,
+    frameon=False,
+)
 fig.tight_layout(pad=0.4, w_pad=0.5, rect=(0, 0.04, 1, 1))
 OUT.mkdir(parents=True, exist_ok=True)
 save(fig, str(OUT / "Figure_Bottcher_complexity"))

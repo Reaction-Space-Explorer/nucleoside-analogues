@@ -34,8 +34,9 @@ def main() -> None:
     y = np.arange(len(rows))
 
     use()
-    fig, axes = plt.subplots(1, 2, figsize=(DOUBLE, 3.6), sharey=True,
-                             gridspec_kw={"width_ratios": [1.55, 1]})
+    fig, axes = plt.subplots(
+        1, 2, figsize=(DOUBLE, 3.6), sharey=True, gridspec_kw={"width_ratios": [1.55, 1]}
+    )
     ax = axes[0]
     ax.axvline(0, color="#999", linewidth=0.6, zorder=0)
     ax.hlines(y, q1, q3, color="#9bb0c9", linewidth=3.4, zorder=2)
@@ -46,8 +47,13 @@ def main() -> None:
 
     ax2 = axes[1]
     ax2.axvline(0, color="#999", linewidth=0.6, zorder=0)
-    ax2.barh(y, shift, height=0.62, zorder=2,
-             color=["#a03623" if abs(s) > 5 else "#cfd8e3" for s in shift])
+    ax2.barh(
+        y,
+        shift,
+        height=0.62,
+        zorder=2,
+        color=["#a03623" if abs(s) > 5 else "#cfd8e3" for s in shift],
+    )
     ax2.set_xlabel("median shift, pH 7 to 11  (kJ mol$^{-1}$)")
     for ax_, tag in zip(axes, "ab", strict=True):
         panel(ax_, tag, x=-0.02 if tag == "b" else -0.62, y=1.03)

@@ -36,8 +36,12 @@ def trimmed(path: Path, pad: int = 12) -> np.ndarray:
     ink = np.argwhere(grey < 250)
     top, left = ink.min(axis=0)
     bottom, right = ink.max(axis=0)
-    box = (max(0, left - pad), max(0, top - pad),
-           min(image.width, right + pad), min(image.height, bottom + pad))
+    box = (
+        max(0, left - pad),
+        max(0, top - pad),
+        min(image.width, right + pad),
+        min(image.height, bottom + pad),
+    )
     return np.asarray(image.crop(box))
 
 
@@ -53,15 +57,25 @@ def main() -> None:
         for pair in ((0, 1), (2, 3))
     ]
     fig, axes = plt.subplots(
-        2, 2, figsize=(DOUBLE, cell * sum(rows) + 0.45),
+        2,
+        2,
+        figsize=(DOUBLE, cell * sum(rows) + 0.45),
         gridspec_kw={"height_ratios": rows},
     )
     for ax, (letter, stem, title) in zip(axes.flat, PANELS, strict=True):
         ax.imshow(images[stem])
         ax.set_axis_off()
         ax.set_title(title, fontsize=7.5, pad=2)
-        ax.text(-0.02, 1.0, f"({letter})", transform=ax.transAxes, fontsize=9,
-                fontweight="bold", va="top", ha="right")
+        ax.text(
+            -0.02,
+            1.0,
+            f"({letter})",
+            transform=ax.transAxes,
+            fontsize=9,
+            fontweight="bold",
+            va="top",
+            ha="right",
+        )
     fig.tight_layout(w_pad=0.4, h_pad=0.8)
     save(fig, str(OUT / "Figure_6_formose_routes"))
     print("wrote figures/output/Figure_6_formose_routes.png")
