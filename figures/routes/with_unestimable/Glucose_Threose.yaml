@@ -1,0 +1,32 @@
+title: Threose from Glucose, G5, spontaneous reactions, admitting those of unestimable free energy. Structures
+  are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(CO)O)O)=O
+    label: Threose
+  reaction:
+    id: '155_0'
+    rule: Knoevenagel H (inv)
+    produces:
+    - C(CO)(O)=O
+  from:
+  - mol:
+      smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+    reaction:
+      id: '9_0'
+      rule: Cannizarro 2, glucose (oxidation)
+      produces:
+      - C(C(C(C(C(CO)O)O)O)O)O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)=O
+        label: aldohexose
+      seed: true
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)=O
+        label: aldohexose
+      seed: true
+    - mol:
+        smiles: O
+        label: water
+      seed: true

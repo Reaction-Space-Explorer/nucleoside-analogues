@@ -18,10 +18,10 @@
 
 ## Open, needing a decision rather than work
 
-- **Do the route figures replace Figure 6?** Sixteen are current in `figures/routes/`, one per
-  spontaneously reachable network and target, drawn from the data by autocycle. Figure 6 is still
-  the hand-drawn version. Replacing it changes that figure's panel structure, which is why it has
-  not been done unasked.
+- **Which route figures, if any, go to the SI?** The glyoxylate pair is the strongest candidate:
+  Formose reaches it through carbon chemistry, FormoseAmm through nitrogen, by transamination. The
+  glucose routes are eleven steps and only legible at full width. The FormoseAmm duplicates of the
+  four main-text panels would be the same picture twice.
 
 ## Open, needing something from outside
 
@@ -61,3 +61,10 @@ Figure 4; Figure 7 uncrowded to two panels; Figure S2 (Böttcher) cut, its conte
 discussion as percentiles and an AUROC, and the remaining SI figures renumbered S1-S4. Formose G6
 matching closed, 3,404 matched species to 9,305. Apiose, ethylene glycol, threitol, glyceric and
 glycolic acid were checked for backbone literature and have none, so they are not targets.
+
+Figure 6 is now the four Formose spontaneous routes, tiled from the autocycle renderings so it
+cannot drift from the traced data. `make_route_specs.py` takes a basis argument, and the 25
+with-unestimable routes are generated too, so the three-reaction glucose derivation of deoxyribose
+survives as a figure rather than only as a table row. Every claim in the new caption was checked
+against the data: F and FA agree at all four depths, and two of the three steps in that shorter
+glucose derivation have no free-energy estimate at all.

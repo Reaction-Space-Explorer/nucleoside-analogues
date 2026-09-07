@@ -1,0 +1,64 @@
+title: Glyoxylate from Formose, G6, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(O)=O)=O
+    label: Glyoxylate
+  reaction:
+    id: '3469_0'
+    rule: Retro Aldol
+    produces:
+    - C(CO)(CCO)=O
+  from:
+  - mol:
+      smiles: C(C(C(C(O)=O)O)O)(CCO)=O
+    reaction:
+      id: '653_0'
+      rule: Elimination + enol to keto
+      dg: -41.0
+      produces:
+      - O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+      reaction:
+        id: '47_0'
+        rule: Knoevenagel H
+      from:
+      - mol:
+          smiles: C(C(C(CO)O)O)=O
+          label: aldotetrose
+        reaction:
+          id: '6_0'
+          rule: Aldol Condensation
+          dg: -16.4
+        from:
+        - mol:
+            smiles: C(CO)=O
+            label: glycolaldehyde
+          seed: true
+        - mol:
+            smiles: C(CO)=O
+            label: glycolaldehyde
+          seed: true
+      - mol:
+          smiles: C(CO)(O)=O
+        reaction:
+          id: '14_0'
+          rule: Cannizarro 2, HCHO (reduction)
+          dg: -96.8
+          produces:
+          - CO
+        from:
+        - mol:
+            smiles: C=O
+            label: formaldehyde
+          seed: true
+        - mol:
+            smiles: C(CO)=O
+            label: glycolaldehyde
+          seed: true
+        - mol:
+            smiles: O
+            label: water
+          seed: true

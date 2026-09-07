@@ -1,0 +1,41 @@
+title: Deoxyribose from GlucoseAmm, G4, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(CC(C(CO)O)O)=O
+    label: Deoxyribose
+  reaction:
+    id: '4900_0'
+    rule: Alpha-Keto Acid Decarboxylation
+    produces:
+    - C(=O)=O
+  from:
+  - mol:
+      smiles: C(C(CC(C(CO)O)O)=O)(O)=O
+    reaction:
+      id: '235_0'
+      rule: Elimination + enol to keto
+      dg: -41.0
+      produces:
+      - O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+      reaction:
+        id: '12_0'
+        rule: Cannizarro 2, glucose (oxidation)
+        produces:
+        - C(C(C(C(C(CO)O)O)O)O)O
+      from:
+      - mol:
+          smiles: O
+          label: water
+        seed: true
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true

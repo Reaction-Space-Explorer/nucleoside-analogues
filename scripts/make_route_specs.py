@@ -1,6 +1,11 @@
 """Emit autocycle route specs for the traced pathway to each target.
 
-    uv run python scripts/make_route_specs.py
+    uv run python scripts/make_route_specs.py [basis]
+
+`basis` is estimable_only, the default, or with_unestimable. The second set
+goes to figures/routes/with_unestimable/, so the two can be compared: it is
+the only place the difference between the two bases is visible rather than
+tabulated.
 
 One YAML per network and target, at the network's deepest generation, over the
 spontaneous-only network -- the same basis as SI Table 1. Draw them with
@@ -28,7 +33,7 @@ from nucleoside_analogues.hyperpath import shortest_pathways
 from nucleoside_analogues.rels import build_index, pivot_rels, read_products
 
 RDLogger.DisableLog("rdApp.*")
-OUT = REPO / "figures" / "routes"
+ROUTES = REPO / "figures" / "routes"
 
 #: Names for the molecules a reader is expected to recognise. The networks
 #: carry no stereocentres, so a node with more than one diastereomer is named
@@ -94,7 +99,11 @@ def node(species, result, index, rules, energies, path, label=None):
 
 
 def main() -> None:
-    OUT.mkdir(parents=True, exist_ok=True)
+    basis = sys.argv[1] if len(sys.argv) > 1 else "estimable_only"
+    if basis not in ("estimable_only", "with_unestimable"):
+        raise SystemExit(f"basis must be estimable_only or with_unestimable, got {basis!r}")
+    out = ROUTES if basis == "estimable_only" else ROUTES / "with_unestimable"
+    out.mkdir(parents=True, exist_ok=True)
     written = 0
     for network, products_file in PRODUCTS.items():
         generation = deepest(network)
@@ -108,25 +117,30 @@ def main() -> None:
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
         seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
-        keep = admitted(network, rels, "estimable_only", generation)
+        keep = admitted(network, rels, basis, generation)
         index = build_index(rels[rels["Index"].isin(keep)])
         result = shortest_pathways(index, seeds)
 
         for target, smiles in TARGETS.items():
             if smiles not in result.cost:
                 continue
+            scope = (
+                "spontaneous reactions only"
+                if basis == "estimable_only"
+                else "spontaneous reactions, admitting those of unestimable free energy"
+            )
             spec = {
                 "title": (
-                    f"{target} from {network}, G{generation}, spontaneous reactions only. "
+                    f"{target} from {network}, G{generation}, {scope}. "
                     "Structures are constitutional; the network carries no stereochemistry."
                 ),
                 "target": node(smiles, result, index, rules, energies, frozenset(), target),
             }
-            path = OUT / f"{network}_{target}.yaml"
+            path = out / f"{network}_{target}.yaml"
             path.write_text(yaml.safe_dump(spec, sort_keys=False, width=100))
             written += 1
             print(f"  {path.relative_to(REPO)}  depth {result.cost[smiles]}")
-    print(f"wrote {written} specs to {OUT.relative_to(REPO)}")
+    print(f"wrote {written} specs to {out.relative_to(REPO)}")
 
 
 if __name__ == "__main__":

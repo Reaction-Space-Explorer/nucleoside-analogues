@@ -1,0 +1,127 @@
+title: Ribose from PyruvicAcid, G6, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(C(CO)O)O)O)=O
+    label: Ribose
+  reaction:
+    id: '3846_0'
+    rule: Aldol Condensation
+    dg: -13.4
+  from:
+  - mol:
+      smiles: C(C(CO)O)=O
+      label: glyceraldehyde
+    reaction:
+      id: '91295_0'
+      rule: Knoevenagel H (inv)
+      dg: -9.4
+      produces:
+      - C(CO)(O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(CO)O)O)O)(O)=O
+      reaction:
+        id: '117841_0'
+        rule: Hydration of C(=O)C
+      from:
+      - mol:
+          smiles: O
+          label: water
+        seed: true
+      - mol:
+          smiles: C(C(CC(CO)O)=O)(O)=O
+        reaction:
+          id: '7674_0'
+          rule: Aldol Condensation
+        from:
+        - mol:
+            smiles: C(C(C)=O)(O)=O
+            label: pyruvic acid
+          seed: true
+        - mol:
+            smiles: C(CO)=O
+            label: glycolaldehyde
+          reaction:
+            id: '1659_0'
+            rule: Knoevenagel H (inv)
+            produces:
+            - C(C(C)O)(O)=O
+          from:
+          - mol:
+              smiles: C(C(C)(C(CO)O)O)(O)=O
+            reaction:
+              id: '282_0'
+              rule: Hydration of C(=O)C
+            from:
+            - mol:
+                smiles: O
+                label: water
+              seed: true
+            - mol:
+                smiles: C(C(C)(CC=O)O)(O)=O
+              reaction:
+                id: '45_0'
+                rule: Alpha-Keto Acid Decarboxylation
+                dg: -7.1
+                produces:
+                - C(=O)=O
+              from:
+              - mol:
+                  smiles: C(C(C)(CC(C(O)=O)=O)O)(O)=O
+                reaction:
+                  id: '3_0'
+                  rule: Aldol Condensation
+                  dg: -14.1
+                from:
+                - mol:
+                    smiles: C(C(C)=O)(O)=O
+                    label: pyruvic acid
+                  seed: true
+                - mol:
+                    smiles: C(C(C)=O)(O)=O
+                    label: pyruvic acid
+                  seed: true
+  - mol:
+      smiles: C(CO)=O
+      label: glycolaldehyde
+    reaction:
+      id: '1659_0'
+      rule: Knoevenagel H (inv)
+      produces:
+      - C(C(C)O)(O)=O
+    from:
+    - mol:
+        smiles: C(C(C)(C(CO)O)O)(O)=O
+      reaction:
+        id: '282_0'
+        rule: Hydration of C(=O)C
+      from:
+      - mol:
+          smiles: O
+          label: water
+        seed: true
+      - mol:
+          smiles: C(C(C)(CC=O)O)(O)=O
+        reaction:
+          id: '45_0'
+          rule: Alpha-Keto Acid Decarboxylation
+          dg: -7.1
+          produces:
+          - C(=O)=O
+        from:
+        - mol:
+            smiles: C(C(C)(CC(C(O)=O)=O)O)(O)=O
+          reaction:
+            id: '3_0'
+            rule: Aldol Condensation
+            dg: -14.1
+          from:
+          - mol:
+              smiles: C(C(C)=O)(O)=O
+              label: pyruvic acid
+            seed: true
+          - mol:
+              smiles: C(C(C)=O)(O)=O
+              label: pyruvic acid
+            seed: true

@@ -1,0 +1,73 @@
+title: Glycerol from GlucoseAmm, G4, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(CO)O)O
+    label: Glycerol
+  reaction:
+    id: '102268_0'
+    rule: Michael Addition 0,2, (reverse)
+    produces:
+    - C=C(C(O)=O)N
+  from:
+  - mol:
+      smiles: C(C(CC(C(CO)O)O)N)(O)=O
+    reaction:
+      id: '4838_0'
+      rule: Transamination
+      dg: -0.0
+      produces:
+      - C(C(C(C(C(CO)O)O)O)=O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)N)=O
+      reaction:
+        id: '124_0'
+        rule: Amadori/Heyns Rearrangement
+        dg: -24.2
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: N
+        seed: true
+      - mol:
+          smiles: C(CO)(C(C(C(CO)O)O)O)=O
+        reaction:
+          id: '7_0'
+          rule: Keto-enol migration twice
+          dg: -2.0
+        from:
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true
+    - mol:
+        smiles: C(C(CC(C(CO)O)O)=O)(O)=O
+      reaction:
+        id: '235_0'
+        rule: Elimination + enol to keto
+        dg: -41.0
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+        reaction:
+          id: '12_0'
+          rule: Cannizarro 2, glucose (oxidation)
+          produces:
+          - C(C(C(C(C(CO)O)O)O)O)O
+        from:
+        - mol:
+            smiles: O
+            label: water
+          seed: true
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true

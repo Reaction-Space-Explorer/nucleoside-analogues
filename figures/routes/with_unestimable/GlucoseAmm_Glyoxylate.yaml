@@ -1,0 +1,41 @@
+title: Glyoxylate from GlucoseAmm, G4, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(O)=O)=O
+    label: Glyoxylate
+  reaction:
+    id: '1697_0'
+    rule: Retro Aldol
+    produces:
+    - C(CO)(CCO)=O
+  from:
+  - mol:
+      smiles: C(C(C(C(O)=O)O)O)(CCO)=O
+    reaction:
+      id: '239_0'
+      rule: Elimination + enol to keto
+      dg: -41.0
+      produces:
+      - O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+      reaction:
+        id: '12_0'
+        rule: Cannizarro 2, glucose (oxidation)
+        produces:
+        - C(C(C(C(C(CO)O)O)O)O)O
+      from:
+      - mol:
+          smiles: O
+          label: water
+        seed: true
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)=O
+          label: aldohexose
+        seed: true

@@ -1,0 +1,58 @@
+title: Ribose from Glucose, G5, spontaneous reactions, admitting those of unestimable free energy. Structures
+  are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(C(C(CO)O)O)O)=O
+    label: Ribose
+  reaction:
+    id: '21679_0'
+    rule: Alpha-Keto Acid Decarboxylation
+    dg: -8.7
+    produces:
+    - C(=O)=O
+  from:
+  - mol:
+      smiles: C(C(C(C(C(CO)O)O)O)=O)(O)=O
+    reaction:
+      id: '1535_0'
+      rule: Cannizarro 2, glucose (reduction)
+      dg: -61.1
+      produces:
+      - C(C(C(C(C(CO)O)O)O)O)O
+    from:
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)O)=O
+        label: aldohexose
+      seed: true
+    - mol:
+        smiles: O
+        label: water
+      seed: true
+    - mol:
+        smiles: C(C(C(C(C(CO)O)O)O)=O)=O
+      reaction:
+        id: '44_0'
+        rule: Benzilic Acid Rearrangement (inverse)
+        produces:
+        - O
+      from:
+      - mol:
+          smiles: C(C(C(C(C(CO)O)O)O)O)(O)=O
+        reaction:
+          id: '9_0'
+          rule: Cannizarro 2, glucose (oxidation)
+          produces:
+          - C(C(C(C(C(CO)O)O)O)O)O
+        from:
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true
+        - mol:
+            smiles: C(C(C(C(C(CO)O)O)O)O)=O
+            label: aldohexose
+          seed: true
+        - mol:
+            smiles: O
+            label: water
+          seed: true

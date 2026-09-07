@@ -1,0 +1,196 @@
+title: Glyoxylate from PyruvicAcid, G6, spontaneous reactions, admitting those of unestimable free energy.
+  Structures are constitutional; the network carries no stereochemistry.
+target:
+  mol:
+    smiles: C(C(O)=O)=O
+    label: Glyoxylate
+  reaction:
+    id: '1262_0'
+    rule: Cannizarro 2, HCHO (reduction)
+    dg: -70.3
+    produces:
+    - CO
+  from:
+  - mol:
+      smiles: O
+      label: water
+    seed: true
+  - mol:
+      smiles: C=O
+      label: formaldehyde
+    reaction:
+      id: '1034_0'
+      rule: Retro Aldol
+      produces:
+      - C(C(C(C(C)=O)=O)O)(O)=O
+    from:
+    - mol:
+        smiles: C(C(C(C(C)=O)=O)(CO)O)(O)=O
+      reaction:
+        id: '11933_0'
+        rule: Knoevenagel C
+      from:
+      - mol:
+          smiles: C(=O)=O
+        reaction:
+          id: '8_0'
+          rule: Alpha-Keto Acid Decarboxylation
+          dg: -14.1
+          produces:
+          - C(C)=O
+        from:
+        - mol:
+            smiles: C(C(C)=O)(O)=O
+            label: pyruvic acid
+          seed: true
+      - mol:
+          smiles: C(C(C)=O)(C(CO)O)=O
+        reaction:
+          id: '937_0'
+          rule: Benzilic Acid Rearrangement (inverse)
+          produces:
+          - O
+        from:
+        - mol:
+            smiles: C(C(C)(C(CO)O)O)(O)=O
+          reaction:
+            id: '282_0'
+            rule: Hydration of C(=O)C
+          from:
+          - mol:
+              smiles: O
+              label: water
+            seed: true
+          - mol:
+              smiles: C(C(C)(CC=O)O)(O)=O
+            reaction:
+              id: '45_0'
+              rule: Alpha-Keto Acid Decarboxylation
+              dg: -7.1
+              produces:
+              - C(=O)=O
+            from:
+            - mol:
+                smiles: C(C(C)(CC(C(O)=O)=O)O)(O)=O
+              reaction:
+                id: '3_0'
+                rule: Aldol Condensation
+                dg: -14.1
+              from:
+              - mol:
+                  smiles: C(C(C)=O)(O)=O
+                  label: pyruvic acid
+                seed: true
+              - mol:
+                  smiles: C(C(C)=O)(O)=O
+                  label: pyruvic acid
+                seed: true
+  - mol:
+      smiles: C(C=O)=O
+    reaction:
+      id: '91222_0'
+      rule: Knoevenagel H (inv)
+      produces:
+      - C(CC(C(O)=O)O)(O)=O
+    from:
+    - mol:
+        smiles: C(CC(C(O)=O)(C(C=O)O)O)(O)=O
+      reaction:
+        id: '5908_0'
+        rule: Aldol Condensation
+      from:
+      - mol:
+          smiles: C(CC(C(O)=O)=O)(O)=O
+        reaction:
+          id: '1006_0'
+          rule: Retro Aldol
+          produces:
+          - C(C)=O
+        from:
+        - mol:
+            smiles: C(C(C(C(O)=O)=O)C(C)O)(O)=O
+          reaction:
+            id: '129_0'
+            rule: Aldol Condensation
+          from:
+          - mol:
+              smiles: C(=O)=O
+            reaction:
+              id: '8_0'
+              rule: Alpha-Keto Acid Decarboxylation
+              dg: -14.1
+              produces:
+              - C(C)=O
+            from:
+            - mol:
+                smiles: C(C(C)=O)(O)=O
+                label: pyruvic acid
+              seed: true
+          - mol:
+              smiles: C(C(CC(C)O)=O)(O)=O
+            reaction:
+              id: '14_0'
+              rule: Aldol Condensation
+              dg: -11.7
+            from:
+            - mol:
+                smiles: C(C(C)=O)(O)=O
+                label: pyruvic acid
+              seed: true
+            - mol:
+                smiles: C(C)=O
+                label: acetaldehyde
+              reaction:
+                id: '8_0'
+                rule: Alpha-Keto Acid Decarboxylation
+                dg: -14.1
+                produces:
+                - C(=O)=O
+              from:
+              - mol:
+                  smiles: C(C(C)=O)(O)=O
+                  label: pyruvic acid
+                seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        reaction:
+          id: '1659_0'
+          rule: Knoevenagel H (inv)
+          produces:
+          - C(C(C)O)(O)=O
+        from:
+        - mol:
+            smiles: C(C(C)(C(CO)O)O)(O)=O
+          reaction:
+            id: '282_0'
+            rule: Hydration of C(=O)C
+          from:
+          - mol:
+              smiles: O
+              label: water
+            seed: true
+          - mol:
+              smiles: C(C(C)(CC=O)O)(O)=O
+            reaction:
+              id: '45_0'
+              rule: Alpha-Keto Acid Decarboxylation
+              dg: -7.1
+              produces:
+              - C(=O)=O
+            from:
+            - mol:
+                smiles: C(C(C)(CC(C(O)=O)=O)O)(O)=O
+              reaction:
+                id: '3_0'
+                rule: Aldol Condensation
+                dg: -14.1
+              from:
+              - mol:
+                  smiles: C(C(C)=O)(O)=O
+                  label: pyruvic acid
+                seed: true
+              - mol:
+                  smiles: C(C(C)=O)(O)=O
+                  label: pyruvic acid
+                seed: true
