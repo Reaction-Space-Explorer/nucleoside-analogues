@@ -164,3 +164,20 @@ def test_unparseable_and_empty_smiles_give_nan_not_zeros() -> None:
     assert frame.iloc[1].isna().all(), "unparseable SMILES must be all NaN"
     assert not frame.iloc[2].isna().any(), "a valid SMILES must survive alongside failures"
     assert math.isclose(float(frame.iloc[2]["exact_mass"]), 46.041865, rel_tol=1e-6)
+
+
+def test_deposition_comparison_matches_the_methods_claim() -> None:
+    """The Methods say 44% to 82% of lost reactions were lost for want of an estimate."""
+    import csv
+
+    from helpers import REPO
+
+    path = REPO / "ProcessedData" / "SI" / "deposition_comparison.csv"
+    with path.open() as handle:
+        rows = list(csv.DictReader(handle))
+    assert len(rows) == 5
+    # every deposited reaction must still be present, or the comparison is not like for like
+    assert all(int(r["absent_from_recomputation"]) == 0 for r in rows)
+    shares = [float(r["share_unestimable"]) for r in rows]
+    assert round(min(shares)) == 44, shares
+    assert round(max(shares)) == 82, shares
