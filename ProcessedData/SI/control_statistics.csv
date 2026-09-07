@@ -1,0 +1,9 @@
+statistic,value
+pairs,25
+fisher_chi2,142.12
+fisher_df,50
+fisher_combined_p,9.11e-11
+mean_p_formose,0.0416
+mean_p_other,0.12
+permutation_splits,3268760
+permutation_p_exact,0.00742

@@ -8,12 +8,22 @@ instead compared against controls drawn from the same network: the analogues
 most similar to it by Morgan-fingerprint Tanimoto, and those closest to it in
 exact mass. The question is then whether the target is reached in fewer steps
 than structures the network finds comparably easy to make.
+
+Significance is the conservative rank estimator of Phipson and Smyth, p =
+(r + 1) / (n + 1) for r controls strictly faster than the target out of n, which
+cannot return zero and is bounded below by 1/(n + 1); with fifty controls the
+smallest attainable value is 0.02. The per-pair values are combined by Fisher's
+method, and the formose CRNRs are compared against the rest by enumerating all
+C(25, 10) = 3,268,760 splits, so the permutation p is exact rather than sampled.
 """
 
 import csv
+import itertools
+import math
 import sys
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from rdkit import Chem, DataStructs, RDLogger
 from rdkit.Chem import rdFingerprintGenerator
@@ -81,6 +91,7 @@ def main() -> None:
                     "control_min_steps": depths[0],
                     "control_max_steps": depths[-1],
                     "controls_strictly_faster": rank,
+                    "p_value": round((rank + 1) / (len(controls) + 1), 4),
                     "percentile": round(100 * rank / len(depths), 1),
                     "mean_tanimoto_of_controls": round(
                         sum(DataStructs.TanimotoSimilarity(fp, p[1]) for p in controls.values())
@@ -101,6 +112,52 @@ def main() -> None:
         w.writeheader()
         w.writerows(rows)
     print("wrote ProcessedData/SI/matched_controls.csv")
+    write_statistics(rows)
+
+
+FORMOSE = ("Formose", "FormoseAmm")
+
+
+def write_statistics(rows: list[dict]) -> None:
+    """Fisher's combined p, and the exact permutation test separating the formose CRNRs."""
+    values = np.array([r["p_value"] for r in rows])
+    chi2 = -2 * float(np.log(values).sum())
+    degrees = 2 * len(values)
+    # survival function of chi2 with even df, in closed form, so that summarising
+    # the result costs no dependency the rest of the analysis does not already have
+    half = chi2 / 2
+    term = 1.0
+    total = 1.0
+    for k in range(1, degrees // 2):
+        term *= half / k
+        total += term
+    combined = math.exp(-half) * total
+
+    block = [i for i, r in enumerate(rows) if r["network"] in FORMOSE]
+    k = len(block)
+    observed = float(values[block].mean())
+    splits = np.array(list(itertools.combinations(range(len(values)), k)), dtype=np.int16)
+    means = values[splits].sum(axis=1) / k
+    at_least = int((means <= observed + 1e-12).sum())
+    exact = at_least / len(means)
+
+    summary = [
+        {"statistic": "pairs", "value": len(values)},
+        {"statistic": "fisher_chi2", "value": round(chi2, 2)},
+        {"statistic": "fisher_df", "value": degrees},
+        {"statistic": "fisher_combined_p", "value": f"{combined:.2e}"},
+        {"statistic": "mean_p_formose", "value": round(observed, 4)},
+        {"statistic": "mean_p_other", "value": round(float(np.delete(values, block).mean()), 4)},
+        {"statistic": "permutation_splits", "value": len(means)},
+        {"statistic": "permutation_p_exact", "value": round(exact, 5)},
+    ]
+    with (SI / "control_statistics.csv").open("w", newline="") as h:
+        w = csv.DictWriter(h, fieldnames=["statistic", "value"])
+        w.writeheader()
+        w.writerows(summary)
+    for row in summary:
+        print(f"  {row['statistic']:22s} {row['value']}")
+    print("wrote ProcessedData/SI/control_statistics.csv")
 
 
 if __name__ == "__main__":
