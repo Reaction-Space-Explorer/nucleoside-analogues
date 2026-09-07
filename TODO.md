@@ -1,84 +1,34 @@
 # TODO
 
-## Running
+## Running on bizon
 
-- **Four-pH energies on bizon** (`compute_energies.py --workers 8`, pH 7.0/7.4/9.0/11.0).
-  GlucoseAmm G4 done; FormoseAmm, Formose G6, Glucose G5, PyruvicAcid G6 to go.
-  Compound resolution is pH-independent, so the four pH values cost one resolution pass.
-  Blocks: SI Table 3 at full depth, dGr by pH and rule, MDF.
+- **Four-pH energies** (`compute_energies.py --workers 8`, pH 7.0/7.4/9.0/11.0). Four of five
+  networks written: GlucoseAmm, FormoseAmm, Glucose, PyruvicAcid. **Formose G6 is last in the
+  queue and still going**, about an hour and a quarter into its own pass; its four files exist but
+  are empty, because each is written only when its network finishes. The local pH 7.4 copies are
+  intact and committed, so nothing already computed is at risk.
 
 ## Blocked on that run
 
-- SI Table 3 refresh. The embedded table is still the generation-3 set (582 Formose
-  reactions); the caption says so, and must be updated with it.
+- **SI Table 3** still holds the generation-3 set (582 Formose reactions). Its caption says so and
+  must change with it.
 - dGr distribution by pH and by reaction rule.
-- Max-min driving force on the traced routes. Spike passed, 42-106 kJ/mol on 7 routes.
-- Descriptors + SHAP, dropping the constant features.
+- Max-min driving force on the traced routes. The spike passed at 42-106 kJ/mol on seven routes.
+- Descriptors and SHAP, dropping the constant features.
 
-## Open, not blocked
+## Open, needing a decision rather than work
 
-- **HMDB.** Download **"Structures"** (`structures.zip`) from <https://www.hmdb.ca/downloads>
-  and unzip to `OriginalData/reference_databases/hmdb_structures.sdf`. HMDB returns 403 to
-  scripted requests, so this is manual. `scripts/database_matches.py` picks it up
-  automatically and is otherwise finished. ChEBI is already re-derived at full depth.
-- KEGG cannot be re-derived; its bulk data is licensed. The deposited counts in
-  `ProcessedData/DatabaseMatches/` stay as they are, flagged in the SI.
+- **Do the route figures replace Figure 6?** Sixteen are current in `figures/routes/`, one per
+  spontaneously reachable network and target, drawn from the data by autocycle. Figure 6 is still
+  the hand-drawn version. Replacing it changes that figure's panel structure, which is why it has
+  not been done unasked.
 
-## Done since the last update
+## Open, needing something from outside
 
-- SI Table 4, sinks and hills, with the share of species classified alongside. That share
-  runs from 9% to 96%, so the counts cannot be read without it.
-- Figure S4, chain depth against reaction count, worked through the formose route to
-  deoxyribose: longest chain three, whole derivation four.
-- Two miscitations corrected. The SI methods cited Robertson & Miller for component
-  contribution; it now cites Noor and Beber, 69 and 70, as the main text already did.
-  Figure S2 cited Rogers & Hahn for Bottcher complexity; it now cites 86. Both were
-  introduced by earlier insertion shifts. All 92 references remain cited.
-
-- Oro citation checked and corrected. Ref 64 is Oro's 1961 adenine-from-HCN paper and
-  said nothing about deoxyribose; the claim now cites ref 79, Teichert, Kruse & Trapp,
-  Angew. Chem. Int. Ed. 2019, 58, 9944-9947, already in the reference list and verified
-  against PubMed 31131499, whose abstract states the acetaldehyde condensation. All 92
-  references remain cited.
-- autocycle draws intermediate labels (upstream commit 195883d).
-
-## Computed but NOT yet in the manuscript
-
-Kept here so it cannot drift. Everything else found this round has been written in.
-
-- **Reachability funnel figure** (`figures/output/Figure_reachability_funnel.png`). Exists and is
-  current; not placed. It is a candidate to replace or accompany Figure 4, which is a placement
-  decision rather than a writing one.
-- **The twelve autocycle route figures** (`figures/routes/`). Current; not placed. Candidate
-  replacement for the hand-drawn Figure 6, which would change that figure's panel structure.
-- **Further targets are closed for now.** Glyoxylate is added. Apiose, ethylene glycol,
-  threitol, glyceric acid and glycolic acid were checked against Crossref and PubMed and none has
-  literature support as a prebiotic nucleic acid backbone: apiose returns only synthetic antiviral
-  apiosyl nucleosides, and glycol nucleic acid is built on glycerol, already a target through ref
-  80. Ribulose and fructose are supported by refs 31 and 74 but fructose sits at the 70th
-  complexity percentile, a poor fit for a backbone target.
-- **Figure S2** is now redundant with the numbers written into the discussion, and could be cut.
-
-## Done: the Krishnamurthy papers are cited and the analysis is written up
-
-Four references added (96 total, first-citation order preserved): Krishnamurthy & Liotta 82,
-Sutton 85, Tabata 88 in the list, Cruz 89. The robustness result is a new paragraph after p98 and
-SI Table 5. The Breslow attribution in p98 is qualified. Cruz supports the furanose/pyranose
-limitation in the stereochemistry paragraph. Clay et al. 2022 is not cited: hydantoin is absent
-from all five CRNRs, so it bears on nothing computed here.
-
-## Offshoots this work could support
-
-- **Stochastic kinetics on these networks.** Lauber et al. need two global parameters, not one per
-  rule, and take dfG from eQuilibrator exactly as we do. The obstacle is that this repository holds
-  MØD's output and not its grammar; the rules live in reac-space-exp, which is ours. With those,
-  MØD's on-the-fly Gillespie simulation runs directly on this chemistry.
-- **Kinetic ordering of the traced routes** once barriers exist, against the reachability ordering
-  reported here.
-- **Integer hyperflow on the same networks**, following Abel et al., to ask which of the traced
-  routes are stoichiometrically realizable, closing the caveat rather than stating it.
-- **The rule-dependence method itself** applied more widely: removing a disputed mechanism and
-  re-searching is general, and the literature disagreement it settles here is not specific to sugars.
+- **HMDB.** Download "Structures" (`structures.zip`) from <https://www.hmdb.ca/downloads> and unzip
+  to `OriginalData/reference_databases/hmdb_structures.sdf`. HMDB returns 403 to scripted requests.
+  `scripts/database_matches.py` picks it up automatically and is otherwise finished.
+- **KEGG** cannot be re-derived; its bulk data is licensed. The deposited counts stay, flagged.
 
 ## Author-side
 
@@ -88,4 +38,26 @@ from all five CRNRs, so it bears on nothing computed here.
 - Zenodo DOI for the archived repository.
 - Delete the reviewer-suggestion paragraph (p4).
 - Figure 5 content.
-- Put `Jim_NA/` under version control.
+- Put `Jim_NA/` under version control. It holds the manuscript, the red-marked copy and INDEX.md,
+  none of it versioned.
+
+## Offshoots this work could support
+
+- **Stochastic kinetics on these networks.** Lauber et al. need two global parameters, not one per
+  rule, and take dfG from eQuilibrator exactly as we do. The obstacle is that this repository holds
+  MØD's output and not its grammar; the rules live in reac-space-exp, which is ours.
+- **Kinetic ordering of the traced routes** once barriers exist, against the reachability ordering.
+- **Integer hyperflow**, following Abel et al. (ref 73), asking which traced routes are
+  stoichiometrically realizable, closing the caveat rather than stating it.
+- **The rule-dependence method itself** applied more widely: removing a disputed mechanism and
+  re-searching is general, and the disagreement it settles here is not specific to sugars.
+
+## Settled this round, for the record
+
+98 references, first-citation order verified. Glyoxylate added as a fifth target (Bean 81,
+Krishnamurthy & Liotta 83). Sutton 86, Tabata 87, Lauber 88, Cruz 91, Abel 73. Figure 2 rebuilt
+from the reaction listings after its Formose row proved stale; the reachability funnel became
+Figure 4; Figure 7 uncrowded to two panels; Figure S2 (Böttcher) cut, its content now in the
+discussion as percentiles and an AUROC, and the remaining SI figures renumbered S1-S4. Formose G6
+matching closed, 3,404 matched species to 9,305. Apiose, ethylene glycol, threitol, glyceric and
+glycolic acid were checked for backbone literature and have none, so they are not targets.
