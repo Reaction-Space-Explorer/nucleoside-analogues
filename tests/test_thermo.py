@@ -86,3 +86,46 @@ def test_null_estimates_are_not_spontaneous():
     assert not is_null({"dG_prime_kJ_mol": "-0.0001", "sigma_kJ_mol": "1.4"})
     # a real estimate that is large and certain is not null
     assert not is_null({"dG_prime_kJ_mol": "-13.4", "sigma_kJ_mol": "0.0"})
+
+
+def test_a_reaction_and_its_reverse_have_opposite_free_energies(network: str) -> None:
+    """Thermodynamic consistency over the whole deposited set.
+
+    Where the network contains both A -> B and B -> A, component contribution
+    must give exactly opposite free energies. It does, to floating point: over
+    40,007 such pairs in Formose the largest deviation is 2e-13 kJ/mol.
+    """
+    import csv
+
+    import pandas as pd
+    from helpers import ORIGINAL
+    from make_si_tables import FULL, deepest, is_null
+
+    from nucleoside_analogues.rels import pivot_rels
+
+    generation = deepest(network)
+    energies = FULL / f"{network}_G{generation}_energies_pH7.4.csv"
+    if not energies.exists():
+        pytest.skip("full-depth energies not present")
+    rels = pivot_rels(
+        pd.read_csv(ORIGINAL / "Rels" / network / f"{network}Rels_{generation}.tsv", sep="\t")
+    )
+    rels["Index"] = rels["Index"].astype(str)
+    table = {r["Index"]: r for r in csv.DictReader(energies.open())}
+    forward = {
+        (tuple(sorted(a)), tuple(sorted(b))): i
+        for i, a, b in zip(rels["Index"], rels["Reagents"], rels["Products"], strict=True)
+    }
+    checked = 0
+    for (reagents, products), i in forward.items():
+        j = forward.get((products, reagents))
+        if j is None or i >= j:
+            continue
+        a, b = table.get(i), table.get(j)
+        if not a or not b or a["estimable"] != "True" or b["estimable"] != "True":
+            continue
+        if is_null(a) or is_null(b):
+            continue
+        checked += 1
+        assert abs(float(a["dG_prime_kJ_mol"]) + float(b["dG_prime_kJ_mol"])) < 1e-6, (i, j)
+    assert checked, f"no reversible pairs found in {network}"

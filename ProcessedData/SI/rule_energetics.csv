@@ -1,0 +1,80 @@
+rule,reactions,median_dG_pH7.4,q1_dG_pH7.4,q3_dG_pH7.4,distinct_dG,share_exergonic,median_shift_pH7_to_11
+Aldol Condensation,76279,-6.12,-22.87,-3.62,1529,0.809,0.0
+Transamination (inverse),56320,-8.7,-8.7,0.03,248,0.615,9.65
+Elimination2,54522,-2.86,-26.46,-0.43,93,0.762,0.0
+"Michael Addition 0,2, ",46621,-39.42,-43.81,-34.12,1342,0.945,0.0
+Knoevenagel H,41887,-10.73,-29.45,-7.7,1183,0.903,-0.0
+Knoevenagel C,37185,-10.2,-26.95,-3.19,867,0.853,0.0
+Elimination + enol to keto,36800,-41.01,-48.36,-36.93,89,1.0,-0.0
+Retro Aldol,35951,8.98,3.62,26.95,1447,0.123,0.07
+"Cannizarro 2, HCHO (oxidation)",28311,-68.79,-68.79,-68.79,42,1.0,-22.82
+Hydration of C(=O)C,19795,41.01,36.93,45.4,70,0.0,-0.0
+Hemiacetal Formation for 5 membered rings,19491,-0.27,-13.3,6.45,204,0.529,0.0
+Knoevenagel H (inv),15602,13.37,7.7,29.6,814,0.078,-0.0
+Hydration of C=C(O),13810,0.43,-0.4,3.69,51,0.273,0.0
+Knoevenagel C (inverse),12843,13.52,3.62,26.95,534,0.132,-0.0
+"Michael Addition 0,2, (reverse)",12600,38.94,33.35,45.29,777,0.029,-0.0
+Hemiacetal Formation for 6 membered rings,11046,-6.5,-20.65,7.28,272,0.613,-0.21
+Transamination,10185,8.55,-0.03,8.7,140,0.478,-2.88
+Keto-enol migration twice,10126,-2.0,-2.0,2.0,72,0.545,0.0
+Amadori/Heyns Rearrangement,8909,-23.89,-34.37,-11.76,453,0.965,-9.39
+Mannich Addition,6345,-25.64,-32.89,-18.49,182,0.994,-10.77
+"Strecker Degradation, HC",4903,-30.52,-33.41,-3.75,75,0.976,13.38
+Hemiacetal Formation for 7 membered rings,4571,-14.27,-23.5,2.07,217,0.727,0.0
+"Hemiacetal Formation for 5 membered rings, inverse",3641,4.92,-1.81,13.45,139,0.39,0.0
+"Strecker Degradation, CC",3090,4.98,-21.8,4.98,49,0.424,7.66
+Amadori Rearrangement,2838,-25.59,-26.17,-11.76,131,0.967,-10.79
+"Hemiacetal Formation for 6 membered rings, inverse",1831,6.92,-3.75,19.05,153,0.322,0.0
+Dehydration of Amines,1241,-3.68,-5.55,-0.43,53,0.922,3.25
+Deamination 2,1104,-14.84,-22.16,-12.84,123,0.97,12.96
+"Ring Closure 5 membered O, O",1001,5.4,0.15,15.85,123,0.158,0.15
+"Deamination of Vicinal Diamine, (inverse)",842,-22.48,-27.92,-11.33,115,0.987,-7.68
+"Hemiacetal Formation for 7 membered rings, inverse",772,15.18,7.01,24.26,89,0.172,0.0
+"Cannizarro 2, HCHO (reduction)",648,-74.01,-74.01,-74.01,88,0.997,-22.89
+"Michael Addition 0,0, ",624,-16.19,-25.74,-12.94,111,0.973,0.9
+Deamination 3 (inverse),616,-16.19,-25.92,-13.85,90,0.925,0.9
+"Ring Closure 6 membered O, O",506,2.85,-0.2,19.26,102,0.296,3.53
+Mannich Addition (reverse),431,26.17,23.67,32.89,41,0.0,14.99
+"Amide Formation Hydrolysis, C",355,-12.86,-19.13,-6.13,72,0.958,4.37
+Ammonolysis of Esters,355,-12.86,-19.13,-6.13,72,0.958,4.37
+"Cannizarro 2, glucose (reduction)",351,-61.11,-61.11,-61.1,67,0.994,-23.01
+Benzilic Acid Rearrangement (inverse),331,59.1,54.46,59.1,24,0.0,22.84
+Benzilic Acid Rearrangement,323,-59.1,-59.1,-54.46,25,1.0,-22.83
+"Amadori Rearrangement, inverse",314,26.17,25.59,26.17,28,0.032,12.49
+Deamination 3,253,25.74,22.18,28.26,43,0.162,13.15
+Deamination of Vicinal Diamine,234,25.74,22.48,27.34,42,0.009,11.73
+"Amine Carbonyl Ring Closure, H, 5",219,-37.33,-43.91,-29.01,50,1.0,4.37
+Cannizarro 1,209,-59.1,-59.1,-59.1,16,1.0,-22.91
+"Strecker Degradation Dicarbonyl, H, H, H, C",202,4.98,4.98,4.98,3,0.0,7.66
+"Strecker Degradation Dicarbonyl, H, H, C, H",202,-3.75,-3.75,-3.74,3,0.99,7.66
+"Strecker Degradation Dicarbonyl, C, H, H, C",201,-24.69,-24.84,-21.8,9,1.0,11.99
+"Strecker Degradation Dicarbonyl, C, H, C, H",201,-33.42,-33.57,-30.53,9,1.0,11.99
+Alpha-Keto Acid Decarboxylation,179,-8.69,-8.69,-7.07,30,0.944,22.87
+"Strecker Degradation Dicarbonyl, H, H, C, C",171,4.98,4.98,4.98,4,0.0,12.03
+"Ring Closure 7 membered O, O",169,3.83,-3.05,16.71,53,0.361,18.46
+"Amine Carbonyl Ring Closure, H, 6",155,-40.03,-51.47,-30.95,45,0.981,4.37
+"Amine Carbonyl Ring Closure, C, 5",138,-58.33,-64.93,-51.75,30,1.0,2.62
+Beta Decarboxylation,132,-15.08,-15.08,-10.69,24,1.0,23.23
+"Ring Closure 5 membered, inverse N, O",74,-19.68,-33.51,-19.09,35,0.973,-5.7
+Deydration of Amines (inverse),65,3.68,3.68,5.55,12,0.0,-4.37
+"Amine Carbonyl Ring Closure, C, 6",64,-62.77,-74.2,-48.89,24,1.0,4.37
+"Strecker Degradation Dicarbonyl, C, H, C, C",54,-24.68,-24.84,-21.8,6,1.0,15.04
+Enamine Hydration and Elimination,43,-11.16,-13.69,-5.69,9,0.837,10.62
+Imine to Enamine,21,-52.15,-52.15,-15.12,7,0.905,0.0
+Imine to Carbonyl,20,48.77,33.12,59.87,14,0.0,-4.37
+"Cannizarro 2, glucose (oxidation)",19,-61.11,-61.11,-61.1,3,1.0,-22.97
+"Ring Closure 6 membered, inverse N, O",18,-8.6,-18.93,-3.48,10,0.778,-10.55
+"Ring Closure 7 membered, inverse N, O",17,-2.9,-10.29,6.18,6,0.647,-10.62
+Schiff Tautomerization,16,-24.89,-24.89,12.44,2,0.75,0.0
+"Ketone-Catalyzed Decarboxylation, inverse",13,16.56,7.96,18.91,9,0.0,-26.36
+"Ring Closure 5 membered, inverse N, N",12,24.36,17.16,38.0,11,0.0,-9.84
+Alpha-Beta Unsaturated Acid Decarboxylation,7,-10.94,-13.47,9.36,3,0.571,22.82
+"Strecker Degradation, HH",5,-31.25,-34.22,-4.47,4,1.0,30.68
+Ketone-Catalyzed Decarboxylation,5,-7.96,-18.87,-4.47,4,1.0,27.85
+Beta-gamma Unsaturated Acid Decarboxylation,3,-15.08,,,2,1.0,22.81
+"Strecker Degradation Dicarbonyl, C, H, H, H",3,-19.58,,,3,1.0,20.01
+"Strecker Degradation Dicarbonyl, H, H, H, H",2,10.09,,,1,0.0,17.0
+"Strecker Degradation Dicarbonyl, H, H, H, H, inverse",2,-10.09,,,1,1.0,-17.0
+"Ring Closure 5 membered N, O",2,14.59,,,2,0.0,10.14
+"Ring Closure 6 membered N, O",2,11.89,,,2,0.0,10.14
+"Ring Closure 7 membered N, O",2,9.04,,,2,0.0,10.62
