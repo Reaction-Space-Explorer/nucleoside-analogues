@@ -1,0 +1,17 @@
+network,target,steps,median_dG_kJ_mol,least_committed_step,least_committed_dG_kJ_mol,reverse_over_forward
+FormoseAmm,Deoxyribose,4,-32.6,555_0,-6.1,0.085
+FormoseAmm,Glycerol,2,-32.6,5_0,-32.6,1.9e-06
+FormoseAmm,Glyoxylate,6,-22.1,2135_0,-8.6,0.031
+FormoseAmm,Ribose,2,-13.4,27_0,-13.4,0.0045
+FormoseAmm,Threose,1,-16.4,7_0,-16.4,0.0013
+Formose,Deoxyribose,4,-32.6,280_0,-6.1,0.085
+Formose,Glycerol,2,-32.6,4_0,-32.6,1.9e-06
+Formose,Glyoxylate,6,-32.6,133274_0,-10.9,0.012
+Formose,Ribose,2,-13.4,16_0,-13.4,0.0045
+Formose,Threose,1,-16.4,6_0,-16.4,0.0013
+GlucoseAmm,Glyoxylate,8,-41.0,76130_0,-8.6,0.031
+GlucoseAmm,Threose,5,-43.9,44_0,-16.4,0.0013
+Glucose,Deoxyribose,25,-26.6,61435_0,-2.0,0.45
+Glucose,Glyoxylate,15,-39.0,285_0,-2.8,0.32
+Glucose,Ribose,24,-41.0,61435_0,-2.0,0.45
+Glucose,Threose,5,-43.9,39_0,-16.4,0.0013
