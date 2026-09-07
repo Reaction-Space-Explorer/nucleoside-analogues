@@ -1076,6 +1076,8 @@ ml = [
 thermo = [
     { name = "equilibrator-api" },
     { name = "equilibrator-assets" },
+    { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "scipy", version = "1.18.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
 ]
 
 [package.dev-dependencies]
@@ -1097,6 +1099,7 @@ requires-dist = [
     { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "rdkit", specifier = ">=2024.3" },
     { name = "scikit-learn", marker = "extra == 'ml'", specifier = ">=1.4" },
+    { name = "scipy", marker = "extra == 'thermo'", specifier = ">=1.11" },
     { name = "seaborn", marker = "extra == 'figures'", specifier = ">=0.13" },
     { name = "shap", marker = "extra == 'ml'", specifier = ">=0.45" },
     { name = "xgboost", marker = "extra == 'ml'", specifier = ">=2.0" },

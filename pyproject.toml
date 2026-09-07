@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-thermo = ["equilibrator-api>=0.6", "equilibrator-assets>=0.6"]
+thermo = ["equilibrator-api>=0.6", "equilibrator-assets>=0.6", "scipy>=1.11"]
 figures = ["matplotlib>=3.8", "seaborn>=0.13"]
 ml = ["scikit-learn>=1.4", "xgboost>=2.0", "shap>=0.45"]
 

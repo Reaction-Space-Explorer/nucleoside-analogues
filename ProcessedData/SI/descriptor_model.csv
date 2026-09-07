@@ -1,0 +1,5 @@
+network,matched,reachable,descriptors,auc_descriptors,auc_generation,auc_both,auc_estimator_coverage
+Formose,9305,4108,18,0.94,0.605,0.944,0.964
+FormoseAmm,4459,2337,19,0.933,0.544,0.934,0.94
+Glucose,5424,2233,18,0.922,0.614,0.928,0.927
+GlucoseAmm,6057,2396,19,0.863,0.576,0.87,0.959

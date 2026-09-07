@@ -1,0 +1,17 @@
+network,target,reactions,sum_dG_kJ_mol,mdf_kJ_mol,bottleneck_reaction,bottleneck_dG_kJ_mol
+FormoseAmm,Deoxyribose,4,-153.8,17.54,555_0,-6.1
+FormoseAmm,Glycerol,2,-106.9,44.04,5_0,-32.6
+FormoseAmm,Glyoxylate,5,-156.2,19.77,10_0,-22.1
+FormoseAmm,Ribose,2,-46.0,22.99,27_0,-13.4
+FormoseAmm,Threose,1,-16.4,27.81,7_0,-16.4
+Formose,Deoxyribose,4,-153.8,17.54,280_0,-6.1
+Formose,Glycerol,2,-106.9,44.04,4_0,-32.6
+Formose,Glyoxylate,6,-202.5,22.99,16_0,-13.4
+Formose,Ribose,2,-46.0,22.99,16_0,-13.4
+Formose,Threose,1,-16.4,27.81,6_0,-16.4
+GlucoseAmm,Glyoxylate,8,-345.1,33.5,120_0,-22.1
+GlucoseAmm,Threose,3,-105.7,27.81,44_0,-16.4
+Glucose,Deoxyribose,16,-354.1,13.45,1070_0,-13.5
+Glucose,Glyoxylate,15,-452.5,19.29,2041_0,-7.9
+Glucose,Ribose,16,-361.4,13.45,39_0,-16.4
+Glucose,Threose,3,-105.7,27.81,39_0,-16.4

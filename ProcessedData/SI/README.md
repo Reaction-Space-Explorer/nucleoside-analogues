@@ -74,3 +74,17 @@ target unreachable by any route of any length — robustness in the sense of
 network expansion, not merely of the shortest route. A critical reaction lies
 on every derivation and so on the traced route; `tests/test_hyperpath.py`
 asserts that, and re-verifies each removal.
+
+## descriptor_model.csv and descriptor_shap.csv
+
+A negative control, deposited but not used to support any claim in the paper.
+Molecular descriptors appear to predict which matched analogues are reachable
+by spontaneous reactions, at areas of 0.86 to 0.93 against 0.54 to 0.61 for the
+generation a species first appears in. The same descriptors predict which
+species component contribution can evaluate at all at 0.93 to 0.96, equally
+well or better, and a species nothing estimable produces is unreachable by
+construction: between 15 and 31% of unreachable matched species are in that
+position. The panel is therefore reading the shape of the estimator's blind
+spot, not prebiotic accessibility, and the result is reported here rather than
+in the paper. The same limitation is stated in the paper directly and more
+legibly, as the number of distinct free energies a rule's reactions take.
