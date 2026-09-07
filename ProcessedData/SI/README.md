@@ -12,15 +12,14 @@ edited by hand.
 
 ## SI Table 3
 
-Built at each network's deepest generation. The pH 7.4 energies are deposited
-here; the pH 7.0, 9.0 and 11.0 files are not, being 128 MB whose only product
-is this table. Regenerate them with
+Built at each network's deepest generation. All four pH values are deposited,
+so the table can be checked rather than only regenerated. To rebuild them:
 
     uv run --extra thermo python scripts/compute_energies.py --workers 8 <networks>
 
 which writes all four pH values in one pass, compound resolution being
-pH-independent. `make_si_tables.py` then picks them up; without them it prints
-a note and writes Tables 1 and 2 only.
+pH-independent. `make_si_tables.py` picks them up; without them it prints a
+note and writes Tables 1 and 2 only.
 
 Free energies from eQuilibrator component contribution at I = 0.25 M, pMg 3.0,
 298.15 K, with pKa values assigned by `nucleoside_analogues.pka` for compounds
