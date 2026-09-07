@@ -67,6 +67,19 @@ SI Table 5. The Breslow attribution in p98 is qualified. Cruz supports the furan
 limitation in the stereochemistry paragraph. Clay et al. 2022 is not cited: hydantoin is absent
 from all five CRNRs, so it bears on nothing computed here.
 
+## Offshoots this work could support
+
+- **Stochastic kinetics on these networks.** Lauber et al. need two global parameters, not one per
+  rule, and take dfG from eQuilibrator exactly as we do. The obstacle is that this repository holds
+  MØD's output and not its grammar; the rules live in reac-space-exp, which is ours. With those,
+  MØD's on-the-fly Gillespie simulation runs directly on this chemistry.
+- **Kinetic ordering of the traced routes** once barriers exist, against the reachability ordering
+  reported here.
+- **Integer hyperflow on the same networks**, following Abel et al., to ask which of the traced
+  routes are stoichiometrically realizable, closing the caveat rather than stating it.
+- **The rule-dependence method itself** applied more widely: removing a disputed mechanism and
+  re-searching is general, and the literature disagreement it settles here is not specific to sugars.
+
 ## Author-side
 
 - ORCIDs (8 comments outstanding).
