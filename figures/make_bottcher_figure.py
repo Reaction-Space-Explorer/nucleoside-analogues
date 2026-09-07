@@ -46,7 +46,7 @@ for ax, (key, label) in zip(axes, NETWORKS, strict=True):
     )
     del parts
     for i, values in enumerate(groups):
-        ax.text(i, 205, f"{len(values):,}", ha="center", va="center", fontsize=5.2,
+        ax.text(i, 205, f"{len(values):,}", ha="center", va="center", fontsize=6,
                 color="#4a4a4a")
     ax.set_xticks(range(len(gens)))
     ax.set_xticklabels([g[1:] for g in gens])

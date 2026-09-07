@@ -20,7 +20,7 @@ from collections import Counter
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from acs_style import DOUBLE, save, use
+from acs_style import DOUBLE, panel, save, use
 from rdkit import Chem, RDLogger
 from rdkit.Chem.Descriptors import ExactMolWt
 
@@ -84,7 +84,7 @@ for column, (number, title) in enumerate(PANELS):
                   [100 * p["abundance"] / top for p in window], color=EXP, linewidth=0.6)
     else:
         ax.text((LOW + HIGH) / 2, 11, "no assigned peak in range",
-                ha="center", va="center", fontsize=5.2, color="#7a8290")
+                ha="center", va="center", fontsize=6, color="#7a8290")
     ax.set_yscale("log"); ax.set_ylim(0.875, 125); ax.set_xlim(LOW, HIGH)
     ax.set_xticklabels([]); ax.set_title(title, fontsize=7, pad=3)
     ax.tick_params(labelsize=5.6)
@@ -132,14 +132,13 @@ handles = [plt.Line2D([], [], marker="o", linestyle="", markersize=3,
 handles.append(plt.Line2D([], [], marker="o", linestyle="", markersize=3,
                           markerfacecolor="none", markeredgecolor="black",
                           markeredgewidth=0.4, label="FT-ICR-MS"))
-fig.legend(handles=handles, loc="lower center", ncol=7, fontsize=5.8,
+fig.legend(handles=handles, loc="lower center", ncol=7, fontsize=6.5,
            frameon=False, bbox_to_anchor=(0.5, -0.015), handletextpad=0.3,
            columnspacing=1.1)
 axes[0][0].set_ylabel("experimental", fontsize=6, color=EXP)
 axes[1][0].set_ylabel("network", fontsize=6, color=MODEL)
-for row, letter in ((0, "A"), (2, "B")):
-    axes[row][0].text(-0.40, 1.12, letter, transform=axes[row][0].transAxes,
-                      fontsize=8, fontweight="bold", va="top")
+for row, letter in ((0, "a"), (2, "b")):
+    panel(axes[row][0], letter, x=-0.40, y=1.02)
 OUT.mkdir(parents=True, exist_ok=True)
 save(fig, str(OUT / "Figure_MS_validation"))
 print("wrote", OUT / "Figure_MS_validation.png")

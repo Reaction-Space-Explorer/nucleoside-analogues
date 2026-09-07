@@ -16,6 +16,19 @@ matplotlib.use("Agg")
 #: ACS one- and two-column widths, inches.
 SINGLE, DOUBLE = 3.3, 7.0
 
+#: Smallest type ACS accepts at final size. Nothing in a figure goes below it.
+MIN_FONT = 6.0
+
+#: One palette for the five CRNRs, so that a colour and a marker mean the same
+#: network in every figure. Label, colour, marker.
+NETWORKS = {
+    "Formose": ("Formose (F)", "#1f3d63", "o"),
+    "FormoseAmm": ("Formose ammonia (FA)", "#4f7cac", "s"),
+    "Glucose": ("Glucose (G)", "#b8860b", "^"),
+    "GlucoseAmm": ("Glucose ammonia (GA)", "#d9a441", "v"),
+    "PyruvicAcid": ("Pyruvic acid (PA)", "#a03623", "D"),
+}
+
 RC = {
     "font.family": "sans-serif",
     "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
@@ -45,6 +58,13 @@ def figure(width: str | float = "single", height: float = 2.4, **kwargs):
     use()
     inches = {"single": SINGLE, "double": DOUBLE}.get(width, width)
     return plt.subplots(figsize=(float(inches), height), **kwargs)
+
+
+def panel(ax, letter: str, x: float = -0.16, y: float = 1.03) -> None:
+    """Mark a panel. One convention across every figure: bold, parenthesised,
+    lower case, outside the axes."""
+    ax.text(x, y, f"({letter})", transform=ax.transAxes, fontsize=8,
+            fontweight="bold", va="bottom")
 
 
 def save(fig, stem: str) -> None:
