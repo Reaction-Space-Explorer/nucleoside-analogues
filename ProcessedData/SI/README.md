@@ -7,10 +7,20 @@ edited by hand.
 |---|---|
 | `SI_Table1_routes.csv` | Minimum-cost route count and critical-reaction count per target |
 | `SI_Table2_steps.csv` | Chain depth and reaction count per target |
-| `SI_Table3_pH_robustness.csv` | Spontaneity of all five G3 networks at pH 7.0, 7.4, 9.0 and 11.0 |
+| `SI_Table3_pH_robustness.csv` | Spontaneity of all five networks at their deepest generation, at pH 7.0, 7.4, 9.0 and 11.0 |
 | `<network>_G3_energies_pH7.4.csv` | Per-reaction dGr'o, sigma, estimability and both spontaneity calls |
 
 ## SI Table 3
+
+Built at each network's deepest generation. The pH 7.4 energies are deposited
+here; the pH 7.0, 9.0 and 11.0 files are not, being 128 MB whose only product
+is this table. Regenerate them with
+
+    uv run --extra thermo python scripts/compute_energies.py --workers 8 <networks>
+
+which writes all four pH values in one pass, compound resolution being
+pH-independent. `make_si_tables.py` then picks them up; without them it prints
+a note and writes Tables 1 and 2 only.
 
 Free energies from eQuilibrator component contribution at I = 0.25 M, pMg 3.0,
 298.15 K, with pKa values assigned by `nucleoside_analogues.pka` for compounds
@@ -22,7 +32,11 @@ contribution assigns these infinite variance and they are excluded rather than
 given a value.
 
 `identical_to_pH7` compares the *membership* of the spontaneous set, not its
-size.
+size. At generation three that membership was identical at every pH for F and
+G; over the full networks it is not, drifting by 0.6% in F and 0.9% in G
+between pH 7 and pH 11 against 19% in FA and 15% in GA. Every reaction that
+changes classification lies within a few kJ/mol of zero, and the median
+reaction free energy does not shift with pH at all.
 
 `titratable_7_11` counts species whose protonation changes between pH 7 and 11
 according to `nucleoside_analogues.pka`. CO2 counts: eQuilibrator's CO2 is

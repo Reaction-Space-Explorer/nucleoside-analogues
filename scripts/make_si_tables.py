@@ -1,9 +1,10 @@
-"""Regenerate SI Tables 1 and 2, at each network's deepest generation.
+"""Regenerate SI Tables 1, 2 and 3, at each network's deepest generation.
 
 uv run python scripts/make_si_tables.py
 """
 
 import csv
+import statistics
 from pathlib import Path
 
 import pandas as pd
@@ -13,6 +14,7 @@ from nucleoside_analogues.hyperpath import (
     critical_reactions,
     shortest_pathways,
 )
+from nucleoside_analogues.pka import titratable
 from nucleoside_analogues.rels import build_index, pivot_rels, read_products
 
 REPO = Path(__file__).resolve().parent.parent
@@ -121,8 +123,63 @@ def admitted(network: str, rels: pd.DataFrame, basis: str, generation: int) -> s
     return keep
 
 
+#: The pH values SI Table 3 reports. Compound resolution does not depend on pH,
+#: so the four cost one resolution pass rather than four.
+PH_VALUES = ("7.0", "7.4", "9.0", "11.0")
+
+
+def ph_row(
+    network: str,
+    generation: int,
+    ph: str,
+    rels: pd.DataFrame,
+    species: set[str],
+    reference: set[str] | None,
+) -> tuple[dict, set[str]]:
+    """One row of SI Table 3, and the spontaneous set it was built from.
+
+    `spontaneous` is the sign of the point estimate, the filter the deposited
+    work used; `confident_95` requires the whole interval below zero, which is
+    the basis of every pathway result here. Both are reported so the two can be
+    compared. Reactions returning a null estimate count as unestimable, as they
+    do throughout.
+    """
+    path = FULL / f"{network}_G{generation}_energies_pH{ph}.csv"
+    rows = list(csv.DictReader(path.open()))
+    estimable = [r for r in rows if r["estimable"] == "True" and not is_null(r)]
+    spontaneous = {r["Index"] for r in estimable if float(r["dG_prime_kJ_mol"]) < 0}
+    confident = sum(
+        1 for r in estimable if float(r["dG_prime_kJ_mol"]) + Z * float(r["sigma_kJ_mol"]) < 0
+    )
+    if reference is None:
+        same = "yes"
+    else:
+        differ = len(spontaneous ^ reference)
+        same = "yes" if differ == 0 else f"differs_by_{differ}"
+    return (
+        {
+            "network": network,
+            "generation": generation,
+            "pH": ph,
+            "compounds": len(species),
+            "titratable_7_11": len(titratable(species)),
+            "reactions": len(rels),
+            "buildable": len(rows),
+            "estimable": len(estimable),
+            "unestimable": len(rels) - len(estimable),
+            "spontaneous": len(spontaneous),
+            "confident_95": confident,
+            "median_sigma": round(
+                statistics.median(float(r["sigma_kJ_mol"]) for r in estimable), 2
+            ),
+            "identical_to_pH7": same,
+        },
+        spontaneous,
+    )
+
+
 def main() -> None:
-    t1, t2 = [], []
+    t1, t2, t3 = [], [], []
     for network, products_file in PRODUCTS.items():
         generation = deepest(network)
         rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
@@ -164,7 +221,33 @@ def main() -> None:
                 )
             print(f"  {network:12s} G{generation} {basis:16s} admitted {len(keep):7,d}")
 
-    for rows, name in ((t1, "SI_Table1_routes.csv"), (t2, "SI_Table2_steps.csv")):
+        have_ph = all(
+            (FULL / f"{network}_G{generation}_energies_pH{p}.csv").exists() for p in PH_VALUES
+        )
+        if not have_ph:
+            print(
+                f"  {network:12s} G{generation} pH table skipped: needs "
+                f"{', '.join('pH ' + p for p in PH_VALUES)}; see ProcessedData/SI/README.md",
+                flush=True,
+            )
+        if have_ph:
+            species = set(species_generations(network))
+            reference = None
+            for ph in PH_VALUES:
+                row, spontaneous = ph_row(network, generation, ph, rels, species, reference)
+                reference = reference if reference is not None else spontaneous
+                t3.append(row)
+            print(
+                f"  {network:12s} G{generation} pH table: {t3[-1]['compounds']:,} compounds, "
+                f"{t3[-1]['titratable_7_11']:,} titratable, spontaneous "
+                + " ".join(f"{r['spontaneous']:,}" for r in t3[-len(PH_VALUES) :]),
+                flush=True,
+            )
+
+    tables = [(t1, "SI_Table1_routes.csv"), (t2, "SI_Table2_steps.csv")]
+    if t3:
+        tables.append((t3, "SI_Table3_pH_robustness.csv"))
+    for rows, name in tables:
         with (SI / name).open("w", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
             writer.writeheader()

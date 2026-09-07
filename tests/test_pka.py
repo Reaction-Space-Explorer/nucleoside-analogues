@@ -51,24 +51,19 @@ def test_amine_networks_titrate_broadly(network: str) -> None:
 def test_si_table3_titratable_column_matches_pka(network: str) -> None:
     """The deposited count is recomputed here, so it cannot go stale again.
 
-    It did once: the column was written before the carbonic acid constants
-    were added, and so missed CO2 in four of the five networks.
+    It did once: the column was written before the carbonic acid constants were
+    added, and so missed CO2 in four of the five networks. The species set is
+    taken from the same helper the table is built with, at the deepest
+    generation, so the two cannot diverge.
     """
-    import ast
     import csv
 
-    import pandas as pd
+    from make_si_tables import species_generations
 
     table = REPO / "ProcessedData" / "SI" / "SI_Table3_pH_robustness.csv"
-    rels = REPO / "ProcessedData" / "RelsFiles" / network / f"{network}G3ProcessedRels.tsv"
     requires(table)
-    requires(rels)
 
-    frame = pd.read_csv(rels, sep="\t")
-    literal = lambda value: ast.literal_eval(value) if isinstance(value, str) else tuple(value)  # noqa: E731
-    species: set[str] = set()
-    for reagents, products in zip(frame["Reagents"], frame["Products"], strict=True):
-        species |= set(literal(reagents)) | set(literal(products))
+    species = set(species_generations(network))
     expected = sum(1 for s in species if titrates_in_range(s))
 
     rows = [r for r in csv.DictReader(table.open()) if r["network"] == network]
