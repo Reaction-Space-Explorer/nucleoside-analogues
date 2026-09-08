@@ -1,0 +1,6 @@
+network,aldonates,oxo_uronates,pentoses,uronate_to_pentose_steps,estimable,admitted,example_estimate
+Formose,17,128,37,4,0,0,"dG -373, sigma 100000"
+FormoseAmm,6,29,20,0,0,0,
+Glucose,14,96,25,2,0,0,"dG -373, sigma 100000"
+GlucoseAmm,6,40,22,1,0,0,"dG -373, sigma 100000"
+PyruvicAcid,8,114,24,4,0,0,"dG -742, sigma 200000"

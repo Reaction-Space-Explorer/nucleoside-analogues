@@ -63,6 +63,7 @@ Energies first, then everything that reads them:
 | `matched_controls.py` | Each target against ~50 matched controls, with rank p-values and `control_statistics.csv` |
 | `deposition_comparison.py` | Why reactions the earlier deposition called spontaneous are no longer |
 | `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling |
+| `uronate_case.py` | Yi et al.'s uronate route to pentoses, and the estimator's coverage broken into its causes |
 | `ketohexose_case.py` | The hexose branch point against Yi et al.: where the traced route matches their labelling and where minimum step count does not |
 | `verify_matches.py` | Re-derive analogue matches and diff against the deposited set |
 | `crosscheck_energies.py` | Recompute the G3 energies and diff against the deposited file, to show they are machine-independent |

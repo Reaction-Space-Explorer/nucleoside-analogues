@@ -266,3 +266,33 @@ def test_migration_and_dehydration_are_different_transformations() -> None:
         else:
             assert not same, f"{row['Index']}: dehydration must change formula"
     assert all(seen.values()), seen
+
+
+def test_uronate_route_is_present_but_wholly_unestimable() -> None:
+    """Yi et al.'s pentose route: in the networks, excluded by the estimator.
+
+    The manuscript quotes these counts, so they are pinned. The point is that
+    admitted stays zero for a reason that is not thermodynamic: every instance
+    carries unbounded variance.
+    """
+    import csv
+
+    from helpers import REPO
+
+    si = REPO / "ProcessedData" / "SI"
+    with (si / "uronate_case.csv").open() as handle:
+        route = {r["network"]: r for r in csv.DictReader(handle)}
+    assert sum(int(r["uronate_to_pentose_steps"]) for r in route.values()) == 11
+    assert int(route["Formose"]["uronate_to_pentose_steps"]) == 4
+    assert int(route["Formose"]["aldonates"]) == 17
+    assert int(route["Formose"]["oxo_uronates"]) == 128
+    assert all(int(r["admitted"]) == 0 for r in route.values())
+    assert all(int(r["estimable"]) == 0 for r in route.values())
+
+    with (si / "estimator_coverage.csv").open() as handle:
+        cover = list(csv.DictReader(handle))
+    share = [float(r["percent_unestimable"]) for r in cover]
+    assert round(min(share)) == 20 and round(max(share)) == 46, share
+    # unestimable is dominated by unbounded variance, not by null estimates
+    for r in cover:
+        assert int(r["infinite_variance"]) > int(r["null_estimate"]), r["network"]

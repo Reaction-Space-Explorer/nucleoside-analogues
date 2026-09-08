@@ -66,6 +66,15 @@
 
 ## Settled this round
 
+Six Krishnamurthy/Liotta-school papers read in full. Three cited: Suarez-Marina 2019 as ref 37 (the
+canonical monomers are not the favoured products of uncatalysed glycosylation -- the motivation for
+the whole enumeration), Oro & Cox 1962 as ref 87 (the actual origin of the acetaldehyde route to
+2-deoxyribose), and Yi et al. JACS Au 2023 as ref 96 (the uronate route to pentoses). The Trapp
+citation, ref 81, is no longer stated as fact: the review at ref 44 flags exact-mass ion
+chromatograms and unexcluded biological contamination, and the text now says so. Rule dependence
+split and rewritten, both control bases disclosed, uronate route reported as present-but-unestimable.
+103 references, order verified.
+
 Yi et al. 2023 read and used, as ref 88. Carbonyl migration is established for tetroses without
 Ca2+, with Ca2+ the switch between the enediol route our rules encode and the 1,2-hydride route, so
 the rule-dependence removal is framed as a stress test rather than a rival account. Figure 7 added:
