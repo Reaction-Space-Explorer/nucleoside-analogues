@@ -18,6 +18,12 @@
 
 ## Open, needing a decision rather than work
 
+- **JCIM Article rather than Letter.** Promote SI Extended Methods 1, 2 (with Algorithm S1), 4 and 6
+  into the main Materials and Methods; keep 3 and 5 in the SI; promote Figure S4, the robustness
+  grid, since ribose and threose surviving both disputed mechanisms is a headline result; split
+  Results and Discussion; fix the heading styles, Materials and Methods being `normal` where
+  Results and Discussion is `Heading 3`. Not started, awaiting a go.
+
 - **Which route figures, if any, go to the SI?** The glyoxylate pair is the strongest candidate:
   Formose reaches it through carbon chemistry, FormoseAmm through nitrogen, by transamination. The
   glucose routes are eleven steps and only legible at full width. The FormoseAmm duplicates of the
@@ -37,7 +43,6 @@
 - Conflict of interest and funding statements.
 - Zenodo DOI for the archived repository.
 - Delete the reviewer-suggestion paragraph (p4).
-- Figure 5 content.
 - Put `Jim_NA/` under version control. It holds the manuscript, the red-marked copy and INDEX.md,
   none of it versioned.
 
