@@ -20,9 +20,13 @@
 
 - **JCIM Article rather than Letter.** Promote SI Extended Methods 1, 2 (with Algorithm S1), 4 and 6
   into the main Materials and Methods; keep 3 and 5 in the SI; promote Figure S4, the robustness
-  grid, since ribose and threose surviving both disputed mechanisms is a headline result; split
+  grid, now that every reachable target survives removal of the disputed mechanism in every CRNR; split
   Results and Discussion; fix the heading styles, Materials and Methods being `normal` where
   Results and Discussion is `Heading 3`. Not started, awaiting a go.
+
+- **Two orphans.** Figure S3 (the two route costs) and SI Table 4 (sinks and hills) carry captions
+  but are referenced nowhere in the body, by any wording. Either cite them or cut them, as was done
+  with the old Figure 5 and the Bottcher figure.
 
 - **Which route figures, if any, go to the SI?** The glyoxylate pair is the strongest candidate:
   Formose reaches it through carbon chemistry, FormoseAmm through nitrogen, by transamination. The
@@ -41,11 +45,19 @@
 
 ## Author-side
 
-- ORCIDs (8 comments outstanding).
+- ORCIDs. All eight authors' ORCIDs are already supplied in the docx comments and just need placing
+  in the author block: ML 0009-0005-4426-4571, SS 0000-0003-1768-1802, RC 0000-0001-5942-9918,
+  AA 0000-0001-6782-407X, DJ 0009-0005-5088-7222, RO 0009-0002-6595-3307, MM 0000-0001-8526-2429,
+  HJC 0000-0003-4101-0654. Three further ORCIDs are supplied for people not on the author line --
+  Alejandro Lozano Garcia, Jakob Anderson, Christopher Butch -- which needs a decision, not work.
+- Comment 8 asks for Algorithm S1 to be reworked as pseudo-code; it bears on promoting it to the
+  main Methods.
 - TOC graphic.
 - Conflict of interest and funding statements.
 - Zenodo DOI for the archived repository.
-- Delete the reviewer-suggestion paragraph (p4).
+- The cover letter is bundled in the same .docx (p0-p13) and asks for "rapid communication". If the
+  paper goes to Article format the letter has to change with it, and most journals want the letter as
+  a separate file anyway.
 - Put `Jim_NA/` under version control. It holds the manuscript, the red-marked copy and INDEX.md,
   none of it versioned.
 
