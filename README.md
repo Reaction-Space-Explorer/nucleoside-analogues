@@ -41,19 +41,43 @@ molecules) solves in under half a second.
 
 ## Reproducing the reported results
 
-Each script writes to `ProcessedData/SI/` and is safe to re-run.
+Each script writes to `ProcessedData/SI/` and is safe to re-run. Every number in
+the paper comes from one of them; none is entered by hand.
 
 ```bash
 uv sync --extra thermo
 uv run --extra thermo python scripts/compute_energies.py --workers 8   # ~40 core-hours; resumable
-uv run python scripts/make_si_tables.py        # SI Tables 1 and 2
-uv run python scripts/verify_matches.py        # re-derive matches, diff against deposited
-uv run python scripts/ms_validation.py         # FT-ICR MS formulas recovered per network
+```
 
+Energies first, then everything that reads them:
+
+| Script | Produces |
+|---|---|
+| `make_si_tables.py` | SI Tables 1-3: routes, steps, pH robustness |
+| `make_figure_data.py` | The funnel and sinks/hills tables behind Figures 3 and 4 |
+| `make_pathway_energetics.py` | Route length against free energy, for Figure 6 |
+| `route_commitment.py` | Reverse/forward flux per route, and each route's least committed step |
+| `driving_force.py` | Max-min driving force per route, as a linear program |
+| `rule_energetics.py` | ΔrG′° by reaction rule and pH, and how far each rule's estimates degenerate |
+| `rule_dependence.py` | What survives removing carbonyl migration, the Cannizzaro reaction, or both |
+| `matched_controls.py` | Each target against ~50 matched controls, with rank p-values and `control_statistics.csv` |
+| `deposition_comparison.py` | Why reactions the earlier deposition called spontaneous are no longer |
+| `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling |
+| `verify_matches.py` | Re-derive analogue matches and diff against the deposited set |
+| `match_formose_g6.py` | Extend Formose matching to generation six, verifying the deposited rows first |
+| `bottcher_formose_g6.py` | Böttcher complexity for the extended Formose set |
+| `database_matches.py` | Network products found in ChEBI and HMDB, by generation |
+| `make_route_specs.py` | The traced routes as autocycle specs, in both bases |
+| `descriptor_model.py` | A negative control, not used in the paper; see `ProcessedData/SI/README.md` |
+
+Then the figures:
+
+```bash
 uv sync --extra figures
-uv run --extra figures python figures/make_workflow_figure.py    # into figures/output/
-uv run --extra figures python figures/make_bottcher_figure.py
-uv run --extra figures python figures/make_ms_figure.py
+for f in workflow overlap funnel pathway ms rule robustness depth bottcher; do
+  uv run --extra figures python figures/make_${f}_figure.py
+done
+uv run --extra figures python figures/make_figure6.py    # tiles the four Formose routes
 ```
 
 `compute_energies.py` downloads eQuilibrator's ~1.3 GB compound cache on first

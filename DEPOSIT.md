@@ -5,17 +5,21 @@ data held here. Nothing is edited by hand.
 
 ## In this repository
 
+Sizes are of the tracked files, measured with `git ls-files | xargs du`, and
+total 758 MB.
+
 | Path | Size | What it is |
 |---|---|---|
-| `OriginalData/OriginalNetworkData/` | 130 MB | MØD output for the five CRNRs: reaction lists per generation and product listings |
-| `OriginalData/OriginalNucleosideAnalogueData/` | 27 MB | The enumerated CHO and CHNO analogue libraries |
-| `ProcessedData/Nucleoside_Stereoisomers.tsv` | 96 MB | The analogue library keyed by InChIKey first block, which is what a match is |
-| `ProcessedData/SI/full/*_energies_pH*.csv` | 172 MB | Per-reaction free energy, uncertainty and estimability, all five networks at their deepest generation, at pH 7.0, 7.4, 9.0 and 11.0 |
+| `ProcessedData/G3TargetNucleosidePathways/` | 173 MB | Enumerated routes to each target at generation three, to a cap of 10,000 per target |
+| `ProcessedData/SI/full/*_energies_pH*.csv` | 171 MB | Per-reaction free energy, uncertainty and estimability, all five networks at their deepest generation, at pH 7.0, 7.4, 9.0 and 11.0 |
+| `OriginalData/OriginalNetworkData/` | 164 MB | MØD output for the five CRNRs: reaction lists per generation and product listings |
+| `ProcessedData/Nucleoside_Stereoisomers.tsv` | 95 MB | The analogue library keyed by InChIKey first block, which is what a match is |
+| `OriginalData/OriginalNucleosideAnalogueData/` | 50 MB | The enumerated CHO and CHNO analogue libraries |
+| `ProcessedData/MatchesFiles/` | 26 MB | Analogue matches per network, Formose extended to generation six |
+| `ProcessedData/ComplexityData/` | 26 MB | Böttcher complexity per matched species |
+| `figures/` | 19 MB | Figure scripts, route specs and every figure as PNG and PDF |
 | `ProcessedData/SI/*.csv` | small | Every SI table and the numbers behind every figure |
-| `ProcessedData/MatchesFiles/` | | Analogue matches per network, Formose extended to generation six |
-| `ProcessedData/ComplexityData/` | | Böttcher complexity per matched species |
-| `figures/routes/` | | The traced route to each target as an autocycle spec, drawn in both bases |
-| `figures/output/` | | Every figure, PNG and PDF |
+| `figures/routes/` | small | The traced route to each target as an autocycle spec, drawn in both bases |
 
 ## Not deposited, and why
 
@@ -30,7 +34,8 @@ data held here. Nothing is edited by hand.
 
 Archive the repository at the submission tag. It is self-contained apart from
 the three reference databases above, each of which is either fetched
-automatically or documented. Expect roughly 450 MB.
+automatically or documented. Expect roughly 760 MB, of which two thirds is the
+enumerated generation-three routes and the four-pH energies.
 
 ## Still to add
 
