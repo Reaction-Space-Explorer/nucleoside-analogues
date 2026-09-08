@@ -1,4 +1,4 @@
-"""Figure 6: the four formose routes, tiled from the autocycle renderings.
+"""Figure 5: the four formose routes, tiled from the autocycle renderings.
 
     uv run --extra figures python figures/make_figure6.py
 
@@ -77,8 +77,8 @@ def main() -> None:
             ha="right",
         )
     fig.tight_layout(w_pad=0.4, h_pad=0.8)
-    save(fig, str(OUT / "Figure_6_formose_routes"))
-    print("wrote figures/output/Figure_6_formose_routes.png")
+    save(fig, str(OUT / "Figure_5_formose_routes"))
+    print("wrote figures/output/Figure_5_formose_routes.png")
 
 
 if __name__ == "__main__":

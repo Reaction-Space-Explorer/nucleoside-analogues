@@ -227,3 +227,42 @@ def test_ketohexose_case_still_disagrees_with_experiment() -> None:
     final = rows["their final migration (3-keto to 2-keto)"]
     assert final["spontaneous_depth"] == "excluded"
     assert "null estimate True" in final["observed_by_Yi"]
+
+
+def test_migration_and_dehydration_are_different_transformations() -> None:
+    """The rule-dependence families must not be conflated again.
+
+    An earlier version grouped "Elimination + enol to keto" with "Keto-enol
+    migration twice" as one carbonyl-migration family. They are not the same
+    transformation: the migration preserves molecular formula, the elimination
+    loses water. Grouping them attributed to carbonyl migration a dependence
+    that belongs to the dehydration, and reversed the published conclusion.
+    """
+    import pandas as pd
+    from helpers import ORIGINAL
+    from rdkit import Chem
+    from rdkit.Chem.rdMolDescriptors import CalcMolFormula
+    from rule_dependence import DEHYDRATION, MIGRATION
+
+    from nucleoside_analogues.rels import pivot_rels
+
+    def formulae(species) -> list[str]:
+        out = []
+        for smiles in species:
+            mol = Chem.MolFromSmiles(str(smiles))
+            out.append(CalcMolFormula(mol).replace("+", "").replace("-", "") if mol else "?")
+        return sorted(out)
+
+    rels = pivot_rels(pd.read_csv(ORIGINAL / "Rels" / "Formose" / "FormoseRels_6.tsv", sep="\t"))
+    seen = {MIGRATION: 0, DEHYDRATION: 0}
+    for _, row in rels.iterrows():
+        rule = str(row["Rule"])
+        if rule not in seen:
+            continue
+        seen[rule] += 1
+        same = formulae(row["Reagents"]) == formulae(row["Products"])
+        if rule == MIGRATION:
+            assert same, f"{row['Index']}: migration must preserve formula"
+        else:
+            assert not same, f"{row['Index']}: dehydration must change formula"
+    assert all(seen.values()), seen

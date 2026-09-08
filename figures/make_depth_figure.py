@@ -141,8 +141,8 @@ def main() -> None:
     ax.set_ylim(ylo, yhi)
     ax.set_aspect("equal")
     ax.axis("off")
-    save(fig, str(OUT / "Figure_S4_depth_vs_count"))
-    print("wrote figures/output/Figure_S4_depth_vs_count.png")
+    save(fig, str(OUT / "Figure_S3_depth_vs_count"))
+    print("wrote figures/output/Figure_S3_depth_vs_count.png")
 
 
 if __name__ == "__main__":

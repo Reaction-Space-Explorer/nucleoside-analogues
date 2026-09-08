@@ -1,4 +1,4 @@
-"""Figure 7: how many spontaneous routes there are, and how favourable they are.
+"""Figure 6: how many spontaneous routes there are, and how favourable they are.
 
     uv run --extra figures python figures/make_pathway_figure.py
 
@@ -104,8 +104,8 @@ def main() -> None:
         bbox_to_anchor=(0.5, -0.02),
     )
     fig.tight_layout(w_pad=2.0, rect=(0, 0.07, 1, 1))
-    save(fig, str(OUT / "Figure_7_pathway_energetics"))
-    print("wrote figures/output/Figure_7_pathway_energetics.png")
+    save(fig, str(OUT / "Figure_6_pathway_energetics"))
+    print("wrote figures/output/Figure_6_pathway_energetics.png")
 
 
 if __name__ == "__main__":

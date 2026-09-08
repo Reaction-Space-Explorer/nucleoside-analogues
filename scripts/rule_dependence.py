@@ -14,6 +14,14 @@ The rule set used here encodes both freely. This removes each family from the
 spontaneous network and re-searches every target, so that the results can be
 read against either position.
 
+The two enol-mediated rules are kept apart, because they are not the same
+transformation and an earlier version of this script conflated them. "Keto-enol
+migration twice" is the aldose-ketose isomerisation actually in dispute: every
+one of its 10,671 reactions in Formose preserves molecular formula. "Elimination
++ enol to keto" eliminates water and then tautomerises: every one of its 19,131
+changes formula. Grouping them attributed to carbonyl migration a dependence
+that belongs to the dehydration, and reversed the conclusion.
+
 Writes ProcessedData/SI/rule_dependence.csv.
 """
 
@@ -30,11 +38,15 @@ from make_si_tables import PRODUCTS, RELS, REPO, SI, TARGETS, admitted, deepest
 from nucleoside_analogues.hyperpath import shortest_pathways
 from nucleoside_analogues.rels import build_index, pivot_rels, read_products
 
-MIGRATION = {"Keto-enol migration twice", "Elimination + enol to keto"}
+MIGRATION = "Keto-enol migration twice"
+DEHYDRATION = "Elimination + enol to keto"
+ENOL = (MIGRATION, DEHYDRATION)
 FAMILIES = {
-    "carbonyl migration": lambda rule: rule in MIGRATION,
+    "carbonyl migration": lambda rule: rule == MIGRATION,
+    "dehydration to the enol": lambda rule: rule == DEHYDRATION,
     "Cannizzaro": lambda rule: "Cannizarro" in rule,
-    "both": lambda rule: rule in MIGRATION or "Cannizarro" in rule,
+    "migration and dehydration": lambda rule: rule in ENOL,
+    "all three": lambda rule: rule in ENOL or "Cannizarro" in rule,
 }
 
 

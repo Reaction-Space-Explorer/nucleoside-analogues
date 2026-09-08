@@ -1,0 +1,10 @@
+statistic,value
+basis,estimable_only
+pairs,16
+fisher_chi2,80.74
+fisher_df,32
+fisher_combined_p,4.31e-06
+mean_p_formose,0.0773
+mean_p_other,0.3525
+permutation_splits,8008
+permutation_p_exact,0.00849

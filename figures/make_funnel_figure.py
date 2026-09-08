@@ -97,5 +97,5 @@ panel(axr, "b", y=1.20)
 
 fig.tight_layout(pad=0.4, w_pad=1.4, rect=(0, 0, 1, 0.90))
 OUT.mkdir(parents=True, exist_ok=True)
-save(fig, str(OUT / "Figure_reachability_funnel"))
-print("wrote", OUT / "Figure_reachability_funnel.png")
+save(fig, str(OUT / "Figure_4_reachability_funnel"))
+print("wrote", OUT / "Figure_4_reachability_funnel.png")

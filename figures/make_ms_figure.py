@@ -217,5 +217,5 @@ axes[1][0].set_ylabel("network", fontsize=6, color=MODEL)
 for row, letter in ((0, "a"), (2, "b")):
     panel(axes[row][0], letter, x=-0.40, y=1.02)
 OUT.mkdir(parents=True, exist_ok=True)
-save(fig, str(OUT / "Figure_MS_validation"))
-print("wrote", OUT / "Figure_MS_validation.png")
+save(fig, str(OUT / "Figure_S2_ms_validation"))
+print("wrote", OUT / "Figure_S2_ms_validation.png")
