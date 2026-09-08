@@ -52,7 +52,36 @@
 - **The rule-dependence method itself** applied more widely: removing a disputed mechanism and
   re-searching is general, and the disagreement it settles here is not specific to sugars.
 
-## Settled this round, for the record
+## Settled by the science pass
+
+Every quantitative claim in the manuscript was checked against the data. Five were wrong, all
+in the same way: the number was computed ad hoc for a draft and deposited nowhere, so nothing
+could catch it drifting.
+
+- Figure S2's caption: formose-ammonia ceiling 315 Da (real 312.15), range 45 to 70% (real 50
+  to 71 over each network's own ceiling), 16 of 511 formulas (real 16 of 492).
+- The Methods claimed peak lists were exported from m/z 150 upward. The lowest exported peak is
+  136.03 and six of the eight spectra start at 161.05; 155 is a floor adopted here.
+- Figure 4's caption said 40 to 53%; the funnel gives 39.56 to 52.41.
+- The permutation p was a Monte Carlo estimate quoted as 0.010. C(25,10) is 3,268,760, small
+  enough to enumerate, and the exact value is 0.00742.
+
+Correct and now reproducible rather than only asserted: every per-pair rank p (Phipson-Smyth,
+0.020 to 0.042 with glyoxylate in F at 0.137), Fisher's 9.11e-11, the 44% to 82% unestimable
+share against the earlier deposition, the 88% control percentile, Figure 2's 33% F-G overlap,
+SI Table 3's pH drifts, the 112 route steps, the MDF range and its six-of-sixteen disagreement
+with the least-committed step, and -30.3 +/- 2.2 kJ/mol per reaction.
+
+Three scripts now emit what the manuscript quotes: ms_validation.py (ceiling columns, computed
+from the products rather than hardcoded), matched_controls.py (p_value plus
+control_statistics.csv) and the new deposition_comparison.py. Tests pin all of it.
+
+Route length in Figure 6 is the longest chain, not the reaction count, which is why Glucose
+deoxyribose is 25 reactions at depth <= 20. The text now says so.
+
+CI never linted or format-checked figures/. It does now.
+
+## Settled the round before, for the record
 
 98 references, first-citation order verified. Glyoxylate added as a fifth target (Bean 81,
 Krishnamurthy & Liotta 83). Sutton 86, Tabata 87, Lauber 88, Cruz 91, Abel 73. Figure 2 rebuilt
