@@ -24,10 +24,6 @@
   Results and Discussion; fix the heading styles, Materials and Methods being `normal` where
   Results and Discussion is `Heading 3`. Not started, awaiting a go.
 
-- **Two orphans.** Figure S3 (the two route costs) and SI Table 4 (sinks and hills) carry captions
-  but are referenced nowhere in the body, by any wording. Either cite them or cut them, as was done
-  with the old Figure 5 and the Bottcher figure.
-
 - **Which route figures, if any, go to the SI?** The glyoxylate pair is the strongest candidate:
   Formose reaches it through carbon chemistry, FormoseAmm through nitrogen, by transamination. The
   glucose routes are eleven steps and only legible at full width. The FormoseAmm duplicates of the
@@ -77,6 +73,13 @@
   re-searching is general, and the disagreement it settles here is not specific to sugars.
 
 ## Settled this round
+
+Both orphans resolved. Figure S3 cited at p94, where the "three-reaction chain drawing on four
+reactions" phrase lands -- the distinction is load-bearing there and in Figure 6's caption, and it
+is the one I tripped over twice in a day. SI Table 4 (sinks and hills) cut: it supported no claim,
+its own result was negative, and an attempt to rescue it as coverage evidence failed on the
+arithmetic. Data stays deposited. SI Table 5 renumbered to 4 -- and rebuilt, because its contents
+still held the old two-family split and would have contradicted the caption and the body text.
 
 Six Krishnamurthy/Liotta-school papers read in full. Three cited: Suarez-Marina 2019 as ref 37 (the
 canonical monomers are not the favoured products of uncatalysed glycosylation -- the motivation for

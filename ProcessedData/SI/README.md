@@ -104,3 +104,21 @@ from the pooled distribution, the correlation is not significant on the step-
 firing basis the paper reports (rho 0.748, p 0.24) and only marginally so on
 distinct reactions (rho 0.841, p 0.04). A verdict that changes with the
 bookkeeping is not a result.
+
+## figure_sinks_hills.csv — deposited, not used in the paper
+
+The sinks-and-hills classification following Wolos et al.: a species is a sink
+where every reaction forming it is exothermic and every reaction consuming it
+endothermic, a hill where the reverse holds. It was cut from the SI because it
+supported no claim in the text and because its own result is largely negative --
+sinks and hills are rare throughout, and the two ammonia-seeded CRNRs classify
+only 9% and 12% of their matched species.
+
+It was also considered as evidence for the estimator-coverage limitation and
+rejected on the arithmetic. Classification needs a usable estimate on both an
+incoming and an outgoing reaction, so coverage should enter roughly squared, but
+the observed rates fall well below that everywhere (Formose 35% against 64%,
+FormoseAmm 9% against 29%, GlucoseAmm 12% against 46%). Frontier truncation --
+species at the deepest generation have no outgoing reaction at all -- dominates,
+and the two causes are confounded, so the table cannot carry the coverage
+argument cleanly. `estimator_coverage.csv` makes that argument directly instead.
