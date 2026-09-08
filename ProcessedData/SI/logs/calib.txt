@@ -1,0 +1,5 @@
+cores=64  calibrating on 2500 species
+warmup/cache load: 11s
+SINGLE :   371.6s  ->  148.6 ms/species
+PAR  8 :   119.5s  ->   47.8 ms/species  speedup  3.1x
+PAR 16 :   142.7s  ->   57.1 ms/species  speedup  2.6x

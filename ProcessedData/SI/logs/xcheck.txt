@@ -1,0 +1,3 @@
+pH 7.4 dimensionless, I 0.25 molar, pMg 3.0 dimensionless, T 298.15 kelvin
+Formose        582 rows,   527 estimable compared | estimability changed 0 | differing 0 | max diff 2.274e-13 kJ/mol | IDENTICAL
+PyruvicAcid    238 rows,   126 estimable compared | estimability changed 0 | differing 0 | max diff 2.274e-13 kJ/mol | IDENTICAL

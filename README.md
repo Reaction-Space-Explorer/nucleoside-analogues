@@ -64,6 +64,7 @@ Energies first, then everything that reads them:
 | `deposition_comparison.py` | Why reactions the earlier deposition called spontaneous are no longer |
 | `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling |
 | `verify_matches.py` | Re-derive analogue matches and diff against the deposited set |
+| `crosscheck_energies.py` | Recompute the G3 energies and diff against the deposited file, to show they are machine-independent |
 | `match_formose_g6.py` | Extend Formose matching to generation six, verifying the deposited rows first |
 | `bottcher_formose_g6.py` | Böttcher complexity for the extended Formose set |
 | `database_matches.py` | Network products found in ChEBI and HMDB, by generation |
