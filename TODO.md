@@ -64,6 +64,18 @@
 - **The rule-dependence method itself** applied more widely: removing a disputed mechanism and
   re-searching is general, and the disagreement it settles here is not specific to sugars.
 
+## Settled this round
+
+Yi et al. 2023 read and used, as ref 88. Carbonyl migration is established for tetroses without
+Ca2+, with Ca2+ the switch between the enediol route our rules encode and the 1,2-hydride route, so
+the rule-dependence removal is framed as a stress test rather than a rival account. Figure 7 added:
+our traced route to the 3-ketohexose is their Scheme 5c exactly, found blind from glycolaldehyde
+alone, while the 2-ketohexose exposes the metric -- a step shorter through the aldohexose they do not
+observe, their own final migration excluded as a null estimate. The three estimator findings are now
+one statement about isomerisation blindness in the Methods. Threose softened to the aldotetrose
+constitution in the Figure 5 caption and p96, with their measured half-lives as the cost of
+flattening.
+
 ## Settled by the science pass
 
 Every quantitative claim in the manuscript was checked against the data. Five were wrong, all
