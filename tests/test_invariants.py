@@ -181,3 +181,24 @@ def test_deposition_comparison_matches_the_methods_claim() -> None:
     shares = [float(r["share_unestimable"]) for r in rows]
     assert round(min(shares)) == 44, shares
     assert round(max(shares)) == 82, shares
+
+
+def test_kinetic_ordering_is_deposited_as_a_negative() -> None:
+    """The step-count/barrier correlation must not be quoted as a kinetic ordering.
+
+    It survives the length-artefact null on one bookkeeping basis and not the
+    other, which is why the paper claims nothing from it.
+    """
+    import csv
+
+    from helpers import REPO
+
+    path = REPO / "ProcessedData" / "SI" / "kinetic_ordering.csv"
+    with path.open() as handle:
+        rows = {r["basis"]: r for r in csv.DictReader(handle)}
+    assert set(rows) == {"step_firings", "distinct_reactions"}
+    # the paper's own basis is the one that fails
+    assert rows["step_firings"]["survives_null"] == "no"
+    assert {r["survives_null"] for r in rows.values()} == {"yes", "no"}, (
+        "if both bases now agree, the negative should be revisited"
+    )

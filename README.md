@@ -69,6 +69,7 @@ Energies first, then everything that reads them:
 | `bottcher_formose_g6.py` | Böttcher complexity for the extended Formose set |
 | `database_matches.py` | Network products found in ChEBI and HMDB, by generation |
 | `make_route_specs.py` | The traced routes as autocycle specs, in both bases |
+| `kinetic_ordering.py` | Whether the route ordering survives as a kinetic one under Bell-Evans-Polanyi; a deposited negative |
 | `descriptor_model.py` | A negative control, not used in the paper; see `ProcessedData/SI/README.md` |
 
 Then the figures:

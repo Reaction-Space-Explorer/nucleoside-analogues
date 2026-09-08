@@ -32,8 +32,11 @@
 ## Open, needing something from outside
 
 - **HMDB.** Download "Structures" (`structures.zip`) from <https://www.hmdb.ca/downloads> and unzip
-  to `OriginalData/reference_databases/hmdb_structures.sdf`. HMDB returns 403 to scripted requests.
-  `scripts/database_matches.py` picks it up automatically and is otherwise finished.
+  to `OriginalData/reference_databases/hmdb_structures.sdf`. The 403 is a Cloudflare challenge
+  (`cf-mitigated: challenge`), not a user-agent block, so it needs a browser and cannot be scripted.
+  `scripts/database_matches.py` picks the file up automatically and is otherwise finished. ChEBI is
+  already re-derived; if HMDB never arrives, the deposited HMDB/KEGG/ECMDB counts stay and are flagged
+  as from the original deposition, exactly as KEGG already is.
 - **KEGG** cannot be re-derived; its bulk data is licensed. The deposited counts stay, flagged.
 
 ## Author-side
@@ -51,7 +54,11 @@
 - **Stochastic kinetics on these networks.** Lauber et al. need two global parameters, not one per
   rule, and take dfG from eQuilibrator exactly as we do. The obstacle is that this repository holds
   MØD's output and not its grammar; the rules live in reac-space-exp, which is ours.
-- **Kinetic ordering of the traced routes** once barriers exist, against the reachability ordering.
+- **Kinetic ordering of the traced routes** once real barriers exist. The parameter-free shortcut was
+  tried and does not carry: see `scripts/kinetic_ordering.py`. Bell-Evans-Polanyi with global
+  parameters does identify the rate-limiting step with the least committed one, which the paper now
+  uses, but the ordering of whole routes is not separable from the drift of a maximum over more steps.
+  Real barriers, per rule, are what would settle it.
 - **Integer hyperflow**, following Abel et al. (ref 73), asking which traced routes are
   stoichiometrically realizable, closing the caveat rather than stating it.
 - **The rule-dependence method itself** applied more widely: removing a disputed mechanism and

@@ -18,6 +18,7 @@ Writes ProcessedData/SI/route_commitment.csv.
 
 import csv
 import math
+import statistics
 import sys
 from pathlib import Path
 
@@ -42,7 +43,7 @@ def steps(node) -> list[tuple[str, float]]:
 
 
 def main() -> None:
-    rows, every = [], []
+    rows, every, ids = [], [], []
     for spec in sorted(ROUTES.glob("*.yaml")):
         found = steps(yaml.safe_load(spec.read_text())["target"])
         if not found:
@@ -50,12 +51,14 @@ def main() -> None:
         network, target = spec.stem.split("_", 1)
         weakest_id, weakest = max(found, key=lambda x: x[1])
         every += [dg for _, dg in found]
+        ids += [rid for rid, _ in found]
         rows.append(
             {
                 "network": network,
                 "target": target,
                 "steps": len(found),
-                "median_dG_kJ_mol": round(sorted(dg for _, dg in found)[len(found) // 2], 1),
+                "distinct_reactions": len({rid for rid, _ in found}),
+                "median_dG_kJ_mol": round(statistics.median(dg for _, dg in found), 1),
                 "least_committed_step": weakest_id,
                 "least_committed_dG_kJ_mol": round(weakest, 1),
                 "reverse_over_forward": f"{math.exp(weakest / RT):.2g}",
@@ -69,7 +72,10 @@ def main() -> None:
         )
     committed = sum(1 for dg in every if dg < -25)
     print(
-        f"\n  {len(every)} steps in all; median {sorted(every)[len(every) // 2]:.1f} kJ/mol; "
+        f"\n  {len(every)} step firings across {len(rows)} routes; "
+        f"{sum(r['distinct_reactions'] for r in rows)} distinct reactions summed over routes, "
+        f"{len(set(ids))} distinct in all, the two formose CRNRs sharing routes; "
+        f"median {statistics.median(every):.1f} kJ/mol; "
         f"{committed} ({100 * committed / len(every):.0f}%) below -25 kJ/mol, "
         f"reverse flux under {math.exp(-25 / RT):.0e} of forward"
     )

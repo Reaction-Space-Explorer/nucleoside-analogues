@@ -87,3 +87,20 @@ position. The panel is therefore reading the shape of the estimator's blind
 spot, not prebiotic accessibility, and the result is reported here rather than
 in the paper. The same limitation is stated in the paper directly and more
 legibly, as the number of distinct free energies a rule's reactions take.
+
+## kinetic_ordering.csv — a deposited negative
+
+Rates are not available here, but barriers need not be chosen to ask whether the
+reachability ordering is also a kinetic one. Under a Bell-Evans-Polanyi relation
+with global parameters, `Ea = alpha * dGr'° + beta`, the barrier is monotone in
+`dGr'°`, so the rate-limiting step of a route is its least exergonic step and the
+ordering of routes by that barrier is independent of both parameters.
+
+The paper uses that identification, which costs nothing. It does not use the
+ordering. Route length correlates with the rate-limiting barrier, but the least
+exergonic of n steps drifts upward with n, so a longer route has a weaker weakest
+step by construction. Against a null preserving the lengths and drawing steps
+from the pooled distribution, the correlation is not significant on the step-
+firing basis the paper reports (rho 0.748, p 0.24) and only marginally so on
+distinct reactions (rho 0.841, p 0.04). A verdict that changes with the
+bookkeeping is not a result.

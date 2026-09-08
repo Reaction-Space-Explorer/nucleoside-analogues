@@ -1,0 +1,3 @@
+basis,routes,steps_total,spearman_rho,spearman_p,null_mean_rho,null_95th_percentile,p_against_length_artefact,survives_null
+step_firings,16,112,0.748,8.71e-04,0.624,0.847,0.2373,no
+distinct_reactions,16,90,0.841,4.39e-05,0.589,0.831,0.0391,yes
