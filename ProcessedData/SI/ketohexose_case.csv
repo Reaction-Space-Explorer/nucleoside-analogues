@@ -1,0 +1,6 @@
+species,smiles,spontaneous_depth,observed_by_Yi
+3-ketohexose,C(C(C(CO)O)O)(C(CO)O)=O,3,assigned intermediate
+2-ketohexose,C(CO)(C(C(C(CO)O)O)O)=O,3,major product
+aldohexose,C(C(C(C(C(CO)O)O)O)O)=O,2,not detected
+their final migration (3-keto to 2-keto),3681_0,excluded,"rule Keto-enol migration twice; dG -8.277262816136499e-05, sigma 0.0, null estimate True"
+null estimates in this network,,5466,5429 of them are Keto-enol migration twice

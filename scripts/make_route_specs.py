@@ -56,6 +56,9 @@ NAMES = {
     "CC(=O)C(=O)O": "pyruvic acid",
     "O=CC(=O)O": "glyoxylic acid",
     "OCC(O)C(O)C(O)C(O)C=O": "aldohexose",
+    "OCC(=O)C(O)CO": "ketotetrose",
+    "OCC(=O)C(O)C(O)C(O)CO": "2-ketohexose",
+    "OCC(O)C(=O)C(O)C(O)CO": "3-ketohexose",
 }
 
 

@@ -202,3 +202,28 @@ def test_kinetic_ordering_is_deposited_as_a_negative() -> None:
     assert {r["survives_null"] for r in rows.values()} == {"yes", "no"}, (
         "if both bases now agree, the negative should be revisited"
     )
+
+
+def test_ketohexose_case_still_disagrees_with_experiment() -> None:
+    """Yi et al. see 2-ketohexoses and no aldohexose; step count prefers the aldohexose.
+
+    The manuscript reports this as a limitation, so the test fails if the
+    disagreement quietly goes away: the aldohexose must stay the shallowest of
+    the three, and their final migration must stay excluded as a null estimate.
+    """
+    import csv
+
+    from helpers import REPO
+
+    path = REPO / "ProcessedData" / "SI" / "ketohexose_case.csv"
+    with path.open() as handle:
+        rows = {r["species"]: r for r in csv.DictReader(handle)}
+    depths = {
+        k: int(rows[k]["spontaneous_depth"]) for k in ("aldohexose", "2-ketohexose", "3-ketohexose")
+    }
+    assert depths["aldohexose"] == 2
+    assert depths["2-ketohexose"] == 3 and depths["3-ketohexose"] == 3
+    assert depths["aldohexose"] < depths["2-ketohexose"], depths
+    final = rows["their final migration (3-keto to 2-keto)"]
+    assert final["spontaneous_depth"] == "excluded"
+    assert "null estimate True" in final["observed_by_Yi"]

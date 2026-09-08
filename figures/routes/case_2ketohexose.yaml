@@ -1,0 +1,39 @@
+title: 2-ketohexose from Formose, G6, spontaneous reactions only. Structures are constitutional; the network
+  carries no stereochemistry.
+target:
+  mol:
+    smiles: C(CO)(C(C(C(CO)O)O)O)=O
+    label: 2-ketohexose
+  reaction:
+    id: '382_0'
+    rule: Keto-enol migration twice
+    dg: -2.0
+  from:
+  - mol:
+      smiles: C(C(C(C(C(CO)O)O)O)O)=O
+      label: aldohexose
+    reaction:
+      id: '18_0'
+      rule: Aldol Condensation
+      dg: -13.4
+    from:
+    - mol:
+        smiles: C(CO)=O
+        label: glycolaldehyde
+      seed: true
+    - mol:
+        smiles: C(C(C(CO)O)O)=O
+        label: aldotetrose
+      reaction:
+        id: '6_0'
+        rule: Aldol Condensation
+        dg: -16.4
+      from:
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true
+      - mol:
+          smiles: C(CO)=O
+          label: glycolaldehyde
+        seed: true

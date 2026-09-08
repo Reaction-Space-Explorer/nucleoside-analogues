@@ -63,6 +63,7 @@ Energies first, then everything that reads them:
 | `matched_controls.py` | Each target against ~50 matched controls, with rank p-values and `control_statistics.csv` |
 | `deposition_comparison.py` | Why reactions the earlier deposition called spontaneous are no longer |
 | `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling |
+| `ketohexose_case.py` | The hexose branch point against Yi et al.: where the traced route matches their labelling and where minimum step count does not |
 | `verify_matches.py` | Re-derive analogue matches and diff against the deposited set |
 | `crosscheck_energies.py` | Recompute the G3 energies and diff against the deposited file, to show they are machine-independent |
 | `match_formose_g6.py` | Extend Formose matching to generation six, verifying the deposited rows first |
@@ -76,7 +77,7 @@ Then the figures:
 
 ```bash
 uv sync --extra figures
-for f in workflow overlap funnel pathway ms rule robustness depth bottcher; do
+for f in workflow overlap funnel pathway ms rule robustness depth bottcher ketohexose; do
   uv run --extra figures python figures/make_${f}_figure.py
 done
 uv run --extra figures python figures/make_figure6.py    # tiles the four Formose routes
