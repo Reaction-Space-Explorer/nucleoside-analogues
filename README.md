@@ -62,7 +62,7 @@ Energies first, then everything that reads them:
 | `rule_dependence.py` | What survives removing carbonyl migration, the Cannizzaro reaction, or both |
 | `matched_controls.py` | Each target against ~50 matched controls, with rank p-values and `control_statistics.csv` |
 | `deposition_comparison.py` | Why reactions the earlier deposition called spontaneous are no longer |
-| `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling |
+| `ms_validation.py` | FT-ICR MS formulas recovered per network, over each network's own mass ceiling. Needs `MS_DATA` set to the unzipped `NHMFLMSData.11.16.20` directory; the archive is deposited beside the manuscript |
 | `uronate_case.py` | Yi et al.'s uronate route to pentoses, and the estimator's coverage broken into its causes |
 | `ketohexose_case.py` | The hexose branch point against Yi et al.: where the traced route matches their labelling and where minimum step count does not |
 | `verify_matches.py` | Re-derive analogue matches and diff against the deposited set |

@@ -14,6 +14,7 @@ assignments are counted and excluded, not silently dropped.
 
 import csv
 import json
+import os
 from functools import cache
 from pathlib import Path
 
@@ -24,9 +25,30 @@ from rdkit.Chem.rdMolDescriptors import CalcMolFormula
 
 RDLogger.DisableLog("rdApp.*")
 REPO = Path(__file__).resolve().parent.parent
-MS = Path(
-    "/private/tmp/claude-501/-Users-sid-Downloads-popvax/c2e5a6c4-f67b-4512-aa86-d6aa1aa364aa/scratchpad/ms/NHMFLMSData.11.16.20"
-)
+
+
+def ms_dir() -> Path:
+    """Where the FT-ICR peak lists live.
+
+    They are not redistributable, so they sit outside the repository: set
+    MS_DATA to the unzipped NHMFLMSData.11.16.20 directory. The archive is
+    deposited beside the manuscript, in Jim_NA/data/. This used to be a
+    hardcoded absolute path into a session-scoped temporary directory, which
+    made the script unreproducible the moment that directory was cleaned.
+    """
+    raw = os.environ.get("MS_DATA")
+    if not raw:
+        raise SystemExit(
+            "set MS_DATA to the unzipped NHMFLMSData.11.16.20 directory "
+            "(archive in Jim_NA/data/); ms_validation.csv is already deposited "
+            "if you only need the results"
+        )
+    path = Path(raw)
+    if not path.is_dir():
+        raise SystemExit(f"MS_DATA={path} is not a directory")
+    return path
+
+
 PRODUCTS = REPO / "OriginalData" / "OriginalNetworkData" / "Products"
 OUT = REPO / "ProcessedData" / "SI"
 
@@ -126,8 +148,9 @@ def network_ceiling(network: str) -> float:
 def main() -> None:
     rows = []
     detail = {}
+    ms = ms_dir()
     for number, (network, _products_file, label) in SAMPLES.items():
-        matches = list(MS.glob(f"*_{number}_*"))
+        matches = list(ms.glob(f"*_{number}_*"))
         if not matches:
             print(f"sample {number}: FILE MISSING")
             continue
