@@ -1,4 +1,4 @@
-"""Figure S1: the pipeline, as implemented in src/nucleoside_analogues.
+"""Figure 1: the pipeline, as implemented in src/nucleoside_analogues.
 
     uv run --extra figures python figures/make_workflow_figure.py
 
@@ -143,5 +143,5 @@ arrow(ax, (0.5, e[1]), (0.5, f[2]), "spontaneous reactions only")
 
 fig.tight_layout(pad=0.3)
 OUT.mkdir(exist_ok=True)
-save(fig, str(OUT / "Figure_S1_workflow"))
-print("wrote", *(OUT / f"Figure_S1_workflow.{e}" for e in ("png", "pdf")))
+save(fig, str(OUT / "Figure_1_workflow"))
+print("wrote", *(OUT / f"Figure_1_workflow.{e}" for e in ("png", "pdf")))

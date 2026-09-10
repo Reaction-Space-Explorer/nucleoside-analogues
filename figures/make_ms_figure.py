@@ -26,7 +26,7 @@ from rdkit.Chem.Descriptors import ExactMolWt
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
-from ms_validation import MS, PRODUCTS, SAMPLES, neutral_formula, read_midas  # noqa: E402
+from ms_validation import PRODUCTS, SAMPLES, ms_dir, neutral_formula, read_midas  # noqa: E402
 
 from nucleoside_analogues.rels import read_products  # noqa: E402
 
@@ -81,7 +81,7 @@ for column, (number, title) in enumerate(PANELS):
     LOW, HIGH = FLOOR, CEILING[network]
     peaks = [
         p
-        for p in read_midas(next(MS.glob(f"*_{number}_*")))
+        for p in read_midas(next(ms_dir().glob(f"*_{number}_*")))
         if p["organic"] and FLOOR <= p["mass"] <= HIGH
     ]
     frame = read_products(PRODUCTS / products_file)
@@ -217,5 +217,5 @@ axes[1][0].set_ylabel("network", fontsize=6, color=MODEL)
 for row, letter in ((0, "a"), (2, "b")):
     panel(axes[row][0], letter, x=-0.40, y=1.02)
 OUT.mkdir(parents=True, exist_ok=True)
-save(fig, str(OUT / "Figure_S2_ms_validation"))
-print("wrote", OUT / "Figure_S2_ms_validation.png")
+save(fig, str(OUT / "Figure_S1_ms_validation"))
+print("wrote", OUT / "Figure_S1_ms_validation.png")

@@ -1,4 +1,4 @@
-"""Figure 7: the hexose branch point, against the experiment of Yi et al.
+"""Figure 8: the hexose branch point, against the experiment of Yi et al.
 
     uv run --extra figures python figures/make_ketohexose_figure.py
 
@@ -54,8 +54,8 @@ def main() -> None:
             ha="right",
         )
     fig.tight_layout(h_pad=1.0)
-    save(fig, str(OUT / "Figure_7_ketohexose_branch"))
-    print("wrote figures/output/Figure_7_ketohexose_branch.png")
+    save(fig, str(OUT / "Figure_8_ketohexose_branch"))
+    print("wrote figures/output/Figure_8_ketohexose_branch.png")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-"""Figure S4: which routes survive removing a disputed mechanism.
+"""Figure 6: which routes survive removing a disputed mechanism.
 
     uv run --extra figures python figures/make_robustness_figure.py
 
@@ -108,8 +108,8 @@ def main() -> None:
         bbox_to_anchor=(0.5, -0.04),
     )
     fig.tight_layout(w_pad=3.0, rect=(0, 0.10, 1, 1))
-    save(fig, str(OUT / "Figure_S4_robustness"))
-    print("wrote figures/output/Figure_S4_robustness.png")
+    save(fig, str(OUT / "Figure_6_robustness"))
+    print("wrote figures/output/Figure_6_robustness.png")
 
 
 if __name__ == "__main__":

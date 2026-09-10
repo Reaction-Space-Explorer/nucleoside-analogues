@@ -68,6 +68,23 @@
 
 ## Settled this round
 
+Main/SI split corrected. Three promotions: SI Table 2 to main Table 2 (the shortest route to each
+target, the paper's central quantitative result, previously prose-only in the main text); Figure S4
+to main Figure 6 (every reachable target survives removal of the disputed mechanism); and the
+script-generated workflow diagram replaced the hand-drawn Figure 1, being the one that names the
+flattening rule, the sigma retention, the three-way spontaneity call and the Knuth hyperpath. Main
+now has 8 figures, 2 tables and Algorithm 1; the SI has 3 figures, 3 tables and 2 methods sections.
+The 6,380-character rule-dependence paragraph split in three; longest is now 4,523.
+
+Two defects found by the verification, both mine. A placeholder scheme that wrapped the search text
+in sentinels rather than replacing it caused SI Tables 3 and 4 to collapse onto one number -- caught,
+reverted, redone with non-rematchable tokens. And make_ms_figure.py had been importing
+ms_validation.MS since I replaced it with ms_dir(); the gates lint figures/ but never execute it, so
+nothing caught it. tests/test_figure_scripts_import.py now imports every figure script.
+
+Figure 5 was an orphan and had been one for some time, masked by an audit filter that treated
+"Figure 5 shows..." as a caption. Now cited where the routes are discussed.
+
 JCIM Article restructuring done. Four SI Extended Methods sections promoted into the main Materials
 and Methods, which now has seven named subsections and 3,539 words against 2,044; Algorithm S1
 became Algorithm 1 in the main text; the SI keeps free-energy detail and the relation to the

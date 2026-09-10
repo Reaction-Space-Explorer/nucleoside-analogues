@@ -1,4 +1,4 @@
-"""Figure S5: what each reaction rule contributes energetically, and how far pH moves it.
+"""Figure S3: what each reaction rule contributes energetically, and how far pH moves it.
 
     uv run --extra figures python figures/make_rule_figure.py
 
@@ -58,8 +58,8 @@ def main() -> None:
     for ax_, tag in zip(axes, "ab", strict=True):
         panel(ax_, tag, x=-0.02 if tag == "b" else -0.62, y=1.03)
     fig.tight_layout(w_pad=1.0)
-    save(fig, str(OUT / "Figure_S5_rule_energetics"))
-    print("wrote figures/output/Figure_S5_rule_energetics.png")
+    save(fig, str(OUT / "Figure_S3_rule_energetics"))
+    print("wrote figures/output/Figure_S3_rule_energetics.png")
 
 
 if __name__ == "__main__":
