@@ -18,12 +18,6 @@
 
 ## Open, needing a decision rather than work
 
-- **JCIM Article rather than Letter.** Promote SI Extended Methods 1, 2 (with Algorithm S1), 4 and 6
-  into the main Materials and Methods; keep 3 and 5 in the SI; promote Figure S4, the robustness
-  grid, now that every reachable target survives removal of the disputed mechanism in every CRNR; split
-  Results and Discussion; fix the heading styles, Materials and Methods being `normal` where
-  Results and Discussion is `Heading 3`. Not started, awaiting a go.
-
 - **Which route figures, if any, go to the SI?** The glyoxylate pair is the strongest candidate:
   Formose reaches it through carbon chemistry, FormoseAmm through nitrogen, by transamination. The
   glucose routes are eleven steps and only legible at full width. The FormoseAmm duplicates of the
@@ -73,6 +67,20 @@
   re-searching is general, and the disagreement it settles here is not specific to sugars.
 
 ## Settled this round
+
+JCIM Article restructuring done. Four SI Extended Methods sections promoted into the main Materials
+and Methods, which now has seven named subsections and 3,539 words against 2,044; Algorithm S1
+became Algorithm 1 in the main text; the SI keeps free-energy detail and the relation to the
+deposited implementation, renumbered 1 and 2. Results and Discussion split. All eleven top-level
+headings restyled to one convention. Cover letter now asks for an Article.
+
+The move exposed eight stale citations, all in ex-SI paragraphs: every reference-insertion pass in
+this project renumbered only the body, stopping at the reference list, so SI superscripts were never
+updated. Knuth was cited as 57 twice (correct 59), the hypergraph representation as 58 (correct 60,
+Gallo), robustness as 56 twice (correct 58, Handorf), eQuilibrator as 69,70 (correct 70,71), the
+breadth-first implementation as 70,71 (correct 72,73), and the FT-ICR acquisition as 47 (correct 49).
+Each was resolved from what the sentence cites, not by arithmetic, because the shifts were
+inconsistent. Any future renumbering must cover the SI.
 
 Both orphans resolved. Figure S3 cited at p94, where the "three-reaction chain drawing on four
 reactions" phrase lands -- the distinction is load-bearing there and in Figure 6's caption, and it
