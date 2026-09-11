@@ -208,6 +208,14 @@ shared an author with us.
 flattened correctly formatted pseudocode and dropped table borders; the
 manuscript was fine. Check the source before reporting a problem in it.
 
+**Run the repo's own gate, not just the part of it you were thinking about.**
+Six commits went out with CI red. The cause was `ruff format --check` on two new
+scripts -- a wrapped `print`, nothing else -- while `pytest` passed locally every
+time. The gate ran four steps and only one was being checked, so the failures
+died in 28 seconds before the tests it was passing ever executed. Run the
+workflow's commands, in its order, before pushing; and read the run afterwards
+rather than assuming a local pass covers it.
+
 **Scope discipline.** A request for a PDF became a 700 MB install and a mirror
 hunt, after the requirement that motivated it had been dropped. Re-read what is
 actually being asked before escalating the means.
