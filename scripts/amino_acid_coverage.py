@@ -82,7 +82,9 @@ def main() -> None:
                 "which": ";".join(present),
             }
         )
-        print(f"  {network:<12} {alpha:>6,} of {parsed:>7,} ({rows[-1]['percent']:>5.2f}%)  {';'.join(present) or '-'}")
+        print(
+            f"  {network:<12} {alpha:>6,} of {parsed:>7,} ({rows[-1]['percent']:>5.2f}%)  {';'.join(present) or '-'}"
+        )
 
     out = SI / "amino_acid_coverage.csv"
     with out.open("w", newline="") as handle:

@@ -37,9 +37,7 @@ def main() -> None:
     rows = []
     for network, products_file in PRODUCTS.items():
         generation = deepest(network)
-        rels = pivot_rels(
-            pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t")
-        )
+        rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
         rels["Index"] = rels["Index"].astype(str)
         index = build_index(rels)
         products = read_products(
@@ -57,9 +55,7 @@ def main() -> None:
             "seeds": len(seeds),
         }
         for objective in ("chain", "reactions"):
-            best = min(
-                _time(index, seeds, objective) for _ in range(REPEATS)
-            )
+            best = min(_time(index, seeds, objective) for _ in range(REPEATS))
             row[f"seconds_{objective}"] = round(best, 3)
             row[f"reached_{objective}"] = len(
                 shortest_pathways(index, seeds, objective=objective).cost
