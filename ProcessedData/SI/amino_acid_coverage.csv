@@ -1,0 +1,6 @@
+network,species,alpha_amino_acids,percent,canonical_present,which
+Formose,23459,0,0.0,0,
+FormoseAmm,35318,1662,4.71,4,alanine;glycine;serine;threonine
+Glucose,48403,0,0.0,0,
+GlucoseAmm,26126,591,2.26,4,alanine;glycine;serine;threonine
+PyruvicAcid,63280,0,0.0,0,

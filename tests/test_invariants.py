@@ -337,3 +337,24 @@ def test_route_commitment_covers_only_the_target_routes():
     assert not any(r["network"] == "case" for r in rows)
     assert sum(int(r["steps"]) for r in rows) == 112
     assert sum(int(r["distinct_reactions"]) for r in rows) == 90
+
+
+def test_amino_acids_only_where_nitrogen_was_seeded():
+    """The manuscript contrasts absent nucleobases with present amino acids.
+
+    The three CRNRs seeded without nitrogen cannot make an amino acid at all,
+    which is what makes the contrast a statement about the nucleobase rather
+    than about nitrogen chemistry.
+    """
+    import csv
+
+    from helpers import REPO
+
+    with (REPO / "ProcessedData" / "SI" / "amino_acid_coverage.csv").open() as handle:
+        rows = {r["network"]: r for r in csv.DictReader(handle)}
+    for network in ("Formose", "Glucose", "PyruvicAcid"):
+        assert int(rows[network]["alpha_amino_acids"]) == 0, network
+    assert int(rows["FormoseAmm"]["alpha_amino_acids"]) == 1662
+    assert int(rows["GlucoseAmm"]["alpha_amino_acids"]) == 591
+    for network in ("FormoseAmm", "GlucoseAmm"):
+        assert rows[network]["which"] == "alanine;glycine;serine;threonine"

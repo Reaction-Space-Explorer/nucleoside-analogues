@@ -59,6 +59,7 @@ Energies first, then everything that reads them:
 | `route_commitment.py` | Reverse/forward flux per route, and each route's least committed step |
 | `driving_force.py` | Max-min driving force per route, as a linear program |
 | `hyperpath_benchmark.py` | Scale and running time of Algorithm 1 on the full network of each CRNR |
+| `amino_acid_coverage.py` | Alpha-amino acids present in each CRNR, against the absent nucleobases |
 | `rule_energetics.py` | ΔrG′° by reaction rule and pH, and how far each rule's estimates degenerate |
 | `rule_dependence.py` | What survives removing carbonyl migration, the Cannizzaro reaction, or both |
 | `matched_controls.py` | Each target against ~50 matched controls, with rank p-values and `control_statistics.csv` |
