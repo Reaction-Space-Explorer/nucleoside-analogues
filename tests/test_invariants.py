@@ -317,3 +317,23 @@ def test_largest_network_is_formose_generation_six():
     assert int(largest["species"]) == 117874
     assert int(rows["FormoseAmm"]["reactions"]) == 145820
     assert int(largest["reactions"]) > 2 * int(rows["GlucoseAmm"]["reactions"])
+
+
+def test_route_commitment_covers_only_the_target_routes():
+    """The manuscript quotes 112 step firings over 90 distinct reactions.
+
+    route_commitment.py globs figures/routes/*.yaml, which later gained the
+    case_*.yaml hexose-branch specs behind Figure 8. Pooling those gave 120
+    firings and a median of -32.6 rather than -40, and appended three rows to
+    the deposited CSV, so the script stopped reproducing the paper.
+    """
+    import csv
+
+    from helpers import REPO
+
+    with (REPO / "ProcessedData" / "SI" / "route_commitment.csv").open() as handle:
+        rows = list(csv.DictReader(handle))
+    assert len(rows) == 16, "case routes must not enter the target-route table"
+    assert not any(r["network"] == "case" for r in rows)
+    assert sum(int(r["steps"]) for r in rows) == 112
+    assert sum(int(r["distinct_reactions"]) for r in rows) == 90

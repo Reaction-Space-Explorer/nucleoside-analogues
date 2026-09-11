@@ -45,6 +45,10 @@ def steps(node) -> list[tuple[str, float]]:
 def main() -> None:
     rows, every, ids = [], [], []
     for spec in sorted(ROUTES.glob("*.yaml")):
+        # case_*.yaml are the hexose-branch routes behind Figure 8, traced from a
+        # different feedstock; pooling them shifts the reported median and count.
+        if spec.stem.startswith("case"):
+            continue
         found = steps(yaml.safe_load(spec.read_text())["target"])
         if not found:
             continue
