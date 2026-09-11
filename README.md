@@ -83,7 +83,7 @@ Then the figures:
 
 ```bash
 uv sync --extra figures
-for f in workflow overlap funnel pathway ms rule robustness depth bottcher ketohexose; do
+for f in workflow overlap funnel pathway ms rule robustness depth bottcher ketohexose glyoxylate; do
   uv run --extra figures python figures/make_${f}_figure.py
 done
 uv run --extra figures python figures/make_figure6.py    # tiles the four Formose routes
