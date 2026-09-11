@@ -35,7 +35,8 @@ size. At generation three that membership was identical at every pH for F and
 G; over the full networks it is not, drifting by 0.6% in F and 0.9% in G
 between pH 7 and pH 11 against 19% in FA and 15% in GA. Every reaction that
 changes classification lies within a few kJ/mol of zero, and the median
-reaction free energy does not shift with pH at all.
+reaction free energy does not shift with pH at all except in FA, where it
+moves by 3 kJ/mol.
 
 `titratable_7_11` counts species whose protonation changes between pH 7 and 11
 according to `nucleoside_analogues.pka`. CO2 counts: eQuilibrator's CO2 is
