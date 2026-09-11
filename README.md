@@ -74,6 +74,11 @@ Energies first, then everything that reads them:
 | `kinetic_ordering.py` | Whether the route ordering survives as a kinetic one under Bell-Evans-Polanyi; a deposited negative |
 | `descriptor_model.py` | A negative control, not used in the paper; see `ProcessedData/SI/README.md` |
 
+`figures/algorithm1.tex` sets Algorithm 1 of the manuscript with `algorithm2e`;
+build it with `xelatex algorithm1.tex` (needs the `algorithm2e` and `newtx`
+TeX packages). The body is transcribed from the manuscript, so change it there
+and rebuild rather than editing the PDF.
+
 Then the figures:
 
 ```bash

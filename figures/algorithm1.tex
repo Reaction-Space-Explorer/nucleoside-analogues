@@ -1,0 +1,52 @@
+% Algorithm 1 of the JCIM manuscript, set with algorithm2e in the ruled/vlined
+% style. The body is transcribed verbatim from the manuscript's pseudocode
+% block; change it here and rebuild rather than editing the figure.
+%
+%   xelatex algorithm1.tex   (or pdflatex)
+%
+\documentclass[border=4pt]{standalone}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\SetKwProg{Fn}{Function}{:}{\KwRet}
+\SetKwFor{ForEach}{for each}{do}{end}
+\SetKw{KwContinue}{continue}
+\begin{document}
+\begin{minipage}{15.2cm}
+\begin{algorithm}[H]
+\DontPrintSemicolon
+\KwIn{$R$ reactions; reaction $r$ has reagent set $T(r)$ and product set $H(r)$\\
+      $S$ seed molecules (the generation-0 species of the network)\\
+      $f$ combining function: $\max$ for chain length, sum for reaction count}
+\KwOut{$d$ minimum cost of reaching each species\\
+       \textit{via} the reaction attaining that cost}
+\BlankLine
+$d(m) \gets 0$ for $m \in S$, $d(m) \gets \infty$ otherwise;\quad
+  \textit{via} $\gets \emptyset$;\quad $F \gets \emptyset$\;
+\ForEach{$r \in R$}{$\textit{pending}(r) \gets \bigl|\{\,x \in T(r) : d(x) = \infty\,\}\bigr|$\;}
+$Q \gets$ min-priority queue holding each $m \in S$ with key $0$\;
+\ForEach{$r$ with $\textit{pending}(r) = 0$}{\textsc{Relax}$(r)$\;}
+\While{$Q$ is not empty}{
+  $(k, m) \gets \textsc{Extract-Min}(Q)$\;
+  \lIf{$m \in F$ \textnormal{or} $k > d(m)$}{\KwContinue}
+  $F \gets F \cup \{m\}$\;
+  \ForEach{$r$ with $m \in T(r)$}{
+    $\textit{pending}(r) \gets \textit{pending}(r) - 1$\;
+    \lIf{$\textit{pending}(r) = 0$}{\textsc{Relax}$(r)$}
+  }
+}
+\Return $d$, \textit{via}\;
+\BlankLine
+\Fn{\textnormal{\textsc{Relax}}$(r)$}{
+  \lIf{$d(x) = \infty$ \textnormal{for any} $x \in T(r)$}{\Return}
+  $c \gets 1 + f\{\, d(x) : x \in T(r) \,\}$ \tcp*{$c \gets 1$ when $T(r)$ is empty}
+  \ForEach{$p \in H(r)$}{
+    \If{$p \notin F$ \textnormal{and} $c < d(p)$}{
+      $d(p) \gets c$;\quad \textit{via}$(p) \gets r$;\quad \textsc{Insert}$(Q, p, c)$\;
+    }
+  }
+}
+\caption{Minimum-weight hyperpath from a set of seed molecules}
+\end{algorithm}
+\end{minipage}
+\end{document}
