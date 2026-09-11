@@ -63,6 +63,7 @@ def test_reagents_never_come_from_a_later_generation(network: str, generation: i
     assert not offenders, f"{len(offenders)} reactions consume a too-recent reagent"
 
 
+@pytest.mark.slow
 def test_no_implausible_motifs_beyond_known_trace_levels(network: str) -> None:
     """Screen for substructures an aqueous prebiotic network should not emit.
 
@@ -229,6 +230,7 @@ def test_ketohexose_case_still_disagrees_with_experiment() -> None:
     assert "null estimate True" in final["observed_by_Yi"]
 
 
+@pytest.mark.slow
 def test_migration_and_dehydration_are_different_transformations() -> None:
     """The rule-dependence families must not be conflated again.
 

@@ -27,6 +27,7 @@ TEST_SET = REPO / "tests" / "data" / "OmranDeckerFormoseTestSet.sdf"
 MINIMUM_RECALL = 0.85
 
 
+@pytest.mark.slow
 @pytest.mark.parametrize("network", ["Formose", "FormoseAmm"])
 def test_formose_network_recovers_the_literature_set(network: str) -> None:
     if not TEST_SET.exists():

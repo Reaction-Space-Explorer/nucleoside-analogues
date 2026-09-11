@@ -196,8 +196,14 @@ minimum-cost route counts are well defined where "total pathways" is not.
 
 ## Testing
 
+Run what CI runs, in its order -- a local `pytest` pass says nothing about the
+three steps that precede it:
+
 ```bash
-uv run pytest -q && uv run ruff check src tests && uv run pyright
+uv run ruff check src tests scripts figures
+uv run ruff format --check src tests scripts figures
+uv run pyright
+uv run pytest -q
 ```
 
 Three tiers: **structural invariants** (every SMILES parses, every reaction
@@ -207,6 +213,12 @@ blocklist can only show a molecule is not obviously wrong); and **experimental
 recall**, the only tier that validates rather than self-checks — the formose
 network recovers 19 of 20 structures in the Omran/Decker set, all by generation
 three. CI also rejects filenames Windows cannot check out.
+
+Seven tests are marked `slow`: they reload the raw networks for all five CRNRs
+and account for 120 of the 129 seconds the suite takes. They test data, not the
+language, so CI runs the full suite once on 3.12 and `-m "not slow"` on the
+other versions. `uv run pytest -q -m "not slow"` is the 13-second loop to use
+while working; run the whole suite before pushing.
 
 ## Known limitations
 

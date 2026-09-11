@@ -17,7 +17,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python: ["3.11", "3.12", "3.13"]
+        include:
+          # The data-heavy tests reload the raw networks and are version-agnostic;
+          # run them once, on the version the work was done with.
+          - python: "3.11"
+            select: -m "not slow"
+          - python: "3.12"
+            select: ""
+          - python: "3.13"
+            select: -m "not slow"
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +48,7 @@ jobs:
         run: uv run pyright
 
       - name: Pytest
-        run: uv run pytest -q --cov=nucleoside_analogues --cov-report=term-missing
+        run: uv run pytest -q ${{ matrix.select }} --cov=nucleoside_analogues --cov-report=term-missing
 
   filenames:
     name: filenames are portable

@@ -32,6 +32,7 @@ def test_assignments_and_range() -> None:
         assert titrates_in_range(smiles) is titrates, name
 
 
+@pytest.mark.slow
 @pytest.mark.parametrize("network", LOW)
 def test_carbon_networks_titrate_only_through_co2(network: str) -> None:
     requires(products_path(network))
@@ -48,6 +49,7 @@ def test_amine_networks_titrate_broadly(network: str) -> None:
     assert len(found) > 0.5 * len(smiles), f"{network} was expected to be amine-rich"
 
 
+@pytest.mark.slow
 def test_si_table3_titratable_column_matches_pka(network: str) -> None:
     """The deposited count is recomputed here, so it cannot go stale again.
 

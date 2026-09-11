@@ -88,6 +88,7 @@ def test_null_estimates_are_not_spontaneous():
     assert not is_null({"dG_prime_kJ_mol": "-13.4", "sigma_kJ_mol": "0.0"})
 
 
+@pytest.mark.slow
 def test_a_reaction_and_its_reverse_have_opposite_free_energies(network: str) -> None:
     """Thermodynamic consistency over the whole deposited set.
 

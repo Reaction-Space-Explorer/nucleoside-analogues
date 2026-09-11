@@ -100,6 +100,7 @@ def test_critical_reactions_lie_on_the_traced_route(network: str) -> None:
             assert smiles not in excluded.cost
 
 
+@pytest.mark.slow
 def test_every_target_is_spelled_as_the_networks_spell_it(network: str) -> None:
     """Targets are looked up by exact SMILES string, so a target written in a
     different but equivalent form reads as unreachable instead of failing."""
