@@ -296,3 +296,24 @@ def test_uronate_route_is_present_but_wholly_unestimable() -> None:
     # unestimable is dominated by unbounded variance, not by null estimates
     for r in cover:
         assert int(r["infinite_variance"]) > int(r["null_estimate"]), r["network"]
+
+
+def test_largest_network_is_formose_generation_six():
+    """The manuscript names the largest network; sizes are pinned, times are not.
+
+    An earlier draft called the generation-4 FormoseAmm network the largest,
+    a figure taken from a docstring about the rels reshape. Formose at
+    generation six is more than twice its size.
+    """
+    import csv
+
+    from helpers import REPO
+
+    with (REPO / "ProcessedData" / "SI" / "hyperpath_benchmark.csv").open() as handle:
+        rows = {r["network"]: r for r in csv.DictReader(handle)}
+    largest = max(rows.values(), key=lambda r: int(r["reactions"]))
+    assert largest["network"] == "Formose" and largest["generation"] == "6"
+    assert int(largest["reactions"]) == 306244
+    assert int(largest["species"]) == 117874
+    assert int(rows["FormoseAmm"]["reactions"]) == 145820
+    assert int(largest["reactions"]) > 2 * int(rows["GlucoseAmm"]["reactions"])

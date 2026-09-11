@@ -1,0 +1,6 @@
+network,generation,reactions,species,seeds,seconds_chain,reached_chain,seconds_reactions,reached_reactions
+Formose,6,306244,117874,3,0.381,117874,0.382,117874
+FormoseAmm,4,145820,35318,4,0.133,35318,0.134,35318
+Glucose,5,120997,48403,2,0.117,48403,0.116,48403
+GlucoseAmm,4,108352,26126,3,0.092,26126,0.09,26126
+PyruvicAcid,6,131064,63280,2,0.143,63280,0.141,63280
