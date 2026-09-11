@@ -106,7 +106,7 @@ speed.
 | `scripts/` | Regenerate the deposited tables, energies and validations |
 | `figures/` | `acs_style.py`, figure scripts, output in `figures/output/` |
 | `tests/` | Chemistry invariants, experimental recall, pathway regression |
-| `OriginalData/` | Raw MØD output and the CHO/CHNO analogue libraries. Five networks are used in the manuscript; HCN, Maillard and Urey-Miller are included for completeness |
+| `OriginalData/` | Raw MØD output and the CHO/CHNO analogue libraries. Five networks are used in the manuscript; HCN, Maillard and Urey-Miller are deposited but unused -- see [The three unused networks](#the-three-unused-networks) |
 | `ProcessedData/` | Everything derived — see [`ProcessedData/README.md`](ProcessedData/README.md) |
 | `notebooks/` | How the published results were produced — see [`notebooks/README.md`](notebooks/README.md) |
 
@@ -124,6 +124,46 @@ speed.
 `ProcessedData/` mixes current outputs with superseded ones kept for provenance;
 its README says which is which. **Directory names there are load bearing** — the
 SI cites `SpontaneousSMILES/` by URL.
+
+## The three unused networks
+
+`OriginalData/` carries three networks the manuscript does not use: Maillard
+(glycine + glucose + water), Urey-Miller and HCN. They are deposited whole, and
+Maillard in particular is now usable, so this records where it stands.
+
+**Maillard could not be traced at all until recently, for a reason worth
+knowing.** The original notebook held a hard-coded table of seed molecules
+written in canonical SMILES, while the network itself writes its own. Lookup is
+by exact string:
+
+| | Network writes | Canonical is |
+|---|---|---|
+| glycine | `C(CN)(O)=O` | `NCC(=O)O` |
+| glucose, open chain | `C(C(C(C(C(CO)O)O)O)O)=O` | `O=CC(O)C(O)C(O)C(O)CO` |
+
+Same molecules, different strings, so the tracer never recognised its own
+starting materials and reached three species -- the seeds alone -- out of 2,923.
+`rels.seeds_from_products` fixes this by reading generation 0 from the deposited
+product listing instead, and every script here uses it. With the seeds read that
+way the spontaneous Maillard network reaches 2,128 species and all five targets.
+
+**What is not done.** Maillard's deposited thermodynamics
+(`ProcessedData/RelsWithThermoFiles/MaillardG3RelsWithThermo.tsv`) carry a point
+dGr'o with no sigma, so its spontaneous set is the older hard dGr'o < 0 rule
+rather than the 95% criterion used throughout this work. Anyone comparing
+Maillard against the five must recompute its energies first:
+
+    uv run --extra thermo python scripts/compute_energies.py --workers 8 Maillard
+
+At 8,856 reactions against Formose's 306,244 this is short work. Until it is
+done, any Maillard-versus-CRNR comparison is across two different spontaneity
+filters and should not be reported.
+
+**Depth.** Maillard and Urey-Miller were expanded only to generation three;
+the five networks in the manuscript run to generations four through six. HCN
+reaches generation six but builds no nucleobase, and none of the three is
+matched against the analogue library in this work.
+
 
 ## Method
 

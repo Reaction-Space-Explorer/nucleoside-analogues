@@ -3,12 +3,37 @@
 Regenerate with `uv run python scripts/make_si_tables.py`. Nothing here is
 edited by hand.
 
-| File | Contents |
-|---|---|
-| `SI_Table1_routes.csv` | Minimum-cost route count and critical-reaction count per target |
-| `SI_Table2_steps.csv` | Chain depth and reaction count per target |
-| `SI_Table3_pH_robustness.csv` | Spontaneity of all five networks at their deepest generation, at pH 7.0, 7.4, 9.0 and 11.0 |
-| `<network>_G3_energies_pH7.4.csv` | Per-reaction dGr'o, sigma, estimability and both spontaneity calls |
+Every file below is written by a script in `scripts/`; none is edited by hand.
+
+| File | Contents | Written by |
+|---|---|---|
+| `SI_Table1_routes.csv` | Minimum-cost route count and critical-reaction count per target | `make_si_tables.py` |
+| `SI_Table2_steps.csv` | Chain depth and reaction count per target | `make_si_tables.py` |
+| `SI_Table3_pH_robustness.csv` | Spontaneity of all five networks at their deepest generation, at pH 7.0, 7.4, 9.0 and 11.0 | `make_si_tables.py` |
+| `<network>_G3_energies_pH7.4.csv` | Per-reaction dGr'o, sigma, estimability and both spontaneity calls | `compute_energies.py` |
+| `full/<network>_G<n>_energies_pH*.csv` | The same at each network's deepest generation, all four pH values | `compute_energies.py` |
+| `rule_energetics.csv` | dGr'o by reaction rule and pH, and how many distinct values each rule takes | `rule_energetics.py` |
+| `rule_dependence.csv` | Each target re-searched with a rule family removed | `rule_dependence.py` |
+| `route_commitment.csv` | Reverse/forward flux per route and its least committed step, over the sixteen target routes | `route_commitment.py` |
+| `driving_force.csv` | Max-min driving force per route, as a linear program | `driving_force.py` |
+| `uronate_case.csv` | Yi et al.'s uronate route to pentoses: present in the networks, wholly unestimable | `uronate_case.py` |
+| `estimator_coverage.csv` | Unestimable reactions split into null estimates, unbounded variance and missing compounds | `uronate_case.py` |
+| `ketohexose_case.csv` | The hexose branch point against Yi et al., behind Figure 8 | `ketohexose_case.py` |
+| `amino_acid_coverage.csv` | Alpha-amino acids present in each CRNR, against the absent nucleobases | `amino_acid_coverage.py` |
+| `matched_controls.csv` | Each target against its nearest library controls, on both admission bases | `matched_controls.py` |
+| `control_statistics_<basis>.csv` | Fisher combination and the exact permutation test, one file per basis | `matched_controls.py` |
+| `matches_verification.csv` | Re-derivation of the deposited analogue matches, as a check on them | `verify_matches.py` |
+| `database_matches.csv` | ChEBI matches by generation | `database_matches.py` |
+| `deposition_comparison.csv` | Why reactions the earlier deposition called spontaneous no longer are | `deposition_comparison.py` |
+| `hyperpath_benchmark.csv` | Scale and running time of Algorithm 1 on the full network of each CRNR | `hyperpath_benchmark.py` |
+| `ms_validation.csv` | Formula-level agreement with the FT-ICR spectra, behind Figure S1 | `ms_validation.py` |
+| `ms_validation_formulas.json` | The assigned formula set per spectrum, behind the same figure | `ms_validation.py` |
+| `figure_funnel.csv` | Counts at each filter stage, behind Figure 4 | `make_figure_data.py` |
+| `figure_pathway_energetics.csv` | Route length against free energy, behind Figure 7 | `make_pathway_energetics.py` |
+
+Deposited but deliberately not used in the manuscript, each for a reason given
+below: `figure_sinks_hills.csv`, `descriptor_model.csv`, `descriptor_shap.csv`
+and `kinetic_ordering.csv`.
 
 ## SI Table 3
 
