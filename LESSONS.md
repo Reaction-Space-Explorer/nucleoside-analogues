@@ -99,6 +99,14 @@ networks and excluded by the filter — one by a null estimate, one by unbounded
 variance — for want of an estimate rather than for being unfavourable. Say this
 plainly; it is a limitation with a mechanism, not a caveat.
 
+**Check the claim in the direction it is written.** The SI said null estimates
+arise where reagents and products share a decomposition, "as the keto-enol
+migrations here do". The verified fact was the converse: 99.3% of null estimates
+are keto-enol migrations. Only 50% of keto-enol migrations are null, so the
+sentence overstated a real finding by reading a verified implication backwards.
+Almost all A are B does not give almost all B are A, and the number that was
+checked is rarely the one the sentence needs.
+
 **Look up species by the spelling the data uses.** Lookup is by exact string.
 A canonical SMILES is not the network's spelling, and a target silently reads as
 unreachable. Build an explicit canonical → network-spelling map.
@@ -160,6 +168,21 @@ the main-text slot.
 anywhere in the body. An attempt to rescue one as evidence for another argument
 failed on the arithmetic, which settled it. Keep the data deposited and record
 why it was cut.
+
+**After moving text, de-duplicate claim by claim.** Promoting an SI section into
+the Methods left four statements of the same two cost definitions -- the Methods
+prose, two consecutive paragraphs of the promoted text, and the caption of the
+table that reports them -- and three separate citations of Knuth for the same
+correctness result. The de-duplication pass after the move checked one claim,
+the hypergraph definition, and stopped. Diff the moved text against its new
+neighbours sentence by sentence, not once.
+
+**Read the caption before deciding the prose is load-bearing.** The argument for
+keeping one of those paragraphs was that the table reported both quantities and
+the reader would not otherwise know what they were. The table's own caption
+already defined both, in near-identical words, immediately above the numbers.
+Whenever the case for keeping text is that a figure or table depends on it, read
+that caption first; it is usually where the definition already lives.
 
 **Check every figure and table is referenced, and every reference has a target.**
 Both directions, every round.
