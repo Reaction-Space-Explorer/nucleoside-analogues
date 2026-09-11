@@ -27,6 +27,19 @@ script that emits "eleven β-decarboxylations" revealed that eleven was the coun
 across five networks and the sentence said Formose. The draft was wrong; the act
 of making it reproducible found it.
 
+**A number copied from a docstring is not a deposited number.** The Methods
+called the generation-4 FormoseAmm network, 145,820 reactions over 35,318
+species, "the largest network considered here". The figure is real but was
+lifted from a docstring describing the cost of the *rels reshape*, a different
+operation; the largest network is Formose at generation six, 306,244 reactions
+over 117,874 species. Check what the number in the source was measuring.
+
+**Check superlatives against the paper's own tables.** That error needed no
+measurement to catch: SI Table 2 already listed 306,244 reactions for Formose,
+in the same document whose Methods called 145,820 the largest. Any claim of the
+form largest, smallest, only or first should be re-derived from the tables
+already in the file, mechanically, at the end of every draft.
+
 **Sanity-check magnitudes against chemistry.** A decarboxylation came back at
 −373 kJ/mol where a β-keto acid should be near −20. That mismatch was the signal
 the estimate was unusable, and the reason to report it as unestimable rather
