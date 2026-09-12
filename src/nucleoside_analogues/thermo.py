@@ -58,6 +58,7 @@ __all__ = [
 
 Spontaneity = Literal["spontaneous", "non_spontaneous", "undetermined"]
 Status = Literal["ok", "compound_missing", "decomposition_failed", "estimation_failed"]
+Unusable = Literal["unbounded_variance", "null_estimate", "no_estimate"]
 
 #: Two-sided 95% coverage. A reaction counts as spontaneous only when the whole
 #: interval lies below zero.
@@ -117,6 +118,48 @@ def classify(
     if dg_prime - margin > 0:
         return "non_spontaneous"
     return "undetermined"
+
+
+#: Component contribution assigns an effectively infinite variance to a reaction
+#: whose stoichiometric vector leaves a residual outside the span of both bases.
+#: The value it returns alongside it is arbitrary -- the Formose network at
+#: generation six carries such estimates from -1107 to +1107 kJ/mol.
+SENTINEL_UNCERTAINTY = 1e4
+
+#: Exactly 0 +/- 0, returned where reagents and products share a decomposition,
+#: as keto-enol migrations do. A point value of -1e-05 must not pass a test on
+#: the sign of a rounding error.
+NULL_DG = 1e-3
+
+
+def is_null_estimate(dg_prime: float | None, uncertainty: float | None) -> bool:
+    """Whether an estimate is the 0 +/- 0 the method returns for an isomerisation."""
+    if dg_prime is None or uncertainty is None:
+        return False
+    return uncertainty == 0.0 and abs(dg_prime) < NULL_DG
+
+
+def unusable_reason(
+    dg_prime: float | None,
+    uncertainty: float | None,
+    status: str = "ok",
+) -> Unusable | None:
+    """Why an estimate carries no information about spontaneity, or None if it does.
+
+    Three different things are reported as "unestimable" and they are not
+    interchangeable. A reaction with unbounded variance still carries a ΔrG′°,
+    and a null estimate carries the *most* confident uncertainty in the file,
+    so neither is caught by testing the value or the error alone.
+    """
+    if dg_prime is None:
+        return "no_estimate"
+    if uncertainty is not None and uncertainty >= SENTINEL_UNCERTAINTY:
+        return "unbounded_variance"
+    if is_null_estimate(dg_prime, uncertainty):
+        return "null_estimate"
+    if status != "ok":
+        return "no_estimate"
+    return None
 
 
 def compound_cache(

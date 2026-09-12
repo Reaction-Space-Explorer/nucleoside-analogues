@@ -130,3 +130,48 @@ def test_a_reaction_and_its_reverse_have_opposite_free_energies(network: str) ->
         checked += 1
         assert abs(float(a["dG_prime_kJ_mol"]) + float(b["dG_prime_kJ_mol"])) < 1e-6, (i, j)
     assert checked, f"no reversible pairs found in {network}"
+
+
+def test_unusable_reason_separates_the_three_causes():
+    """Three different things are reported as unestimable and are not interchangeable.
+
+    A sentinel-variance reaction still carries a dG, and a null estimate carries
+    the most confident uncertainty in the file, so neither is caught by testing
+    the value or the error alone.
+    """
+    from nucleoside_analogues.thermo import unusable_reason
+
+    assert unusable_reason(373.0, 1e5) == "unbounded_variance"
+    assert unusable_reason(-373.0, 1e5) == "unbounded_variance"
+    assert unusable_reason(0.0, 0.0) == "null_estimate"
+    assert unusable_reason(-1e-5, 0.0) == "null_estimate"
+    assert unusable_reason(None, None, "compound_missing") == "no_estimate"
+    # a real estimate, however small, is usable
+    assert unusable_reason(-13.4, 0.0) is None
+    assert unusable_reason(-40.0, 1.9) is None
+
+
+@pytest.mark.slow
+def test_the_three_causes_account_for_every_unestimable_formose_reaction():
+    """Pins the counts the notebooks README quotes, from the deposited energies."""
+    import csv
+    from collections import Counter
+
+    from helpers import REPO
+
+    from nucleoside_analogues.thermo import unusable_reason
+
+    path = REPO / "ProcessedData" / "SI" / "full" / "Formose_G6_energies_pH7.4.csv"
+    with path.open() as handle:
+        rows = list(csv.DictReader(handle))
+    causes = Counter()
+    for row in rows:
+        dg = float(row["dG_prime_kJ_mol"]) if row["dG_prime_kJ_mol"] else None
+        sigma = float(row["sigma_kJ_mol"]) if row["sigma_kJ_mol"] else None
+        causes[unusable_reason(dg, sigma, row["status"])] += 1
+
+    assert len(rows) == 306244
+    assert causes["unbounded_variance"] == 55721
+    assert causes["null_estimate"] == 5466
+    assert causes["no_estimate"] == 553
+    assert sum(v for k, v in causes.items() if k) == 61740

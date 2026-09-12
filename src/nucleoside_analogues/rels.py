@@ -160,27 +160,6 @@ def _as_tuple(value: Iterable[str] | str) -> tuple[str, ...]:
     return tuple(value)
 
 
-def spontaneous_only(rels: pd.DataFrame, energy_column: str = "Energy Change") -> pd.DataFrame:
-    """Keep reactions with a negative standard free-energy change.
-
-    Rows whose energy could not be estimated are dropped and *counted*, not
-    silently discarded -- see :func:`energy_coverage`.
-    """
-    energy = pd.Series(pd.to_numeric(rels[energy_column], errors="coerce"))
-    return rels.loc[energy < 0]
-
-
-def energy_coverage(rels: pd.DataFrame, energy_column: str = "Energy Change") -> dict[str, int]:
-    """Report how many reactions carry a usable free-energy estimate."""
-    energy = pd.Series(pd.to_numeric(rels[energy_column], errors="coerce"))
-    return {
-        "total": len(rels),
-        "with_energy": int(energy.notna().sum()),
-        "missing_energy": int(energy.isna().sum()),
-        "spontaneous": int((energy < 0).sum()),
-    }
-
-
 def seeds_from_products(products: pd.DataFrame) -> Sequence[str]:
     """Return the generation-0 species of a network.
 

@@ -32,10 +32,21 @@ and the package already supersedes their logic.
 | `FindTargetSmiles.ipynb` | Locates target nucleosides in the networks | `matching` |
 | `ProcessRels.ipynb` | Reshapes MØD long-format output | `rels.pivot_rels` |
 | `GenThermodata.ipynb` | eQuilibrator ΔfG′° → ΔrG′° per reaction | — |
-| `SpontaneousFilter.ipynb` | Keeps reactions with ΔrG′° < 0 | `rels.spontaneous_only` |
+| `SpontaneousFilter.ipynb` | Keeps reactions with ΔrG′° < 0 | `thermo.classify` (see note below) |
 | `SpontVsNonSpont.ipynb` | Spontaneous vs total match counts | — |
 | `PathwayScript.ipynb` | Exhaustive pathway enumeration | `hyperpath.count_minimal_routes` |
 | `FindingShortestPathwayScript.ipynb` | Shortest-pathway tree search | `hyperpath.shortest_pathways` |
+
+`SpontaneousFilter.ipynb` has no direct replacement, deliberately. Testing
+ΔrG′° < 0 admits every reaction whose estimate carries no information: in the
+Formose network at generation six that is 55,721 reactions with an effectively
+infinite variance (their values run from -1107 to +1107 kJ/mol), 5,466 null
+estimates of exactly 0 +/- 0, and 553 with no value at all -- 61,740 of 306,244,
+and the naive filter admits 188,054 reactions where the reported criterion
+admits 139,386. Use `thermo.classify`, which takes the uncertainty and returns
+spontaneous, non-spontaneous or undetermined, and `thermo.unusable_reason`,
+which says which of the three causes applies. `rels.spontaneous_only` did the
+naive thing and has been removed.
 
 Three behaviours of these notebooks are worth knowing before you read their
 output, and are why the package exists:
