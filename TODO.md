@@ -1,20 +1,21 @@
 # TODO
 
-## Running on bizon
+## Done (verified 2026-09-19)
 
-- **Four-pH energies** (`compute_energies.py --workers 8`, pH 7.0/7.4/9.0/11.0). Four of five
-  networks written: GlucoseAmm, FormoseAmm, Glucose, PyruvicAcid. **Formose G6 is last in the
-  queue and still going**, about an hour and a quarter into its own pass; its four files exist but
-  are empty, because each is written only when its network finishes. The local pH 7.4 copies are
-  intact and committed, so nothing already computed is at risk.
-
-## Blocked on that run
-
-- **SI Table 3** still holds the generation-3 set (582 Formose reactions). Its caption says so and
-  must change with it.
-- dGr distribution by pH and by reaction rule.
-- Max-min driving force on the traced routes. The spike passed at 42-106 kJ/mol on seven routes.
-- Descriptors and SHAP, dropping the constant features.
+- **Four-pH energies.** All five networks written, pH 7.0/7.4/9.0/11.0 -- twenty files in
+  `ProcessedData/SI/full/`. Formose G6 finished.
+- **The pH-robustness table** is at each network's deepest generation, not generation three:
+  Formose G6 and FormoseAmm G4, 306,244 and 145,820 reactions, all four pH values
+  (`SI_Table3_pH_robustness.csv`). Note the manuscript renumbered its SI tables when the old
+  SI Table 2 was promoted to main Table 2, so this file is **SI Table 2** in the paper; the
+  paper's SI Table 3 is the rule-dependence table, a different thing. An earlier version of
+  this file described the generation-3 set as outstanding and was read that way downstream.
+- **dGr by pH and by reaction rule** (`rule_energetics.csv`, 79 rules) -- Figure S3.
+- **Max-min driving force** on all sixteen traced routes (`driving_force.csv`), not the seven
+  of the spike.
+- **Descriptors and SHAP** (`descriptor_model.csv`, `descriptor_shap.csv`), deposited as a
+  documented negative: the panel predicts estimator coverage at least as well as reachability,
+  so it cannot separate the two labels.
 
 ## Open, needing a decision rather than work
 
