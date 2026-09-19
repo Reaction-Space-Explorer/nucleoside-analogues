@@ -29,16 +29,3 @@ total 758 MB.
 | HMDB structures | Free for academic use but not redistributable; download by hand, see `OriginalData/reference_databases/README.md` |
 | KEGG | Licensed. The deposited counts in `ProcessedData/DatabaseMatches/` are kept as they were and flagged in the SI |
 | MØD graph grammar | The rules that generated these networks live in [reac-space-exp](https://github.com/Reaction-Space-Explorer/reac-space-exp) |
-
-## For Zenodo
-
-Archive the repository at the submission tag. It is self-contained apart from
-the three reference databases above, each of which is either fetched
-automatically or documented. Expect roughly 760 MB, of which two thirds is the
-enumerated generation-three routes and the four-pH energies.
-
-## Still to add
-
-- HMDB structure file, once downloaded, and the re-derived database match table
-- The MØD grammar, if the generating rules are to travel with the data rather
-  than be referenced
