@@ -15,7 +15,7 @@ from nucleoside_analogues.hyperpath import (
     shortest_pathways,
 )
 from nucleoside_analogues.pka import titratable
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 REPO = Path(__file__).resolve().parent.parent
 SI = REPO / "ProcessedData" / "SI"
@@ -187,7 +187,7 @@ def main() -> None:
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
-        seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+        seeds = seeds_from_products(products)
         for basis in ("estimable_only", "with_unestimable"):
             keep = admitted(network, rels, basis, generation)
             index = build_index(rels[rels["Index"].isin(keep)])

@@ -51,7 +51,7 @@ from make_si_tables import (
 
 from nucleoside_analogues.descriptors import calc_descriptors
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 SEED = 0
 FOLDS = 5
@@ -65,7 +65,7 @@ def dataset(network: str) -> tuple[pd.DataFrame, np.ndarray, np.ndarray, np.ndar
     products = read_products(
         REPO / "OriginalData" / "OriginalNetworkData" / "Products" / PRODUCTS[network]
     )
-    seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+    seeds = seeds_from_products(products)
     cost = shortest_pathways(
         build_index(
             rels[rels["Index"].isin(admitted(network, rels, "estimable_only", generation))]

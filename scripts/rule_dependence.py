@@ -36,7 +36,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_si_tables import PRODUCTS, RELS, REPO, SI, TARGETS, admitted, deepest
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 MIGRATION = "Keto-enol migration twice"
 DEHYDRATION = "Elimination + enol to keto"
@@ -59,7 +59,7 @@ def main() -> None:
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / PRODUCTS[network]
         )
-        seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+        seeds = seeds_from_products(products)
         keep = rels[rels["Index"].isin(admitted(network, rels, "estimable_only", generation))]
         full = shortest_pathways(build_index(keep), seeds).cost
         reachable = sum(1 for s in TARGETS.values() if s in full)

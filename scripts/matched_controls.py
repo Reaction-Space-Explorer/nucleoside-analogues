@@ -40,7 +40,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_si_tables import PRODUCTS, RELS, SI, TARGETS, admitted, deepest
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 RDLogger.DisableLog("rdApp.*")
 REPO = Path(__file__).resolve().parent.parent
@@ -64,7 +64,7 @@ def main() -> None:
             products = read_products(
                 REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
             )
-            seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+            seeds = seeds_from_products(products)
             index = build_index(
                 rels[rels["Index"].isin(admitted(network, rels, basis, generation))]
             )

@@ -48,7 +48,7 @@ from make_si_tables import (
 )
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 RDLogger.DisableLog("rdApp.*")
 NETWORK = "Formose"
@@ -68,7 +68,7 @@ def main() -> None:
     products = read_products(
         REPO / "OriginalData" / "OriginalNetworkData" / "Products" / PRODUCTS[NETWORK]
     )
-    seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+    seeds = seeds_from_products(products)
     admitted_ids = set(admitted(NETWORK, rels, "estimable_only", generation))
     index = build_index(rels[rels["Index"].isin(admitted_ids)])
     result = shortest_pathways(index, seeds)

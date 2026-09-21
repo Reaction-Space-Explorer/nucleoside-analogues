@@ -14,7 +14,7 @@ from pathlib import Path
 import pandas as pd
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 REPO = Path(__file__).resolve().parent.parent
 RELS = REPO / "OriginalData" / "OriginalNetworkData" / "Rels"
@@ -43,7 +43,7 @@ def main() -> None:
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
-        seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+        seeds = seeds_from_products(products)
         species = {s for r in index.reagents.values() for s in r}
         species |= {s for p in index.products.values() for s in p}
 

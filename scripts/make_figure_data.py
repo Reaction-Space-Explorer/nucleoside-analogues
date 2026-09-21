@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_si_tables import PRODUCTS, RELS, SI, admitted, deepest, energy_file, is_null
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 
 def literal(v):
@@ -35,7 +35,7 @@ def main() -> None:
         products = read_products(
             SI.parent.parent / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
-        seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+        seeds = seeds_from_products(products)
         # from the rels, not the product listing: Formose's listing stops at G5
         # while its reactions run to G6 (see tests/test_invariants.py)
         species = set()

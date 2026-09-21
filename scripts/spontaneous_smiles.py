@@ -30,7 +30,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_si_tables import PRODUCTS, RELS, REPO, admitted, deepest, species_generations
 
 from nucleoside_analogues.hyperpath import shortest_pathways
-from nucleoside_analogues.rels import build_index, pivot_rels, read_products
+from nucleoside_analogues.rels import build_index, pivot_rels, read_products, seeds_from_products
 
 OUT = REPO / "ProcessedData" / "SpontaneousSMILES"
 BASES = ("estimable_only", "with_unestimable")
@@ -56,7 +56,7 @@ def main() -> None:
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
         )
-        seeds = tuple(products.loc[products["Generation"] == 0, "Smiles"])
+        seeds = seeds_from_products(products)
         gens[network] = species_generations(network)
         matched = set(
             pd.read_csv(
