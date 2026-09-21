@@ -51,9 +51,7 @@ def main() -> None:
 
     for network, products_file in PRODUCTS.items():
         generation = deepest(network)
-        rels = pivot_rels(
-            pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t")
-        )
+        rels = pivot_rels(pd.read_csv(RELS / network / f"{network}Rels_{generation}.tsv", sep="\t"))
         rels["Index"] = rels["Index"].astype(str)
         products = read_products(
             REPO / "OriginalData" / "OriginalNetworkData" / "Products" / products_file
@@ -68,8 +66,12 @@ def main() -> None:
         matched_by[network] = matched & set(gens[network])
 
         for basis in BASES:
-            index = build_index(rels[rels["Index"].isin(admitted(network, rels, basis, generation))])
-            reached[basis][network] = matched_by[network] & set(shortest_pathways(index, seeds).cost)
+            index = build_index(
+                rels[rels["Index"].isin(admitted(network, rels, basis, generation))]
+            )
+            reached[basis][network] = matched_by[network] & set(
+                shortest_pathways(index, seeds).cost
+            )
         print(
             f"  {network:12s} G{generation}  matched {len(matched_by[network]):6,d}"
             f"  spontaneous {len(reached['estimable_only'][network]):6,d}"
@@ -85,7 +87,11 @@ def main() -> None:
         )
         write(OUT / f"{network}.tsv", ["Network", "Generation", "Smiles"], [list(r) for r in rows])
         combined += rows
-    write(OUT / "AllSpontaneousSmiles.tsv", ["Network", "Generation", "Smiles"], [list(r) for r in combined])
+    write(
+        OUT / "AllSpontaneousSmiles.tsv",
+        ["Network", "Generation", "Smiles"],
+        [list(r) for r in combined],
+    )
 
     permissive = sorted(
         (network, f"G{gens[network][s]}", s)

@@ -360,3 +360,35 @@ def test_amino_acids_only_where_nitrogen_was_seeded():
     assert int(rows["GlucoseAmm"]["alpha_amino_acids"]) == 591
     for network in ("FormoseAmm", "GlucoseAmm"):
         assert rows[network]["which"] == "alanine;glycine;serine;threonine"
+
+
+def test_si_file_1_matches_the_funnel_the_paper_plots():
+    """SI File 1 is cited by URL from the SI, so it must not drift from the text.
+
+    The deposited version was built in 2023 at generation three under a hard
+    dGr'o < 0 test and held 974 entries, against the 11,075 the manuscript
+    reports. This pins the listing to Figure 4's estimable-only column.
+    """
+    import csv
+    from collections import Counter
+
+    from helpers import REPO
+
+    spontaneous = REPO / "ProcessedData" / "SpontaneousSMILES"
+    with (REPO / "ProcessedData" / "SI" / "figure_funnel.csv").open() as handle:
+        rows = list(csv.DictReader(handle))
+    deepest = {}
+    for row in rows:
+        network, generation = row["network"], int(row["generation"])
+        if generation >= deepest.get(network, (0, None))[0]:
+            deepest[network] = (generation, int(row["reachable_estimable_only"]))
+
+    with (spontaneous / "AllSpontaneousSmiles.tsv").open() as handle:
+        listing = list(csv.DictReader(handle, delimiter="\t"))
+    assert len(listing) == 11075
+
+    per_network = Counter(row["Network"] for row in listing)
+    for network, (_, expected) in deepest.items():
+        assert per_network[network] == expected, network
+        with (spontaneous / f"{network}.tsv").open() as handle:
+            assert sum(1 for _ in csv.DictReader(handle, delimiter="\t")) == expected, network
